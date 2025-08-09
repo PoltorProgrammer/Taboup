@@ -104,6 +104,8 @@ body {
     height: 100vh;
     text-align: center;
     background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    padding: 60px 80px;
+    box-sizing: border-box;
 }
 
 .title-container {
@@ -113,17 +115,22 @@ body {
     align-items: center;
 }
 
+/* Logo actualizado - directo sobre el fondo sin recuadro */
 .game-logo {
-    width: 120px;
-    height: 120px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    width: 160px;
+    height: 160px;
+    margin-bottom: 25px;
     transition: transform 0.3s ease;
+    /* Sin efectos visuales que lo separen del fondo */
+    background: none;
+    backdrop-filter: none;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
 }
 
 .game-logo:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .title {
@@ -301,6 +308,63 @@ body {
     margin-top: 20px;
 }
 
+.download-btn {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(52, 152, 219, 0.3);
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+    font-family: inherit;
+}
+
+.download-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.download-btn:hover::before {
+    left: 100%;
+}
+
+.download-btn:hover {
+    background: #2980b9;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(52, 152, 219, 0.4);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.download-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
+}
+
+.download-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.2);
+}
+
+.download-btn:disabled:hover {
+    background: #3498db;
+    transform: none;
+}
+
 /* Pantalla de reglas */
 .rules-screen {
     display: none;
@@ -372,6 +436,8 @@ body {
     color: #34495e;
     margin-bottom: 8px;
 }
+
+/* Área de juego */
 .game-area {
     display: none;
     height: 100vh;
@@ -1252,6 +1318,8 @@ body {
         transform: translateY(0);
     }
 }
+
+/* Overlay de error */
 .error-overlay {
     position: fixed;
     top: 0;
@@ -1378,6 +1446,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .initial-screen {
+        padding: 40px 30px;
+    }
+    
     .header {
         top: 15px;
     }
@@ -1398,8 +1470,24 @@ body {
     }
     
     .title {
-        font-size: 3.5em;
+        font-size: 3.2em;
         letter-spacing: 4px;
+        margin-bottom: 8px;
+    }
+    
+    .subtitle {
+        font-size: 1.1em;
+        margin-bottom: 0;
+    }
+    
+    /* Logo responsive - mantener sin efectos visuales */
+    .game-logo {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 20px;
+        /* Mantener sin recuadro en mobile también */
+        border-radius: 0;
+        box-shadow: none;
     }
     
     .game-area {

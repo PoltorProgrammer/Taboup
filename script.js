@@ -48,6 +48,15 @@ class TabuGame {
             newRound60: document.getElementById('new-round-60'),
             newRound120: document.getElementById('new-round-120'),
             
+            // Nuevos elementos para mapa y reglas
+            showMap: document.getElementById('show-map'),
+            showRules: document.getElementById('show-rules'),
+            mapScreen: document.getElementById('map-screen'),
+            rulesScreen: document.getElementById('rules-screen'),
+            closeMap: document.getElementById('close-map'),
+            closeRules: document.getElementById('close-rules'),
+            downloadMapBtn: document.getElementById('download-map-btn'),
+            
             errorOverlay: document.getElementById('error-overlay'),
             errorText: document.getElementById('error-text'),
             errorClose: document.getElementById('error-close'),
@@ -80,6 +89,28 @@ class TabuGame {
         this.elements.newRound60.addEventListener('click', () => this.startRound(60));
         this.elements.newRound120.addEventListener('click', () => this.startRound(120));
         
+        // Event listeners para mapa y reglas
+        this.elements.showMap.addEventListener('click', () => this.showMapScreen());
+        this.elements.showRules.addEventListener('click', () => this.showRulesScreen());
+        this.elements.closeMap.addEventListener('click', () => this.hideMapScreen());
+        this.elements.closeRules.addEventListener('click', () => this.hideRulesScreen());
+        
+        // Event listener para descargar mapa
+        this.elements.downloadMapBtn.addEventListener('click', () => this.downloadMap());
+        
+        // Cerrar mapa y reglas al hacer click fuera
+        this.elements.mapScreen.addEventListener('click', (e) => {
+            if (e.target === this.elements.mapScreen) {
+                this.hideMapScreen();
+            }
+        });
+        
+        this.elements.rulesScreen.addEventListener('click', (e) => {
+            if (e.target === this.elements.rulesScreen) {
+                this.hideRulesScreen();
+            }
+        });
+        
         this.elements.errorClose.addEventListener('click', () => this.hideError());
         this.elements.errorOverlay.addEventListener('click', (e) => {
             if (e.target === this.elements.errorOverlay) {
@@ -88,6 +119,17 @@ class TabuGame {
         });
 
         document.addEventListener('keydown', (e) => {
+            // Si hay una pantalla modal abierta, manejar ESC
+            if (this.elements.mapScreen.classList.contains('active') || 
+                this.elements.rulesScreen.classList.contains('active')) {
+                if (e.code === 'Escape') {
+                    e.preventDefault();
+                    this.hideMapScreen();
+                    this.hideRulesScreen();
+                }
+                return;
+            }
+            
             if (this.gameState === 'playing') {
                 switch(e.code) {
                     case 'KeyX':
@@ -121,6 +163,75 @@ class TabuGame {
         });
     }
 
+    // Nuevos métodos para mapa y reglas
+    showMapScreen() {
+        this.elements.mapScreen.classList.add('active');
+        console.log('📍 Mostrando mapa del juego');
+    }
+
+    hideMapScreen() {
+        this.elements.mapScreen.classList.remove('active');
+        console.log('📍 Ocultando mapa del juego');
+    }
+
+    showRulesScreen() {
+        this.elements.rulesScreen.classList.add('active');
+        console.log('📋 Mostrando reglas del juego');
+    }
+
+    hideRulesScreen() {
+        this.elements.rulesScreen.classList.remove('active');
+        console.log('📋 Ocultando reglas del juego');
+    }
+
+    async downloadMap() {
+        try {
+            console.log('📥 Iniciando descarga del mapa...');
+            
+            // Deshabilitar botón y mostrar estado de carga
+            const originalText = this.elements.downloadMapBtn.textContent;
+            this.elements.downloadMapBtn.textContent = '⏳ Descargando...';
+            this.elements.downloadMapBtn.disabled = true;
+            
+            // Crear un enlace temporal para forzar la descarga
+            const imageUrl = 'https://raw.githubusercontent.com/PoltorProgrammer/Taboup/refs/heads/main/images/tablero_Taboup.png';
+            
+            // Fetch la imagen y convertirla a blob
+            const response = await fetch(imageUrl);
+            const blob = await response.blob();
+            
+            // Crear URL temporal del blob
+            const blobUrl = window.URL.createObjectURL(blob);
+            
+            // Crear enlace temporal y hacer click automáticamente
+            const tempLink = document.createElement('a');
+            tempLink.href = blobUrl;
+            tempLink.download = 'tablero_taboup.png';
+            tempLink.style.display = 'none';
+            
+            document.body.appendChild(tempLink);
+            tempLink.click();
+            document.body.removeChild(tempLink);
+            
+            // Limpiar el blob URL
+            window.URL.revokeObjectURL(blobUrl);
+            
+            console.log('✅ Descarga completada');
+            
+            // Restaurar botón
+            this.elements.downloadMapBtn.textContent = originalText;
+            this.elements.downloadMapBtn.disabled = false;
+            
+        } catch (error) {
+            console.error('❌ Error al descargar el mapa:', error);
+            this.showError('Error al descargar el mapa. Por favor, intenta de nuevo.');
+            
+            // Restaurar botón en caso de error
+            this.elements.downloadMapBtn.textContent = '💾 DESCARGAR MAPA';
+            this.elements.downloadMapBtn.disabled = false;
+        }
+    }
+
     showLoading() {
         this.elements.loadingOverlay.classList.add('active');
     }
@@ -133,7 +244,7 @@ class TabuGame {
         try {
             await new Promise(resolve => setTimeout(resolve, 500));
             
-            const response = await fetch('./data/cartas_tabu.json');
+            const response = await fetch('./data/cartas_taboup.json');
             if (!response.ok) {
                 throw new Error(`Error HTTP ${response.status}: No se pudo cargar el archivo de cartas`);
             }
@@ -147,8 +258,14 @@ class TabuGame {
             
             for (let i = 0; i < this.cards.length; i++) {
                 const card = this.cards[i];
-                if (!card.principal || !Array.isArray(card.prohibidas) || card.prohibidas.length === 0) {
+                // Aceptar tanto "principal" como "palabra"
+                const mainWord = card.principal || card.palabra;
+                if (!mainWord || !Array.isArray(card.prohibidas) || card.prohibidas.length === 0) {
                     throw new Error(`Carta ${i + 1} tiene formato inválido`);
+                }
+                // Normalizar la estructura
+                if (card.palabra && !card.principal) {
+                    card.principal = card.palabra;
                 }
             }
             
@@ -157,7 +274,7 @@ class TabuGame {
             
         } catch (error) {
             this.hideLoading();
-            this.showError(`Error al cargar las cartas:\n${error.message}\n\nVerifica que el archivo 'data/cartas_tabu.json' existe y tiene el formato correcto.`);
+            this.showError(`Error al cargar las cartas:\n${error.message}\n\nVerifica que el archivo 'data/cartas_taboup.json' existe y tiene el formato correcto.`);
             console.error('Error loading cards:', error);
         }
     }
