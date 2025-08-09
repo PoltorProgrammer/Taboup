@@ -1577,11 +1577,11 @@ body {
         padding-top: 80px;
     }
     
-    /* Layout móvil: distribución vertical optimizada */
+    /* Layout móvil: sin padding inferior ya que botones son absolutos */
     .main-game-area {
         flex-direction: column;
         gap: 0;
-        padding: 5px 20px 80px 20px; /* Menos padding superior, protección para botones */
+        padding: 5px 20px 20px 20px;
         margin-left: 0;
         margin-right: 0;
         justify-content: flex-start;
@@ -1598,7 +1598,7 @@ body {
         margin-bottom: 0; /* Eliminar margen */
     }
     
-    /* Área de carta - mejor distribución vertical */
+    /* Área de carta - con padding para botones absolutos */
     .card-game-section {
         order: 2;
         flex: 1;
@@ -1608,11 +1608,10 @@ body {
         align-items: center;
         position: relative;
         min-height: 0;
-        padding-top: 10px; /* Pequeño margen con cartas descartadas */
-        padding-bottom: 10px; /* Mínimo padding inferior */
+        padding-bottom: 70px; /* Espacio para botones absolutos */
     }
     
-    /* Contenedor específico para la carta - subido un poco más */
+    /* Contenedor específico para la carta - centrado naturalmente */
     .card-container {
         flex: 1;
         display: flex;
@@ -1620,7 +1619,6 @@ body {
         justify-content: center;
         width: 100%;
         max-height: 100%;
-        transform: translateY(-30px); /* Subir la carta 30px */
     }
     
     /* Controles móvil - CAMBIOS PRINCIPALES AQUÍ */
@@ -1652,35 +1650,35 @@ body {
         font-size: 1.1em;
     }
     
-    /* BOTONES MÓVIL - FORZAR CAMBIOS CON !important */
+    /* BOTONES MÓVIL - especificidad adecuada sin !important */
     .game-controls .control-btn {
-        min-width: 70px !important;
-        max-width: 80px !important;
-        padding: 8px 12px !important;
-        height: auto !important;
-        min-height: auto !important;
-        max-height: 60px !important;
-        transform: none !important;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
-        gap: 3px !important;
-        border-radius: 10px !important;
-        flex-shrink: 0 !important;
+        min-width: 70px;
+        max-width: 80px;
+        padding: 8px 12px;
+        height: auto;
+        min-height: auto;
+        max-height: 60px;
+        transform: none;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        gap: 3px;
+        border-radius: 10px;
+        flex-shrink: 0;
     }
     
     .game-controls .control-btn:hover:not(:disabled) {
-        transform: scale(1.02) !important;
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25) !important;
+        transform: scale(1.02);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
     }
     
     .game-controls .control-btn .btn-icon {
-        font-size: 1.3em !important;
-        line-height: 1 !important;
+        font-size: 1.3em;
+        line-height: 1;
     }
     
     .game-controls .control-btn .btn-text {
-        font-size: 0.75em !important;
-        font-weight: 600 !important;
-        line-height: 1 !important;
+        font-size: 0.75em;
+        font-weight: 600;
+        line-height: 1;
     }
     
     /* Animaciones responsive */
