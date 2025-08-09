@@ -1598,7 +1598,7 @@ body {
         margin-bottom: 10px;
     }
     
-    /* Área de carta - toma el espacio central disponible */
+    /* Área de carta - ajustar para los botones fijos */
     .card-game-section {
         order: 2;
         flex: 1;
@@ -1608,7 +1608,7 @@ body {
         align-items: center;
         position: relative;
         min-height: 0;
-        padding-bottom: 85px; /* Reducido para botones más pequeños */
+        padding-bottom: 20px; /* Reducido ya que los botones están fijos abajo */
     }
     
     /* Contenedor específico para la carta - centrado en su área */
