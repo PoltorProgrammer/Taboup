@@ -1248,7 +1248,7 @@ body {
         transform: scale(1.2) rotate(2deg);
     }
     100% {
-        transform: scale(1) rotate(0deg);
+        transform: scale(1) rotate(0);
         opacity: 1;
     }
 }
@@ -1372,23 +1372,17 @@ body {
         transform: scale(1.2) rotate(2deg);
     }
     100% {
-        transform: scale(1) rotate(0deg);
+        transform: scale(1) rotate(0);
         opacity: 1;
     }
 }
 
 @keyframes timeSubtitleFade {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
 }
 
-/* Overlay de error */
+/* Overlay de error mejorado */
 .error-overlay {
     position: fixed;
     top: 0;
@@ -1396,11 +1390,11 @@ body {
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(10px);
-    z-index: 2000;
+    z-index: 2500;
     display: none;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 .error-overlay.active {
@@ -1577,7 +1571,7 @@ body {
         padding-top: 80px;
     }
     
-    /* Layout móvil: sin padding inferior ya que botones son absolutos */
+    /* Layout móvil: la columna debe poder crecer y hacer scroll si es necesario */
     .main-game-area {
         flex-direction: column;
         gap: 0;
@@ -1585,56 +1579,59 @@ body {
         margin-left: 0;
         margin-right: 0;
         justify-content: flex-start;
-        height: calc(100vh - 80px);
-        overflow: hidden;
+        height: auto;              /* antes: calc(100vh - 80px) */
+        overflow: auto;            /* antes: hidden */
+        -webkit-overflow-scrolling: touch;
     }
     
     /* Cartas descartadas móvil - altura reducida */
     .discarded-area.mobile-only {
         order: 1;
         width: 100%;
-        height: 140px; /* Reducido de 160px */
+        height: 140px;
         flex-shrink: 0;
-        margin-bottom: 0; /* Eliminar margen */
+        margin-bottom: 0;
     }
     
-    /* Área de carta - con padding para botones absolutos */
+    /* Área de carta: sin padding inferior (los controles ya no son absolutos) */
     .card-game-section {
         order: 2;
         flex: 1;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         position: relative;
         min-height: 0;
-        padding-bottom: 70px; /* Espacio para botones absolutos */
+        gap: 16px; /* separación entre carta y botones */
+        padding-bottom: 0;
     }
     
-    /* Contenedor específico para la carta - centrado naturalmente */
+    /* La carta ocupa altura real para que los controles queden debajo */
     .card-container {
-        flex: 1;
+        flex: 0 0 auto;
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
-        max-height: 100%;
+        max-height: none;
+        min-height: 400px;
     }
     
-    /* Controles móvil - CAMBIOS PRINCIPALES AQUÍ */
+    /* CONTROLES MÓVIL — en flujo, debajo de la carta */
     .game-controls {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
+        position: static;          /* antes: absolute */
+        transform: none;
+        left: auto; right: auto; bottom: auto;
         flex-direction: row;
         justify-content: center;
-        transform: none;
-        gap: 12px; /* Reducido */
+        align-items: stretch;
+        gap: 12px;
         flex-shrink: 0;
-        padding: 10px 15px; /* Reducido */
+        padding: 0;
+        margin-top: 8px;           /* separación de la carta */
         background: transparent;
-        z-index: 30;
+        z-index: auto;
     }
     
     .card {
