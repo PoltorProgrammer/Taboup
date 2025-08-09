@@ -1608,7 +1608,7 @@ body {
         align-items: center;
         position: relative;
         min-height: 0;
-        padding-bottom: 100px; /* Ajustado para los botones más pequeños */
+        padding-bottom: 85px; /* Reducido para botones más pequeños */
     }
     
     /* Contenedor específico para la carta - centrado en su área */
@@ -1621,7 +1621,7 @@ body {
         max-height: 100%;
     }
     
-    /* Controles móvil - posición absoluta en la parte inferior */
+    /* Controles móvil - CAMBIOS PRINCIPALES AQUÍ */
     .game-controls {
         position: absolute;
         bottom: 0;
@@ -1630,9 +1630,9 @@ body {
         flex-direction: row;
         justify-content: center;
         transform: none;
-        gap: 15px;
+        gap: 12px; /* Reducido */
         flex-shrink: 0;
-        padding: 15px 20px;
+        padding: 10px 15px; /* Reducido */
         background: transparent;
         z-index: 30;
     }
@@ -1650,24 +1650,28 @@ body {
         font-size: 1.1em;
     }
     
+    /* BOTONES MÓVIL - PRINCIPALES CAMBIOS */
     .control-btn {
-        min-width: 100px;
-        padding: 15px 20px;
-        transform: none !important; /* Evitar el efecto de translateX en móvil */
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        min-width: 85px; /* Reducido de 100px */
+        padding: 10px 15px; /* Reducido de 15px 20px */
+        transform: none !important;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Reducido */
+        gap: 4px; /* Reducido de 8px */
+        border-radius: 12px; /* Reducido de 18px */
     }
     
     .control-btn:hover:not(:disabled) {
         transform: scale(1.02) !important;
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); /* Reducido */
     }
     
     .btn-icon {
-        font-size: 1.8em;
+        font-size: 1.5em; /* Reducido de 1.8em */
     }
     
     .btn-text {
-        font-size: 0.9em;
+        font-size: 0.8em; /* Reducido de 0.9em */
+        font-weight: 600; /* Reducido */
     }
     
     /* Animaciones responsive */
