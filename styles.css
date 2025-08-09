@@ -1580,27 +1580,44 @@ body {
     /* Layout móvil: cambiar a flex column */
     .main-game-area {
         flex-direction: column;
-        gap: 20px;
-        padding: 20px;
+        gap: 15px;
+        padding: 20px 20px 30px 20px;
         margin-left: 0;
         margin-right: 0;
         justify-content: flex-start;
+        min-height: calc(100vh - 80px);
     }
     
     /* Cartas descartadas móvil - ordenar entre timer y carta */
     .discarded-area.mobile-only {
         order: 1;
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
+        flex-shrink: 0;
     }
     
-    /* Carta y controles - agrupar */
+    /* Carta y controles - separar completamente */
     .card-game-section {
         order: 2;
-        gap: 20px;
+        gap: 0;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 0;
     }
     
-    /* Controles móvil - horizontales abajo de la carta */
+    /* Contenedor específico para la carta */
+    .card-container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    
+    /* Controles móvil - completamente abajo, separados de la carta */
     .game-controls {
         position: relative;
         flex-direction: row;
@@ -1610,6 +1627,9 @@ body {
         transform: none;
         gap: 15px;
         order: 3;
+        flex-shrink: 0;
+        padding: 20px 0 0 0;
+        width: 100%;
     }
     
     .card {
