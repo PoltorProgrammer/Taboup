@@ -492,9 +492,9 @@ body {
     flex-direction: row;
     overflow-x: auto;
     overflow-y: hidden;
-    max-height: 160px;
+    max-height: 120px; /* Reducido de 160px para ahorrar espacio */
     padding-right: 0;
-    padding-bottom: 10px;
+    padding-bottom: 8px; /* Menos padding */
     gap: 12px;
 }
 
@@ -532,11 +532,11 @@ body {
 
 /* Cartas descartadas en scroll horizontal (móvil) */
 .discarded-cards.horizontal .discarded-card {
-    min-width: 140px;
-    max-width: 140px;
-    width: 140px;
-    min-height: 130px;
-    max-height: 130px;
+    min-width: 130px; /* Ligeramente más pequeñas */
+    max-width: 130px;
+    width: 130px;
+    min-height: 110px; /* Más compactas */
+    max-height: 110px;
     transform: scale(0.9);
 }
 
@@ -1577,11 +1577,11 @@ body {
         padding-top: 80px;
     }
     
-    /* Layout móvil: ajustar para botones fijos en la parte inferior */
+    /* Layout móvil: distribución vertical optimizada */
     .main-game-area {
         flex-direction: column;
         gap: 0;
-        padding: 10px 20px 90px 20px; /* Padding inferior para los botones fijos */
+        padding: 5px 20px 80px 20px; /* Menos padding superior, protección para botones */
         margin-left: 0;
         margin-right: 0;
         justify-content: flex-start;
@@ -1589,16 +1589,16 @@ body {
         overflow: hidden;
     }
     
-    /* Cartas descartadas móvil - altura fija */
+    /* Cartas descartadas móvil - altura reducida */
     .discarded-area.mobile-only {
         order: 1;
         width: 100%;
-        height: 160px;
+        height: 140px; /* Reducido de 160px */
         flex-shrink: 0;
-        margin-bottom: 10px;
+        margin-bottom: 0; /* Eliminar margen */
     }
     
-    /* Área de carta - sin padding bottom ya que botones están fijos */
+    /* Área de carta - mejor distribución vertical */
     .card-game-section {
         order: 2;
         flex: 1;
@@ -1608,7 +1608,8 @@ body {
         align-items: center;
         position: relative;
         min-height: 0;
-        padding-bottom: 20px; /* Solo un poco de espacio para que no toque los botones */
+        padding-top: 10px; /* Pequeño margen con cartas descartadas */
+        padding-bottom: 10px; /* Mínimo padding inferior */
     }
     
     /* Contenedor específico para la carta - centrado en su área */
@@ -1638,8 +1639,8 @@ body {
     }
     
     .card {
-        width: 280px;
-        height: 380px;
+        width: 300px; /* Ligeramente más grande */
+        height: 400px; /* Más alta para aprovechar espacio */
     }
     
     .card-word {
