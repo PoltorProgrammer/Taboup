@@ -1,1779 +1,897 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-    min-height: 100vh;
-    overflow: hidden;
-    color: #333;
-}
-
-.game-container {
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Clases para mostrar/ocultar según dispositivo */
-.desktop-only {
-    display: block;
-}
-
-.mobile-only {
-    display: none;
-}
-
-/* Header */
-.header {
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 100;
-    pointer-events: none;
-    display: none;
-}
-
-.header.active {
-    display: block;
-}
-
-.timer-container {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(15px);
-    padding: 10px 20px;
-    border-radius: 20px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    pointer-events: all;
-}
-
-.timer-display {
-    font-size: 1.8em;
-    font-weight: 700;
-    color: #2c3e50;
-    min-width: 90px;
-    text-align: center;
-    font-family: 'Consolas', 'Monaco', monospace;
-    letter-spacing: 1px;
-}
-
-.timer-display.warning {
-    color: #e74c3c;
-    animation: timerPulse 1s ease-in-out infinite;
-}
-
-@keyframes timerPulse {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-}
-
-.btn-pause {
-    background: #34495e;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.btn-pause:hover:not(:disabled) {
-    background: #2c3e50;
-    transform: scale(1.1);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-}
-
-.btn-pause:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-    transform: none;
-}
-
-/* Pantalla inicial */
-.initial-screen {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-    padding: 60px 80px;
-    box-sizing: border-box;
-}
-
-.title-container {
-    margin-bottom: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Logo actualizado - directo sobre el fondo sin recuadro */
-.game-logo {
-    width: 160px;
-    height: 160px;
-    margin-bottom: 25px;
-    transition: transform 0.3s ease;
-    /* Sin efectos visuales que lo separen del fondo */
-    background: none;
-    backdrop-filter: none;
-    border-radius: 0;
-    box-shadow: none;
-    border: none;
-}
-
-.game-logo:hover {
-    transform: scale(1.03);
-}
-
-.title {
-    font-size: 4.5em;
-    font-weight: 900;
-    color: white;
-    margin-bottom: 15px;
-    text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
-    letter-spacing: 8px;
-}
-
-.subtitle {
-    font-size: 1.3em;
-    color: rgba(255, 255, 255, 0.8);
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-.start-buttons {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.extra-buttons {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.btn {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(15px);
-    border: none;
-    border-radius: 20px;
-    padding: 25px 35px;
-    cursor: pointer;
-    transition: all 0.4s ease;
-    min-width: 220px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    position: relative;
-    overflow: hidden;
-}
-
-.btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-    transition: left 0.5s;
-}
-
-.btn:hover::before {
-    left: 100%;
-}
-
-.btn:hover:not(:disabled) {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-}
-
-.btn-content {
-    position: relative;
-    z-index: 1;
-}
-
-.btn-title {
-    font-size: 1.1em;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.btn-subtitle {
-    font-size: 0.9em;
-    opacity: 0.7;
-}
-
-.btn-primary .btn-title {
-    color: #3498db;
-}
-
-.btn-secondary .btn-title {
-    color: #e67e22;
-}
-
-.btn-info .btn-title {
-    color: #9b59b6;
-}
-
-/* Pantalla de mapa */
-.map-screen {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.9);
-    backdrop-filter: blur(10px);
-    z-index: 1500;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-}
-
-.map-screen.active {
-    display: flex;
-}
-
-.map-container {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(15px);
-    border-radius: 25px;
-    padding: 30px;
-    max-width: 90vw;
-    max-height: 90vh;
-    width: 100%;
-    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    overflow-y: auto;
-}
-
-.map-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #ecf0f1;
-    padding-bottom: 15px;
-}
-
-.map-title {
-    font-size: 2em;
-    font-weight: bold;
-    color: #2c3e50;
-}
-
-.btn-close {
-    background: #e74c3c;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    font-size: 1.2em;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn-close:hover {
-    background: #c0392b;
-    transform: scale(1.1);
-}
-
-.map-content {
-    text-align: center;
-}
-
-.map-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-}
-
-.map-download {
-    margin-top: 20px;
-}
-
-.download-btn {
-    display: inline-block;
-    background: #3498db;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 15px 30px;
-    border-radius: 15px;
-    font-size: 1.1em;
-    font-weight: bold;
-    transition: all 0.3s ease;
-    box-shadow: 0 8px 25px rgba(52, 152, 219, 0.3);
-    border: 2px solid transparent;
-    position: relative;
-    overflow: hidden;
-    font-family: inherit;
-}
-
-.download-btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-    transition: left 0.5s;
-}
-
-.download-btn:hover::before {
-    left: 100%;
-}
-
-.download-btn:hover {
-    background: #2980b9;
-    transform: translateY(-3px);
-    box-shadow: 0 12px 35px rgba(52, 152, 219, 0.4);
-    border-color: rgba(255, 255, 255, 0.3);
-}
-
-.download-btn:active {
-    transform: translateY(-1px);
-    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
-}
-
-.download-btn:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-    transform: none;
-    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.2);
-}
-
-.download-btn:disabled:hover {
-    background: #3498db;
-    transform: none;
-}
-
-/* Pantalla de reglas */
-.rules-screen {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.9);
-    backdrop-filter: blur(10px);
-    z-index: 1500;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    overflow-y: auto;
-}
-
-.rules-screen.active {
-    display: flex;
-}
-
-.rules-container {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(15px);
-    border-radius: 25px;
-    padding: 30px;
-    max-width: 800px;
-    width: 100%;
-    max-height: 90vh;
-    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    overflow-y: auto;
-}
-
-.rules-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #ecf0f1;
-    padding-bottom: 15px;
-}
-
-.rules-title {
-    font-size: 2em;
-    font-weight: bold;
-    color: #2c3e50;
-}
-
-.rules-content {
-    line-height: 1.6;
-}
-
-.rule-section {
-    margin-bottom: 25px;
-    padding: 20px;
-    background: #f8f9fa;
-    border-radius: 15px;
-    border-left: 4px solid #3498db;
-}
-
-.rule-section h3 {
-    color: #2c3e50;
-    margin-bottom: 10px;
-    font-size: 1.3em;
-}
-
-.rule-section p {
-    color: #34495e;
-    margin-bottom: 8px;
-}
-
-/* Área de juego */
-.game-area {
-    display: none;
-    height: 100vh;
-    padding-top: 100px;
-    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-}
-
-.game-area.active {
-    display: flex;
-    flex-direction: column;
-}
-
-/* Cartas descartadas - Desktop */
-.discarded-area.desktop-only {
-    position: absolute;
-    top: 110px;
-    left: 20px;
-    width: 260px;
-    max-height: calc(100vh - 140px);
-    z-index: 50;
-}
-
-.discarded-title {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 1.1em;
-    font-weight: 600;
-    margin-bottom: 15px;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-.discarded-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    max-height: calc(100vh - 200px);
-    overflow-y: auto;
-    padding-right: 10px;
-}
-
-/* Scroll horizontal para móvil */
-.discarded-cards.horizontal {
-    flex-direction: row;
-    overflow-x: auto;
-    overflow-y: hidden;
-    max-height: 120px; /* Reducido de 160px para ahorrar espacio */
-    padding-right: 0;
-    padding-bottom: 8px; /* Menos padding */
-    gap: 12px;
-}
-
-.discarded-cards::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
-}
-
-.discarded-cards::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 3px;
-}
-
-.discarded-cards::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 3px;
-}
-
-.discarded-card {
-    background: white;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    transform: scale(0.8);
-    animation: cardAppear 0.5s ease-out;
-    border-left: 4px solid;
-    min-height: 110px;
-    max-height: 180px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    flex-shrink: 0;
-}
-
-/* Cartas descartadas en scroll horizontal (móvil) */
-.discarded-cards.horizontal .discarded-card {
-    min-width: 130px; /* Ligeramente más pequeñas */
-    max-width: 130px;
-    width: 130px;
-    min-height: 110px; /* Más compactas */
-    max-height: 110px;
-    transform: scale(0.9);
-}
-
-.discarded-card.correct {
-    border-left-color: #27ae60;
-    background: linear-gradient(145deg, #d5f4e6, #ffffff);
-}
-
-.discarded-card.pass {
-    border-left-color: #f39c12;
-    background: linear-gradient(145deg, #fef9e7, #ffffff);
-}
-
-.discarded-card.error {
-    border-left-color: #e74c3c;
-    background: linear-gradient(145deg, #fadbd8, #ffffff);
-}
-
-.discarded-card-word {
-    font-size: 1em;
-    font-weight: bold;
-    color: #2c3e50;
-    text-align: center;
-    margin-bottom: 6px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    flex-shrink: 0;
-}
-
-.discarded-cards.horizontal .discarded-card-word {
-    font-size: 0.85em;
-}
-
-.discarded-card-separator {
-    height: 1.5px;
-    background: #bdc3c7;
-    margin: 6px 0;
-    border-radius: 1px;
-    flex-shrink: 0;
-}
-
-.discarded-card-forbidden {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    overflow-y: auto;
-    min-height: 0;
-    max-height: 120px;
-}
-
-.discarded-cards.horizontal .discarded-card-forbidden {
-    max-height: 80px;
-}
-
-.discarded-card-forbidden::-webkit-scrollbar {
-    width: 3px;
-}
-
-.discarded-card-forbidden::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 2px;
-}
-
-.discarded-card-forbidden::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 2px;
-}
-
-.discarded-forbidden-word {
-    font-size: 0.7em;
-    color: #7f8c8d;
-    text-align: center;
-    padding: 1px 0;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-    line-height: 1.2;
-    flex-shrink: 0;
-    word-wrap: break-word;
-    hyphens: auto;
-}
-
-.discarded-cards.horizontal .discarded-forbidden-word {
-    font-size: 0.6em;
-}
-
-.discarded-card-status {
-    position: absolute;
-    top: 6px;
-    right: 6px;
-    font-size: 1em;
-    z-index: 10;
-}
-
-.discarded-cards.horizontal .discarded-card-status {
-    font-size: 0.9em;
-}
-
-@keyframes cardAppear {
-    0% {
-        opacity: 0;
-        transform: scale(0.5) rotate(-10deg);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(0.8) rotate(0deg);
-    }
-}
-
-/* Área principal del juego */
-.main-game-area {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    margin-left: 300px;
-    margin-right: 200px;
-}
-
-/* Cartas descartadas para móvil - entre timer y carta */
-.discarded-area.mobile-only {
-    width: 100%;
-    margin-bottom: 20px;
-    order: 1;
-}
-
-.discarded-area.mobile-only .discarded-title {
-    font-size: 1em;
-    margin-bottom: 10px;
-}
-
-/* Sección de carta y controles */
-.card-game-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    order: 2;
-}
-
-/* Carta central */
-.card-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.card-deck {
-    position: relative;
-    perspective: 1500px;
-}
-
-.card {
-    width: 350px;
-    height: 480px;
-    border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.4);
-    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.card-shadow {
-    background: linear-gradient(145deg, #2c3e50, #34495e);
-    border: 2px solid #1a252f;
-}
-
-.card-shadow:nth-child(1) {
-    transform: translate(-50%, -50%) translateZ(-40px) rotate(-3deg);
-    opacity: 0.6;
-}
-
-.card-shadow:nth-child(2) {
-    transform: translate(-50%, -50%) translateZ(-20px) rotate(2deg);
-    opacity: 0.8;
-    background: white;
-    border: 2px solid #34495e;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    text-align: center;
-}
-
-.next-card-preview {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    opacity: 0.2;
-}
-
-.next-card-word {
-    font-size: 2.8em;
-    font-weight: 900;
-    color: #2c3e50;
-    margin-bottom: 20px;
-    line-height: 1;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.next-card-separator {
-    height: 3px;
-    background: #2c3e50;
-    margin: 18px 0 22px;
-    border-radius: 2px;
-}
-
-.next-card-forbidden {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 12px;
-}
-
-.next-forbidden-word {
-    font-size: 1.4em;
-    color: #2c3e50;
-    font-weight: 500;
-    padding: 6px 0;
-    border-bottom: 1px solid rgba(44, 62, 80, 0.1);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.card-current {
-    background: white;
-    border: 3px solid #2c3e50;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    text-align: center;
-    transform: translate(-50%, -50%) translateZ(0px);
-    z-index: 10;
-}
-
-.card-current.slide-out {
-    animation: cardSlideOut 0.8s cubic-bezier(0.6, 0.04, 0.98, 0.335) forwards;
-}
-
-@keyframes cardSlideOut {
-    0% {
-        transform: translate(-50%, -50%) translateZ(0px) rotate(0deg);
-        opacity: 1;
-    }
-    70% {
-        transform: translate(-120%, -120%) translateZ(-50px) rotate(-25deg) scale(0.6);
-        opacity: 0.3;
-    }
-    100% {
-        transform: translate(-200%, -200%) translateZ(-100px) rotate(-35deg) scale(0.3);
-        opacity: 0;
-    }
-}
-
-/* Animación para que la carta siguiente se mueva hacia adelante */
-@keyframes nextCardForward {
-    0% {
-        transform: translate(-50%, -50%) translateZ(-20px) rotate(2deg);
-        opacity: 0.8;
-    }
-    100% {
-        transform: translate(-50%, -50%) translateZ(0px) rotate(0deg);
-        opacity: 1;
-    }
-}
-
-.card-shadow.moving-forward {
-    animation: nextCardForward 0.8s cubic-bezier(0.6, 0.04, 0.98, 0.335) forwards;
-}
-
-.card-header {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #7f8c8d;
-    margin-bottom: 20px;
-    letter-spacing: 3px;
-}
-
-.card-word {
-    font-size: 2.8em;
-    font-weight: 900;
-    color: #2c3e50;
-    margin-bottom: 20px;
-    line-height: 1;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.card-separator {
-    height: 3px;
-    background: #2c3e50;
-    margin: 18px 0 22px;
-    border-radius: 2px;
-}
-
-.card-forbidden-list {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 12px;
-}
-
-.forbidden-word {
-    font-size: 1.4em;
-    color: #2c3e50;
-    font-weight: 500;
-    padding: 6px 0;
-    border-bottom: 1px solid rgba(44, 62, 80, 0.1);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.forbidden-word:last-child {
-    border-bottom: none;
-}
-
-/* Controles del juego - Desktop */
-.game-controls {
-    position: fixed;
-    right: 40px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    z-index: 20;
-}
-
-.control-btn {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(15px);
-    border: none;
-    border-radius: 18px;
-    padding: 20px 25px;
-    cursor: pointer;
-    transition: all 0.4s ease;
-    min-width: 140px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-    border: 2px solid transparent;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    position: relative;
-    overflow: hidden;
-}
-
-.control-btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-    transition: left 0.6s;
-}
-
-.control-btn:hover::before {
-    left: 100%;
-}
-
-.control-btn:hover:not(:disabled) {
-    transform: translateX(-10px) scale(1.05);
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
-}
-
-.control-btn:disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
-    transform: none;
-}
-
-.control-btn:disabled::before {
-    display: none;
-}
-
-.btn-icon {
-    font-size: 2.2em;
-    font-weight: bold;
-    line-height: 1;
-}
-
-.btn-text {
-    font-size: 1em;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.error-btn {
-    border-color: #e74c3c;
-}
-
-.error-btn .btn-icon,
-.error-btn .btn-text {
-    color: #e74c3c;
-}
-
-.error-btn:hover:not(:disabled) {
-    background: rgba(231, 76, 60, 0.1);
-    border-color: #c0392b;
-}
-
-.correct-btn {
-    border-color: #27ae60;
-}
-
-.correct-btn .btn-icon,
-.correct-btn .btn-text {
-    color: #27ae60;
-}
-
-.correct-btn:hover:not(:disabled) {
-    background: rgba(39, 174, 96, 0.1);
-    border-color: #229954;
-}
-
-.pass-btn {
-    border-color: #f39c12;
-}
-
-.pass-btn .btn-icon,
-.pass-btn .btn-text {
-    color: #f39c12;
-}
-
-.pass-btn:hover:not(:disabled) {
-    background: rgba(243, 156, 18, 0.1);
-    border-color: #e67e22;
-}
-
-/* Pantalla de revisión */
-.review-area {
-    display: none;
-    height: 100vh;
-    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-    overflow-y: auto;
-    padding: 20px;
-}
-
-.review-area.active {
-    display: block;
-}
-
-.review-container {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(15px);
-    border-radius: 25px;
-    padding: 30px;
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.review-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.review-title {
-    font-size: 2.2em;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.review-buttons {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
-    padding: 20px 0;
-    border-bottom: 2px solid #ecf0f1;
-}
-
-.final-stats {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 20px;
-    margin: 30px 0;
-}
-
-.stat-card {
-    background: white;
-    padding: 25px;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-.stat-value {
-    font-size: 2.8em;
-    font-weight: 900;
-    color: #2c3e50;
-    margin-bottom: 5px;
-}
-
-.stat-label {
-    font-size: 1.1em;
-    color: #7f8c8d;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-
-.review-cards-section {
-    margin-top: 40px;
-}
-
-.review-cards-title {
-    font-size: 1.4em;
-    color: #2c3e50;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.review-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 15px;
-    max-height: 400px;
-    overflow-y: auto;
-    padding: 10px;
-}
-
-.review-card {
-    background: white;
-    border-radius: 12px;
-    padding: 15px;
-    border-left: 4px solid;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.review-card.correct { border-left-color: #27ae60; }
-.review-card.pass { border-left-color: #f39c12; }
-.review-card.error { border-left-color: #e74c3c; }
-
-.review-card-word {
-    font-weight: bold;
-    font-size: 1.1em;
-    color: #2c3e50;
-    margin-bottom: 8px;
-}
-
-.review-card-separator {
-    height: 1px;
-    background: #bdc3c7;
-    margin: 8px 0;
-}
-
-.review-card-forbidden {
-    font-size: 0.9em;
-    color: #7f8c8d;
-    margin-bottom: 10px;
-    line-height: 1.4;
-}
-
-.review-card-status {
-    font-size: 0.8em;
-    padding: 4px 10px;
-    border-radius: 15px;
-    color: white;
-    display: inline-block;
-    font-weight: bold;
-}
-
-.status-correct { background: #27ae60; }
-.status-pass { background: #f39c12; }
-.status-error { background: #e74c3c; }
-
-.review-buttons {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 40px;
-    flex-wrap: wrap;
-}
-
-/* Animación de ERROR en el juego */
-.game-error-animation {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2000;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    pointer-events: none;
-    background: rgba(0, 0, 0, 0.3);
-}
-
-.game-error-animation.active {
-    display: flex !important;
-    animation: errorSequence 2.5s ease-out forwards;
-}
-
-.error-flash {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle, rgba(231, 76, 60, 0.9) 0%, rgba(231, 76, 60, 0.6) 30%, rgba(231, 76, 60, 0.2) 70%, transparent 100%);
-    animation: flashError 1.2s ease-out;
-}
-
-.error-text-big {
-    font-size: 8em;
-    font-weight: 900;
-    color: #ffffff;
-    text-shadow: 
-        0 0 20px rgba(231, 76, 60, 1),
-        0 0 40px rgba(231, 76, 60, 0.8),
-        0 0 60px rgba(231, 76, 60, 0.6),
-        0 0 80px rgba(231, 76, 60, 0.4),
-        4px 4px 8px rgba(0, 0, 0, 0.8);
-    animation: errorBounce 1.2s ease-out;
-    letter-spacing: 12px;
-    z-index: 10;
-    position: relative;
-    text-align: center;
-}
-
-.error-subtitle {
-    font-size: 2.2em;
-    color: #ffffff;
-    font-weight: 600;
-    margin-top: 30px;
-    opacity: 0;
-    animation: subtitleFade 1s ease-out 0.8s forwards;
-    z-index: 10;
-    position: relative;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-    text-align: center;
-}
-
-@keyframes errorSequence {
-    0% {
-        opacity: 0;
-        backdrop-filter: blur(0px);
-    }
-    10% {
-        opacity: 1;
-        backdrop-filter: blur(3px);
-    }
-    80% {
-        opacity: 1;
-        backdrop-filter: blur(3px);
-    }
-    100% {
-        opacity: 0;
-        backdrop-filter: blur(0px);
-    }
-}
-
-@keyframes flashError {
-    0% {
-        opacity: 0;
-        transform: scale(0.3);
-    }
-    20% {
-        opacity: 1;
-        transform: scale(1.5);
-    }
-    40% {
-        opacity: 0.8;
-        transform: scale(1);
-    }
-    60% {
-        opacity: 0.6;
-        transform: scale(1.2);
-    }
-    100% {
-        opacity: 0;
-        transform: scale(1);
-    }
-}
-
-@keyframes errorBounce {
-    0% {
-        transform: scale(0.2) rotate(-15deg);
-        opacity: 0;
-    }
-    30% {
-        transform: scale(1.4) rotate(8deg);
-        opacity: 1;
-    }
-    50% {
-        transform: scale(0.8) rotate(-4deg);
-    }
-    70% {
-        transform: scale(1.2) rotate(2deg);
-    }
-    100% {
-        transform: scale(1) rotate(0deg);
-        opacity: 1;
-    }
-}
-
-/* Animación de TIEMPO en el juego */
-.game-time-animation {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2000;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    pointer-events: none;
-    background: rgba(0, 0, 0, 0.3);
-}
-
-.game-time-animation.active {
-    display: flex !important;
-    animation: timeSequence 2.5s ease-out forwards;
-}
-
-.time-flash {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle, rgba(243, 156, 18, 0.9) 0%, rgba(243, 156, 18, 0.6) 30%, rgba(243, 156, 18, 0.2) 70%, transparent 100%);
-    animation: flashTime 1.2s ease-out;
-}
-
-.time-text-big {
-    font-size: 8em;
-    font-weight: 900;
-    color: #ffffff;
-    text-shadow: 
-        0 0 20px rgba(243, 156, 18, 1),
-        0 0 40px rgba(243, 156, 18, 0.8),
-        0 0 60px rgba(243, 156, 18, 0.6),
-        0 0 80px rgba(243, 156, 18, 0.4),
-        4px 4px 8px rgba(0, 0, 0, 0.8);
-    animation: timeBounce 1.2s ease-out;
-    letter-spacing: 12px;
-    z-index: 10;
-    position: relative;
-    text-align: center;
-}
-
-.time-subtitle {
-    font-size: 2.2em;
-    color: #ffffff;
-    font-weight: 600;
-    margin-top: 30px;
-    opacity: 0;
-    animation: timeSubtitleFade 1s ease-out 0.8s forwards;
-    z-index: 10;
-    position: relative;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-    text-align: center;
-}
-
-@keyframes timeSequence {
-    0% {
-        opacity: 0;
-        backdrop-filter: blur(0px);
-    }
-    10% {
-        opacity: 1;
-        backdrop-filter: blur(3px);
-    }
-    80% {
-        opacity: 1;
-        backdrop-filter: blur(3px);
-    }
-    100% {
-        opacity: 0;
-        backdrop-filter: blur(0px);
-    }
-}
-
-@keyframes flashTime {
-    0% {
-        opacity: 0;
-        transform: scale(0.3);
-    }
-    20% {
-        opacity: 1;
-        transform: scale(1.5);
-    }
-    40% {
-        opacity: 0.8;
-        transform: scale(1);
-    }
-    60% {
-        opacity: 0.6;
-        transform: scale(1.2);
-    }
-    100% {
-        opacity: 0;
-        transform: scale(1);
-    }
-}
-
-@keyframes timeBounce {
-    0% {
-        transform: scale(0.2) rotate(-15deg);
-        opacity: 0;
-    }
-    30% {
-        transform: scale(1.4) rotate(8deg);
-        opacity: 1;
-    }
-    50% {
-        transform: scale(0.8) rotate(-4deg);
-    }
-    70% {
-        transform: scale(1.2) rotate(2deg);
-    }
-    100% {
-        transform: scale(1) rotate(0deg);
-        opacity: 1;
-    }
-}
-
-@keyframes timeSubtitleFade {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Overlay de error */
-.error-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(10px);
-    z-index: 2000;
-    display: none;
-    align-items: center;
-    justify-content: center;
-}
-
-.error-overlay.active {
-    display: flex;
-}
-
-.error-modal {
-    background: white;
-    border-radius: 20px;
-    padding: 40px;
-    max-width: 400px;
-    width: 90%;
-    text-align: center;
-    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.4);
-    animation: modalAppear 0.4s ease-out;
-}
-
-@keyframes modalAppear {
-    0% {
-        opacity: 0;
-        transform: scale(0.7) translateY(50px);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1) translateY(0);
-    }
-}
-
-.error-icon {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-.error-text {
-    font-size: 1.1em;
-    color: #2c3e50;
-    margin-bottom: 30px;
-    line-height: 1.5;
-}
-
-.error-close {
-    background: #e74c3c;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 12px 30px;
-    font-size: 1em;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.error-close:hover {
-    background: #c0392b;
-    transform: translateY(-2px);
-}
-
-/* Loading overlay */
-.loading-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-    z-index: 3000;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.loading-overlay.active {
-    display: flex;
-}
-
-.loading-spinner {
-    width: 60px;
-    height: 60px;
-    border: 4px solid rgba(255, 255, 255, 0.3);
-    border-top: 4px solid white;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-    margin-bottom: 20px;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-.loading-text {
-    color: white;
-    font-size: 1.2em;
-    font-weight: 500;
-}
-
-/* Responsive */
-@media (max-width: 1200px) {
-    .main-game-area {
-        margin-left: 240px;
-        margin-right: 160px;
-    }
-    
-    .discarded-area.desktop-only {
-        width: 220px;
-    }
-    
-    .game-controls {
-        right: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    /* Cambiar visibilidad de elementos */
-    .desktop-only {
-        display: none !important;
-    }
-    
-    .mobile-only {
-        display: block !important;
-    }
-    
-    body {
-        overflow: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-    
-    .initial-screen {
-        padding: 40px 30px;
-    }
-    
-    .header {
-        top: 15px;
-    }
-    
-    .timer-container {
-        padding: 8px 15px;
-        gap: 10px;
-    }
-    
-    .timer-display {
-        font-size: 1.5em;
-        min-width: 75px;
-    }
-    
-    .btn-pause {
-        width: 35px;
-        height: 35px;
-    }
-    
-    .title {
-        font-size: 3.2em;
-        letter-spacing: 4px;
-        margin-bottom: 8px;
-    }
-    
-    .subtitle {
-        font-size: 1.1em;
-        margin-bottom: 0;
-    }
-    
-    /* Logo responsive - mantener sin efectos visuales */
-    .game-logo {
-        width: 120px;
-        height: 120px;
-        margin-bottom: 20px;
-        /* Mantener sin recuadro en mobile también */
-        border-radius: 0;
-        box-shadow: none;
-    }
-    
-    .game-area {
-        padding-top: 80px;
-    }
-    
-    /* Layout móvil: sin padding inferior ya que botones son absolutos */
-    .main-game-area {
-        flex-direction: column;
-        gap: 0;
-        padding: 5px 20px 20px 20px;
-        margin-left: 0;
-        margin-right: 0;
-        justify-content: flex-start;
-        height: calc(100vh - 80px);
-        overflow: hidden;
-    }
-    
-    /* Cartas descartadas móvil - altura reducida */
-    .discarded-area.mobile-only {
-        order: 1;
-        width: 100%;
-        height: 140px; /* Reducido de 160px */
-        flex-shrink: 0;
-        margin-bottom: 0; /* Eliminar margen */
-    }
-    
-    /* Área de carta - con padding para botones absolutos */
-    .card-game-section {
-        order: 2;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        min-height: 0;
-        padding-bottom: 70px; /* Espacio para botones absolutos */
-    }
-    
-    /* Contenedor específico para la carta - centrado naturalmente */
-    .card-container {
-        flex: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        max-height: 100%;
-    }
-    
-    /* Controles móvil - CAMBIOS PRINCIPALES AQUÍ */
-    .game-controls {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        flex-direction: row;
-        justify-content: center;
-        transform: none;
-        gap: 12px; /* Reducido */
-        flex-shrink: 0;
-        padding: 10px 15px; /* Reducido */
-        background: transparent;
-        z-index: 30;
-    }
-    
-    .card {
-        width: 300px; /* Ligeramente más grande */
-        height: 400px; /* Más alta para aprovechar espacio */
-    }
-    
-    .card-word {
-        font-size: 2.2em;
-    }
-    
-    .forbidden-word {
-        font-size: 1.1em;
-    }
-    
-    /* BOTONES MÓVIL - especificidad adecuada sin !important */
-    .game-controls .control-btn {
-        min-width: 70px;
-        max-width: 80px;
-        padding: 8px 12px;
-        height: auto;
-        min-height: auto;
-        max-height: 60px;
-        transform: none;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        gap: 3px;
-        border-radius: 10px;
-        flex-shrink: 0;
-    }
-    
-    .game-controls .control-btn:hover:not(:disabled) {
-        transform: scale(1.02);
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-    }
-    
-    .game-controls .control-btn .btn-icon {
-        font-size: 1.3em;
-        line-height: 1;
-    }
-    
-    .game-controls .control-btn .btn-text {
-        font-size: 0.75em;
-        font-weight: 600;
-        line-height: 1;
-    }
-    
-    /* Animaciones responsive */
-    .error-text-big {
-        font-size: 4em;
-        letter-spacing: 4px;
-    }
-    
-    .error-subtitle {
-        font-size: 1.4em;
-    }
-    
-    .time-text-big {
-        font-size: 4em;
-        letter-spacing: 4px;
-    }
-    
-    .time-subtitle {
-        font-size: 1.4em;
-    }
-    
-    /* Pantalla de revisión mejorada para móvil */
-    .review-area {
-        overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-    
-    .review-container {
-        margin: 10px auto;
-        padding: 20px;
-        max-width: 95%;
-    }
-    
-    .review-buttons {
-        flex-direction: column;
-        gap: 15px;
-        margin-bottom: 20px;
-    }
-    
-    .review-buttons .btn {
-        min-width: auto;
-        width: 100%;
-        max-width: 300px;
-        margin: 0 auto;
-    }
-    
-    .final-stats {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-        margin: 20px 0;
-    }
-    
-    .stat-card {
-        padding: 15px;
-    }
-    
-    .stat-value {
-        font-size: 2.2em;
-    }
-    
-    .stat-label {
-        font-size: 1em;
-    }
-    
-    .review-cards-section {
-        margin-top: 25px;
-    }
-    
-    .review-cards {
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-        gap: 10px;
-        max-height: 300px;
-        overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
-        padding: 10px 5px;
-    }
-    
-    .review-card {
-        padding: 12px;
-        font-size: 0.9em;
-    }
-    
-    .review-card-word {
-        font-size: 1em;
-        margin-bottom: 6px;
-    }
-    
-    .review-card-forbidden {
-        font-size: 0.8em;
-        margin-bottom: 8px;
-        line-height: 1.3;
-    }
-    
-    .review-card-status {
-        font-size: 0.7em;
-        padding: 3px 8px;
-    }
-}
+class TabuGame {
+    constructor() {
+        this.cards = [];
+        this.currentCard = null;
+        this.nextCard = null;
+        this.usedCards = [];
+        this.playedCards = [];
+        this.gameState = 'initial';
+        this.timer = null;
+        this.timeLeft = 0;
+        this.counters = {
+            correct: 0,
+            pass: 0,
+            total: 0
+        };
+        this.maxPasses = 3;
+        this.isMobile = window.innerWidth <= 768;
+        
+        this.initializeElements();
+        this.bindEvents();
+        this.showLoading();
+        this.loadCards();
+        
+        // Detectar cambios de orientación/tamaño
+        window.addEventListener('resize', () => {
+            this.isMobile = window.innerWidth <= 768;
+        });
+    }
+
+    initializeElements() {
+        this.elements = {
+            timer: document.getElementById('timer'),
+            initialScreen: document.getElementById('initial-screen'),
+            gameArea: document.getElementById('game-area'),
+            reviewArea: document.getElementById('review-area'),
+            
+            start60: document.getElementById('start-60'),
+            start120: document.getElementById('start-120'),
+            pauseBtn: document.getElementById('pause-btn'),
+            
+            currentCard: document.getElementById('current-card'),
+            nextCard: document.getElementById('next-card'),
+            cardWord: document.getElementById('card-word'),
+            cardForbidden: document.getElementById('card-forbidden'),
+            
+            correctBtn: document.getElementById('correct-btn'),
+            passBtn: document.getElementById('pass-btn'),
+            errorBtn: document.getElementById('error-btn'),
+            
+            discardedCardsDesktop: document.getElementById('discarded-cards-desktop'),
+            discardedCardsMobile: document.getElementById('discarded-cards-mobile'),
+            reviewSummary: document.getElementById('review-summary'),
+            reviewTitle: document.getElementById('review-title'),
+            
+            newRound60: document.getElementById('new-round-60'),
+            newRound120: document.getElementById('new-round-120'),
+            
+            // Nuevos elementos para mapa y reglas
+            showMap: document.getElementById('show-map'),
+            showRules: document.getElementById('show-rules'),
+            mapScreen: document.getElementById('map-screen'),
+            rulesScreen: document.getElementById('rules-screen'),
+            closeMap: document.getElementById('close-map'),
+            closeRules: document.getElementById('close-rules'),
+            downloadMapBtn: document.getElementById('download-map-btn'),
+            
+            errorOverlay: document.getElementById('error-overlay'),
+            errorText: document.getElementById('error-text'),
+            errorClose: document.getElementById('error-close'),
+            
+            gameErrorAnimation: document.getElementById('game-error-animation'),
+            gameTimeAnimation: document.getElementById('game-time-animation'),
+            loadingOverlay: document.getElementById('loading-overlay')
+        };
+        
+        // Verificar elementos críticos
+        const criticalElements = ['gameErrorAnimation', 'gameTimeAnimation', 'errorBtn', 'gameArea', 'reviewArea'];
+        criticalElements.forEach(elementKey => {
+            if (!this.elements[elementKey]) {
+                console.error(`❌ Elemento crítico no encontrado: ${elementKey}`);
+            } else {
+                console.log(`✅ Elemento encontrado: ${elementKey}`);
+            }
+        });
+    }
+
+    // Método para obtener el contenedor de cartas descartadas apropiado
+    getDiscardedCardsContainer() {
+        return this.isMobile ? this.elements.discardedCardsMobile : this.elements.discardedCardsDesktop;
+    }
+
+    bindEvents() {
+        this.elements.start60.addEventListener('click', () => this.startRound(60));
+        this.elements.start120.addEventListener('click', () => this.startRound(120));
+        this.elements.pauseBtn.addEventListener('click', () => this.togglePause());
+        
+        this.elements.correctBtn.addEventListener('click', () => this.handleAction('correct'));
+        this.elements.passBtn.addEventListener('click', () => this.handleAction('pass'));
+        this.elements.errorBtn.addEventListener('click', () => this.handleAction('error'));
+        
+        this.elements.newRound60.addEventListener('click', () => this.startRound(60));
+        this.elements.newRound120.addEventListener('click', () => this.startRound(120));
+        
+        // Event listeners para mapa y reglas
+        this.elements.showMap.addEventListener('click', () => this.showMapScreen());
+        this.elements.showRules.addEventListener('click', () => this.showRulesScreen());
+        this.elements.closeMap.addEventListener('click', () => this.hideMapScreen());
+        this.elements.closeRules.addEventListener('click', () => this.hideRulesScreen());
+        
+        // Event listener para descargar mapa
+        this.elements.downloadMapBtn.addEventListener('click', () => this.downloadMap());
+        
+        // Cerrar mapa y reglas al hacer click fuera
+        this.elements.mapScreen.addEventListener('click', (e) => {
+            if (e.target === this.elements.mapScreen) {
+                this.hideMapScreen();
+            }
+        });
+        
+        this.elements.rulesScreen.addEventListener('click', (e) => {
+            if (e.target === this.elements.rulesScreen) {
+                this.hideRulesScreen();
+            }
+        });
+        
+        this.elements.errorClose.addEventListener('click', () => this.hideError());
+        this.elements.errorOverlay.addEventListener('click', (e) => {
+            if (e.target === this.elements.errorOverlay) {
+                this.hideError();
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            // Si hay una pantalla modal abierta, manejar ESC
+            if (this.elements.mapScreen.classList.contains('active') || 
+                this.elements.rulesScreen.classList.contains('active')) {
+                if (e.code === 'Escape') {
+                    e.preventDefault();
+                    this.hideMapScreen();
+                    this.hideRulesScreen();
+                }
+                return;
+            }
+            
+            if (this.gameState === 'playing') {
+                switch(e.code) {
+                    case 'KeyX':
+                    case 'Escape':
+                        e.preventDefault();
+                        this.handleAction('error');
+                        break;
+                    case 'KeyC':
+                    case 'Enter':
+                        e.preventDefault();
+                        this.handleAction('correct');
+                        break;
+                    case 'KeyP':
+                    case 'ArrowRight':
+                        e.preventDefault();
+                        if (this.counters.pass < this.maxPasses) {
+                            this.handleAction('pass');
+                        }
+                        break;
+                    case 'Space':
+                        e.preventDefault();
+                        this.togglePause();
+                        break;
+                }
+            } else if (this.elements.errorOverlay.classList.contains('active')) {
+                if (e.code === 'Enter' || e.code === 'Escape') {
+                    e.preventDefault();
+                    this.hideError();
+                }
+            }
+        });
+    }
+
+    // Nuevos métodos para mapa y reglas
+    showMapScreen() {
+        this.elements.mapScreen.classList.add('active');
+        console.log('📍 Mostrando mapa del juego');
+    }
+
+    hideMapScreen() {
+        this.elements.mapScreen.classList.remove('active');
+        console.log('📍 Ocultando mapa del juego');
+    }
+
+    showRulesScreen() {
+        this.elements.rulesScreen.classList.add('active');
+        console.log('📋 Mostrando reglas del juego');
+    }
+
+    hideRulesScreen() {
+        this.elements.rulesScreen.classList.remove('active');
+        console.log('📋 Ocultando reglas del juego');
+    }
+
+    async downloadMap() {
+        try {
+            console.log('📥 Iniciando descarga del mapa...');
+            
+            // Deshabilitar botón y mostrar estado de carga
+            const originalText = this.elements.downloadMapBtn.textContent;
+            this.elements.downloadMapBtn.textContent = '⏳ Descargando...';
+            this.elements.downloadMapBtn.disabled = true;
+            
+            // Crear un enlace temporal para forzar la descarga
+            const imageUrl = 'https://raw.githubusercontent.com/PoltorProgrammer/Taboup/refs/heads/main/images/tablero_Taboup.png';
+            
+            // Fetch la imagen y convertirla a blob
+            const response = await fetch(imageUrl);
+            const blob = await response.blob();
+            
+            // Crear URL temporal del blob
+            const blobUrl = window.URL.createObjectURL(blob);
+            
+            // Crear enlace temporal y hacer click automáticamente
+            const tempLink = document.createElement('a');
+            tempLink.href = blobUrl;
+            tempLink.download = 'tablero_taboup.png';
+            tempLink.style.display = 'none';
+            
+            document.body.appendChild(tempLink);
+            tempLink.click();
+            document.body.removeChild(tempLink);
+            
+            // Limpiar el blob URL
+            window.URL.revokeObjectURL(blobUrl);
+            
+            console.log('✅ Descarga completada');
+            
+            // Restaurar botón
+            this.elements.downloadMapBtn.textContent = originalText;
+            this.elements.downloadMapBtn.disabled = false;
+            
+        } catch (error) {
+            console.error('❌ Error al descargar el mapa:', error);
+            this.showError('Error al descargar el mapa. Por favor, intenta de nuevo.');
+            
+            // Restaurar botón en caso de error
+            this.elements.downloadMapBtn.textContent = '💾 DESCARGAR MAPA';
+            this.elements.downloadMapBtn.disabled = false;
+        }
+    }
+
+    showLoading() {
+        this.elements.loadingOverlay.classList.add('active');
+    }
+
+    hideLoading() {
+        this.elements.loadingOverlay.classList.remove('active');
+    }
+
+    async loadCards() {
+        try {
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            const response = await fetch('./data/cartas_taboup.json');
+            if (!response.ok) {
+                throw new Error(`Error HTTP ${response.status}: No se pudo cargar el archivo de cartas`);
+            }
+            
+            const text = await response.text();
+            this.cards = JSON.parse(text);
+            
+            if (!Array.isArray(this.cards) || this.cards.length === 0) {
+                throw new Error('El archivo no contiene cartas válidas o está vacío');
+            }
+            
+            for (let i = 0; i < this.cards.length; i++) {
+                const card = this.cards[i];
+                // Aceptar tanto "principal" como "palabra"
+                const mainWord = card.principal || card.palabra;
+                if (!mainWord || !Array.isArray(card.prohibidas) || card.prohibidas.length === 0) {
+                    throw new Error(`Carta ${i + 1} tiene formato inválido`);
+                }
+                // Normalizar la estructura
+                if (card.palabra && !card.principal) {
+                    card.principal = card.palabra;
+                }
+            }
+            
+            this.hideLoading();
+            console.log(`✓ Cargadas ${this.cards.length} cartas correctamente`);
+            
+        } catch (error) {
+            this.hideLoading();
+            this.showError(`Error al cargar las cartas:\n${error.message}\n\nVerifica que el archivo 'data/cartas_taboup.json' existe y tiene el formato correcto.`);
+            console.error('Error loading cards:', error);
+        }
+    }
+
+    showError(message) {
+        this.elements.errorText.textContent = message;
+        this.elements.errorOverlay.classList.add('active');
+    }
+
+    hideError() {
+        this.elements.errorOverlay.classList.remove('active');
+    }
+
+    startRound(seconds) {
+        if (this.cards.length === 0) {
+            this.showError('No se han cargado las cartas del juego.\nPor favor recarga la página.');
+            return;
+        }
+
+        this.gameState = 'playing';
+        this.timeLeft = seconds;
+        this.resetCounters();
+        this.usedCards = [];
+        this.playedCards = [];
+        
+        this.showGameArea();
+        this.clearDiscardedCards();
+        
+        // Cargar las dos primeras cartas
+        this.loadInitialCards();
+        
+        this.startTimer();
+        this.updateButtons();
+        
+        console.log(`🎮 Iniciando ronda de ${seconds} segundos`);
+    }
+
+    resetCounters() {
+        this.counters = {
+            correct: 0,
+            pass: 0,
+            total: 0
+        };
+    }
+
+    showGameArea() {
+        this.elements.initialScreen.style.display = 'none';
+        this.elements.reviewArea.classList.remove('active');
+        
+        // Resetear estilos de transición
+        this.elements.gameArea.style.transition = '';
+        this.elements.gameArea.style.opacity = '1';
+        this.elements.reviewArea.style.transition = '';
+        this.elements.reviewArea.style.opacity = '1';
+        
+        this.elements.gameArea.classList.add('active');
+        
+        document.querySelector('.header').classList.add('active');
+    }
+
+    showInitialScreen() {
+        this.elements.gameArea.classList.remove('active');
+        this.elements.reviewArea.classList.remove('active');
+        
+        // Resetear estilos de transición
+        this.elements.gameArea.style.transition = '';
+        this.elements.gameArea.style.opacity = '1';
+        this.elements.reviewArea.style.transition = '';
+        this.elements.reviewArea.style.opacity = '1';
+        
+        this.elements.initialScreen.style.display = 'flex';
+        
+        document.querySelector('.header').classList.remove('active');
+    }
+
+    showReviewScreen() {
+        this.elements.gameArea.classList.remove('active');
+        this.elements.reviewArea.classList.add('active');
+        
+        document.querySelector('.header').classList.remove('active');
+        
+        this.generateReviewSummary();
+    }
+
+    clearDiscardedCards() {
+        const container = this.getDiscardedCardsContainer();
+        if (container) {
+            container.innerHTML = '';
+        }
+    }
+
+    getRandomCard() {
+        if (this.usedCards.length >= this.cards.length) {
+            this.usedCards = [];
+            console.log('🔄 Reutilizando mazo de cartas');
+        }
+
+        const availableCards = this.cards.filter((_, index) => !this.usedCards.includes(index));
+        const randomIndex = Math.floor(Math.random() * availableCards.length);
+        const cardIndex = this.cards.indexOf(availableCards[randomIndex]);
+        
+        this.usedCards.push(cardIndex);
+        return this.cards[cardIndex];
+    }
+
+    loadInitialCards() {
+        // Cargar carta actual y siguiente
+        this.currentCard = this.getRandomCard();
+        this.nextCard = this.getRandomCard();
+        
+        this.displayCards();
+    }
+
+    loadNextCard() {
+        // La carta siguiente se convierte en actual
+        this.currentCard = this.nextCard;
+        // Cargar nueva carta siguiente
+        this.nextCard = this.getRandomCard();
+        
+        this.displayCards();
+    }
+
+    displayCards() {
+        if (!this.currentCard) return;
+        
+        // Resetear animaciones
+        this.elements.currentCard.classList.remove('slide-out');
+        
+        // Mostrar carta actual
+        this.elements.cardWord.textContent = this.currentCard.principal;
+        
+        this.elements.cardForbidden.innerHTML = '';
+        this.currentCard.prohibidas.forEach((word, index) => {
+            const wordElement = document.createElement('div');
+            wordElement.className = 'forbidden-word';
+            wordElement.textContent = word;
+            this.elements.cardForbidden.appendChild(wordElement);
+        });
+
+        // Mostrar preview de la siguiente carta en el fondo
+        this.showNextCardPreview();
+    }
+
+    showNextCardPreview() {
+        if (!this.nextCard || !this.elements.nextCard) return;
+        
+        // Crear estructura de la carta siguiente si no existe
+        if (!this.elements.nextCard.querySelector('.next-card-preview')) {
+            this.elements.nextCard.innerHTML = `
+                <div class="next-card-preview">
+                    <div class="next-card-word"></div>
+                    <div class="next-card-separator"></div>
+                    <div class="next-card-forbidden"></div>
+                </div>
+            `;
+        }
+        
+        const nextWordElement = this.elements.nextCard.querySelector('.next-card-word');
+        const nextForbiddenElement = this.elements.nextCard.querySelector('.next-card-forbidden');
+        
+        if (nextWordElement && nextForbiddenElement) {
+            nextWordElement.textContent = this.nextCard.principal;
+            
+            nextForbiddenElement.innerHTML = '';
+            this.nextCard.prohibidas.forEach((word) => {
+                const wordElement = document.createElement('div');
+                wordElement.className = 'next-forbidden-word';
+                wordElement.textContent = word;
+                nextForbiddenElement.appendChild(wordElement);
+            });
+        }
+    }
+
+    startTimer() {
+        this.updateTimerDisplay();
+        this.timer = setInterval(() => {
+            this.timeLeft--;
+            this.updateTimerDisplay();
+            
+            // Detener el timer inmediatamente cuando llegue a 0
+            if (this.timeLeft <= 0) {
+                console.log('⏰ Tiempo llegó a 0, deteniendo timer...');
+                this.stopTimer();
+                this.showTimeUpAnimation();
+            }
+        }, 1000);
+    }
+
+    showTimeUpAnimation() {
+        console.log('⏰ ¡TIEMPO AGOTADO! Ejecutando secuencia...');
+        console.log('⏰ Estado del timer:', this.timer ? 'activo' : 'detenido');
+        console.log('⏰ Tiempo restante:', this.timeLeft);
+        
+        // Cambiar estado del juego inmediatamente
+        this.gameState = 'ending';
+        
+        // Deshabilitar botones
+        this.elements.correctBtn.disabled = true;
+        this.elements.passBtn.disabled = true;
+        this.elements.errorBtn.disabled = true;
+        
+        // Mostrar animación de TIEMPO
+        if (this.elements.gameTimeAnimation) {
+            console.log('⏰ Mostrando animación ¡TIEMPO!...');
+            this.elements.gameTimeAnimation.classList.add('active');
+            
+            // Verificar que la animación esté funcionando
+            setTimeout(() => {
+                const hasActive = this.elements.gameTimeAnimation.classList.contains('active');
+                const computedStyle = window.getComputedStyle(this.elements.gameTimeAnimation);
+                console.log('⏰ Animación activa:', hasActive);
+                console.log('⏰ Display:', computedStyle.display);
+                console.log('⏰ Z-index:', computedStyle.zIndex);
+                console.log('⏰ Opacity:', computedStyle.opacity);
+            }, 100);
+        } else {
+            console.error('⏰ ERROR: Elemento gameTimeAnimation no encontrado!');
+        }
+        
+        // Después de 2.5 segundos, quitar animación y ir a revisión
+        setTimeout(() => {
+            console.log('⏰ Terminando animación de tiempo...');
+            if (this.elements.gameTimeAnimation) {
+                this.elements.gameTimeAnimation.classList.remove('active');
+            }
+            
+            // Ir a pantalla de revisión
+            setTimeout(() => {
+                console.log('⏰ Ir a pantalla de revisión...');
+                this.endRound('time');
+            }, 300);
+            
+        }, 2500);
+    }
+
+    stopTimer() {
+        if (this.timer) {
+            clearInterval(this.timer);
+            this.timer = null;
+        }
+    }
+
+    togglePause() {
+        if (this.gameState === 'playing') {
+            this.gameState = 'paused';
+            this.stopTimer();
+            this.elements.pauseBtn.innerHTML = `
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8 5v14l11-7z"/>
+                </svg>
+            `;
+            this.updateButtons();
+            console.log('⏸️ Juego pausado');
+        } else if (this.gameState === 'paused') {
+            this.gameState = 'playing';
+            this.startTimer();
+            this.elements.pauseBtn.innerHTML = `
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/>
+                </svg>
+            `;
+            this.updateButtons();
+            console.log('▶️ Juego reanudado');
+        }
+    }
+
+    handleAction(action) {
+        if (this.gameState !== 'playing') return;
+        
+        if (action === 'pass' && this.counters.pass >= this.maxPasses) {
+            console.log('❌ No se pueden hacer más pases');
+            return;
+        }
+        
+        // Deshabilitar botones temporalmente
+        this.elements.correctBtn.disabled = true;
+        this.elements.passBtn.disabled = true;
+        this.elements.errorBtn.disabled = true;
+        
+        // Registrar la carta jugada
+        this.playedCards.push({
+            word: this.currentCard.principal,
+            forbidden: this.currentCard.prohibidas,
+            action: action
+        });
+
+        if (action === 'correct') {
+            this.counters.correct++;
+            this.counters.total++;
+        } else if (action === 'pass') {
+            this.counters.pass++;
+            this.counters.total++;
+        }
+        
+        console.log(`${action.toUpperCase()}: ${this.currentCard.principal}`);
+        
+        // Si es error, solo mostrar animación y terminar ronda (sin descartar carta)
+        if (action === 'error') {
+            this.showErrorAnimation();
+            // Esperar a que termine la animación de error antes de ir a revisión
+            setTimeout(() => {
+                this.endRound('error');
+            }, 2500); // Coincidir con la duración de la animación de error
+            return;
+        }
+        
+        // Para correcto y pasar: crear carta descartada y avanzar a la siguiente carta
+        this.addDiscardedCard(action);
+        this.animateCardOut(() => {
+            this.loadNextCard();
+            setTimeout(() => {
+                this.updateButtons();
+            }, 100);
+        });
+    }
+
+    animateCardOut(callback) {
+        // Animar carta actual saliendo
+        this.elements.currentCard.classList.add('slide-out');
+        
+        // Animar carta siguiente moviéndose hacia adelante
+        if (this.elements.nextCard) {
+            this.elements.nextCard.classList.add('moving-forward');
+        }
+        
+        setTimeout(() => {
+            this.elements.currentCard.classList.remove('slide-out');
+            if (this.elements.nextCard) {
+                this.elements.nextCard.classList.remove('moving-forward');
+            }
+            if (callback) callback();
+        }, 800);
+    }
+
+    addDiscardedCard(action) {
+        const discardedCard = document.createElement('div');
+        discardedCard.className = `discarded-card ${action}`;
+        
+        const statusEmoji = {
+            correct: '✓',
+            pass: '→',
+            error: '✕'
+        };
+        
+        const forbiddenWordsHTML = this.currentCard.prohibidas
+            .map(word => `<div class="discarded-forbidden-word">${word}</div>`)
+            .join('');
+        
+        discardedCard.innerHTML = `
+            <div class="discarded-card-word">${this.currentCard.principal}</div>
+            <div class="discarded-card-separator"></div>
+            <div class="discarded-card-forbidden">${forbiddenWordsHTML}</div>
+            <div class="discarded-card-status">${statusEmoji[action]}</div>
+        `;
+        
+        const container = this.getDiscardedCardsContainer();
+        if (!container) return;
+        
+        // Comportamiento diferente según el dispositivo
+        if (this.isMobile) {
+            // En móvil: agregar al final para scroll horizontal
+            container.appendChild(discardedCard);
+            // Scroll automático al final en móvil
+            setTimeout(() => {
+                container.scrollTo({
+                    left: container.scrollWidth,
+                    behavior: 'smooth'
+                });
+            }, 100);
+        } else {
+            // En desktop: agregar al principio como antes
+            container.insertBefore(discardedCard, container.firstChild);
+            // Scroll al principio en desktop
+            container.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+        
+        // Limitar número de cartas mostradas
+        const maxCards = this.isMobile ? 20 : 15;
+        while (container.children.length > maxCards) {
+            if (this.isMobile) {
+                container.removeChild(container.firstChild);
+            } else {
+                container.removeChild(container.lastChild);
+            }
+        }
+    }
+
+    updateTimerDisplay() {
+        // Asegurar que no muestre números negativos
+        const displayTime = Math.max(0, this.timeLeft);
+        const minutes = Math.floor(displayTime / 60);
+        const seconds = displayTime % 60;
+        this.elements.timer.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+        
+        if (this.timeLeft <= 30 && this.timeLeft > 0) {
+            this.elements.timer.classList.add('warning');
+        } else {
+            this.elements.timer.classList.remove('warning');
+        }
+    }
+
+    updateButtons() {
+        const isPlaying = this.gameState === 'playing';
+        const canPass = this.counters.pass < this.maxPasses;
+        
+        this.elements.correctBtn.disabled = !isPlaying;
+        this.elements.passBtn.disabled = !isPlaying || !canPass;
+        this.elements.errorBtn.disabled = !isPlaying;
+        this.elements.pauseBtn.disabled = this.gameState === 'initial';
+        
+        console.log(`Buttons update: playing=${isPlaying}, canPass=${canPass}, passes=${this.counters.pass}/${this.maxPasses}`);
+    }
+
+    showErrorAnimation() {
+        this.elements.gameErrorAnimation.classList.add('active');
+        
+        // Quitar la animación después de que termine
+        setTimeout(() => {
+            this.elements.gameErrorAnimation.classList.remove('active');
+        }, 2500);
+    }
+
+    endRound(reason) {
+        this.stopTimer();
+        this.gameState = 'review';
+        
+        const endMessages = {
+            time: '⏰ Tiempo agotado',
+            error: '❌ Ronda terminada por ERROR'
+        };
+        
+        console.log(`🏁 ${endMessages[reason]}`);
+        
+        // Transición más suave con fade
+        if (reason === 'error') {
+            // Para error, esperar más tiempo después de la animación
+            setTimeout(() => {
+                this.fadeToReviewScreen();
+            }, 1500);
+        } else {
+            // Para tiempo agotado, transición normal pero suave
+            setTimeout(() => {
+                this.fadeToReviewScreen();
+            }, 800);
+        }
+    }
+
+    fadeToReviewScreen() {
+        // Crear efecto fade out en el área de juego
+        this.elements.gameArea.style.transition = 'opacity 0.5s ease-out';
+        this.elements.gameArea.style.opacity = '0';
+        
+        setTimeout(() => {
+            this.showReviewScreen();
+            
+            // Fade in de la pantalla de revisión
+            this.elements.reviewArea.style.opacity = '0';
+            this.elements.reviewArea.style.transition = 'opacity 0.5s ease-in';
+            
+            setTimeout(() => {
+                this.elements.reviewArea.style.opacity = '1';
+            }, 50);
+            
+        }, 500);
+    }
+
+    generateReviewSummary() {
+        const total = this.counters.total;
+        const errorCards = this.playedCards.filter(card => card.action === 'error').length;
+        const percentage = total > 0 ? Math.round((this.counters.correct / total) * 100) : 0;
+        
+        let endReason = '';
+        let titleColor = '#f39c12';
+        const lastCard = this.playedCards[this.playedCards.length - 1];
+        
+        if (lastCard && lastCard.action === 'error') {
+            endReason = '❌ Ronda terminada por ERROR';
+            titleColor = '#e74c3c';
+        } else {
+            endReason = '⏰ Tiempo agotado';
+            titleColor = '#f39c12';
+        }
+        
+        this.elements.reviewTitle.textContent = endReason;
+        this.elements.reviewTitle.style.color = titleColor;
+        
+        this.elements.reviewSummary.innerHTML = `
+            <div class="final-stats">
+                <div class="stat-card">
+                    <div class="stat-value">${this.counters.correct}</div>
+                    <div class="stat-label">ACIERTOS</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${this.counters.pass}</div>
+                    <div class="stat-label">PASES</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${errorCards}</div>
+                    <div class="stat-label">ERRORES</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${percentage}%</div>
+                    <div class="stat-label">EFECTIVIDAD</div>
+                </div>
+            </div>
+            
+            <div class="review-cards-section">
+                <div class="review-cards-title">
+                    📚 Cartas de esta ronda (${this.playedCards.length})
+                </div>
+                <div class="review-cards">
+                    ${this.playedCards.map(card => {
+                        const statusText = {
+                            correct: 'ACERTÓ',
+                            pass: 'PASÓ',
+                            error: 'ERROR'
+                        };
+                        
+                        const forbiddenHTML = card.forbidden
+                            .map(word => `<div>${word}</div>`)
+                            .join('');
+                        
+                        return `
+                            <div class="review-card ${card.action}">
+                                <div class="review-card-word">${card.word}</div>
+                                <div class="review-card-separator"></div>
+                                <div class="review-card-forbidden">${forbiddenHTML}</div>
+                                <span class="review-card-status status-${card.action}">${statusText[card.action]}</span>
+                            </div>
+                        `;
+                    }).join('')}
+                </div>
+            </div>
+        `;
+    }
+
+    finishRound() {
+        this.gameState = 'initial';
+        this.elements.timer.textContent = '--:--';
+        this.elements.timer.classList.remove('warning');
+        this.elements.pauseBtn.innerHTML = `
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/>
+            </svg>
+        `;
+        this.showInitialScreen();
+        console.log('🏠 Volviendo al menú principal');
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('🎯 Inicializando juego de Tabú...');
+    new TabuGame();
+});
+
+document.addEventListener('gesturestart', function (e) {
+    e.preventDefault();
+});
+
+// Mejorar el manejo del scroll para móvil
+document.body.addEventListener('touchmove', function (e) {
+    // Permitir scroll en elementos específicos en móvil
+    if (window.innerWidth <= 768) {
+        const allowScrollElements = [
+            '.review-area',
+            '.review-cards',
+            '.discarded-cards.horizontal', // Permitir scroll horizontal en cartas descartadas móvil
+            '.rules-content',
+            '.map-content'
+        ];
+        
+        let allowScroll = false;
+        for (let selector of allowScrollElements) {
+            if (e.target.closest(selector)) {
+                allowScroll = true;
+                break;
+            }
+        }
+        
+        if (!allowScroll) {
+            e.preventDefault();
+        }
+    } else {
+        // En desktop solo permitir scroll en ciertos elementos
+        const allowScrollElements = [
+            '.review-area',
+            '.review-cards', 
+            '.discarded-cards',
+            '.rules-content',
+            '.map-content'
+        ];
+        
+        let allowScroll = false;
+        for (let selector of allowScrollElements) {
+            if (e.target.closest(selector)) {
+                allowScroll = true;
+                break;
+            }
+        }
+        
+        if (!allowScroll) {
+            e.preventDefault();
+        }
+    }
+}, { passive: false });
