@@ -487,14 +487,15 @@ body {
     padding-right: 10px;
 }
 
-/* Scroll horizontal para móvil - configuración limpia */
+/* Scroll horizontal para móvil */
 .discarded-cards.horizontal {
     flex-direction: row;
     overflow-x: auto;
     overflow-y: hidden;
-    height: 100px; /* Altura fija dentro del espacio asignado */
-    padding-bottom: 5px;
-    gap: 10px;
+    max-height: 120px; /* Reducido de 160px para ahorrar espacio */
+    padding-right: 0;
+    padding-bottom: 8px; /* Menos padding */
+    gap: 12px;
 }
 
 .discarded-cards::-webkit-scrollbar {
@@ -529,14 +530,14 @@ body {
     flex-shrink: 0;
 }
 
-/* Cartas descartadas en scroll horizontal (móvil) - configuración unificada */
+/* Cartas descartadas en scroll horizontal (móvil) */
 .discarded-cards.horizontal .discarded-card {
-    min-width: 120px;
-    max-width: 120px;
-    width: 120px;
-    height: 95px; /* Altura fija */
-    transform: scale(0.85);
-    flex-shrink: 0;
+    min-width: 130px; /* Ligeramente más pequeñas */
+    max-width: 130px;
+    width: 130px;
+    min-height: 110px; /* Más compactas */
+    max-height: 110px;
+    transform: scale(0.9);
 }
 
 .discarded-card.correct {
@@ -1611,7 +1612,7 @@ body {
         padding-bottom: 10px; /* Mínimo padding inferior */
     }
     
-    /* Contenedor específico para la carta - centrado en su área */
+    /* Contenedor específico para la carta - subido un poco más */
     .card-container {
         flex: 1;
         display: flex;
@@ -1619,6 +1620,7 @@ body {
         justify-content: center;
         width: 100%;
         max-height: 100%;
+        transform: translateY(-30px); /* Subir la carta 30px */
     }
     
     /* Controles móvil - CAMBIOS PRINCIPALES AQUÍ */
@@ -1637,12 +1639,9 @@ body {
         z-index: 30;
     }
     
-    /* Carta optimizada para el espacio disponible */
     .card {
-        width: 320px;
-        height: 420px;
-        max-width: 90vw; /* Responsive para pantallas muy pequeñas */
-        max-height: 80%; /* No exceder el 80% del espacio disponible */
+        width: 300px; /* Ligeramente más grande */
+        height: 400px; /* Más alta para aprovechar espacio */
     }
     
     .card-word {
