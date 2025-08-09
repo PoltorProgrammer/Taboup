@@ -14,11 +14,17 @@ class TabuGame {
             total: 0
         };
         this.maxPasses = 3;
+        this.isMobile = window.innerWidth <= 768;
         
         this.initializeElements();
         this.bindEvents();
         this.showLoading();
         this.loadCards();
+        
+        // Detectar cambios de orientación/tamaño
+        window.addEventListener('resize', () => {
+            this.isMobile = window.innerWidth <= 768;
+        });
     }
 
     initializeElements() {
@@ -41,7 +47,8 @@ class TabuGame {
             passBtn: document.getElementById('pass-btn'),
             errorBtn: document.getElementById('error-btn'),
             
-            discardedCards: document.getElementById('discarded-cards'),
+            discardedCardsDesktop: document.getElementById('discarded-cards-desktop'),
+            discardedCardsMobile: document.getElementById('discarded-cards-mobile'),
             reviewSummary: document.getElementById('review-summary'),
             reviewTitle: document.getElementById('review-title'),
             
@@ -75,6 +82,11 @@ class TabuGame {
                 console.log(`✅ Elemento encontrado: ${elementKey}`);
             }
         });
+    }
+
+    // Método para obtener el contenedor de cartas descartadas apropiado
+    getDiscardedCardsContainer() {
+        return this.isMobile ? this.elements.discardedCardsMobile : this.elements.discardedCardsDesktop;
     }
 
     bindEvents() {
@@ -360,7 +372,10 @@ class TabuGame {
     }
 
     clearDiscardedCards() {
-        this.elements.discardedCards.innerHTML = '';
+        const container = this.getDiscardedCardsContainer();
+        if (container) {
+            container.innerHTML = '';
+        }
     }
 
     getRandomCard() {
@@ -631,35 +646,37 @@ class TabuGame {
             <div class="discarded-card-status">${statusEmoji[action]}</div>
         `;
         
-        // En móvil, agregar al final para scroll horizontal
-        // En desktop, agregar al principio como antes
-        const isMobile = window.innerWidth <= 768;
+        const container = this.getDiscardedCardsContainer();
+        if (!container) return;
         
-        if (isMobile) {
-            this.elements.discardedCards.appendChild(discardedCard);
+        // Comportamiento diferente según el dispositivo
+        if (this.isMobile) {
+            // En móvil: agregar al final para scroll horizontal
+            container.appendChild(discardedCard);
             // Scroll automático al final en móvil
             setTimeout(() => {
-                this.elements.discardedCards.scrollTo({
-                    left: this.elements.discardedCards.scrollWidth,
+                container.scrollTo({
+                    left: container.scrollWidth,
                     behavior: 'smooth'
                 });
             }, 100);
         } else {
-            this.elements.discardedCards.insertBefore(discardedCard, this.elements.discardedCards.firstChild);
+            // En desktop: agregar al principio como antes
+            container.insertBefore(discardedCard, container.firstChild);
             // Scroll al principio en desktop
-            this.elements.discardedCards.scrollTo({
+            container.scrollTo({
                 top: 0,
                 behavior: 'smooth'
             });
         }
         
         // Limitar número de cartas mostradas
-        const maxCards = isMobile ? 20 : 15;
-        while (this.elements.discardedCards.children.length > maxCards) {
-            if (isMobile) {
-                this.elements.discardedCards.removeChild(this.elements.discardedCards.firstChild);
+        const maxCards = this.isMobile ? 20 : 15;
+        while (container.children.length > maxCards) {
+            if (this.isMobile) {
+                container.removeChild(container.firstChild);
             } else {
-                this.elements.discardedCards.removeChild(this.elements.discardedCards.lastChild);
+                container.removeChild(container.lastChild);
             }
         }
     }
@@ -836,14 +853,14 @@ document.addEventListener('gesturestart', function (e) {
     e.preventDefault();
 });
 
-// Solo bloquear scroll horizontal/zoom en desktop, permitir scroll vertical en móvil
+// Mejorar el manejo del scroll para móvil
 document.body.addEventListener('touchmove', function (e) {
     // Permitir scroll en elementos específicos en móvil
     if (window.innerWidth <= 768) {
         const allowScrollElements = [
             '.review-area',
             '.review-cards',
-            '.discarded-cards',
+            '.discarded-cards.horizontal', // Permitir scroll horizontal en cartas descartadas móvil
             '.rules-content',
             '.map-content'
         ];
@@ -860,6 +877,25 @@ document.body.addEventListener('touchmove', function (e) {
             e.preventDefault();
         }
     } else {
-        e.preventDefault();
+        // En desktop solo permitir scroll en ciertos elementos
+        const allowScrollElements = [
+            '.review-area',
+            '.review-cards', 
+            '.discarded-cards',
+            '.rules-content',
+            '.map-content'
+        ];
+        
+        let allowScroll = false;
+        for (let selector of allowScrollElements) {
+            if (e.target.closest(selector)) {
+                allowScroll = true;
+                break;
+            }
+        }
+        
+        if (!allowScroll) {
+            e.preventDefault();
+        }
     }
 }, { passive: false });
