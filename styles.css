@@ -1608,7 +1608,7 @@ body {
         align-items: center;
         position: relative;
         min-height: 0;
-        padding-bottom: 120px; /* Espacio reservado para botones */
+        padding-bottom: 100px; /* Ajustado para los botones más pequeños */
     }
     
     /* Contenedor específico para la carta - centrado en su área */
