@@ -815,6 +815,11 @@ document.addEventListener('gesturestart', function (e) {
     e.preventDefault();
 });
 
+// Permitir scroll natural en móviles, solo prevenir cuando sea necesario
 document.body.addEventListener('touchmove', function (e) {
-    e.preventDefault();
+    // Solo prevenir si no estamos en un elemento que necesita scroll
+    const target = e.target.closest('.review-area, .rules-container, .map-container, .discarded-cards');
+    if (!target) {
+        e.preventDefault();
+    }
 }, { passive: false });
