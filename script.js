@@ -583,22 +583,18 @@ class TabuGame {
         
         console.log(`${action.toUpperCase()}: ${this.currentCard.principal}`);
         
-        // Crear carta descartada inmediatamente
-        this.addDiscardedCard(action);
-        
-        // Si es error, mostrar animación y terminar ronda
+        // Si es error, solo mostrar animación y terminar ronda (sin descartar carta)
         if (action === 'error') {
             this.showErrorAnimation();
-            this.animateCardOut(() => {
-                // Esperar a que termine la animación de error antes de ir a revisión
-                setTimeout(() => {
-                    this.endRound('error');
-                }, 1000);
-            });
+            // Esperar a que termine la animación de error antes de ir a revisión
+            setTimeout(() => {
+                this.endRound('error');
+            }, 2500); // Coincidir con la duración de la animación de error
             return;
         }
         
-        // Para correcto y pasar, avanzar a la siguiente carta
+        // Para correcto y pasar: crear carta descartada y avanzar a la siguiente carta
+        this.addDiscardedCard(action);
         this.animateCardOut(() => {
             this.loadNextCard();
             setTimeout(() => {
