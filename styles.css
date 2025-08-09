@@ -20,6 +20,15 @@ body {
     flex-direction: column;
 }
 
+/* Clases para mostrar/ocultar según dispositivo */
+.desktop-only {
+    display: block;
+}
+
+.mobile-only {
+    display: none;
+}
+
 /* Header */
 .header {
     position: fixed;
@@ -450,8 +459,8 @@ body {
     flex-direction: column;
 }
 
-/* Cartas descartadas */
-.discarded-area {
+/* Cartas descartadas - Desktop */
+.discarded-area.desktop-only {
     position: absolute;
     top: 110px;
     left: 20px;
@@ -478,8 +487,20 @@ body {
     padding-right: 10px;
 }
 
+/* Scroll horizontal para móvil */
+.discarded-cards.horizontal {
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-height: 160px;
+    padding-right: 0;
+    padding-bottom: 10px;
+    gap: 12px;
+}
+
 .discarded-cards::-webkit-scrollbar {
     width: 6px;
+    height: 6px;
 }
 
 .discarded-cards::-webkit-scrollbar-track {
@@ -507,6 +528,16 @@ body {
     flex-direction: column;
     overflow: hidden;
     flex-shrink: 0;
+}
+
+/* Cartas descartadas en scroll horizontal (móvil) */
+.discarded-cards.horizontal .discarded-card {
+    min-width: 140px;
+    max-width: 140px;
+    width: 140px;
+    min-height: 130px;
+    max-height: 130px;
+    transform: scale(0.9);
 }
 
 .discarded-card.correct {
@@ -538,6 +569,10 @@ body {
     flex-shrink: 0;
 }
 
+.discarded-cards.horizontal .discarded-card-word {
+    font-size: 0.85em;
+}
+
 .discarded-card-separator {
     height: 1.5px;
     background: #bdc3c7;
@@ -554,6 +589,10 @@ body {
     overflow-y: auto;
     min-height: 0;
     max-height: 120px;
+}
+
+.discarded-cards.horizontal .discarded-card-forbidden {
+    max-height: 80px;
 }
 
 .discarded-card-forbidden::-webkit-scrollbar {
@@ -583,12 +622,20 @@ body {
     hyphens: auto;
 }
 
+.discarded-cards.horizontal .discarded-forbidden-word {
+    font-size: 0.6em;
+}
+
 .discarded-card-status {
     position: absolute;
     top: 6px;
     right: 6px;
     font-size: 1em;
     z-index: 10;
+}
+
+.discarded-cards.horizontal .discarded-card-status {
+    font-size: 0.9em;
 }
 
 @keyframes cardAppear {
@@ -606,11 +653,33 @@ body {
 .main-game-area {
     flex: 1;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
     margin-left: 300px;
     margin-right: 200px;
+}
+
+/* Cartas descartadas para móvil - entre timer y carta */
+.discarded-area.mobile-only {
+    width: 100%;
+    margin-bottom: 20px;
+    order: 1;
+}
+
+.discarded-area.mobile-only .discarded-title {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Sección de carta y controles */
+.card-game-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    order: 2;
 }
 
 /* Carta central */
@@ -794,7 +863,7 @@ body {
     border-bottom: none;
 }
 
-/* Controles del juego */
+/* Controles del juego - Desktop */
 .game-controls {
     position: fixed;
     right: 40px;
@@ -1436,7 +1505,7 @@ body {
         margin-right: 160px;
     }
     
-    .discarded-area {
+    .discarded-area.desktop-only {
         width: 220px;
     }
     
@@ -1446,6 +1515,15 @@ body {
 }
 
 @media (max-width: 768px) {
+    /* Cambiar visibilidad de elementos */
+    .desktop-only {
+        display: none !important;
+    }
+    
+    .mobile-only {
+        display: block !important;
+    }
+    
     body {
         overflow: auto;
         -webkit-overflow-scrolling: touch;
@@ -1499,45 +1577,39 @@ body {
         padding-top: 80px;
     }
     
+    /* Layout móvil: cambiar a flex column */
     .main-game-area {
         flex-direction: column;
         gap: 20px;
         padding: 20px;
         margin-left: 0;
         margin-right: 0;
+        justify-content: flex-start;
     }
     
-    .discarded-area {
-        position: relative;
-        width: 100%;
-        max-height: 150px;
-        order: 2;
-        margin-left: 0;
-        top: 0;
-    }
-    
-    .discarded-cards {
-        max-height: 120px;
-    }
-    
-    .discarded-card {
-        min-height: 90px;
-        max-height: 140px;
-    }
-    
-    .card-container {
+    /* Cartas descartadas móvil - ordenar entre timer y carta */
+    .discarded-area.mobile-only {
         order: 1;
+        width: 100%;
+        margin-bottom: 15px;
     }
     
+    /* Carta y controles - agrupar */
+    .card-game-section {
+        order: 2;
+        gap: 20px;
+    }
+    
+    /* Controles móvil - horizontales abajo de la carta */
     .game-controls {
         position: relative;
-        order: 3;
         flex-direction: row;
         justify-content: center;
         right: auto;
         top: auto;
         transform: none;
-        margin-top: 20px;
+        gap: 15px;
+        order: 3;
     }
     
     .card {
@@ -1556,6 +1628,13 @@ body {
     .control-btn {
         min-width: 100px;
         padding: 15px 20px;
+        transform: none !important; /* Evitar el efecto de translateX en móvil */
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .control-btn:hover:not(:disabled) {
+        transform: scale(1.02) !important;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
     }
     
     .btn-icon {
