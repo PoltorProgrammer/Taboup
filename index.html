@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Tabú</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Header con timer y pausa -->
+        <div class="header">
+            <div class="timer-container">
+                <div class="timer-display" id="timer">--:--</div>
+                <button class="btn-pause" id="pause-btn" title="Pausa (Espacio)">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Pantalla inicial -->
+        <div class="initial-screen" id="initial-screen">
+            <div class="title-container">
+                <div class="title">🎯 TABÚ</div>
+                <div class="subtitle">El juego de las palabras prohibidas</div>
+            </div>
+            <div class="start-buttons">
+                <button class="btn btn-primary" id="start-60">
+                    <div class="btn-content">
+                        <div class="btn-title">NUEVA RONDA</div>
+                        <div class="btn-subtitle">60 segundos</div>
+                    </div>
+                </button>
+                <button class="btn btn-secondary" id="start-120">
+                    <div class="btn-content">
+                        <div class="btn-title">⏱️ RONDA LARGA</div>
+                        <div class="btn-subtitle">120 segundos</div>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+        <!-- Área de juego -->
+        <div class="game-area" id="game-area">
+            <!-- Cartas descartadas -->
+            <div class="discarded-area">
+                <div class="discarded-title">Cartas jugadas</div>
+                <div class="discarded-cards" id="discarded-cards"></div>
+            </div>
+
+            <!-- Carta central y controles -->
+            <div class="main-game-area">
+                <!-- Carta actual -->
+                <div class="card-container">
+                    <div class="card-deck">
+                        <div class="card card-shadow"></div>
+                        <div class="card card-shadow" id="next-card"></div>
+                        <div class="card card-current" id="current-card">
+                            <div class="card-word" id="card-word">Cargando...</div>
+                            <div class="card-separator"></div>
+                            <div class="card-forbidden-list" id="card-forbidden"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles verticales -->
+                <div class="game-controls">
+                    <button class="control-btn error-btn" id="error-btn" title="Error (X)">
+                        <div class="btn-icon">✕</div>
+                        <div class="btn-text">ERROR</div>
+                    </button>
+                    <button class="control-btn correct-btn" id="correct-btn" title="Correcto (C)">
+                        <div class="btn-icon">✓</div>
+                        <div class="btn-text">CORRECTO</div>
+                    </button>
+                    <button class="control-btn pass-btn" id="pass-btn" title="Pasar (P)">
+                        <div class="btn-icon">→</div>
+                        <div class="btn-text">PASAR</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pantalla de revisión -->
+        <div class="review-area" id="review-area">
+            <div class="review-container">
+                <div class="review-header">
+                    <div class="review-title" id="review-title">¡RONDA TERMINADA!</div>
+                </div>
+                
+                <!-- Botones reorganizados -->
+                <div class="review-buttons">
+                    <button class="btn btn-primary" id="new-round-60">
+                        <div class="btn-content">
+                            <div class="btn-title">🆕 NUEVA RONDA</div>
+                            <div class="btn-subtitle">60 segundos</div>
+                        </div>
+                    </button>
+                    <button class="btn btn-secondary" id="new-round-120">
+                        <div class="btn-content">
+                            <div class="btn-title">⏱️ RONDA LARGA</div>
+                            <div class="btn-subtitle">120 segundos</div>
+                        </div>
+                    </button>
+                </div>
+                
+                <div class="review-content">
+                    <div class="review-summary" id="review-summary"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Animación de ERROR en el juego -->
+        <div class="game-error-animation" id="game-error-animation">
+            <div class="error-flash"></div>
+            <div class="error-text-big">¡ERROR!</div>
+            <div class="error-subtitle">Ronda terminada</div>
+        </div>
+
+        <!-- Animación de TIEMPO en el juego -->
+        <div class="game-time-animation" id="game-time-animation">
+            <div class="time-flash"></div>
+            <div class="time-text-big">¡TIEMPO!</div>
+            <div class="time-subtitle">Ronda terminada</div>
+        </div>
+
+        <!-- Mensaje de error mejorado -->
+        <div class="error-overlay" id="error-overlay">
+            <div class="error-modal">
+                <div class="error-icon">⚠️</div>
+                <div class="error-text" id="error-text"></div>
+                <button class="error-close" id="error-close">Entendido</button>
+            </div>
+        </div>
+
+        <!-- Indicador de carga -->
+        <div class="loading-overlay" id="loading-overlay">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Cargando cartas...</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
