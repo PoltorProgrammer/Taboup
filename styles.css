@@ -2,18 +2,136 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+/* Permitir selección de texto donde es necesario */
+.card-word,
+.forbidden-word,
+.review-card-word,
+.review-card-forbidden,
+.error-text,
+.rules-content {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+@media (max-width: 480px) {
+    .card {
+        width: 260px;
+        height: 350px;
+    }
+    
+    .card-word {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+    
+    .forbidden-word {
+        font-size: 1em;
+        padding: 4px 0;
+    }
+    
+    .control-btn {
+        min-width: 80px;
+        padding: 10px 12px;
+        gap: 3px;
+    }
+    
+    .btn-icon {
+        font-size: 1.4em;
+    }
+    
+    .btn-text {
+        font-size: 0.7em;
+    }
+    
+    .discarded-cards {
+        max-height: 80px;
+    }
+    
+    .discarded-card {
+        min-height: 70px;
+        max-height: 75px;
+        min-width: 120px;
+        max-width: 120px;
+    }
+    
+    .discarded-card-word {
+        font-size: 0.7em;
+    }
+    
+    .discarded-forbidden-word {
+        font-size: 0.55em;
+    }
+    
+    .review-container {
+        padding: 15px;
+    }
+    
+    .final-stats {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    
+    .stat-card {
+        padding: 12px;
+    }
+    
+    .stat-value {
+        font-size: 1.8em;
+    }
+    
+    .btn {
+        min-width: 160px;
+        padding: 18px 20px;
+    }
+    
+    .btn-title {
+        font-size: 1em;
+    }
+    
+    .btn-subtitle {
+        font-size: 0.8em;
+    }
+    
+    /* Mejorar modales en móviles pequeños */
+    .map-container,
+    .rules-container {
+        padding: 20px;
+        max-height: 85vh;
+        border-radius: 20px;
+    }
+    
+    .map-title,
+    .rules-title {
+        font-size: 1.5em;
+    }
+    
+    .rule-section {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .rule-section h3 {
+        font-size: 1.1em;
+    }
+    
+    .rule-section p {
+        font-size: 0.9em;
+    }
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
     min-height: 100vh;
-    overflow: hidden;
     color: #333;
+    /* Permitir scroll en móviles */
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .game-container {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     position: relative;
     display: flex;
@@ -241,6 +359,8 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .map-screen.active {
@@ -258,6 +378,7 @@ body {
     box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.3);
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .map-header {
@@ -380,6 +501,7 @@ body {
     justify-content: center;
     padding: 20px;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .rules-screen.active {
@@ -397,6 +519,7 @@ body {
     box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.3);
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .rules-header {
@@ -440,9 +563,10 @@ body {
 /* Área de juego */
 .game-area {
     display: none;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 100px;
     background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    overflow-y: auto;
 }
 
 .game-area.active {
@@ -912,7 +1036,7 @@ body {
 /* Pantalla de revisión */
 .review-area {
     display: none;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
     overflow-y: auto;
     padding: 20px;
@@ -1319,6 +1443,17 @@ body {
     }
 }
 
+@keyframes subtitleFade {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* Overlay de error */
 .error-overlay {
     position: fixed;
@@ -1446,8 +1581,13 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        overflow-y: auto;
+    }
+    
     .initial-screen {
         padding: 40px 30px;
+        min-height: 100vh;
     }
     
     .header {
@@ -1492,36 +1632,65 @@ body {
     
     .game-area {
         padding-top: 80px;
+        min-height: 100vh;
+        overflow-y: auto;
     }
     
     .main-game-area {
         flex-direction: column;
-        gap: 20px;
-        padding: 20px;
+        gap: 15px;
+        padding: 15px;
         margin-left: 0;
         margin-right: 0;
+        min-height: calc(100vh - 80px);
+        justify-content: flex-start;
     }
     
     .discarded-area {
         position: relative;
         width: 100%;
-        max-height: 150px;
+        max-height: 120px;
         order: 2;
         margin-left: 0;
         top: 0;
     }
     
     .discarded-cards {
-        max-height: 120px;
+        max-height: 100px;
+        flex-direction: row;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-bottom: 5px;
+        gap: 5px;
+        /* Mejorar scroll horizontal en móviles */
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+    }
+    
+    .discarded-cards::-webkit-scrollbar {
+        height: 4px;
     }
     
     .discarded-card {
-        min-height: 90px;
-        max-height: 140px;
+        min-height: 80px;
+        max-height: 90px;
+        min-width: 140px;
+        max-width: 140px;
+        flex-shrink: 0;
+        transform: scale(0.9);
+    }
+    
+    .discarded-card-word {
+        font-size: 0.8em;
+    }
+    
+    .discarded-forbidden-word {
+        font-size: 0.6em;
     }
     
     .card-container {
         order: 1;
+        margin-bottom: 10px;
     }
     
     .game-controls {
@@ -1532,7 +1701,8 @@ body {
         right: auto;
         top: auto;
         transform: none;
-        margin-top: 20px;
+        margin-top: 10px;
+        gap: 15px;
     }
     
     .card {
@@ -1549,16 +1719,17 @@ body {
     }
     
     .control-btn {
-        min-width: 100px;
-        padding: 15px 20px;
+        min-width: 90px;
+        padding: 12px 15px;
+        gap: 5px;
     }
     
     .btn-icon {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
     
     .btn-text {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
     
     /* Animaciones responsive */
@@ -1579,4 +1750,59 @@ body {
     .time-subtitle {
         font-size: 1.4em;
     }
-}
+    
+    /* Pantalla de revisión móvil mejorada */
+    .review-area {
+        padding: 15px;
+        min-height: 100vh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .review-container {
+        padding: 20px;
+        margin: 0;
+        width: 100%;
+        min-height: auto;
+        max-height: none;
+    }
+    
+    .review-cards {
+        grid-template-columns: 1fr;
+        max-height: none;
+        overflow-y: visible;
+        gap: 10px;
+    }
+    
+    .review-card {
+        padding: 12px;
+    }
+    
+    .final-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin: 20px 0;
+    }
+    
+    .stat-card {
+        padding: 15px;
+    }
+    
+    .stat-value {
+        font-size: 2.2em;
+    }
+    
+    .start-buttons {
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .extra-buttons {
+        gap: 20px;
+    }
+    
+    .btn {
+        min-width: 180px;
+        padding: 20px 25px;
+    }
+}}
