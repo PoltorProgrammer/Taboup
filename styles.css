@@ -1577,59 +1577,64 @@ body {
         padding-top: 80px;
     }
     
-    /* Layout móvil: cambiar a flex column */
+    /* Layout móvil: estructura completa con altura fija */
     .main-game-area {
         flex-direction: column;
-        gap: 15px;
-        padding: 20px 20px 30px 20px;
+        gap: 0;
+        padding: 10px 20px 20px 20px;
         margin-left: 0;
         margin-right: 0;
         justify-content: flex-start;
-        min-height: calc(100vh - 80px);
+        height: calc(100vh - 80px);
+        overflow: hidden;
     }
     
-    /* Cartas descartadas móvil - ordenar entre timer y carta */
+    /* Cartas descartadas móvil - altura fija */
     .discarded-area.mobile-only {
         order: 1;
         width: 100%;
-        margin-bottom: 10px;
+        height: 160px;
         flex-shrink: 0;
+        margin-bottom: 10px;
     }
     
-    /* Carta y controles - separar completamente */
+    /* Área de carta - toma el espacio central disponible */
     .card-game-section {
         order: 2;
-        gap: 0;
         flex: 1;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        position: relative;
         min-height: 0;
+        padding-bottom: 120px; /* Espacio reservado para botones */
     }
     
-    /* Contenedor específico para la carta */
+    /* Contenedor específico para la carta - centrado en su área */
     .card-container {
         flex: 1;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 20px 0;
+        width: 100%;
+        max-height: 100%;
     }
     
-    /* Controles móvil - completamente abajo, separados de la carta */
+    /* Controles móvil - posición absoluta en la parte inferior */
     .game-controls {
-        position: relative;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
         flex-direction: row;
         justify-content: center;
-        right: auto;
-        top: auto;
         transform: none;
         gap: 15px;
-        order: 3;
         flex-shrink: 0;
-        padding: 20px 0 0 0;
-        width: 100%;
+        padding: 15px 20px;
+        background: transparent;
+        z-index: 30;
     }
     
     .card {
