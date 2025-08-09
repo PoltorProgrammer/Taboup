@@ -60,41 +60,50 @@
 
         <!-- Área de juego -->
         <div class="game-area" id="game-area">
-            <!-- Cartas descartadas -->
-            <div class="discarded-area">
+            <!-- Layout para desktop: cartas descartadas a la izquierda -->
+            <div class="discarded-area desktop-only">
                 <div class="discarded-title">Cartas jugadas</div>
-                <div class="discarded-cards" id="discarded-cards"></div>
+                <div class="discarded-cards" id="discarded-cards-desktop"></div>
             </div>
 
-            <!-- Carta central y controles -->
+            <!-- Área principal de juego -->
             <div class="main-game-area">
-                <!-- Carta actual -->
-                <div class="card-container">
-                    <div class="card-deck">
-                        <div class="card card-shadow"></div>
-                        <div class="card card-shadow" id="next-card"></div>
-                        <div class="card card-current" id="current-card">
-                            <div class="card-word" id="card-word">Cargando...</div>
-                            <div class="card-separator"></div>
-                            <div class="card-forbidden-list" id="card-forbidden"></div>
-                        </div>
-                    </div>
+                <!-- Cartas descartadas para móvil: entre timer y carta principal -->
+                <div class="discarded-area mobile-only">
+                    <div class="discarded-title">Cartas jugadas</div>
+                    <div class="discarded-cards horizontal" id="discarded-cards-mobile"></div>
                 </div>
 
-                <!-- Controles verticales -->
-                <div class="game-controls">
-                    <button class="control-btn error-btn" id="error-btn" title="Error (X)">
-                        <div class="btn-icon">✕</div>
-                        <div class="btn-text">ERROR</div>
-                    </button>
-                    <button class="control-btn correct-btn" id="correct-btn" title="Correcto (C)">
-                        <div class="btn-icon">✓</div>
-                        <div class="btn-text">CORRECTO</div>
-                    </button>
-                    <button class="control-btn pass-btn" id="pass-btn" title="Pasar (P)">
-                        <div class="btn-icon">→</div>
-                        <div class="btn-text">PASAR</div>
-                    </button>
+                <!-- Carta central y controles -->
+                <div class="card-game-section">
+                    <!-- Carta actual -->
+                    <div class="card-container">
+                        <div class="card-deck">
+                            <div class="card card-shadow"></div>
+                            <div class="card card-shadow" id="next-card"></div>
+                            <div class="card card-current" id="current-card">
+                                <div class="card-word" id="card-word">Cargando...</div>
+                                <div class="card-separator"></div>
+                                <div class="card-forbidden-list" id="card-forbidden"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controles del juego -->
+                    <div class="game-controls">
+                        <button class="control-btn error-btn" id="error-btn" title="Error (X)">
+                            <div class="btn-icon">✕</div>
+                            <div class="btn-text">ERROR</div>
+                        </button>
+                        <button class="control-btn correct-btn" id="correct-btn" title="Correcto (C)">
+                            <div class="btn-icon">✓</div>
+                            <div class="btn-text">CORRECTO</div>
+                        </button>
+                        <button class="control-btn pass-btn" id="pass-btn" title="Pasar (P)">
+                            <div class="btn-icon">→</div>
+                            <div class="btn-text">PASAR</div>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
