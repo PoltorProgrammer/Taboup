@@ -1446,6 +1446,11 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
     .initial-screen {
         padding: 40px 30px;
     }
@@ -1578,5 +1583,82 @@ body {
     
     .time-subtitle {
         font-size: 1.4em;
+    }
+    
+    /* Pantalla de revisión mejorada para móvil */
+    .review-area {
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .review-container {
+        margin: 10px auto;
+        padding: 20px;
+        max-width: 95%;
+    }
+    
+    .review-buttons {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .review-buttons .btn {
+        min-width: auto;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .final-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin: 20px 0;
+    }
+    
+    .stat-card {
+        padding: 15px;
+    }
+    
+    .stat-value {
+        font-size: 2.2em;
+    }
+    
+    .stat-label {
+        font-size: 1em;
+    }
+    
+    .review-cards-section {
+        margin-top: 25px;
+    }
+    
+    .review-cards {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 10px;
+        max-height: 300px;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 10px 5px;
+    }
+    
+    .review-card {
+        padding: 12px;
+        font-size: 0.9em;
+    }
+    
+    .review-card-word {
+        font-size: 1em;
+        margin-bottom: 6px;
+    }
+    
+    .review-card-forbidden {
+        font-size: 0.8em;
+        margin-bottom: 8px;
+        line-height: 1.3;
+    }
+    
+    .review-card-status {
+        font-size: 0.7em;
+        padding: 3px 8px;
     }
 }
