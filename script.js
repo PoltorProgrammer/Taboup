@@ -631,16 +631,37 @@ class TabuGame {
             <div class="discarded-card-status">${statusEmoji[action]}</div>
         `;
         
-        this.elements.discardedCards.insertBefore(discardedCard, this.elements.discardedCards.firstChild);
+        // En móvil, agregar al final para scroll horizontal
+        // En desktop, agregar al principio como antes
+        const isMobile = window.innerWidth <= 768;
         
-        while (this.elements.discardedCards.children.length > 15) {
-            this.elements.discardedCards.removeChild(this.elements.discardedCards.lastChild);
+        if (isMobile) {
+            this.elements.discardedCards.appendChild(discardedCard);
+            // Scroll automático al final en móvil
+            setTimeout(() => {
+                this.elements.discardedCards.scrollTo({
+                    left: this.elements.discardedCards.scrollWidth,
+                    behavior: 'smooth'
+                });
+            }, 100);
+        } else {
+            this.elements.discardedCards.insertBefore(discardedCard, this.elements.discardedCards.firstChild);
+            // Scroll al principio en desktop
+            this.elements.discardedCards.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
         }
         
-        this.elements.discardedCards.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
+        // Limitar número de cartas mostradas
+        const maxCards = isMobile ? 20 : 15;
+        while (this.elements.discardedCards.children.length > maxCards) {
+            if (isMobile) {
+                this.elements.discardedCards.removeChild(this.elements.discardedCards.firstChild);
+            } else {
+                this.elements.discardedCards.removeChild(this.elements.discardedCards.lastChild);
+            }
+        }
     }
 
     updateTimerDisplay() {
@@ -815,6 +836,30 @@ document.addEventListener('gesturestart', function (e) {
     e.preventDefault();
 });
 
+// Solo bloquear scroll horizontal/zoom en desktop, permitir scroll vertical en móvil
 document.body.addEventListener('touchmove', function (e) {
-    e.preventDefault();
+    // Permitir scroll en elementos específicos en móvil
+    if (window.innerWidth <= 768) {
+        const allowScrollElements = [
+            '.review-area',
+            '.review-cards',
+            '.discarded-cards',
+            '.rules-content',
+            '.map-content'
+        ];
+        
+        let allowScroll = false;
+        for (let selector of allowScrollElements) {
+            if (e.target.closest(selector)) {
+                allowScroll = true;
+                break;
+            }
+        }
+        
+        if (!allowScroll) {
+            e.preventDefault();
+        }
+    } else {
+        e.preventDefault();
+    }
 }, { passive: false });
