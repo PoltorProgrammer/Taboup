@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juego de Tabú</title>
+    <title>Taboup - El juego de las palabras prohibidas</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/PoltorProgrammer/Taboup/refs/heads/main/images/tabu_logo.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,7 +24,8 @@
         <!-- Pantalla inicial -->
         <div class="initial-screen" id="initial-screen">
             <div class="title-container">
-                <div class="title">🎯 TABÚ</div>
+                <img src="https://raw.githubusercontent.com/PoltorProgrammer/Taboup/refs/heads/main/images/tabu_logo.png" alt="Taboup Logo" class="game-logo">
+                <div class="title">TABOUP</div>
                 <div class="subtitle">El juego de las palabras prohibidas</div>
             </div>
             <div class="start-buttons">
@@ -37,6 +39,20 @@
                     <div class="btn-content">
                         <div class="btn-title">⏱️ RONDA LARGA</div>
                         <div class="btn-subtitle">120 segundos</div>
+                    </div>
+                </button>
+            </div>
+            <div class="extra-buttons">
+                <button class="btn btn-info" id="show-map">
+                    <div class="btn-content">
+                        <div class="btn-title">🗺️ VER MAPA</div>
+                        <div class="btn-subtitle">Tablero de juego</div>
+                    </div>
+                </button>
+                <button class="btn btn-info" id="show-rules">
+                    <div class="btn-content">
+                        <div class="btn-title">📋 REGLAS</div>
+                        <div class="btn-subtitle">Cómo jugar</div>
                     </div>
                 </button>
             </div>
@@ -108,6 +124,61 @@
                 
                 <div class="review-content">
                     <div class="review-summary" id="review-summary"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pantalla de mapa -->
+        <div class="map-screen" id="map-screen">
+            <div class="map-container">
+                <div class="map-header">
+                    <div class="map-title">🗺️ MAPA DEL JUEGO</div>
+                    <button class="btn-close" id="close-map">✕</button>
+                </div>
+                <div class="map-content">
+                    <img src="https://raw.githubusercontent.com/PoltorProgrammer/Taboup/refs/heads/main/images/tablero_Taboup.png" alt="Tablero Taboup" class="map-image">
+                    <div class="map-download">
+                        <a href="https://raw.githubusercontent.com/PoltorProgrammer/Taboup/refs/heads/main/images/tablero_Taboup.png" download="tablero_taboup.png" class="btn btn-primary">
+                            <div class="btn-content">
+                                <div class="btn-title">💾 DESCARGAR MAPA</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pantalla de reglas -->
+        <div class="rules-screen" id="rules-screen">
+            <div class="rules-container">
+                <div class="rules-header">
+                    <div class="rules-title">📋 REGLAS DEL JUEGO</div>
+                    <button class="btn-close" id="close-rules">✕</button>
+                </div>
+                <div class="rules-content">
+                    <div class="rule-section">
+                        <h3>🎯 OBJETIVO</h3>
+                        <p>Haz que tu equipo adivine la palabra principal sin usar las palabras prohibidas.</p>
+                    </div>
+                    <div class="rule-section">
+                        <h3>⏰ TIEMPO</h3>
+                        <p>Tienes 60 segundos (o 120 en ronda larga) para hacer adivinar el máximo de palabras posible.</p>
+                    </div>
+                    <div class="rule-section">
+                        <h3>🎮 CONTROLES</h3>
+                        <p><strong>✅ CORRECTO:</strong> Tu equipo adivinó la palabra</p>
+                        <p><strong>➡️ PASAR:</strong> Cambiar a la siguiente carta (máximo 3 pases)</p>
+                        <p><strong>❌ ERROR:</strong> Dijiste una palabra prohibida (termina la ronda)</p>
+                        <p><strong>⏸️ PAUSA:</strong> Detener el tiempo temporalmente</p>
+                    </div>
+                    <div class="rule-section">
+                        <h3>⌨️ ATAJOS DE TECLADO</h3>
+                        <p><strong>C:</strong> Correcto | <strong>P:</strong> Pasar | <strong>X:</strong> Error | <strong>Espacio:</strong> Pausa</p>
+                    </div>
+                    <div class="rule-section">
+                        <h3>🏆 PUNTUACIÓN</h3>
+                        <p>Ganas puntos por cada palabra acertada. ¡Evita las palabras prohibidas!</p>
+                    </div>
                 </div>
             </div>
         </div>

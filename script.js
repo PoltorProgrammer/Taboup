@@ -147,7 +147,7 @@ class TabuGame {
             
             for (let i = 0; i < this.cards.length; i++) {
                 const card = this.cards[i];
-                if (!card.palabra || !Array.isArray(card.prohibidas) || card.prohibidas.length === 0) {
+                if (!card.principal || !Array.isArray(card.prohibidas) || card.prohibidas.length === 0) {
                     throw new Error(`Carta ${i + 1} tiene formato inválido`);
                 }
             }
@@ -284,7 +284,7 @@ class TabuGame {
         this.elements.currentCard.classList.remove('slide-out');
         
         // Mostrar carta actual
-        this.elements.cardWord.textContent = this.currentCard.palabra;
+        this.elements.cardWord.textContent = this.currentCard.principal;
         
         this.elements.cardForbidden.innerHTML = '';
         this.currentCard.prohibidas.forEach((word, index) => {
@@ -316,7 +316,7 @@ class TabuGame {
         const nextForbiddenElement = this.elements.nextCard.querySelector('.next-card-forbidden');
         
         if (nextWordElement && nextForbiddenElement) {
-            nextWordElement.textContent = this.nextCard.palabra;
+            nextWordElement.textContent = this.nextCard.principal;
             
             nextForbiddenElement.innerHTML = '';
             this.nextCard.prohibidas.forEach((word) => {
@@ -338,9 +338,56 @@ class TabuGame {
             if (this.timeLeft <= 0) {
                 console.log('⏰ Tiempo llegó a 0, deteniendo timer...');
                 this.stopTimer();
-                this.handleTimeUp();
+                this.showTimeUpAnimation();
             }
         }, 1000);
+    }
+
+    showTimeUpAnimation() {
+        console.log('⏰ ¡TIEMPO AGOTADO! Ejecutando secuencia...');
+        console.log('⏰ Estado del timer:', this.timer ? 'activo' : 'detenido');
+        console.log('⏰ Tiempo restante:', this.timeLeft);
+        
+        // Cambiar estado del juego inmediatamente
+        this.gameState = 'ending';
+        
+        // Deshabilitar botones
+        this.elements.correctBtn.disabled = true;
+        this.elements.passBtn.disabled = true;
+        this.elements.errorBtn.disabled = true;
+        
+        // Mostrar animación de TIEMPO
+        if (this.elements.gameTimeAnimation) {
+            console.log('⏰ Mostrando animación ¡TIEMPO!...');
+            this.elements.gameTimeAnimation.classList.add('active');
+            
+            // Verificar que la animación esté funcionando
+            setTimeout(() => {
+                const hasActive = this.elements.gameTimeAnimation.classList.contains('active');
+                const computedStyle = window.getComputedStyle(this.elements.gameTimeAnimation);
+                console.log('⏰ Animación activa:', hasActive);
+                console.log('⏰ Display:', computedStyle.display);
+                console.log('⏰ Z-index:', computedStyle.zIndex);
+                console.log('⏰ Opacity:', computedStyle.opacity);
+            }, 100);
+        } else {
+            console.error('⏰ ERROR: Elemento gameTimeAnimation no encontrado!');
+        }
+        
+        // Después de 2.5 segundos, quitar animación y ir a revisión
+        setTimeout(() => {
+            console.log('⏰ Terminando animación de tiempo...');
+            if (this.elements.gameTimeAnimation) {
+                this.elements.gameTimeAnimation.classList.remove('active');
+            }
+            
+            // Ir a pantalla de revisión
+            setTimeout(() => {
+                console.log('⏰ Ir a pantalla de revisión...');
+                this.endRound('time');
+            }, 300);
+            
+        }, 2500);
     }
 
     stopTimer() {
@@ -389,7 +436,7 @@ class TabuGame {
         
         // Registrar la carta jugada
         this.playedCards.push({
-            word: this.currentCard.palabra,
+            word: this.currentCard.principal,
             forbidden: this.currentCard.prohibidas,
             action: action
         });
@@ -402,7 +449,7 @@ class TabuGame {
             this.counters.total++;
         }
         
-        console.log(`${action.toUpperCase()}: ${this.currentCard.palabra}`);
+        console.log(`${action.toUpperCase()}: ${this.currentCard.principal}`);
         
         // Crear carta descartada inmediatamente
         this.addDiscardedCard(action);
@@ -461,7 +508,7 @@ class TabuGame {
             .join('');
         
         discardedCard.innerHTML = `
-            <div class="discarded-card-word">${this.currentCard.palabra}</div>
+            <div class="discarded-card-word">${this.currentCard.principal}</div>
             <div class="discarded-card-separator"></div>
             <div class="discarded-card-forbidden">${forbiddenWordsHTML}</div>
             <div class="discarded-card-status">${statusEmoji[action]}</div>
