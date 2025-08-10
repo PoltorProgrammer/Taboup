@@ -446,6 +446,68 @@ body {
     margin-bottom: 8px;
 }
 
+/* Cajas especiales para las reglas */
+.example-box {
+    background: #e8f4fd;
+    border: 1px solid #3498db;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.warning-box {
+    background: #fef9e7;
+    border: 1px solid #f39c12;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.prohibited-box {
+    background: #fdedec;
+    border: 1px solid #e74c3c;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.allowed-box {
+    background: #d5f4e6;
+    border: 1px solid #27ae60;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.strategy-box {
+    background: #f4e6ff;
+    border: 1px solid #9b59b6;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.shortcuts-box {
+    background: #f8f9fa;
+    border: 1px solid #6c757d;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+    font-family: 'Consolas', 'Monaco', monospace;
+}
+
 /* Área de juego */
 .game-area {
     display: none;
@@ -1646,6 +1708,15 @@ body {
     .forbidden-word {
         font-size: 1.1em;
     }
+
+    /* CORRECCIÓN DEL BUG: Estilos específicos para la carta siguiente en móvil */
+    .next-card-word {
+        font-size: 2.2em; /* Mismo tamaño que .card-word en móvil */
+    }
+
+    .next-forbidden-word {
+        font-size: 1.1em; /* Mismo tamaño que .forbidden-word en móvil */
+    }
     
     /* BOTONES MÓVIL - especificidad adecuada sin !important */
     .game-controls .control-btn {
@@ -1774,4 +1845,3 @@ body {
         padding: 3px 8px;
     }
 }
-
