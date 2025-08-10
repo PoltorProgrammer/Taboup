@@ -1,9 +1,10 @@
 class TabuGame {
     constructor() {
         this.cards = [];
+        this.shuffledCardIndices = []; // Lista aleatoria de índices de cartas
+        this.currentCardIndex = 0; // Puntero al índice actual en la lista aleatoria
         this.currentCard = null;
         this.nextCard = null;
-        this.usedCards = [];
         this.playedCards = [];
         this.gameState = 'initial';
         this.timer = null;
@@ -55,7 +56,7 @@ class TabuGame {
             newRound60: document.getElementById('new-round-60'),
             newRound120: document.getElementById('new-round-120'),
             
-            // Nuevos elementos para mapa y reglas
+            // Elementos para mapa y reglas
             showMap: document.getElementById('show-map'),
             showRules: document.getElementById('show-rules'),
             mapScreen: document.getElementById('map-screen'),
@@ -175,7 +176,7 @@ class TabuGame {
         });
     }
 
-    // Nuevos métodos para mapa y reglas
+    // Métodos para mapa y reglas
     showMapScreen() {
         this.elements.mapScreen.classList.add('active');
         console.log('📍 Mostrando mapa del juego');
@@ -281,14 +282,56 @@ class TabuGame {
                 }
             }
             
+            console.log(`📚 Cartas cargadas: ${this.cards.map((c, i) => `${i}: ${c.principal}`).join(', ')}`);
+            
+            // 🎯 NUEVA FUNCIONALIDAD: Crear lista aleatoria de cartas al cargar
+            // Añadir semilla de aleatoriedad basada en tiempo
+            const seed = Date.now() + Math.random() * 1000;
+            console.log(`🌱 Semilla de aleatoriedad: ${seed}`);
+            
+            this.shuffleCardIndices();
+            
             this.hideLoading();
             console.log(`✓ Cargadas ${this.cards.length} cartas correctamente`);
+            console.log(`🔀 Sistema de lista aleatoria inicializado - sin repeticiones hasta completar ${this.cards.length} cartas`);
+            console.log(`🎮 ¡Listo para jugar!`);
             
         } catch (error) {
             this.hideLoading();
             this.showError(`Error al cargar las cartas:\n${error.message}\n\nVerifica que el archivo 'data/cartas_taboup.json' existe y tiene el formato correcto.`);
             console.error('Error loading cards:', error);
         }
+    }
+
+    // 🎯 NUEVA FUNCIONALIDAD: Crear lista aleatoria de índices de cartas
+    shuffleCardIndices() {
+        console.log('🔀 Iniciando barajado de cartas...');
+        
+        // Crear array con todos los índices de cartas [0, 1, 2, ..., n-1]
+        this.shuffledCardIndices = Array.from({length: this.cards.length}, (_, i) => i);
+        console.log(`📋 Lista inicial creada: [${this.shuffledCardIndices.join(', ')}]`);
+        
+        // Verificar que Math.random() funciona correctamente
+        console.log(`🎲 Test de aleatoriedad: ${Math.random()}, ${Math.random()}, ${Math.random()}`);
+        
+        // Algoritmo Fisher-Yates mejorado para barajar la lista aleatoriamente
+        for (let i = this.shuffledCardIndices.length - 1; i > 0; i--) {
+            const randomValue = Math.random();
+            const j = Math.floor(randomValue * (i + 1));
+            console.log(`🔄 Intercambiando posición ${i} con ${j} (random: ${randomValue.toFixed(4)})`);
+            
+            // Intercambiar elementos
+            const temp = this.shuffledCardIndices[i];
+            this.shuffledCardIndices[i] = this.shuffledCardIndices[j];
+            this.shuffledCardIndices[j] = temp;
+        }
+        
+        // Resetear el puntero al inicio de la lista
+        this.currentCardIndex = 0;
+        
+        console.log(`✅ Lista aleatoria final: [${this.shuffledCardIndices.join(', ')}]`);
+        console.log(`🎯 Primeras 10 cartas serán: ${this.shuffledCardIndices.slice(0, 10).map(i => this.cards[i]?.principal || 'undefined').join(', ')}`);
+        console.log(`🔢 Total de cartas barajadas: ${this.cards.length}`);
     }
 
     showError(message) {
@@ -309,7 +352,6 @@ class TabuGame {
         this.gameState = 'playing';
         this.timeLeft = seconds;
         this.resetCounters();
-        this.usedCards = [];
         this.playedCards = [];
         
         this.showGameArea();
@@ -378,35 +420,62 @@ class TabuGame {
         }
     }
 
-    getRandomCard() {
-        if (this.usedCards.length >= this.cards.length) {
-            this.usedCards = [];
-            console.log('🔄 Reutilizando mazo de cartas');
-        }
-
-        const availableCards = this.cards.filter((_, index) => !this.usedCards.includes(index));
-        const randomIndex = Math.floor(Math.random() * availableCards.length);
-        const cardIndex = this.cards.indexOf(availableCards[randomIndex]);
+    // 🎯 NUEVA FUNCIONALIDAD: Obtener siguiente carta de la lista aleatoria (sin repeticiones)
+    getNextCard() {
+        console.log(`🎲 Solicitando carta. Estado actual: currentCardIndex=${this.currentCardIndex}, total=${this.shuffledCardIndices.length}`);
         
-        this.usedCards.push(cardIndex);
-        return this.cards[cardIndex];
+        // Si hemos llegado al final de la lista, crear una nueva lista aleatoria
+        if (this.currentCardIndex >= this.shuffledCardIndices.length) {
+            console.log('🔄 ¡Todas las cartas han sido jugadas! Generando nueva lista aleatoria...');
+            this.shuffleCardIndices();
+        }
+        
+        // Obtener la carta en la posición actual de la lista aleatoria
+        const cardIndex = this.shuffledCardIndices[this.currentCardIndex];
+        const card = this.cards[cardIndex];
+        
+        console.log(`📍 Obteniendo carta en posición ${this.currentCardIndex} de la lista`);
+        console.log(`📄 Índice de carta: ${cardIndex}, Palabra: "${card.principal}"`);
+        
+        // Avanzar el puntero para la próxima carta
+        this.currentCardIndex++;
+        
+        console.log(`➡️ Puntero avanzado a posición ${this.currentCardIndex}`);
+        console.log(`🔮 Próximas 3 cartas: ${this.shuffledCardIndices.slice(this.currentCardIndex, this.currentCardIndex + 3).map(i => this.cards[i]?.principal).join(', ')}`);
+        
+        return card;
     }
 
     loadInitialCards() {
-        // Cargar carta actual y siguiente
-        this.currentCard = this.getRandomCard();
-        this.nextCard = this.getRandomCard();
+        console.log('🚀 Cargando cartas iniciales para nueva ronda...');
+        console.log(`📊 Estado antes de cargar: currentCardIndex=${this.currentCardIndex}, lista length=${this.shuffledCardIndices.length}`);
+        
+        // Cargar carta actual y siguiente usando el nuevo sistema
+        this.currentCard = this.getNextCard();
+        console.log(`✅ Carta actual cargada: "${this.currentCard.principal}"`);
+        
+        this.nextCard = this.getNextCard();
+        console.log(`✅ Carta siguiente cargada: "${this.nextCard.principal}"`);
         
         this.displayCards();
+        console.log('🎴 Cartas mostradas en pantalla');
     }
 
     loadNextCard() {
+        console.log('🔄 Cargando siguiente carta...');
+        console.log(`📋 Carta actual antes del cambio: "${this.currentCard.principal}"`);
+        console.log(`📋 Carta siguiente antes del cambio: "${this.nextCard.principal}"`);
+        
         // La carta siguiente se convierte en actual
         this.currentCard = this.nextCard;
+        console.log(`➡️ Nueva carta actual: "${this.currentCard.principal}"`);
+        
         // Cargar nueva carta siguiente
-        this.nextCard = this.getRandomCard();
+        this.nextCard = this.getNextCard();
+        console.log(`🆕 Nueva carta siguiente: "${this.nextCard.principal}"`);
         
         this.displayCards();
+        console.log('🎴 Cartas actualizadas en pantalla');
     }
 
     displayCards() {
