@@ -1,5 +1,1545 @@
 [
   {
+    "palabra": "Cisne",
+    "prohibidas": [
+      "Ave",
+      "Cuello",
+      "Blanco",
+      "Lago",
+      "Flotar"
+    ]
+  },
+  {
+    "palabra": "Panamá",
+    "prohibidas": [
+      "América",
+      "Canal",
+      "País",
+      "Centroamérica",
+      "Puente"
+    ]
+  },
+  {
+    "palabra": "Lince",
+    "prohibidas": [
+      "Felino",
+      "España",
+      "Orejas",
+      "Pelo",
+      "Pez"
+    ]
+  },
+  {
+    "palabra": "Nueva Zelanda",
+    "prohibidas": [
+      "País",
+      "Oceanía",
+      "Isla",
+      "Kiwi",
+      "Rugby"
+    ]
+  },
+  {
+    "palabra": "Hámster",
+    "prohibidas": [
+      "Roedor",
+      "Pequeño",
+      "Mascota",
+      "Jaula",
+      "Rueda"
+    ]
+  },
+  {
+    "palabra": "Polonia",
+    "prohibidas": [
+      "Europa",
+      "Varsovia",
+      "Frío",
+      "País",
+      "Guerra"
+    ]
+  },
+  {
+    "palabra": "Puercoespín",
+    "prohibidas": [
+      "Animal",
+      "Espinas",
+      "Bolita",
+      "Rodar",
+      "Bosque"
+    ]
+  },
+  {
+    "palabra": "Colombia",
+    "prohibidas": [
+      "Sudamérica",
+      "Bogotá",
+      "Café",
+      "País",
+      "Cultura"
+    ]
+  },
+  {
+    "palabra": "Búfalo",
+    "prohibidas": [
+      "Animal",
+      "Cuernos",
+      "Grande",
+      "India",
+      "América"
+    ]
+  },
+  {
+    "palabra": "Israel",
+    "prohibidas": [
+      "País",
+      "Asia",
+      "Jerusalén",
+      "Conflicto",
+      "Religión"
+    ]
+  },
+  {
+    "palabra": "León marino",
+    "prohibidas": [
+      "Mamífero",
+      "Agua",
+      "Bigotes",
+      "Aletas",
+      "Pez"
+    ]
+  },
+  {
+    "palabra": "Finlandia",
+    "prohibidas": [
+      "Europa",
+      "Sauna",
+      "Lag",
+      "Frío",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Pato",
+    "prohibidas": [
+      "Ave",
+      "Plumas",
+      "Agua",
+      "Pico",
+      "Cuac"
+    ]
+  },
+  {
+    "palabra": "Rumanía",
+    "prohibidas": [
+      "Europa",
+      "Bucarest",
+      "País",
+      "Drácula",
+      "Cultura"
+    ]
+  },
+  {
+    "palabra": "Chile",
+    "prohibidas": [
+      "Sudamérica",
+      "Santiago",
+      "Largo",
+      "Vino",
+      "Cordillera"
+    ]
+  },
+  {
+    "palabra": "Bisonte",
+    "prohibidas": [
+      "Animal",
+      "Grande",
+      "América",
+      "Cuernos",
+      "Bufalo"
+    ]
+  },
+  {
+    "palabra": "Marruecos",
+    "prohibidas": [
+      "África",
+      "Desierto",
+      "Casablanca",
+      "País",
+      "Capital"
+    ]
+  },
+  {
+    "palabra": "Pavo",
+    "prohibidas": [
+      "Ave",
+      "Navidad",
+      "Plumas",
+      "Comida",
+      "Carne"
+    ]
+  },
+  {
+    "palabra": "Filipinas",
+    "prohibidas": [
+      "Asia",
+      "Manila",
+      "País",
+      "Isla",
+      "Océano"
+    ]
+  },
+  {
+    "palabra": "Gallina",
+    "prohibidas": [
+      "Ave",
+      "Granja",
+      "Huevo",
+      "Ponedora",
+      "Corral"
+    ]
+  },
+  {
+    "palabra": "Grecia",
+    "prohibidas": [
+      "Europa",
+      "Atenas",
+      "Mitología",
+      "Olimpiadas",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Buitre",
+    "prohibidas": [
+      "Ave",
+      "Carroñero",
+      "Cabeza",
+      "Calva",
+      "Volar"
+    ]
+  },
+  {
+    "palabra": "Perú",
+    "prohibidas": [
+      "Sudamérica",
+      "Machu Picchu",
+      "Andes",
+      "Inca",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Ocelote",
+    "prohibidas": [
+      "Felino",
+      "Pequeño",
+      "Manchas",
+      "América",
+      "Caza"
+    ]
+  },
+  {
+    "palabra": "Suecia",
+    "prohibidas": [
+      "Europa",
+      "Estocolmo",
+      "Ikea",
+      "Frío",
+      "Vikingo"
+    ]
+  },
+  {
+    "palabra": "Mofeta",
+    "prohibidas": [
+      "Animal",
+      "Mal",
+      "Olor",
+      "Blanco",
+      "Negro"
+    ]
+  },
+  {
+    "palabra": "China",
+    "prohibidas": [
+      "Asia",
+      "Muralla",
+      "Panda",
+      "Pekín",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Venado",
+    "prohibidas": [
+      "Animal",
+      "Bosque",
+      "Cuernos",
+      "Ciervo",
+      "Salvaje"
+    ]
+  },
+  {
+    "palabra": "Dinamarca",
+    "prohibidas": [
+      "Europa",
+      "Copenhague",
+      "Vikingos",
+      "Lego",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Zorrillo",
+    "prohibidas": [
+      "Animal",
+      "Mal",
+      "Olor",
+      "Blanco",
+      "Negro"
+    ]
+  },
+  {
+    "palabra": "Indonesia",
+    "prohibidas": [
+      "Asia",
+      "Bali",
+      "Isla",
+      "País",
+      "Volcanes"
+    ]
+  },
+  {
+    "palabra": "Zarigüeya",
+    "prohibidas": [
+      "Animal",
+      "Marsupial",
+      "Cola",
+      "América",
+      "Bolsa"
+    ]
+  },
+  {
+    "palabra": "Tailandia",
+    "prohibidas": [
+      "Asia",
+      "Bangkok",
+      "Templo",
+      "Elefante",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Armadillo",
+    "prohibidas": [
+      "Animal",
+      "Caparazón",
+      "Bola",
+      "Sudamérica",
+      "Tierra"
+    ]
+  },
+  {
+    "palabra": "Egipto",
+    "prohibidas": [
+      "África",
+      "Pirámides",
+      "Faraón",
+      "Nilo",
+      "Antiguo"
+    ]
+  },
+  {
+    "palabra": "Pez espada",
+    "prohibidas": [
+      "Mar",
+      "Pico",
+      "Pez",
+      "Nadador",
+      "Veloz"
+    ]
+  },
+  {
+    "palabra": "Noruega",
+    "prohibidas": [
+      "Europa",
+      "Fiordos",
+      "Vikingo",
+      "Frío",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Jaguar",
+    "prohibidas": [
+      "Felino",
+      "América",
+      "Selva",
+      "Manchas",
+      "Depredador"
+    ]
+  },
+  {
+    "palabra": "Australia",
+    "prohibidas": [
+      "País",
+      "Canguro",
+      "Koala",
+      "Sydney",
+      "Isla"
+    ]
+  },
+  {
+    "palabra": "Puma",
+    "prohibidas": [
+      "Felino",
+      "Montaña",
+      "Gato",
+      "Sudamérica",
+      "Depredador"
+    ]
+  },
+  {
+    "palabra": "Irlanda",
+    "prohibidas": [
+      "Europa",
+      "Dublín",
+      "Verde",
+      "Trébol",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Gorila",
+    "prohibidas": [
+      "Mono",
+      "Selva",
+      "África",
+      "Simio",
+      "Fuerte"
+    ]
+  },
+  {
+    "palabra": "Islandia",
+    "prohibidas": [
+      "Isla",
+      "Hielo",
+      "Volcanes",
+      "Aurora",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Hiena",
+    "prohibidas": [
+      "Animal",
+      "África",
+      "Carroñero",
+      "Risa",
+      "Manada"
+    ]
+  },
+  {
+    "palabra": "México",
+    "prohibidas": [
+      "América",
+      "Tacos",
+      "Capital",
+      "Chichén",
+      "Azteca"
+    ]
+  },
+  {
+    "palabra": "Castor",
+    "prohibidas": [
+      "Animal",
+      "Río",
+      "Dientes",
+      "Presa",
+      "Construir"
+    ]
+  },
+  {
+    "palabra": "Ecuador",
+    "prohibidas": [
+      "Sudamérica",
+      "Galápagos",
+      "Quito",
+      "País",
+      "Mitad"
+    ]
+  },
+  {
+    "palabra": "Dromedario",
+    "prohibidas": [
+      "Camello",
+      "Joroba",
+      "Desierto",
+      "Arena",
+      "Transporte"
+    ]
+  },
+  {
+    "palabra": "Sudáfrica",
+    "prohibidas": [
+      "África",
+      "Johannesburgo",
+      "Leones",
+      "País",
+      "Continente"
+    ]
+  },
+  {
+    "palabra": "Leopardo",
+    "prohibidas": [
+      "Felino",
+      "Manchas",
+      "Árbol",
+      "Caza",
+      "África"
+    ]
+  },
+  {
+    "palabra": "España",
+    "prohibidas": [
+      "Europa",
+      "Madrid",
+      "Toro",
+      "Sol",
+      "Tapas"
+    ]
+  },
+  {
+    "palabra": "Cebra",
+    "prohibidas": [
+      "Animal",
+      "África",
+      "Blanco",
+      "Negro",
+      "Rayas"
+    ]
+  },
+  {
+    "palabra": "Argentina",
+    "prohibidas": [
+      "Sudamérica",
+      "Tango",
+      "Buenos Aires",
+      "Carne",
+      "Messi"
+    ]
+  },
+  {
+    "palabra": "Pingüino",
+    "prohibidas": [
+      "Antártida",
+      "Hielo",
+      "Frío",
+      "Ave",
+      "Nadador"
+    ]
+  },
+  {
+    "palabra": "Brasil",
+    "prohibidas": [
+      "Sudamérica",
+      "Samba",
+      "Fútbol",
+      "Río",
+      "Carnaval"
+    ]
+  },
+  {
+    "palabra": "Rinoceronte",
+    "prohibidas": [
+      "Animal",
+      "Cuerno",
+      "Grande",
+      "África",
+      "Gris"
+    ]
+  },
+  {
+    "palabra": "Italia",
+    "prohibidas": [
+      "Europa",
+      "Roma",
+      "Pizza",
+      "Coliseo",
+      "Bota"
+    ]
+  },
+  {
+    "palabra": "Cocodrilo",
+    "prohibidas": [
+      "Reptil",
+      "Mandíbula",
+      "Agua",
+      "Nilo",
+      "Lagarto"
+    ]
+  },
+  {
+    "palabra": "Francia",
+    "prohibidas": [
+      "Europa",
+      "París",
+      "Torre",
+      "Vino",
+      "Capital"
+    ]
+  },
+  {
+    "palabra": "Tucán",
+    "prohibidas": [
+      "Ave",
+      "Pico",
+      "Colores",
+      "Selva",
+      "Exótico"
+    ]
+  },
+  {
+    "palabra": "India",
+    "prohibidas": [
+      "Asia",
+      "Taj Mahal",
+      "Bollywood",
+      "Elefante",
+      "Capital"
+    ]
+  },
+  {
+    "palabra": "Mono",
+    "prohibidas": [
+      "Animal",
+      "Árbol",
+      "Selva",
+      "Plátano",
+      "Cola"
+    ]
+  },
+  {
+    "palabra": "Holanda",
+    "prohibidas": [
+      "Europa",
+      "Molinos",
+      "Flores",
+      "Bicicleta",
+      "Ámsterdam"
+    ]
+  },
+  {
+    "palabra": "Pulpo",
+    "prohibidas": [
+      "Mar",
+      "Tentáculos",
+      "Ocho",
+      "Inteligente",
+      "Tinta"
+    ]
+  },
+  {
+    "palabra": "Turquía",
+    "prohibidas": [
+      "Asia",
+      "Estambul",
+      "Mezquita",
+      "Bósforo",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Vietnam",
+    "prohibidas": [
+      "Asia",
+      "Guerra",
+      "Hanói",
+      "Arroz",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Delfín",
+    "prohibidas": [
+      "Mar",
+      "Animal",
+      "Inteligente",
+      "Saltar",
+      "Mamífero"
+    ]
+  },
+  {
+    "palabra": "Cangrejo",
+    "prohibidas": [
+      "Marisco",
+      "Pinzas",
+      "Playa",
+      "Caparazón",
+      "Caminar"
+    ]
+  },
+  {
+    "palabra": "Tigre",
+    "prohibidas": [
+      "Felino",
+      "Rayas",
+      "Grande",
+      "Caza",
+      "Selva"
+    ]
+  },
+  {
+    "palabra": "Japón",
+    "prohibidas": [
+      "Asia",
+      "Tokio",
+      "Sushi",
+      "Sol",
+      "Isla"
+    ]
+  },
+  {
+    "palabra": "Camaleón",
+    "prohibidas": [
+      "Reptil",
+      "Cambiar",
+      "Color",
+      "Lengua",
+      "Ojos"
+    ]
+  },
+  {
+    "palabra": "Jirafa",
+    "prohibidas": [
+      "Animal",
+      "Cuello",
+      "Largo",
+      "África",
+      "Manchas"
+    ]
+  },
+  {
+    "palabra": "Alemania",
+    "prohibidas": [
+      "Europa",
+      "Berlín",
+      "Cerveza",
+      "Muro",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Gaviota",
+    "prohibidas": [
+      "Pájaro",
+      "Mar",
+      "Playa",
+      "Volando",
+      "Gritar"
+    ]
+  },
+  {
+    "palabra": "Oso panda",
+    "prohibidas": [
+      "China",
+      "Bambú",
+      "Oso",
+      "Blanco",
+      "Negro"
+    ]
+  },
+  {
+    "palabra": "Suricato",
+    "prohibidas": [
+      "Animal",
+      "Pequeño",
+      "África",
+      "Grupo",
+      "Desierto"
+    ]
+  },
+  {
+    "palabra": "Escocia",
+    "prohibidas": [
+      "Europa",
+      "Falda",
+      "Whisky",
+      "Castillo",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Serpiente",
+    "prohibidas": [
+      "Reptil",
+      "Veneno",
+      "Arrastrarse",
+      "Morder",
+      "Culebra"
+    ]
+  },
+  {
+    "palabra": "Hipopótamo",
+    "prohibidas": [
+      "Animal",
+      "Río",
+      "Agua",
+      "África",
+      "Grande"
+    ]
+  },
+  {
+    "palabra": "Jabalí",
+    "prohibidas": [
+      "Cerdo",
+      "Bosque",
+      "Animal",
+      "Colmillo",
+      "Salvaje"
+    ]
+  },
+  {
+    "palabra": "Perro",
+    "prohibidas": [
+      "Animal",
+      "Mascota",
+      "Ladrar",
+      "Hueso",
+      "Cuatro"
+    ]
+  },
+  {
+    "palabra": "Perezoso",
+    "prohibidas": [
+      "Animal",
+      "Lento",
+      "Árbol",
+      "Sudamérica",
+      "Pelaje"
+    ]
+  },
+  {
+    "palabra": "Koala",
+    "prohibidas": [
+      "Australia",
+      "Marsupial",
+      "Eucalipto",
+      "Tierno",
+      "Árbol"
+    ]
+  },
+  {
+    "palabra": "Lechuza",
+    "prohibidas": [
+      "Ave",
+      "Noche",
+      "Sabiduría",
+      "Plumas",
+      "Bosque"
+    ]
+  },
+  {
+    "palabra": "Zorro",
+    "prohibidas": [
+      "Animal",
+      "Astuto",
+      "Cola",
+      "Bosque",
+      "Perro"
+    ]
+  },
+  {
+    "palabra": "Avestruz",
+    "prohibidas": [
+      "Ave",
+      "Grande",
+      "Huevo",
+      "Plumas",
+      "África"
+    ]
+  },
+  {
+    "palabra": "Mapache",
+    "prohibidas": [
+      "Animal",
+      "Máscara",
+      "Manos",
+      "Basura",
+      "Nocturno"
+    ]
+  },
+  {
+    "palabra": "Rusia",
+    "prohibidas": [
+      "Europa",
+      "Moscú",
+      "Frío",
+      "Putin",
+      "Vodka"
+    ]
+  },
+  {
+    "palabra": "Tortuga",
+    "prohibidas": [
+      "Reptil",
+      "Lenta",
+      "Caparazón",
+      "Playa",
+      "Longevidad"
+    ]
+  },
+  {
+    "palabra": "Lobo",
+    "prohibidas": [
+      "Animal",
+      "Bosque",
+      "Aullar",
+      "Manada",
+      "Caza"
+    ]
+  },
+  {
+    "palabra": "Caballo",
+    "prohibidas": [
+      "Animal",
+      "Cabalgar",
+      "Granja",
+      "Relincho",
+      "Crin"
+    ]
+  },
+  {
+    "palabra": "Oveja",
+    "prohibidas": [
+      "Animal",
+      "Lana",
+      "Granja",
+      "Balido",
+      "Rebaño"
+    ]
+  },
+  {
+    "palabra": "Elefante",
+    "prohibidas": [
+      "Trompa",
+      "Paquidermo",
+      "Orejas",
+      "Grande",
+      "África"
+    ]
+  },
+  {
+    "palabra": "Murciélago",
+    "prohibidas": [
+      "Mamífero",
+      "Volar",
+      "Noche",
+      "Cueva",
+      "Alas"
+    ]
+  },
+  {
+    "palabra": "Vaca",
+    "prohibidas": [
+      "Animal",
+      "Leche",
+      "Granja",
+      "Mu",
+      "Campo"
+    ]
+  },
+  {
+    "palabra": "Panda",
+    "prohibidas": [
+      "China",
+      "Bambú",
+      "Oso",
+      "Blanco",
+      "Negro"
+    ]
+  },
+  {
+    "palabra": "Cabra",
+    "prohibidas": [
+      "Animal",
+      "Montaña",
+      "Leche",
+      "Barba",
+      "Cuerno"
+    ]
+  },
+  {
+    "palabra": "Canguro",
+    "prohibidas": [
+      "Australia",
+      "Bolsa",
+      "Saltar",
+      "Animal",
+      "Cría"
+    ]
+  },
+  {
+    "palabra": "Guepardo",
+    "prohibidas": [
+      "Felino",
+      "Velocidad",
+      "Manchas",
+      "África",
+      "Caza"
+    ]
+  },
+  {
+    "palabra": "Portugal",
+    "prohibidas": [
+      "Europa",
+      "Lisboa",
+      "Cristiano",
+      "Mar",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Oso",
+    "prohibidas": [
+      "Animal",
+      "Bosque",
+      "Miel",
+      "Invierno",
+      "Garras"
+    ]
+  },
+  {
+    "palabra": "Dinosaurio",
+    "prohibidas": [
+      "Extinto",
+      "Reptil",
+      "Fósil",
+      "Gigante",
+      "Jurásico"
+    ]
+  },
+  {
+    "palabra": "Tiburón",
+    "prohibidas": [
+      "Mar",
+      "Pez",
+      "Aleta",
+      "Dientes",
+      "Depredador"
+    ]
+  },
+  {
+    "palabra": "Pez",
+    "prohibidas": [
+      "Animal",
+      "Agua",
+      "Aletas",
+      "Nadador",
+      "Escamas"
+    ]
+  },
+  {
+    "palabra": "Llama",
+    "prohibidas": [
+      "Animal",
+      "Andes",
+      "Sudamérica",
+      "Escupir",
+      "Montaña"
+    ]
+  },
+  {
+    "palabra": "Suiza",
+    "prohibidas": [
+      "Europa",
+      "Alpes",
+      "Chocolate",
+      "Relojes",
+      "Queso"
+    ]
+  },
+  {
+    "palabra": "Águila",
+    "prohibidas": [
+      "Ave",
+      "Cielo",
+      "Depredador",
+      "Garras",
+      "Volar"
+    ]
+  },
+  {
+    "palabra": "Cuba",
+    "prohibidas": [
+      "Isla",
+      "Caribe",
+      "Habana",
+      "Ron",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Gato",
+    "prohibidas": [
+      "Animal",
+      "Doméstico",
+      "Maullar",
+      "Felino",
+      "Bigotes"
+    ]
+  },
+  {
+    "palabra": "Canada",
+    "prohibidas": [
+      "Norteamérica",
+      "Hojas",
+      "Frío",
+      "País",
+      "Oso"
+    ]
+  },
+  {
+    "palabra": "Peonza",
+    "prohibidas": [
+      "Juguete",
+      "Madera",
+      "Cuerda",
+      "Girar",
+      "Pico"
+    ]
+  },
+  {
+    "palabra": "Trompo",
+    "prohibidas": [
+      "Juguete",
+      "Cuerda",
+      "Madera",
+      "Girar",
+      "Pico"
+    ]
+  },
+  {
+    "palabra": "Hormiga",
+    "prohibidas": [
+      "Insecto",
+      "Pequeño",
+      "Trabajar",
+      "Colonia",
+      "Tierra"
+    ]
+  },
+  {
+    "palabra": "Mariposa",
+    "prohibidas": [
+      "Alas",
+      "Insecto",
+      "Colores",
+      "Oruga",
+      "Volar"
+    ]
+  },
+  {
+    "palabra": "Mosquito",
+    "prohibidas": [
+      "Insecto",
+      "Picadura",
+      "Volar",
+      "Zumbido",
+      "Agua"
+    ]
+  },
+  {
+    "palabra": "Araña",
+    "prohibidas": [
+      "Insecto",
+      "Telaraña",
+      "Patas",
+      "Morder",
+      "Tejer"
+    ]
+  },
+  {
+    "palabra": "Abeja",
+    "prohibidas": [
+      "Insecto",
+      "Miel",
+      "Colmena",
+      "Flor",
+      "Picadura"
+    ]
+  },
+  {
+    "palabra": "Libelula",
+    "prohibidas": [
+      "Insecto",
+      "Volar",
+      "Alas",
+      "Agua",
+      "Largo"
+    ]
+  },
+  {
+    "palabra": "Grillo",
+    "prohibidas": [
+      "Insecto",
+      "Canto",
+      "Noche",
+      "Salta",
+      "Verde"
+    ]
+  },
+  {
+    "palabra": "Caracol",
+    "prohibidas": [
+      "Concha",
+      "Lento",
+      "Jardín",
+      "Babosa",
+      "Casa"
+    ]
+  },
+  {
+    "palabra": "Carne",
+    "prohibidas": [
+      "Comida",
+      "Proteína",
+      "Animal",
+      "Bistec",
+      "Cocinar"
+    ]
+  },
+  {
+    "palabra": "Pescado",
+    "prohibidas": [
+      "Mar",
+      "Comida",
+      "Agua",
+      "Pez",
+      "Cenar"
+    ]
+  },
+  {
+    "palabra": "Arroz",
+    "prohibidas": [
+      "Comida",
+      "Grano",
+      "Blanco",
+      "China",
+      "Paella"
+    ]
+  },
+  {
+    "palabra": "Pasta",
+    "prohibidas": [
+      "Comida",
+      "Harina",
+      "Fideos",
+      "Salsa",
+      "Italiana"
+    ]
+  },
+  {
+    "palabra": "Queso",
+    "prohibidas": [
+      "Leche",
+      "Comida",
+      "Derretir",
+      "Amarillo",
+      "Lácteo"
+    ]
+  },
+  {
+    "palabra": "Pan",
+    "prohibidas": [
+      "Harina",
+      "Comida",
+      "Horno",
+      "Desayuno",
+      "Tostada"
+    ]
+  },
+  {
+    "palabra": "Manzana",
+    "prohibidas": [
+      "Fruta",
+      "Roja",
+      "Árbol",
+      "Comer",
+      "Redonda"
+    ]
+  },
+  {
+    "palabra": "Plátano",
+    "prohibidas": [
+      "Fruta",
+      "Amarillo",
+      "Cáscara",
+      "Mono",
+      "Dulce"
+    ]
+  },
+  {
+    "palabra": "Naranja",
+    "prohibidas": [
+      "Fruta",
+      "Cítrico",
+      "Zumo",
+      "Color",
+      "Redonda"
+    ]
+  },
+  {
+    "palabra": "Pera",
+    "prohibidas": [
+      "Fruta",
+      "Verde",
+      "Dulce",
+      "Árbol",
+      "Agua"
+    ]
+  },
+  {
+    "palabra": "Sandía",
+    "prohibidas": [
+      "Fruta",
+      "Verano",
+      "Roja",
+      "Agua",
+      "Semillas"
+    ]
+  },
+  {
+    "palabra": "Uvas",
+    "prohibidas": [
+      "Fruta",
+      "Racimo",
+      "Vino",
+      "Verde",
+      "Morado"
+    ]
+  },
+  {
+    "palabra": "Tomate",
+    "prohibidas": [
+      "Rojo",
+      "Verdura",
+      "Planta",
+      "Salsa",
+      "Ensalada"
+    ]
+  },
+  {
+    "palabra": "Lechuga",
+    "prohibidas": [
+      "Hoja",
+      "Verde",
+      "Ensalada",
+      "Hortaliza",
+      "Agua"
+    ]
+  },
+  {
+    "palabra": "Zanahoria",
+    "prohibidas": [
+      "Verdura",
+      "Naranja",
+      "Conejo",
+      "Raíz",
+      "Huerto"
+    ]
+  },
+  {
+    "palabra": "Patata",
+    "prohibidas": [
+      "Verdura",
+      "Tierra",
+      "Fritas",
+      "Comida",
+      "Cocinar"
+    ]
+  },
+  {
+    "palabra": "Cebolla",
+    "prohibidas": [
+      "Verdura",
+      "Llorar",
+      "Condimento",
+      "Cocinar",
+      "Bulbo"
+    ]
+  },
+  {
+    "palabra": "Ajo",
+    "prohibidas": [
+      "Condimento",
+      "Bulbo",
+      "Olor",
+      "Vampiro",
+      "Cocina"
+    ]
+  },
+  {
+    "palabra": "Pimiento",
+    "prohibidas": [
+      "Verdura",
+      "Rojo",
+      "Verde",
+      "Chile",
+      "Picante"
+    ]
+  },
+  {
+    "palabra": "Brócoli",
+    "prohibidas": [
+      "Verdura",
+      "Verde",
+      "Árbol",
+      "Saludable",
+      "Flor"
+    ]
+  },
+  {
+    "palabra": "Zumo",
+    "prohibidas": [
+      "Bebida",
+      "Fruta",
+      "Líquido",
+      "Naranja",
+      "Vitamina"
+    ]
+  },
+  {
+    "palabra": "Leche",
+    "prohibidas": [
+      "Bebida",
+      "Vaca",
+      "Blanca",
+      "Lácteo",
+      "Desayuno"
+    ]
+  },
+  {
+    "palabra": "Cerveza",
+    "prohibidas": [
+      "Bebida",
+      "Alcohol",
+      "Fría",
+      "Espuma",
+      "Botella"
+    ]
+  },
+  {
+    "palabra": "Vino",
+    "prohibidas": [
+      "Bebida",
+      "Uvas",
+      "Alcohol",
+      "Botella",
+      "Copa"
+    ]
+  },
+  {
+    "palabra": "Café",
+    "prohibidas": [
+      "Bebida",
+      "Caliente",
+      "Granos",
+      "Taza",
+      "Despertar"
+    ]
+  },
+  {
+    "palabra": "Té",
+    "prohibidas": [
+      "Bebida",
+      "Caliente",
+      "Hojas",
+      "Taza",
+      "Infusión"
+    ]
+  },
+  {
+    "palabra": "Agua",
+    "prohibidas": [
+      "Bebida",
+      "Vida",
+      "Líquido",
+      "Transparente",
+      "Hielo"
+    ]
+  },
+  {
+    "palabra": "Libro",
+    "prohibidas": [
+      "Leer",
+      "Páginas",
+      "Historia",
+      "Papel",
+      "Novela"
+    ]
+  },
+  {
+    "palabra": "Cama",
+    "prohibidas": [
+      "Dormir",
+      "Habitación",
+      "Colchón",
+      "Sábana",
+      "Descansar"
+    ]
+  },
+  {
+    "palabra": "Silla",
+    "prohibidas": [
+      "Mueble",
+      "Sentarse",
+      "Asiento",
+      "Patas",
+      "Madera"
+    ]
+  },
+  {
+    "palabra": "Mesa",
+    "prohibidas": [
+      "Mueble",
+      "Comer",
+      "Sentarse",
+      "Patas",
+      "Superficie"
+    ]
+  },
+  {
+    "palabra": "Lámpara",
+    "prohibidas": [
+      "Luz",
+      "Bombilla",
+      "Iluminar",
+      "Habitación",
+      "Encender"
+    ]
+  },
+  {
+    "palabra": "Reloj",
+    "prohibidas": [
+      "Tiempo",
+      "Horas",
+      "Minutos",
+      "Segundos",
+      "Manecillas"
+    ]
+  },
+  {
+    "palabra": "Teléfono",
+    "prohibidas": [
+      "Llamar",
+      "Comunicar",
+      "Móvil",
+      "Pantalla",
+      "Número"
+    ]
+  },
+  {
     "palabra": "Ordenador",
     "prohibidas": [
       "Tecnología",
@@ -10,23 +1550,53 @@
     ]
   },
   {
-    "palabra": "Guitarra",
+    "palabra": "Televisión",
     "prohibidas": [
-      "Música",
-      "Cuerdas",
-      "Instrumento",
-      "Tocar",
-      "Canción"
+      "Pantalla",
+      "Ver",
+      "Serie",
+      "Noticias",
+      "Mando"
     ]
   },
   {
-    "palabra": "Fútbol",
+    "palabra": "Coche",
     "prohibidas": [
-      "Deporte",
-      "Balón",
-      "Portería",
-      "Jugadores",
-      "Partido"
+      "Vehículo",
+      "Conducir",
+      "Ruedas",
+      "Motor",
+      "Transporte"
+    ]
+  },
+  {
+    "palabra": "Avión",
+    "prohibidas": [
+      "Volar",
+      "Ala",
+      "Aeropuerto",
+      "Piloto",
+      "Pasajeros"
+    ]
+  },
+  {
+    "palabra": "Tren",
+    "prohibidas": [
+      "Vagones",
+      "Vías",
+      "Estación",
+      "Viajar",
+      "Máquina"
+    ]
+  },
+  {
+    "palabra": "Barco",
+    "prohibidas": [
+      "Navegar",
+      "Mar",
+      "Agua",
+      "Embarcación",
+      "Viaje"
     ]
   },
   {
@@ -34,69 +1604,139 @@
     "prohibidas": [
       "Pedales",
       "Ruedas",
-      "Coche",
+      "Montar",
       "Manillar",
       "Transporte"
     ]
   },
   {
-    "palabra": "Elefante",
+    "palabra": "Bebida energética",
     "prohibidas": [
-      "Animal",
-      "Trompa",
-      "Orejas",
-      "Gris",
-      "Grande"
+      "Red Bull",
+      "Cafeína",
+      "Azúcar",
+      "Alas",
+      "Despertar"
     ]
   },
   {
-    "palabra": "Avión",
+    "palabra": "Chocolate",
     "prohibidas": [
-      "Volar",
-      "Aeropuerto",
-      "Viaje",
-      "Ala",
-      "Piloto"
+      "Cacao",
+      "Dulce",
+      "Postre",
+      "Tableta",
+      "Bombón"
     ]
   },
   {
-    "palabra": "Teléfono",
+    "palabra": "Cielo",
     "prohibidas": [
-      "Llamar",
-      "Móvil",
-      "Mensaje",
-      "Comunicación",
-      "Smartphone"
+      "Nubes",
+      "Azul",
+      "Aire",
+      "Pájaros",
+      "Arriba"
     ]
   },
   {
-    "palabra": "Cama",
+    "palabra": "Nube",
     "prohibidas": [
-      "Dormir",
-      "Habitación",
-      "Descansar",
+      "Cielo",
+      "Lluvia",
+      "Blanca",
+      "Algodón",
+      "Forma"
+    ]
+  },
+  {
+    "palabra": "Estrella",
+    "prohibidas": [
+      "Espacio",
+      "Cielo",
+      "Brillar",
       "Noche",
-      "Sábanas"
+      "Luz"
     ]
   },
   {
-    "palabra": "Libro",
+    "palabra": "Luna",
     "prohibidas": [
-      "Leer",
-      "Páginas",
-      "Historia",
-      "Biblioteca",
-      "Escritor"
+      "Noche",
+      "Cielo",
+      "Redonda",
+      "Satélite",
+      "Tierra"
     ]
   },
   {
-    "palabra": "Coche",
+    "palabra": "Sol",
     "prohibidas": [
-      "Conducir",
-      "Ruedas",
-      "Motor",
-      "Gasolina",
-      "Transporte"
+      "Cielo",
+      "Calor",
+      "Estrella",
+      "Día",
+      "Luz"
+    ]
+  },
+  {
+    "palabra": "Relámpago",
+    "prohibidas": [
+      "Trueno",
+      "Electricidad",
+      "Tormenta",
+      "Rayo",
+      "Cielo"
+    ]
+  },
+  {
+    "palabra": "Volcán",
+    "prohibidas": [
+      "Montaña",
+      "Erupción",
+      "Lava",
+      "Magma",
+      "Fuego"
+    ]
+  },
+  {
+    "palabra": "Glaciar",
+    "prohibidas": [
+      "Hielo",
+      "Montaña",
+      "Nieve",
+      "Frío",
+      "Polo"
+    ]
+  },
+  {
+    "palabra": "Desierto",
+    "prohibidas": [
+      "Arena",
+      "Calor",
+      "Sequía",
+      "Cactus",
+      "Camello"
+    ]
+  },
+  {
+    "palabra": "Jungla",
+    "prohibidas": [
+      "Selva",
+      "Árboles",
+      "Animales",
+      "Verde",
+      "Tropical"
+    ]
+  },
+  {
+    "palabra": "Cascada",
+    "prohibidas": [
+      "Agua",
+      "Salto",
+      "Río",
+      "Caer",
+      "Naturaleza"
     ]
   },
   {
@@ -105,238 +1745,898 @@
       "Mar",
       "Arena",
       "Sol",
-      "Verano",
-      "Vacaciones"
-    ]
-  },
-  {
-    "palabra": "Pintura",
-    "prohibidas": [
-      "Cuadro",
-      "Pincel",
-      "Colores",
-      "Artista",
-      "Lienzo"
-    ]
-  },
-  {
-    "palabra": "Reloj",
-    "prohibidas": [
-      "Tiempo",
-      "Minutos",
-      "Horas",
-      "Muñeca",
-      "Segundos"
-    ]
-  },
-  {
-    "palabra": "Café",
-    "prohibidas": [
-      "Bebida",
-      "Mañana",
-      "Desayuno",
-      "Caliente",
-      "Taza"
-    ]
-  },
-  {
-    "palabra": "Dinero",
-    "prohibidas": [
-      "Billete",
-      "Monedas",
-      "Comprar",
-      "Pagar",
-      "Banco"
-    ]
-  },
-  {
-    "palabra": "Hospital",
-    "prohibidas": [
-      "Médico",
-      "Enfermo",
-      "Cura",
-      "Doctor",
-      "Enfermera"
-    ]
-  },
-  {
-    "palabra": "Cámara",
-    "prohibidas": [
-      "Foto",
-      "Imagen",
-      "Película",
-      "Disparar",
-      "Lente"
-    ]
-  },
-  {
-    "palabra": "Chocolate",
-    "prohibidas": [
-      "Dulce",
-      "Cacao",
-      "Barra",
-      "Postre",
-      "Bombón"
+      "Vacaciones",
+      "Bañador"
     ]
   },
   {
     "palabra": "Piscina",
     "prohibidas": [
       "Agua",
-      "Nadar",
+      "Nadador",
+      "Bañarse",
       "Verano",
-      "Chapuzón",
-      "Bañador"
+      "Tierra"
     ]
   },
   {
-    "palabra": "Paraguas",
+    "palabra": "Bosque",
     "prohibidas": [
-      "Lluvia",
-      "Agua",
-      "Cubrir",
-      "Mochila",
-      "Abrir"
-    ]
-  },
-  {
-    "palabra": "Nube",
-    "prohibidas": [
-      "Cielo",
-      "Blanca",
-      "Gris",
-      "Llover",
-      "Forma"
-    ]
-  },
-  {
-    "palabra": "Manzana",
-    "prohibidas": [
-      "Fruta",
-      "Rojo",
-      "Árbol",
-      "Comer",
-      "Mordisco"
-    ]
-  },
-  {
-    "palabra": "Sol",
-    "prohibidas": [
-      "Estrella",
-      "Luz",
-      "Calor",
-      "Día",
-      "Verano"
-    ]
-  },
-  {
-    "palabra": "Luna",
-    "prohibidas": [
-      "Noche",
-      "Cielo",
-      "Satélite",
-      "Blanca",
-      "Redonda"
-    ]
-  },
-  {
-    "palabra": "Perro",
-    "prohibidas": [
-      "Animal",
-      "Mascota",
-      "Ladrido",
-      "Collar",
-      "Guau"
-    ]
-  },
-  {
-    "palabra": "Gato",
-    "prohibidas": [
-      "Mascota",
-      "Maullar",
-      "Bigotes",
-      "Peludo",
-      "Garra"
-    ]
-  },
-  {
-    "palabra": "Cocina",
-    "prohibidas": [
-      "Comer",
-      "Preparar",
-      "Olla",
-      "Fuego",
-      "Comida"
-    ]
-  },
-  {
-    "palabra": "Fuego",
-    "prohibidas": [
-      "Calor",
-      "Calentar",
-      "Humo",
-      "Llama",
-      "Incendio"
-    ]
-  },
-  {
-    "palabra": "Agua",
-    "prohibidas": [
-      "Beber",
-      "H2O",
-      "Líquido",
-      "Transparente",
-      "Hielo"
-    ]
-  },
-  {
-    "palabra": "Silla",
-    "prohibidas": [
-      "Sentarse",
-      "Mueble",
-      "Mesa",
-      "Patas",
+      "Árboles",
+      "Naturaleza",
+      "Selva",
+      "Verde",
       "Madera"
     ]
   },
   {
-    "palabra": "Puerta",
+    "palabra": "Parque",
     "prohibidas": [
-      "Abrir",
-      "Entrar",
-      "Salida",
-      "Casa",
-      "Cerrar"
+      "Árboles",
+      "Verde",
+      "Juegos",
+      "Pasear",
+      "Ciudad"
     ]
   },
   {
-    "palabra": "Ventana",
+    "palabra": "Hospital",
     "prohibidas": [
-      "Ver",
+      "Enfermos",
+      "Médico",
+      "Curar",
+      "Urgencias",
+      "Medicina"
+    ]
+  },
+  {
+    "palabra": "Colegio",
+    "prohibidas": [
+      "Escuela",
+      "Estudiar",
+      "Profesor",
+      "Alumnos",
+      "Clase"
+    ]
+  },
+  {
+    "palabra": "Supermercado",
+    "prohibidas": [
+      "Comprar",
+      "Comida",
+      "Carro",
+      "Caja",
+      "Tienda"
+    ]
+  },
+  {
+    "palabra": "Teatro",
+    "prohibidas": [
+      "Obra",
+      "Actor",
+      "Escenario",
+      "Público",
+      "Representación"
+    ]
+  },
+  {
+    "palabra": "Cine",
+    "prohibidas": [
+      "Películas",
+      "Pantalla",
+      "Popcorn",
+      "Butacas",
+      "Proyector"
+    ]
+  },
+  {
+    "palabra": "Museo",
+    "prohibidas": [
+      "Arte",
+      "Historia",
+      "Visitar",
+      "Cuadros",
+      "Esculturas"
+    ]
+  },
+  {
+    "palabra": "Catedral",
+    "prohibidas": [
+      "Iglesia",
+      "Religión",
+      "Antigua",
+      "Cristiana",
+      "Arquitectura"
+    ]
+  },
+  {
+    "palabra": "Prisión",
+    "prohibidas": [
+      "Cárcel",
+      "Delincuentes",
+      "Rejas",
+      "Celda",
+      "Policía"
+    ]
+  },
+  {
+    "palabra": "Biblioteca",
+    "prohibidas": [
+      "Libros",
+      "Leer",
+      "Estantería",
+      "Silencio",
+      "Estudiar"
+    ]
+  },
+  {
+    "palabra": "Guerra",
+    "prohibidas": [
+      "Lucha",
+      "Batalla",
+      "Soldados",
+      "Arma",
+      "Violencia"
+    ]
+  },
+  {
+    "palabra": "Paz",
+    "prohibidas": [
+      "Tranquilidad",
+      "Silencio",
+      "No",
+      "Guerra",
+      "Calma"
+    ]
+  },
+  {
+    "palabra": "Justicia",
+    "prohibidas": [
+      "Ley",
+      "Juez",
+      "Tribunal",
+      "Igualdad",
+      "Derecho"
+    ]
+  },
+  {
+    "palabra": "Felicidad",
+    "prohibidas": [
+      "Alegría",
+      "Contento",
+      "Sonrisa",
+      "Emoción",
+      "Sentimiento"
+    ]
+  },
+  {
+    "palabra": "Tristeza",
+    "prohibidas": [
+      "Emoción",
+      "Llorar",
+      "Infeliz",
+      "Sentimiento",
+      "Pena"
+    ]
+  },
+  {
+    "palabra": "Miedo",
+    "prohibidas": [
+      "Susto",
+      "Terror",
+      "Oscuridad",
+      "Emoción",
+      "Fantasma"
+    ]
+  },
+  {
+    "palabra": "Sorpresa",
+    "prohibidas": [
+      "Emoción",
+      "Inesperado",
+      "Asombro",
+      "Regalo",
+      "Cara"
+    ]
+  },
+  {
+    "palabra": "Amor",
+    "prohibidas": [
+      "Sentimiento",
+      "Corazón",
+      "Pareja",
+      "Querido",
+      "Afecto"
+    ]
+  },
+  {
+    "palabra": "Amistad",
+    "prohibidas": [
+      "Amigos",
+      "Relación",
+      "Sentimiento",
+      "Compañía",
+      "Confianza"
+    ]
+  },
+  {
+    "palabra": "Familia",
+    "prohibidas": [
+      "Padres",
+      "Hijos",
+      "Hogar",
+      "Hermanos",
+      "Parentesco"
+    ]
+  },
+  {
+    "palabra": "Trabajo",
+    "prohibidas": [
+      "Oficina",
+      "Dinero",
+      "Labor",
+      "Empleo",
+      "Ocupación"
+    ]
+  },
+  {
+    "palabra": "Vacaciones",
+    "prohibidas": [
+      "Viaje",
+      "Descanso",
+      "Playa",
+      "Verano",
+      "Libertad"
+    ]
+  },
+  {
+    "palabra": "Sueño",
+    "prohibidas": [
+      "Dormir",
+      "Noche",
+      "Soñar",
+      "Realidad",
+      "Deseo"
+    ]
+  },
+  {
+    "palabra": "Música",
+    "prohibidas": [
+      "Sonido",
+      "Cantar",
+      "Ritmo",
+      "Instrumento",
+      "Nota"
+    ]
+  },
+  {
+    "palabra": "Pintura",
+    "prohibidas": [
+      "Arte",
+      "Lienzo",
+      "Cuadro",
+      "Pincel",
+      "Color"
+    ]
+  },
+  {
+    "palabra": "Poesía",
+    "prohibidas": [
+      "Verso",
+      "Ritmo",
+      "Escribir",
+      "Estrofa",
+      "Rima"
+    ]
+  },
+  {
+    "palabra": "Cuento",
+    "prohibidas": [
+      "Historia",
+      "Leer",
+      "Niños",
+      "Narración",
+      "Libro"
+    ]
+  },
+  {
+    "palabra": "Chiste",
+    "prohibidas": [
+      "Risa",
+      "Humor",
+      "Broma",
+      "Contar",
+      "Gracioso"
+    ]
+  },
+  {
+    "palabra": "Pájaro",
+    "prohibidas": [
+      "Volar",
+      "Ave",
+      "Plumas",
+      "Nido",
+      "Cielo"
+    ]
+  },
+  {
+    "palabra": "Perico",
+    "prohibidas": [
+      "Pájaro",
+      "Hablar",
+      "Colores",
+      "Jaula",
+      "Plumas"
+    ]
+  },
+  {
+    "palabra": "Colibrí",
+    "prohibidas": [
+      "Pájaro",
+      "Pequeño",
+      "Volar",
+      "Flor",
+      "Alas"
+    ]
+  },
+  {
+    "palabra": "Pavo real",
+    "prohibidas": [
+      "Pájaro",
+      "Plumas",
+      "Cola",
+      "Colores",
+      "Despliega"
+    ]
+  },
+  {
+    "palabra": "Búho",
+    "prohibidas": [
+      "Ave",
+      "Noche",
+      "Ojos",
+      "Lechuza",
+      "Plumas"
+    ]
+  },
+  {
+    "palabra": "Paloma",
+    "prohibidas": [
+      "Ave",
+      "Plumas",
+      "Ciudad",
+      "Paz",
+      "Volar"
+    ]
+  },
+  {
+    "palabra": "León",
+    "prohibidas": [
+      "Animal",
+      "Melena",
+      "Rey",
+      "Selva",
+      "Rugir"
+    ]
+  },
+  {
+    "palabra": "Ballena",
+    "prohibidas": [
+      "Mamífero",
+      "Mar",
+      "Gigante",
+      "Canto",
+      "Agua"
+    ]
+  },
+  {
+    "palabra": "Oso polar",
+    "prohibidas": [
+      "Blanco",
+      "Frío",
+      "Hielo",
+      "Ártico",
+      "Animal"
+    ]
+  },
+  {
+    "palabra": "Camello",
+    "prohibidas": [
+      "Desierto",
+      "Joroba",
+      "Animal",
+      "Arena",
+      "Viajar"
+    ]
+  },
+  {
+    "palabra": "Cerdo",
+    "prohibidas": [
+      "Animal",
+      "Granja",
+      "Cochino",
+      "Carne",
+      "Oinc"
+    ]
+  },
+  {
+    "palabra": "Gallo",
+    "prohibidas": [
+      "Ave",
+      "Granja",
+      "Cresta",
+      "Canta",
+      "Huevos"
+    ]
+  },
+  {
+    "palabra": "Pollo",
+    "prohibidas": [
+      "Ave",
+      "Comida",
+      "Granja",
+      "Carne",
+      "Huevo"
+    ]
+  },
+  {
+    "palabra": "Burro",
+    "prohibidas": [
+      "Animal",
+      "Granja",
+      "Rebuzna",
+      "Orejas",
+      "Carga"
+    ]
+  },
+  {
+    "palabra": "Conejo",
+    "prohibidas": [
+      "Animal",
+      "Zanahoria",
+      "Salta",
+      "Orejas",
+      "Lento"
+    ]
+  },
+  {
+    "palabra": "Ardilla",
+    "prohibidas": [
+      "Animal",
+      "Árbol",
+      "Nueces",
+      "Cola",
+      "Bosque"
+    ]
+  },
+  {
+    "palabra": "Estrella de mar",
+    "prohibidas": [
+      "Mar",
+      "Playa",
+      "Animal",
+      "Cinco",
+      "Puntas"
+    ]
+  },
+  {
+    "palabra": "Medusa",
+    "prohibidas": [
+      "Mar",
+      "Transparente",
+      "Tentáculos",
+      "Picadura",
+      "Gelatina"
+    ]
+  },
+  {
+    "palabra": "Ostra",
+    "prohibidas": [
+      "Marisco",
+      "Concha",
+      "Perla",
+      "Comer",
+      "Playa"
+    ]
+  },
+  {
+    "palabra": "Puerco",
+    "prohibidas": [
+      "Animal",
+      "Granja",
+      "Cochino",
+      "Carne",
+      "Oinc"
+    ]
+  },
+  {
+    "palabra": "Calamar gigante",
+    "prohibidas": [
+      "Océano",
+      "Molusco",
+      "Tentáculos",
+      "Tinta",
+      "Criatura"
+    ]
+  },
+  {
+    "palabra": "Buceo",
+    "prohibidas": [
+      "Agua",
+      "Submarinismo",
+      "Mar",
+      "Tanque",
+      "Profundidad"
+    ]
+  },
+  {
+    "palabra": "Escalador",
+    "prohibidas": [
+      "Montaña",
+      "Cuerda",
+      "Pico",
+      "Roca",
+      "Altura"
+    ]
+  },
+  {
+    "palabra": "Juego de mesa",
+    "prohibidas": [
+      "Amigos",
+      "Dados",
+      "Cartas",
+      "Familia",
+      "Partida"
+    ]
+  },
+  {
+    "palabra": "Maratón",
+    "prohibidas": [
+      "Correr",
+      "Carrera",
+      "Distancia",
+      "Atleta",
+      "Meta"
+    ]
+  },
+  {
+    "palabra": "Sándwich",
+    "prohibidas": [
+      "Pan",
+      "Comida",
+      "Jamón",
+      "Queso",
+      "Almuerzo"
+    ]
+  },
+  {
+    "palabra": "Línea de producción",
+    "prohibidas": [
+      "Fábrica",
+      "Cinta",
+      "Trabajo",
+      "Montaje",
+      "Producto"
+    ]
+  },
+  {
+    "palabra": "Escultura",
+    "prohibidas": [
+      "Arte",
+      "Tallar",
+      "Mármol",
+      "Estatua",
+      "Forma"
+    ]
+  },
+  {
+    "palabra": "Galleta",
+    "prohibidas": [
+      "Postre",
+      "Dulce",
+      "Horno",
+      "Chocolate",
+      "Harina"
+    ]
+  },
+  {
+    "palabra": "Orquesta",
+    "prohibidas": [
+      "Música",
+      "Director",
+      "Sinfonía",
+      "Instrumentos",
+      "Concierto"
+    ]
+  },
+  {
+    "palabra": "Espejo",
+    "prohibidas": [
+      "Reflejo",
       "Cristal",
-      "Abrir",
+      "Imagen",
+      "Mirar",
+      "Habitación"
+    ]
+  },
+  {
+    "palabra": "Pirata",
+    "prohibidas": [
+      "Barco",
+      "Tesoro",
+      "Capitán",
+      "Cofre",
+      "Parche"
+    ]
+  },
+  {
+    "palabra": "Fotografía",
+    "prohibidas": [
+      "Cámara",
+      "Imagen",
+      "Retrato",
+      "Flash",
+      "Foto"
+    ]
+  },
+  {
+    "palabra": "Ajolote",
+    "prohibidas": [
+      "Anfibio",
+      "México",
+      "Branquias",
+      "Agua",
+      "Renacuajo"
+    ]
+  },
+  {
+    "palabra": "Acuarela",
+    "prohibidas": [
+      "Pintura",
+      "Agua",
+      "Papel",
+      "Pincel",
+      "Color"
+    ]
+  },
+  {
+    "palabra": "Cráter",
+    "prohibidas": [
+      "Volcán",
+      "Agujero",
+      "Montaña",
+      "Explosión",
+      "Valle"
+    ]
+  },
+  {
+    "palabra": "Templo",
+    "prohibidas": [
+      "Religión",
+      "Oración",
+      "Antiguo",
+      "Dios",
+      "Sacrificio"
+    ]
+  },
+  {
+    "palabra": "Jardín",
+    "prohibidas": [
+      "Plantas",
+      "Flores",
+      "Verde",
       "Casa",
-      "Marco"
+      "Naturaleza"
     ]
   },
   {
-    "palabra": "Zapatos",
+    "palabra": "Cometa",
     "prohibidas": [
-      "Pies",
-      "Calzado",
-      "Poner",
-      "Andar",
-      "Cordones"
+      "Espacio",
+      "Cola",
+      "Estrella",
+      "Hielo",
+      "Planeta"
     ]
   },
   {
-    "palabra": "Sombrero",
+    "palabra": "Estación espacial",
     "prohibidas": [
-      "Cabeza",
-      "Poner",
+      "Satélite",
+      "Órbita",
+      "Astronauta",
+      "Tierra",
+      "Nave"
+    ]
+  },
+  {
+    "palabra": "Arco iris",
+    "prohibidas": [
+      "Colores",
+      "Lluvia",
+      "Cielo",
       "Sol",
-      "Gorra",
-      "Ala"
+      "Óptico"
+    ]
+  },
+  {
+    "palabra": "Batería",
+    "prohibidas": [
+      "Energía",
+      "Eléctrica",
+      "Recargable",
+      "Pila",
+      "Cargador"
+    ]
+  },
+  {
+    "palabra": "Laberinto",
+    "prohibidas": [
+      "Camino",
+      "Entrada",
+      "Salida",
+      "Perdido",
+      "Muro"
+    ]
+  },
+  {
+    "palabra": "Caricatura",
+    "prohibidas": [
+      "Dibujos",
+      "Humor",
+      "Infantil",
+      "Cómics",
+      "Animación"
+    ]
+  },
+  {
+    "palabra": "Océano",
+    "prohibidas": [
+      "Mar",
+      "Agua",
+      "Profundo",
+      "Peces",
+      "Barco"
+    ]
+  },
+  {
+    "palabra": "Robot",
+    "prohibidas": [
+      "Máquina",
+      "Tecnología",
+      "Inteligencia",
+      "Autómata",
+      "Brazo"
+    ]
+  },
+  {
+    "palabra": "Cuerpo humano",
+    "prohibidas": [
+      "Anatomía",
+      "Huesos",
+      "Músculos",
+      "Órganos",
+      "Piel"
+    ]
+  },
+  {
+    "palabra": "Brújula",
+    "prohibidas": [
+      "Norte",
+      "Sur",
+      "Dirección",
+      "Orientación",
+      "Mapa"
+    ]
+  },
+  {
+    "palabra": "Pirámide",
+    "prohibidas": [
+      "Egipto",
+      "Faraón",
+      "Tumba",
+      "Forma",
+      "Triángulo"
+    ]
+  },
+  {
+    "palabra": "Telescopio",
+    "prohibidas": [
+      "Observar",
+      "Estrellas",
+      "Cielo",
+      "Planetas",
+      "Espacio"
+    ]
+  },
+  {
+    "palabra": "Huracán",
+    "prohibidas": [
+      "Viento",
+      "Tormenta",
+      "Ciclón",
+      "Desastre",
+      "Ojo"
+    ]
+  },
+  {
+    "palabra": "Piano",
+    "prohibidas": [
+      "Instrumento",
+      "Música",
+      "Teclas",
+      "Melodía",
+      "Cuerdas"
+    ]
+  },
+  {
+    "palabra": "Submarino",
+    "prohibidas": [
+      "Agua",
+      "Mar",
+      "Barco",
+      "Debajo",
+      "Guerra"
+    ]
+  },
+  {
+    "palabra": "París",
+    "prohibidas": [
+      "Francia",
+      "Torre Eiffel",
+      "Amor",
+      "Capital",
+      "Ciudad"
+    ]
+  },
+  {
+    "palabra": "Desayuno",
+    "prohibidas": [
+      "Mañana",
+      "Comida",
+      "Leche",
+      "Pan",
+      "Tostadas"
+    ]
+  },
+  {
+    "palabra": "Tijeras",
+    "prohibidas": [
+      "Cortar",
+      "Papel",
+      "Cuchilla",
+      "Filo",
+      "Manualidades"
+    ]
+  },
+  {
+    "palabra": "Cohete",
+    "prohibidas": [
+      "Espacio",
+      "Lanzamiento",
+      "Nave",
+      "Combustible",
+      "Viaje"
+    ]
+  },
+  {
+    "palabra": "Lágrima",
+    "prohibidas": [
+      "Llorar",
+      "Ojos",
+      "Tristeza",
+      "Agua",
+      "Sentimiento"
+    ]
+  },
+  {
+    "palabra": "Escalera",
+    "prohibidas": [
+      "Subir",
+      "Bajar",
+      "Peldaños",
+      "Casa",
+      "Piso"
     ]
   },
   {
@@ -346,67 +2646,1137 @@
       "Flotar",
       "Fiesta",
       "Helio",
-      "Soplar"
+      "Inflar"
     ]
   },
   {
-    "palabra": "Espejo",
+    "palabra": "Cráneo",
     "prohibidas": [
-      "Reflejar",
-      "Ver",
-      "Imagen",
-      "Cristal",
-      "Cara"
+      "Hueso",
+      "Cabeza",
+      "Esqueleto",
+      "Muerte",
+      "Calavera"
     ]
   },
   {
-    "palabra": "Cepillo",
+    "palabra": "Microondas",
     "prohibidas": [
-      "Pelo",
-      "Peinar",
-      "Cepillar",
-      "Dientes",
-      "Cabello"
+      "Calentar",
+      "Horno",
+      "Cocina",
+      "Plato",
+      "Comida"
     ]
   },
   {
-    "palabra": "Mesa",
+    "palabra": "Guitarra",
     "prohibidas": [
-      "Silla",
-      "Mueble",
-      "Comer",
-      "Poner",
-      "Patas"
+      "Cuerdas",
+      "Música",
+      "Acordes",
+      "Instrumento",
+      "Tocar"
     ]
   },
   {
-    "palabra": "Tren",
+    "palabra": "Esqueleto",
     "prohibidas": [
-      "Ferrocarril",
-      "Vía",
-      "Viajar",
-      "Locomotora",
-      "Estación"
+      "Huesos",
+      "Cuerpo",
+      "Anatomía",
+      "Armazón",
+      "Cráneo"
     ]
   },
   {
-    "palabra": "Barco",
+    "palabra": "Vampiro",
     "prohibidas": [
+      "Noche",
+      "Sangre",
+      "Drácula",
+      "Colmillos",
+      "Murciélago"
+    ]
+  },
+  {
+    "palabra": "Castillo",
+    "prohibidas": [
+      "Princesa",
+      "Fortaleza",
+      "Rey",
+      "Muros",
+      "Edad Media"
+    ]
+  },
+  {
+    "palabra": "Sombrero",
+    "prohibidas": [
+      "Cabeza",
+      "Gorra",
+      "Accesorios",
+      "Sol",
+      "Paja"
+    ]
+  },
+  {
+    "palabra": "Lavadora",
+    "prohibidas": [
+      "Ropa",
+      "Lavar",
+      "Electrodoméstico",
+      "Sucio",
+      "Limpiar"
+    ]
+  },
+  {
+    "palabra": "Diamante",
+    "prohibidas": [
+      "Joya",
+      "Brillante",
+      "Duro",
+      "Precioso",
+      "Anillo"
+    ]
+  },
+  {
+    "palabra": "Tractor",
+    "prohibidas": [
+      "Campo",
+      "Agricultura",
+      "Granja",
+      "Vehículo",
+      "Ruedas"
+    ]
+  },
+  {
+    "palabra": "Hamburguesa",
+    "prohibidas": [
+      "Carne",
+      "Pan",
+      "Comida",
+      "Queso",
+      "Lechuga"
+    ]
+  },
+  {
+    "palabra": "Tsunami",
+    "prohibidas": [
+      "Ola",
+      "Gigante",
       "Mar",
-      "Navegar",
-      "Agua",
-      "Viaje",
-      "Puerto"
+      "Desastre",
+      "Japón"
     ]
   },
   {
-    "palabra": "Árbol",
+    "palabra": "Zoológico",
+    "prohibidas": [
+      "Animales",
+      "Jaulas",
+      "Visitar",
+      "Zoo",
+      "León"
+    ]
+  },
+  {
+    "palabra": "Erupción volcánica",
+    "prohibidas": [
+      "Volcán",
+      "Lava",
+      "Fuego",
+      "Explosión",
+      "Ceniza"
+    ]
+  },
+  {
+    "palabra": "Bailarín",
+    "prohibidas": [
+      "Danza",
+      "Música",
+      "Escenario",
+      "Movimiento",
+      "Cuerpo"
+    ]
+  },
+  {
+    "palabra": "Aspiradora",
+    "prohibidas": [
+      "Polvo",
+      "Limpiar",
+      "Sucio",
+      "Electrodoméstico",
+      "Casa"
+    ]
+  },
+  {
+    "palabra": "Arco",
+    "prohibidas": [
+      "Flecha",
+      "Arma",
+      "Tirar",
+      "Caza",
+      "Cuerda"
+    ]
+  },
+  {
+    "palabra": "Hojas",
+    "prohibidas": [
+      "Árbol",
+      "Planta",
+      "Verde",
+      "Otoño",
+      "Caer"
+    ]
+  },
+  {
+    "palabra": "Monstruo",
+    "prohibidas": [
+      "Miedo",
+      "Feo",
+      "Fantasía",
+      "Película",
+      "Cuento"
+    ]
+  },
+  {
+    "palabra": "Acuario",
+    "prohibidas": [
+      "Peces",
+      "Agua",
+      "Cristal",
+      "Tanque",
+      "Mar"
+    ]
+  },
+  {
+    "palabra": "Paraguas",
+    "prohibidas": [
+      "Lluvia",
+      "Agua",
+      "Abrir",
+      "Cerrar",
+      "Protección"
+    ]
+  },
+  {
+    "palabra": "Bomba",
+    "prohibidas": [
+      "Explosión",
+      "Arma",
+      "Detonar",
+      "Guerra",
+      "Película"
+    ]
+  },
+  {
+    "palabra": "Mago",
+    "prohibidas": [
+      "Magia",
+      "Sombrero",
+      "Truco",
+      "Ilusión",
+      "Conejo"
+    ]
+  },
+  {
+    "palabra": "Astronauta",
+    "prohibidas": [
+      "Espacio",
+      "Cohete",
+      "Gravedad",
+      "Planeta",
+      "Nave"
+    ]
+  },
+  {
+    "palabra": "Ping-pong",
+    "prohibidas": [
+      "Mesa",
+      "Pelota",
+      "Raqueta",
+      "Deporte",
+      "Juego"
+    ]
+  },
+  {
+    "palabra": "Mochila",
+    "prohibidas": [
+      "Espalda",
+      "Llevar",
+      "Escuela",
+      "Viaje",
+      "Equipaje"
+    ]
+  },
+  {
+    "palabra": "Río",
+    "prohibidas": [
+      "Agua",
+      "Corriente",
+      "Cauce",
+      "Montaña",
+      "Nace"
+    ]
+  },
+  {
+    "palabra": "Faro",
+    "prohibidas": [
+      "Costa",
+      "Luz",
+      "Barco",
+      "Noche",
+      "Guía"
+    ]
+  },
+  {
+    "palabra": "Esponja",
+    "prohibidas": [
+      "Limpiar",
+      "Burbujas",
+      "Bañarse",
+      "Agua",
+      "Porosa"
+    ]
+  },
+  {
+    "palabra": "Caramelo",
+    "prohibidas": [
+      "Dulce",
+      "Azúcar",
+      "Chupete",
+      "Sabores",
+      "Goloso"
+    ]
+  },
+  {
+    "palabra": "Helado",
+    "prohibidas": [
+      "Frío",
+      "Verano",
+      "Cucurucho",
+      "Postre",
+      "Sabor"
+    ]
+  },
+  {
+    "palabra": "Burbuja",
+    "prohibidas": [
+      "Pompa",
+      "Jabón",
+      "Aire",
+      "Agua",
+      "Explota"
+    ]
+  },
+  {
+    "palabra": "Bruja",
+    "prohibidas": [
+      "Escoba",
+      "Hechicera",
+      "Malvada",
+      "Magia",
+      "Caldero"
+    ]
+  },
+  {
+    "palabra": "Coliseo",
+    "prohibidas": [
+      "Roma",
+      "Antiguo",
+      "Gladiador",
+      "Anfiteatro",
+      "Emperador"
+    ]
+  },
+  {
+    "palabra": "Escorpión",
+    "prohibidas": [
+      "Veneno",
+      "Aguijón",
+      "Arácnido",
+      "Desierto",
+      "Pinzas"
+    ]
+  },
+  {
+    "palabra": "Sombrilla",
+    "prohibidas": [
+      "Playa",
+      "Sol",
+      "Arena",
+      "Protección",
+      "Abierta"
+    ]
+  },
+  {
+    "palabra": "Espada",
+    "prohibidas": [
+      "Arma",
+      "Caballero",
+      "Filo",
+      "Lucha",
+      "Metal"
+    ]
+  },
+  {
+    "palabra": "Cerebro",
+    "prohibidas": [
+      "Cabeza",
+      "Pensar",
+      "Órgano",
+      "Inteligencia",
+      "Neuronas"
+    ]
+  },
+  {
+    "palabra": "Fuego",
+    "prohibidas": [
+      "Calor",
+      "Quemar",
+      "Humo",
+      "Llama",
+      "Incendio"
+    ]
+  },
+  {
+    "palabra": "Pizza",
+    "prohibidas": [
+      "Comida",
+      "Queso",
+      "Masa",
+      "Horno",
+      "Redonda"
+    ]
+  },
+  {
+    "palabra": "Microscopio",
+    "prohibidas": [
+      "Ver",
+      "Pequeño",
+      "Lente",
+      "Ciencia",
+      "Laboratorio"
+    ]
+  },
+  {
+    "palabra": "Soldado",
+    "prohibidas": [
+      "Ejército",
+      "Guerra",
+      "Uniforme",
+      "Arma",
+      "Luchar"
+    ]
+  },
+  {
+    "palabra": "Pájaros",
+    "prohibidas": [
+      "Volar",
+      "Alas",
+      "Nido",
+      "Plumas",
+      "Cantar"
+    ]
+  },
+  {
+    "palabra": "Tenedor",
+    "prohibidas": [
+      "Comer",
+      "Pinchos",
+      "Cubierto",
+      "Mesa",
+      "Cocina"
+    ]
+  },
+  {
+    "palabra": "Cámara",
+    "prohibidas": [
+      "Fotografía",
+      "Vídeo",
+      "Imagen",
+      "Película",
+      "Disparar"
+    ]
+  },
+  {
+    "palabra": "Hielo",
+    "prohibidas": [
+      "Agua",
+      "Frío",
+      "Congelado",
+      "Cubito",
+      "Glaciar"
+    ]
+  },
+  {
+    "palabra": "Pelota",
+    "prohibidas": [
+      "Jugar",
+      "Redonda",
+      "Deporte",
+      "Balón",
+      "Patear"
+    ]
+  },
+  {
+    "palabra": "Abeto",
+    "prohibidas": [
+      "Árbol",
+      "Navidad",
+      "Conífera",
+      "Bosque",
+      "Pino"
+    ]
+  },
+  {
+    "palabra": "Ducha",
+    "prohibidas": [
+      "Bañarse",
+      "Agua",
+      "Limpiar",
+      "Baño",
+      "Jabón"
+    ]
+  },
+  {
+    "palabra": "Rayo",
+    "prohibidas": [
+      "Tormenta",
+      "Trueno",
+      "Electricidad",
+      "Cielo",
+      "Relámpago"
+    ]
+  },
+  {
+    "palabra": "Fútbol",
+    "prohibidas": [
+      "Balón",
+      "Deporte",
+      "Portería",
+      "Jugadores",
+      "Cancha"
+    ]
+  },
+  {
+    "palabra": "Juego",
+    "prohibidas": [
+      "Divertirse",
+      "Juguete",
+      "Niños",
+      "Reglas",
+      "Partida"
+    ]
+  },
+  {
+    "palabra": "Cuchara",
+    "prohibidas": [
+      "Comer",
+      "Sopa",
+      "Cubierto",
+      "Boca",
+      "Cocina"
+    ]
+  },
+  {
+    "palabra": "Helicóptero",
+    "prohibidas": [
+      "Volar",
+      "Hélice",
+      "Cielo",
+      "Avión",
+      "Máquina"
+    ]
+  },
+  {
+    "palabra": "Diente",
+    "prohibidas": [
+      "Boca",
+      "Masticar",
+      "Hueso",
+      "Limpiar",
+      "Dentista"
+    ]
+  },
+  {
+    "palabra": "Nieve",
+    "prohibidas": [
+      "Frío",
+      "Invierno",
+      "Blanca",
+      "Cielo",
+      "Copos"
+    ]
+  },
+  {
+    "palabra": "Estadio",
+    "prohibidas": [
+      "Deporte",
+      "Fútbol",
+      "Gradas",
+      "Público",
+      "Campo"
+    ]
+  },
+  {
+    "palabra": "Bebé",
+    "prohibidas": [
+      "Recién",
+      "Nacer",
+      "Pañal",
+      "Llorar",
+      "Niño"
+    ]
+  },
+  {
+    "palabra": "Abanico",
+    "prohibidas": [
+      "Aire",
+      "Calor",
+      "Mover",
+      "Ventilador",
+      "Mano"
+    ]
+  },
+  {
+    "palabra": "Abogado",
+    "prohibidas": [
+      "Ley",
+      "Juez",
+      "Tribunal",
+      "Defender",
+      "Juicio"
+    ]
+  },
+  {
+    "palabra": "Abrigo",
+    "prohibidas": [
+      "Ropa",
+      "Frío",
+      "Invierno",
+      "Poner",
+      "Chaqueta"
+    ]
+  },
+  {
+    "palabra": "Actor",
+    "prohibidas": [
+      "Película",
+      "Teatro",
+      "Interpretar",
+      "Personaje",
+      "Escenario"
+    ]
+  },
+  {
+    "palabra": "Ajedrez",
+    "prohibidas": [
+      "Juego",
+      "Tablero",
+      "Piezas",
+      "Rey",
+      "Estrategia"
+    ]
+  },
+  {
+    "palabra": "Albañil",
+    "prohibidas": [
+      "Construcción",
+      "Ladrillo",
+      "Cemento",
+      "Trabajo",
+      "Edificio"
+    ]
+  },
+  {
+    "palabra": "Alegría",
+    "prohibidas": [
+      "Felicidad",
+      "Emoción",
+      "Contento",
+      "Sonrisa",
+      "Sentimiento"
+    ]
+  },
+  {
+    "palabra": "Alfombra",
+    "prohibidas": [
+      "Suelo",
+      "Limpiar",
+      "Decoración",
+      "Tapete",
+      "Casa"
+    ]
+  },
+  {
+    "palabra": "Alienígena",
+    "prohibidas": [
+      "Extraterrestre",
+      "Espacio",
+      "Platillo",
+      "Otro",
+      "Galaxia"
+    ]
+  },
+  {
+    "palabra": "Anillo",
+    "prohibidas": [
+      "Dedo",
+      "Joya",
+      "Boda",
+      "Circular",
+      "Metal"
+    ]
+  },
+  {
+    "palabra": "Antártida",
+    "prohibidas": [
+      "Polo",
+      "Frío",
+      "Hielo",
+      "Continente",
+      "Océano"
+    ]
+  },
+  {
+    "palabra": "Armario",
+    "prohibidas": [
+      "Ropa",
+      "Guardar",
+      "Puertas",
+      "Madera",
+      "Habitación"
+    ]
+  },
+  {
+    "palabra": "Atletismo",
+    "prohibidas": [
+      "Deporte",
+      "Correr",
+      "Saltar",
+      "Lanzar",
+      "Pista"
+    ]
+  },
+  {
+    "palabra": "Auriculares",
+    "prohibidas": [
+      "Oído",
+      "Música",
+      "Sonido",
+      "Cable",
+      "Escuchar"
+    ]
+  },
+  {
+    "palabra": "Autobús",
+    "prohibidas": [
+      "Transporte",
+      "Viaje",
+      "Pasajeros",
+      "Parada",
+      "Conductor"
+    ]
+  },
+  {
+    "palabra": "Baloncesto",
+    "prohibidas": [
+      "Balón",
+      "Canasta",
+      "Deporte",
+      "Botar",
+      "Equipo"
+    ]
+  },
+  {
+    "palabra": "Bambú",
     "prohibidas": [
       "Planta",
-      "Tronco",
+      "Panda",
+      "China",
+      "Caña",
+      "Bosque"
+    ]
+  },
+  {
+    "palabra": "Banco",
+    "prohibidas": [
+      "Dinero",
+      "Asiento",
+      "Sentarse",
+      "Parque",
+      "Ahorros"
+    ]
+  },
+  {
+    "palabra": "Bebida",
+    "prohibidas": [
+      "Beber",
+      "Líquido",
+      "Vaso",
+      "Agua",
+      "Tragar"
+    ]
+  },
+  {
+    "palabra": "Beso",
+    "prohibidas": [
+      "Boca",
+      "Labios",
+      "Afecto",
+      "Amor",
+      "Contacto"
+    ]
+  },
+  {
+    "palabra": "Biología",
+    "prohibidas": [
+      "Ciencia",
+      "Vida",
+      "Estudiar",
+      "Plantas",
+      "Animales"
+    ]
+  },
+  {
+    "palabra": "Boca",
+    "prohibidas": [
+      "Comer",
+      "Hablar",
+      "Labios",
+      "Dientes",
+      "Saliva"
+    ]
+  },
+  {
+    "palabra": "Bocadillo",
+    "prohibidas": [
+      "Pan",
+      "Comida",
+      "Jamón",
+      "Queso",
+      "Almuerzo"
+    ]
+  },
+  {
+    "palabra": "Boda",
+    "prohibidas": [
+      "Matrimonio",
+      "Novios",
+      "Anillo",
+      "Ceremonia",
+      "Fiesta"
+    ]
+  },
+  {
+    "palabra": "Bolso",
+    "prohibidas": [
+      "Guardar",
+      "Llevar",
+      "Cinturón",
+      "Cartera",
+      "Mano"
+    ]
+  },
+  {
+    "palabra": "Bolígrafo",
+    "prohibidas": [
+      "Escribir",
+      "Tinta",
+      "Papel",
+      "Pluma",
+      "Punta"
+    ]
+  },
+  {
+    "palabra": "Bombero",
+    "prohibidas": [
+      "Fuego",
+      "Apagar",
+      "Manguera",
+      "Ayuda",
+      "Emergencia"
+    ]
+  },
+  {
+    "palabra": "Buzo",
+    "prohibidas": [
+      "Agua",
+      "Mar",
+      "Debajo",
+      "Traje",
+      "Respirar"
+    ]
+  },
+  {
+    "palabra": "Cabeza",
+    "prohibidas": [
+      "Cuerpo",
+      "Cara",
+      "Cerebro",
+      "Pelo",
+      "Parte"
+    ]
+  },
+  {
+    "palabra": "Cable",
+    "prohibidas": [
+      "Electricidad",
+      "Conectar",
+      "Alambre",
+      "Enchufe",
+      "Corriente"
+    ]
+  },
+  {
+    "palabra": "Cactus",
+    "prohibidas": [
+      "Planta",
+      "Desierto",
+      "Espinas",
+      "Agua",
+      "Flor"
+    ]
+  },
+  {
+    "palabra": "Caimán",
+    "prohibidas": [
+      "Reptil",
+      "Cocodrilo",
+      "Agua",
+      "Mandíbula",
+      "Pantano"
+    ]
+  },
+  {
+    "palabra": "Camión",
+    "prohibidas": [
+      "Grande",
+      "Vehículo",
+      "Mercancía",
+      "Carga",
+      "Transporte"
+    ]
+  },
+  {
+    "palabra": "Candado",
+    "prohibidas": [
+      "Cerrar",
+      "Seguridad",
+      "Llave",
+      "Metal",
+      "Puerta"
+    ]
+  },
+  {
+    "palabra": "Carpintero",
+    "prohibidas": [
+      "Madera",
+      "Clavo",
+      "Martillo",
+      "Muebles",
+      "Construir"
+    ]
+  },
+  {
+    "palabra": "Cartero",
+    "prohibidas": [
+      "Correo",
+      "Carta",
+      "Paquete",
+      "Entrega",
+      "Trabajo"
+    ]
+  },
+  {
+    "palabra": "Cementerio",
+    "prohibidas": [
+      "Muertos",
+      "Tumba",
+      "Lápida",
+      "Enterrar",
+      "Funeral"
+    ]
+  },
+  {
+    "palabra": "Ciencia",
+    "prohibidas": [
+      "Estudiar",
+      "Experimento",
+      "Investigación",
+      "Física",
+      "Laboratorio"
+    ]
+  },
+  {
+    "palabra": "Cocina",
+    "prohibidas": [
+      "Comida",
+      "Hogar",
+      "Preparar",
+      "Olla",
+      "Receta"
+    ]
+  },
+  {
+    "palabra": "Corazón",
+    "prohibidas": [
+      "Órgano",
+      "Bombeo",
+      "Sangre",
+      "Latido",
+      "Amor"
+    ]
+  },
+  {
+    "palabra": "Cuadro",
+    "prohibidas": [
+      "Pintura",
+      "Marco",
+      "Lienzo",
+      "Arte",
+      "Pared"
+    ]
+  },
+  {
+    "palabra": "Cuchillo",
+    "prohibidas": [
+      "Cortar",
+      "Cocina",
+      "Hoja",
+      "Filo",
+      "Metal"
+    ]
+  },
+  {
+    "palabra": "Cueva",
+    "prohibidas": [
+      "Agujero",
+      "Oscuridad",
+      "Murciélagos",
+      "Montaña",
+      "Piedra"
+    ]
+  },
+  {
+    "palabra": "Cumpleaños",
+    "prohibidas": [
+      "Fiesta",
+      "Tarta",
+      "Velas",
+      "Regalo",
+      "Celebración"
+    ]
+  },
+  {
+    "palabra": "Dados",
+    "prohibidas": [
+      "Juego",
+      "Lanzar",
+      "Puntos",
+      "Seis",
+      "Cubos"
+    ]
+  },
+  {
+    "palabra": "Dentista",
+    "prohibidas": [
+      "Dientes",
+      "Boca",
+      "Revisión",
+      "Limpieza",
+      "Muela"
+    ]
+  },
+  {
+    "palabra": "Dinero",
+    "prohibidas": [
+      "Moneda",
+      "Billete",
+      "Comprar",
+      "Pagar",
+      "Riqueza"
+    ]
+  },
+  {
+    "palabra": "Doctor",
+    "prohibidas": [
+      "Hospital",
+      "Enfermedad",
+      "Curar",
+      "Medicina",
+      "Enfermero"
+    ]
+  },
+  {
+    "palabra": "Dragón",
+    "prohibidas": [
+      "Criatura",
+      "Fantasía",
+      "Alas",
+      "Fuego",
+      "Mito"
+    ]
+  },
+  {
+    "palabra": "Duende",
+    "prohibidas": [
+      "Criatura",
+      "Mito",
+      "Pequeño",
       "Bosque",
-      "Hojas",
-      "Raíces"
+      "Sombrero"
+    ]
+  },
+  {
+    "palabra": "Electricista",
+    "prohibidas": [
+      "Electricidad",
+      "Cable",
+      "Reparar",
+      "Luz",
+      "Casa"
+    ]
+  },
+  {
+    "palabra": "Escoba",
+    "prohibidas": [
+      "Limpiar",
+      "Barre",
+      "Piso",
+      "Bruja",
+      "Polvo"
+    ]
+  },
+  {
+    "palabra": "Escuela",
+    "prohibidas": [
+      "Estudiar",
+      "Clase",
+      "Profesor",
+      "Libros",
+      "Alumnos"
+    ]
+  },
+  {
+    "palabra": "Espía",
+    "prohibidas": [
+      "Secreto",
+      "Agente",
+      "Misión",
+      "Información",
+      "Disfraces"
+    ]
+  },
+  {
+    "palabra": "Fantasma",
+    "prohibidas": [
+      "Espíritu",
+      "Miedo",
+      "Casa",
+      "Sábana",
+      "Aparece"
     ]
   },
   {
@@ -415,78 +3785,28 @@
       "Planta",
       "Pétalos",
       "Jardín",
-      "Olor",
-      "Ramo"
+      "Perfume",
+      "Color"
     ]
   },
   {
-    "palabra": "Montaña",
+    "palabra": "Fontanero",
     "prohibidas": [
-      "Naturaleza",
-      "Subir",
-      "Pico",
-      "Alto",
-      "Cima"
+      "Agua",
+      "Tuberías",
+      "Grifo",
+      "Reparar",
+      "Trabajo"
     ]
   },
   {
-    "palabra": "Estrella",
+    "palabra": "Fruta",
     "prohibidas": [
-      "Cielo",
-      "Brillar",
-      "Noche",
-      "Espacio",
-      "Sol"
-    ]
-  },
-  {
-    "palabra": "Cielo",
-    "prohibidas": [
-      "Azul",
-      "Nubes",
-      "Arriba",
-      "Estrellas",
-      "Pájaros"
-    ]
-  },
-  {
-    "palabra": "Caracol",
-    "prohibidas": [
-      "Animal",
-      "Concha",
-      "Lento",
-      "Babosa",
-      "Antenas"
-    ]
-  },
-  {
-    "palabra": "Lápiz",
-    "prohibidas": [
-      "Escribir",
-      "Dibujar",
-      "Boli",
-      "Papel",
-      "Mina"
-    ]
-  },
-  {
-    "palabra": "Pelota",
-    "prohibidas": [
-      "Balón",
-      "Juego",
-      "Redonda",
-      "Botar",
-      "Deporte"
-    ]
-  },
-  {
-    "palabra": "Vestido",
-    "prohibidas": [
-      "Ropa",
-      "Poner",
-      "Mujer",
-      "Falda",
-      "Tela"
+      "Comer",
+      "Árbol",
+      "Sabor",
+      "Dulce",
+      "Manzana"
     ]
   },
   {
@@ -500,73 +3820,1553 @@
     ]
   },
   {
-    "palabra": "Anillo",
+    "palabra": "Galaxia",
     "prohibidas": [
-      "Dedo",
-      "Joya",
-      "Oro",
-      "Casamiento",
-      "Boda"
+      "Estrellas",
+      "Universo",
+      "Espacio",
+      "Vía Láctea",
+      "Planetas"
     ]
   },
   {
-    "palabra": "Pájaro",
+    "palabra": "Iglesia",
     "prohibidas": [
-      "Volar",
-      "Ave",
-      "Plumas",
-      "Nido",
-      "Cantar"
+      "Religión",
+      "Dios",
+      "Misa",
+      "Creyentes",
+      "Orar"
     ]
   },
   {
-    "palabra": "Mariposa",
+    "palabra": "Iglú",
     "prohibidas": [
-      "Insecto",
-      "Alas",
-      "Oruga",
-      "Flor",
-      "Colores"
+      "Hielo",
+      "Casa",
+      "Esquimales",
+      "Frío",
+      "Nieve"
     ]
   },
   {
-    "palabra": "Hielo",
+    "palabra": "Impresora",
+    "prohibidas": [
+      "Papel",
+      "Tinta",
+      "Máquina",
+      "Texto",
+      "Dibujo"
+    ]
+  },
+  {
+    "palabra": "Inodoro",
+    "prohibidas": [
+      "Baño",
+      "Retrete",
+      "Sanitario",
+      "Agua",
+      "Excremento"
+    ]
+  },
+  {
+    "palabra": "Invierno",
+    "prohibidas": [
+      "Frío",
+      "Estación",
+      "Nieve",
+      "Diciembre",
+      "Enero"
+    ]
+  },
+  {
+    "palabra": "Juez",
+    "prohibidas": [
+      "Ley",
+      "Tribunal",
+      "Justicia",
+      "Sentencia",
+      "Abogado"
+    ]
+  },
+  {
+    "palabra": "Ladrón",
+    "prohibidas": [
+      "Robar",
+      "Dinero",
+      "Cárcel",
+      "Policía",
+      "Delito"
+    ]
+  },
+  {
+    "palabra": "Lagartija",
+    "prohibidas": [
+      "Reptil",
+      "Pared",
+      "Pequeño",
+      "Sol",
+      "Cola"
+    ]
+  },
+  {
+    "palabra": "Lápiz",
+    "prohibidas": [
+      "Escribir",
+      "Papel",
+      "Madera",
+      "Mina",
+      "Dibujar"
+    ]
+  },
+  {
+    "palabra": "Mano",
+    "prohibidas": [
+      "Brazo",
+      "Dedos",
+      "Coger",
+      "Palma",
+      "Parte"
+    ]
+  },
+  {
+    "palabra": "Martillo",
+    "prohibidas": [
+      "Clavo",
+      "Golpear",
+      "Madera",
+      "Herramienta",
+      "Metal"
+    ]
+  },
+  {
+    "palabra": "Micrófono",
+    "prohibidas": [
+      "Sonido",
+      "Hablar",
+      "Cantar",
+      "Voz",
+      "Amplificador"
+    ]
+  },
+  {
+    "palabra": "Montaña",
+    "prohibidas": [
+      "Pico",
+      "Subir",
+      "Senderismo",
+      "Naturaleza",
+      "Tierra"
+    ]
+  },
+  {
+    "palabra": "Motocicleta",
+    "prohibidas": [
+      "Moto",
+      "Vehículo",
+      "Dos",
+      "Ruedas",
+      "Velocidad"
+    ]
+  },
+  {
+    "palabra": "Médico",
+    "prohibidas": [
+      "Hospital",
+      "Enfermo",
+      "Curar",
+      "Salud",
+      "Doctor"
+    ]
+  },
+  {
+    "palabra": "Navidad",
+    "prohibidas": [
+      "Diciembre",
+      "Regalos",
+      "Árbol",
+      "Papá",
+      "Noel"
+    ]
+  },
+  {
+    "palabra": "Ninja",
+    "prohibidas": [
+      "Guerrero",
+      "Japón",
+      "Sigilo",
+      "Oscuridad",
+      "Cuchillos"
+    ]
+  },
+  {
+    "palabra": "Novia",
+    "prohibidas": [
+      "Pareja",
+      "Mujer",
+      "Boda",
+      "Compromiso",
+      "Novio"
+    ]
+  },
+  {
+    "palabra": "Ojos",
+    "prohibidas": [
+      "Ver",
+      "Cara",
+      "Párpados",
+      "Visión",
+      "Pupila"
+    ]
+  },
+  {
+    "palabra": "Olla",
+    "prohibidas": [
+      "Cocina",
+      "Comida",
+      "Caliente",
+      "Cocer",
+      "Metal"
+    ]
+  },
+  {
+    "palabra": "Oreja",
+    "prohibidas": [
+      "Oído",
+      "Escuchar",
+      "Cara",
+      "Parte",
+      "Sonido"
+    ]
+  },
+  {
+    "palabra": "Pantera",
+    "prohibidas": [
+      "Felino",
+      "Negro",
+      "Animal",
+      "Selva",
+      "Jaguar"
+    ]
+  },
+  {
+    "palabra": "Peluquero",
+    "prohibidas": [
+      "Pelo",
+      "Cortar",
+      "Tijeras",
+      "Salón",
+      "Peinar"
+    ]
+  },
+  {
+    "palabra": "Pescador",
+    "prohibidas": [
+      "Pez",
+      "Mar",
+      "Caña",
+      "Red",
+      "Agua"
+    ]
+  },
+  {
+    "palabra": "Piel",
+    "prohibidas": [
+      "Cuerpo",
+      "Tacto",
+      "Órgano",
+      "Suave",
+      "Protección"
+    ]
+  },
+  {
+    "palabra": "Pintor",
+    "prohibidas": [
+      "Pintar",
+      "Lienzo",
+      "Cuadro",
+      "Artista",
+      "Pincel"
+    ]
+  },
+  {
+    "palabra": "Pluma",
+    "prohibidas": [
+      "Pájaro",
+      "Escribir",
+      "Ligero",
+      "Bolígrafo",
+      "Volar"
+    ]
+  },
+  {
+    "palabra": "Poeta",
+    "prohibidas": [
+      "Poesía",
+      "Verso",
+      "Escribir",
+      "Autor",
+      "Sentimiento"
+    ]
+  },
+  {
+    "palabra": "Policía",
+    "prohibidas": [
+      "Ley",
+      "Orden",
+      "Arrestar",
+      "Uniforme",
+      "Detective"
+    ]
+  },
+  {
+    "palabra": "Princesa",
+    "prohibidas": [
+      "Príncipe",
+      "Reina",
+      "Castillo",
+      "Cuento",
+      "Corona"
+    ]
+  },
+  {
+    "palabra": "Profesor",
+    "prohibidas": [
+      "Clase",
+      "Enseñar",
+      "Alumnos",
+      "Escuela",
+      "Maestro"
+    ]
+  },
+  {
+    "palabra": "Puente",
+    "prohibidas": [
+      "Río",
+      "Pasar",
+      "Vehículos",
+      "Estructura",
+      "Conexión"
+    ]
+  },
+  {
+    "palabra": "Radio",
+    "prohibidas": [
+      "Música",
+      "Emisora",
+      "Sonido",
+      "Antena",
+      "Escuchar"
+    ]
+  },
+  {
+    "palabra": "Rey",
+    "prohibidas": [
+      "Monarca",
+      "Reina",
+      "Corona",
+      "Castillo",
+      "Gobierno"
+    ]
+  },
+  {
+    "palabra": "Rueda",
+    "prohibidas": [
+      "Coche",
+      "Circular",
+      "Girar",
+      "Metal",
+      "Caucho"
+    ]
+  },
+  {
+    "palabra": "Sangre",
+    "prohibidas": [
+      "Cuerpo",
+      "Rojo",
+      "Herida",
+      "Veneno",
+      "Corazón"
+    ]
+  },
+  {
+    "palabra": "Tenis",
+    "prohibidas": [
+      "Deporte",
+      "Raqueta",
+      "Pelota",
+      "Cancha",
+      "Jugar"
+    ]
+  },
+  {
+    "palabra": "Tierra",
+    "prohibidas": [
+      "Planeta",
+      "Mundo",
+      "Globo",
+      "País",
+      "Suelo"
+    ]
+  },
+  {
+    "palabra": "Trompeta",
+    "prohibidas": [
+      "Instrumento",
+      "Música",
+      "Viento",
+      "Latón",
+      "Boca"
+    ]
+  },
+  {
+    "palabra": "Trueno",
+    "prohibidas": [
+      "Sonido",
+      "Relámpago",
+      "Tormenta",
+      "Ruido",
+      "Fuerte"
+    ]
+  },
+  {
+    "palabra": "Unicornio",
+    "prohibidas": [
+      "Cuerno",
+      "Caballo",
+      "Mágico",
+      "Fantasía",
+      "Mito"
+    ]
+  },
+  {
+    "palabra": "Vaso",
+    "prohibidas": [
+      "Beber",
+      "Agua",
+      "Cristal",
+      "Líquido",
+      "Recipiente"
+    ]
+  },
+  {
+    "palabra": "Ventana",
+    "prohibidas": [
+      "Casa",
+      "Cristal",
+      "Abrir",
+      "Cerrar",
+      "Ver"
+    ]
+  },
+  {
+    "palabra": "Veterinario",
+    "prohibidas": [
+      "Animales",
+      "Doctor",
+      "Curar",
+      "Clínica",
+      "Mascotas"
+    ]
+  },
+  {
+    "palabra": "Zapatos",
+    "prohibidas": [
+      "Pie",
+      "Calzado",
+      "Vestir",
+      "Andar",
+      "Atar"
+    ]
+  },
+  {
+    "palabra": "Zombi",
+    "prohibidas": [
+      "Muerto",
+      "Vivo",
+      "Caminar",
+      "Cerebro",
+      "Infectado"
+    ]
+  },
+  {
+    "palabra": "Zoo",
+    "prohibidas": [
+      "Animales",
+      "Jaulas",
+      "Visitar",
+      "Zoológico",
+      "Parque"
+    ]
+  },
+  {
+    "palabra": "Ángel",
+    "prohibidas": [
+      "Ala",
+      "Cielo",
+      "Dios",
+      "Espíritu",
+      "Blanco"
+    ]
+  },
+  {
+    "palabra": "Árbol",
+    "prohibidas": [
+      "Tronco",
+      "Hojas",
+      "Madera",
+      "Bosque",
+      "Planta"
+    ]
+  },
+  {
+    "palabra": "Ópera",
+    "prohibidas": [
+      "Teatro",
+      "Música",
+      "Cantar",
+      "Escenario",
+      "Obra"
+    ]
+  },
+  {
+    "palabra": "Película",
+    "prohibidas": [
+      "Cine",
+      "Actores",
+      "Director",
+      "Palomitas",
+      "Historia"
+    ]
+  },
+  {
+    "palabra": "Puerta",
+    "prohibidas": [
+      "Casa",
+      "Abrir",
+      "Cerrar",
+      "Entrada",
+      "Madera"
+    ]
+  },
+  {
+    "palabra": "Botella",
+    "prohibidas": [
+      "Líquido",
+      "Plástico",
+      "Tapón",
+      "Beber",
+      "Agua"
+    ]
+  },
+  {
+    "palabra": "Escritor",
+    "prohibidas": [
+      "Libro",
+      "Escribir",
+      "Autor",
+      "Historia",
+      "Novela"
+    ]
+  },
+  {
+    "palabra": "Cataratas",
     "prohibidas": [
       "Agua",
-      "Frío",
-      "Congelar",
-      "Cubitos",
-      "Sólido"
+      "Salto",
+      "Río",
+      "Cascada",
+      "Naturaleza"
     ]
   },
   {
-    "palabra": "Pan",
+    "palabra": "Telaraña",
     "prohibidas": [
-      "Comida",
-      "Hacer",
-      "Horno",
-      "Harina",
-      "Panadero"
+      "Araña",
+      "Tejer",
+      "Insecto",
+      "Red",
+      "Pegajoso"
     ]
   },
   {
-    "palabra": "Queso",
+    "palabra": "Ratón",
     "prohibidas": [
-      "Leche",
-      "Comer",
-      "Lácteo",
-      "Curado",
-      "Fundido"
+      "Animal",
+      "Ordenador",
+      "Pequeño",
+      "Queso",
+      "Roedor"
     ]
   },
   {
-    "palabra": "Leche",
+    "palabra": "Periódico",
     "prohibidas": [
-      "Vaca",
-      "Blanca",
-      "Beber",
-      "Desayuno",
+      "Noticias",
+      "Leer",
+      "Diario",
+      "Prensa",
+      "Papel"
+    ]
+  },
+  {
+    "palabra": "Balón",
+    "prohibidas": [
+      "Pelota",
+      "Fútbol",
+      "Jugar",
+      "Redondo",
+      "Deporte"
+    ]
+  },
+  {
+    "palabra": "Limón",
+    "prohibidas": [
+      "Fruta",
+      "Ácido",
+      "Amarillo",
+      "Cítrico",
+      "Zumo"
+    ]
+  },
+  {
+    "palabra": "Miel",
+    "prohibidas": [
+      "Dulce",
+      "Abeja",
+      "Panal",
+      "Amarillo",
       "Líquido"
+    ]
+  },
+  {
+    "palabra": "Globo aerostático",
+    "prohibidas": [
+      "Aire",
+      "Volar",
+      "Cesta",
+      "Caliente",
+      "Viaje"
+    ]
+  },
+  {
+    "palabra": "Sirena",
+    "prohibidas": [
+      "Mar",
+      "Mito",
+      "Pez",
+      "Cola",
+      "Canto"
+    ]
+  },
+  {
+    "palabra": "Espagueti",
+    "prohibidas": [
+      "Pasta",
+      "Italiana",
+      "Tenedor",
+      "Tomate",
+      "Fideos"
+    ]
+  },
+  {
+    "palabra": "Granja",
+    "prohibidas": [
+      "Animales",
+      "Campo",
+      "Agricultura",
+      "Tractor",
+      "Corral"
+    ]
+  },
+  {
+    "palabra": "Japonés",
+    "prohibidas": [
+      "País",
+      "Sushi",
+      "Idioma",
+      "Asia",
+      "Gente"
+    ]
+  },
+  {
+    "palabra": "Kanguro",
+    "prohibidas": [
+      "Animal",
+      "Australia",
+      "Saltar",
+      "Bolsa",
+      "Marsupial"
+    ]
+  },
+  {
+    "palabra": "Nave espacial",
+    "prohibidas": [
+      "Espacio",
+      "Cohete",
+      "Astronauta",
+      "Viaje",
+      "Lanzar"
+    ]
+  },
+  {
+    "palabra": "Obelisco",
+    "prohibidas": [
+      "Monumento",
+      "Egipto",
+      "Alto",
+      "Piedra",
+      "Agujas"
+    ]
+  },
+  {
+    "palabra": "Xilófono",
+    "prohibidas": [
+      "Instrumento",
+      "Música",
+      "Golpear",
+      "Láminas",
+      "Percusión"
+    ]
+  },
+  {
+    "palabra": "Yogur",
+    "prohibidas": [
+      "Lácteo",
+      "Desayuno",
+      "Cuchara",
+      "Fruta",
+      "Vasito"
+    ]
+  },
+  {
+    "palabra": "Cereza",
+    "prohibidas": [
+      "Fruta",
+      "Roja",
+      "Árbol",
+      "Pequeña",
+      "Postre"
+    ]
+  },
+  {
+    "palabra": "Hacha",
+    "prohibidas": [
+      "Herramienta",
+      "Madera",
+      "Cortar",
+      "Filo",
+      "Tronco"
+    ]
+  },
+  {
+    "palabra": "Jinete",
+    "prohibidas": [
+      "Caballo",
+      "Montar",
+      "Cabalgar",
+      "Silla",
+      "Correr"
+    ]
+  },
+  {
+    "palabra": "Neptuno",
+    "prohibidas": [
+      "Planeta",
+      "Dios",
+      "Espacio",
+      "Azul",
+      "Universo"
+    ]
+  },
+  {
+    "palabra": "Quirófano",
+    "prohibidas": [
+      "Hospital",
+      "Cirugía",
+      "Médico",
+      "Operación",
+      "Mesa"
+    ]
+  },
+  {
+    "palabra": "Uva",
+    "prohibidas": [
+      "Fruta",
+      "Racimo",
+      "Vino",
+      "Morado",
+      "Verde"
+    ]
+  },
+  {
+    "palabra": "Violín",
+    "prohibidas": [
+      "Instrumento",
+      "Cuerdas",
+      "Arco",
+      "Música",
+      "Clásico"
+    ]
+  },
+  {
+    "palabra": "Yoga",
+    "prohibidas": [
+      "Ejercicio",
+      "Postura",
+      "Respiración",
+      "Mente",
+      "Relajación"
+    ]
+  },
+  {
+    "palabra": "Dardo",
+    "prohibidas": [
+      "Juego",
+      "Punta",
+      "Diana",
+      "Lanzar",
+      "Puntería"
+    ]
+  },
+  {
+    "palabra": "Flamenco",
+    "prohibidas": [
+      "Baile",
+      "Guitarra",
+      "España",
+      "Música",
+      "Traje"
+    ]
+  },
+  {
+    "palabra": "Guitarra eléctrica",
+    "prohibidas": [
+      "Música",
+      "Rock",
+      "Cuerdas",
+      "Amplificador",
+      "Concierto"
+    ]
+  },
+  {
+    "palabra": "Hongo",
+    "prohibidas": [
+      "Seta",
+      "Bosque",
+      "Comer",
+      "Planta",
+      "Tierra"
+    ]
+  },
+  {
+    "palabra": "Kayak",
+    "prohibidas": [
+      "Barco",
+      "Remar",
+      "Agua",
+      "Río",
+      "Deporte"
+    ]
+  },
+  {
+    "palabra": "Láser",
+    "prohibidas": [
+      "Luz",
+      "Rayo",
+      "Ciencia",
+      "Proyectar",
+      "Rojo"
+    ]
+  },
+  {
+    "palabra": "Químico",
+    "prohibidas": [
+      "Ciencia",
+      "Laboratorio",
+      "Experimento",
+      "Átomos",
+      "Fórmula"
+    ]
+  },
+  {
+    "palabra": "Roble",
+    "prohibidas": [
+      "Árbol",
+      "Madera",
+      "Bosque",
+      "Hoja",
+      "Fuerte"
+    ]
+  },
+  {
+    "palabra": "Silla de ruedas",
+    "prohibidas": [
+      "Andar",
+      "Moverse",
+      "Persona",
+      "Discapacidad",
+      "Hospital"
+    ]
+  },
+  {
+    "palabra": "Universo",
+    "prohibidas": [
+      "Espacio",
+      "Galaxia",
+      "Planetas",
+      "Estrellas",
+      "Todo"
+    ]
+  },
+  {
+    "palabra": "Vela",
+    "prohibidas": [
+      "Barco",
+      "Mar",
+      "Viento",
+      "Navegar",
+      "Embarcación"
+    ]
+  },
+  {
+    "palabra": "Whisky",
+    "prohibidas": [
+      "Bebida",
+      "Alcohol",
+      "Escocés",
+      "Cristal",
+      "Maduro"
+    ]
+  },
+  {
+    "palabra": "Yate",
+    "prohibidas": [
+      "Barco",
+      "Lujo",
+      "Mar",
+      "Navegar",
+      "Embarcación"
+    ]
+  },
+  {
+    "palabra": "Amazonas",
+    "prohibidas": [
+      "Río",
+      "Selva",
+      "Brasil",
+      "Agua",
+      "Verde"
+    ]
+  },
+  {
+    "palabra": "Foca",
+    "prohibidas": [
+      "Animal",
+      "Mar",
+      "Frío",
+      "Ártico",
+      "Nieve"
+    ]
+  },
+  {
+    "palabra": "Globos",
+    "prohibidas": [
+      "Aire",
+      "Flotar",
+      "Fiesta",
+      "Colores",
+      "Hinchado"
+    ]
+  },
+  {
+    "palabra": "Halcón",
+    "prohibidas": [
+      "Pájaro",
+      "Cazar",
+      "Volar",
+      "Rapaz",
+      "Cielo"
+    ]
+  },
+  {
+    "palabra": "Jeringa",
+    "prohibidas": [
+      "Agujas",
+      "Médico",
+      "Inyectar",
+      "Medicina",
+      "Hospital"
+    ]
+  },
+  {
+    "palabra": "Nevera",
+    "prohibidas": [
+      "Frío",
+      "Comida",
+      "Guardar",
+      "Congelar",
+      "Cocina"
+    ]
+  },
+  {
+    "palabra": "Teleférico",
+    "prohibidas": [
+      "Cuerda",
+      "Montaña",
+      "Transporte",
+      "Cabina",
+      "Altura"
+    ]
+  },
+  {
+    "palabra": "Wifi",
+    "prohibidas": [
+      "Internet",
+      "Conexión",
+      "Red",
+      "Router",
+      "Cable"
+    ]
+  },
+  {
+    "palabra": "Bombilla",
+    "prohibidas": [
+      "Luz",
+      "Eléctrica",
+      "Cristal",
+      "Encender",
+      "Iluminar"
+    ]
+  },
+  {
+    "palabra": "Imán",
+    "prohibidas": [
+      "Metal",
+      "Atraer",
+      "Frigorífico",
+      "Polo",
+      "Fuerza"
+    ]
+  },
+  {
+    "palabra": "Kiwi",
+    "prohibidas": [
+      "Fruta",
+      "Verde",
+      "Ácido",
+      "Peluda",
+      "Nueva Zelanda"
+    ]
+  },
+  {
+    "palabra": "Reno",
+    "prohibidas": [
+      "Navidad",
+      "Trineo",
+      "Santa Claus",
+      "Nieve",
+      "Animal"
+    ]
+  },
+  {
+    "palabra": "Ventilador",
+    "prohibidas": [
+      "Aire",
+      "Mover",
+      "Calor",
+      "Asiento",
+      "Enchufe"
+    ]
+  },
+  {
+    "palabra": "Washington",
+    "prohibidas": [
+      "Capital",
+      "EEUU",
+      "Presidente",
+      "Blanca",
+      "Ciudad"
+    ]
+  },
+  {
+    "palabra": "Calamar",
+    "prohibidas": [
+      "Mar",
+      "Tinta",
+      "Tentáculos",
+      "Pescar",
+      "Cefalópodo"
+    ]
+  },
+  {
+    "palabra": "Daga",
+    "prohibidas": [
+      "Cuchillo",
+      "Arma",
+      "Filo",
+      "Cortar",
+      "Punta"
+    ]
+  },
+  {
+    "palabra": "Fideo",
+    "prohibidas": [
+      "Pasta",
+      "Sopa",
+      "Delgado",
+      "Italiana",
+      "Comida"
+    ]
+  },
+  {
+    "palabra": "Química",
+    "prohibidas": [
+      "Ciencia",
+      "Laboratorio",
+      "Experimento",
+      "Átomos",
+      "Elementos"
+    ]
+  },
+  {
+    "palabra": "Sardina",
+    "prohibidas": [
+      "Pez",
+      "Mar",
+      "Plata",
+      "Comida",
+      "Lata"
+    ]
+  },
+  {
+    "palabra": "Viento",
+    "prohibidas": [
+      "Soplar",
+      "Aire",
+      "Movimiento",
+      "Fuerte",
+      "Silbar"
+    ]
+  },
+  {
+    "palabra": "Waterpolo",
+    "prohibidas": [
+      "Deporte",
+      "Piscina",
+      "Pelota",
+      "Nadar",
+      "Portería"
+    ]
+  },
+  {
+    "palabra": "Zapatilla",
+    "prohibidas": [
+      "Calzado",
+      "Deporte",
+      "Pie",
+      "Correr",
+      "Entrenar"
+    ]
+  },
+  {
+    "palabra": "Hélice",
+    "prohibidas": [
+      "Avión",
+      "Girar",
+      "Motor",
+      "Aire",
+      "Palas"
+    ]
+  },
+  {
+    "palabra": "Joyas",
+    "prohibidas": [
+      "Collar",
+      "Anillo",
+      "Oro",
+      "Plata",
+      "Valioso"
+    ]
+  },
+  {
+    "palabra": "Nadar",
+    "prohibidas": [
+      "Agua",
+      "Piscina",
+      "Mar",
+      "Moverse",
+      "Estilo"
+    ]
+  },
+  {
+    "palabra": "Oído",
+    "prohibidas": [
+      "Escuchar",
+      "Sonar",
+      "Oreja",
+      "Ruido",
+      "Sentido"
+    ]
+  },
+  {
+    "palabra": "Payaso",
+    "prohibidas": [
+      "Circo",
+      "Risa",
+      "Nariz",
+      "Maquillaje",
+      "Gracioso"
+    ]
+  },
+  {
+    "palabra": "Uña",
+    "prohibidas": [
+      "Dedo",
+      "Mano",
+      "Manicura",
+      "Crecer",
+      "Cortar"
+    ]
+  },
+  {
+    "palabra": "Wendy",
+    "prohibidas": [
+      "Peter Pan",
+      "Niña",
+      "Neverland",
+      "Cuento",
+      "Disney"
+    ]
+  },
+  {
+    "palabra": "Donut",
+    "prohibidas": [
+      "Dulce",
+      "Comida",
+      "Rosquilla",
+      "Agujero",
+      "Glaseado"
+    ]
+  },
+  {
+    "palabra": "Jamón",
+    "prohibidas": [
+      "Cerdo",
+      "Comida",
+      "Cortar",
+      "Tapa",
+      "Salado"
+    ]
+  },
+  {
+    "palabra": "Webcam",
+    "prohibidas": [
+      "Cámara",
+      "Ordenador",
+      "Videollamada",
+      "Internet",
+      "Pantalla"
+    ]
+  },
+  {
+    "palabra": "Juguete",
+    "prohibidas": [
+      "Niño",
+      "Jugar",
+      "Muñeco",
+      "Diversión",
+      "Entretenimiento"
+    ]
+  },
+  {
+    "palabra": "Internet",
+    "prohibidas": [
+      "Red",
+      "Web",
+      "Conexión",
+      "Navegar",
+      "Mundo"
+    ]
+  },
+  {
+    "palabra": "Jazz",
+    "prohibidas": [
+      "Música",
+      "Saxofón",
+      "Ritmo",
+      "Improvisación",
+      "Nueva Orleans"
+    ]
+  },
+  {
+    "palabra": "Wall-E",
+    "prohibidas": [
+      "Película",
+      "Robot",
+      "Basura",
+      "Futuro",
+      "Espacio"
+    ]
+  },
+  {
+    "palabra": "Lluvia",
+    "prohibidas": [
+      "Agua",
+      "Nubes",
+      "Mojado",
+      "Gotas",
+      "Paraguas"
+    ]
+  },
+  {
+    "palabra": "Isla",
+    "prohibidas": [
+      "Mar",
+      "Tierra",
+      "Solitaria",
+      "Aguas",
+      "Paraíso"
+    ]
+  },
+  {
+    "palabra": "Techo",
+    "prohibidas": [
+      "Casa",
+      "Arriba",
+      "Cubierta",
+      "Construcción",
+      "Protección"
+    ]
+  },
+  {
+    "palabra": "Cafetería",
+    "prohibidas": [
+      "Café",
+      "Bebida",
+      "Mesas",
+      "Servir",
+      "Tazas"
+    ]
+  },
+  {
+    "palabra": "Facebook",
+    "prohibidas": [
+      "Red social",
+      "Mark Zuckerberg",
+      "Publicar",
+      "Amigos",
+      "Meta"
+    ]
+  },
+  {
+    "palabra": "Harry Potter",
+    "prohibidas": [
+      "Película",
+      "Magia",
+      "Varita",
+      "Hogwarts",
+      "Mago"
+    ]
+  },
+  {
+    "palabra": "Ratoncito",
+    "prohibidas": [
+      "Ratón",
+      "Animal",
+      "Pequeño",
+      "Queso",
+      "Roedor"
+    ]
+  },
+  {
+    "palabra": "Walt Disney",
+    "prohibidas": [
+      "Dibujos",
+      "Películas",
+      "Mickey Mouse",
+      "Animación",
+      "Parque"
+    ]
+  },
+  {
+    "palabra": "Kárate",
+    "prohibidas": [
+      "Deporte",
+      "Pelea",
+      "Artes marciales",
+      "Cinturón",
+      "Judo"
+    ]
+  },
+  {
+    "palabra": "Quijote",
+    "prohibidas": [
+      "Libro",
+      "Cervantes",
+      "Hidalgo",
+      "Molinos",
+      "Caballero"
+    ]
+  },
+  {
+    "palabra": "Robo",
+    "prohibidas": [
+      "Ladrón",
+      "Policía",
+      "Delito",
+      "Coger",
+      "Dinero"
+    ]
+  },
+  {
+    "palabra": "Silencio",
+    "prohibidas": [
+      "Ruido",
+      "Mudo",
+      "Callar",
+      "Sonido",
+      "Oír"
+    ]
+  },
+  {
+    "palabra": "Xenofobia",
+    "prohibidas": [
+      "Odio",
+      "Extranjero",
+      "Miedo",
+      "Racismo",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Jaula",
+    "prohibidas": [
+      "Pájaros",
+      "Animales",
+      "Cerrar",
+      "Hierro",
+      "Encerrar"
+    ]
+  },
+  {
+    "palabra": "Lupa",
+    "prohibidas": [
+      "Aumentar",
+      "Pequeño",
+      "Cristal",
+      "Detective",
+      "Ver"
+    ]
+  },
+  {
+    "palabra": "Quemadura",
+    "prohibidas": [
+      "Fuego",
+      "Calor",
+      "Piel",
+      "Dolor",
+      "Accidente"
+    ]
+  },
+  {
+    "palabra": "Faraón",
+    "prohibidas": [
+      "Egipto",
+      "Rey",
+      "Pirámide",
+      "Tumba",
+      "Muerte"
+    ]
+  },
+  {
+    "palabra": "Juego de tronos",
+    "prohibidas": [
+      "Serie",
+      "Dragones",
+      "HBO",
+      "Invierno",
+      "Fantasia"
+    ]
+  },
+  {
+    "palabra": "Montaña rusa",
+    "prohibidas": [
+      "Parque",
+      "Atracciones",
+      "Carro",
+      "Velocidad",
+      "Subir"
+    ]
+  },
+  {
+    "palabra": "Desodorante",
+    "prohibidas": [
+      "Perfume",
+      "Axila",
+      "Olor",
+      "Higiene",
+      "Spray"
+    ]
+  },
+  {
+    "palabra": "Farmacia",
+    "prohibidas": [
+      "Medicinas",
+      "Enfermo",
+      "Comprar",
+      "Receta",
+      "Pastillas"
+    ]
+  },
+  {
+    "palabra": "Barcelona",
+    "prohibidas": [
+      "Ciudad",
+      "España",
+      "Gaudí",
+      "Cataluña",
+      "Mar"
+    ]
+  },
+  {
+    "palabra": "Cepillo",
+    "prohibidas": [
+      "Pelo",
+      "Dientes",
+      "Limpiar",
+      "Peinar",
+      "Mango"
+    ]
+  },
+  {
+    "palabra": "Hueso",
+    "prohibidas": [
+      "Esqueleto",
+      "Cuerpo",
+      "Animal",
+      "Perro",
+      "Blanco"
+    ]
+  },
+  {
+    "palabra": "Navegador",
+    "prohibidas": [
+      "Internet",
+      "Web",
+      "Google",
+      "Programas",
+      "Buscar"
+    ]
+  },
+  {
+    "palabra": "Vestido",
+    "prohibidas": [
+      "Ropa",
+      "Poner",
+      "Mujer",
+      "Falda",
+      "Tela"
     ]
   },
   {
@@ -580,16 +5380,6 @@
     ]
   },
   {
-    "palabra": "Pizza",
-    "prohibidas": [
-      "Comida",
-      "Redonda",
-      "Italia",
-      "Queso",
-      "Horno"
-    ]
-  },
-  {
     "palabra": "Patatas",
     "prohibidas": [
       "Verdura",
@@ -600,26 +5390,6 @@
     ]
   },
   {
-    "palabra": "Hamburguesa",
-    "prohibidas": [
-      "Comida",
-      "Pan",
-      "Carne",
-      "Queso",
-      "Restaurante"
-    ]
-  },
-  {
-    "palabra": "Pez",
-    "prohibidas": [
-      "Agua",
-      "Nadar",
-      "Animal",
-      "Escamas",
-      "Aleta"
-    ]
-  },
-  {
     "palabra": "Sopa",
     "prohibidas": [
       "Líquido",
@@ -627,56 +5397,6 @@
       "Caliente",
       "Verduras",
       "Comer"
-    ]
-  },
-  {
-    "palabra": "Miel",
-    "prohibidas": [
-      "Abeja",
-      "Dulce",
-      "Líquido",
-      "Amarillo",
-      "Panal"
-    ]
-  },
-  {
-    "palabra": "Cuchara",
-    "prohibidas": [
-      "Comer",
-      "Tenedor",
-      "Vajilla",
-      "Sopa",
-      "Metal"
-    ]
-  },
-  {
-    "palabra": "Tenedor",
-    "prohibidas": [
-      "Comer",
-      "Pinchos",
-      "Cuchara",
-      "Vajilla",
-      "Metal"
-    ]
-  },
-  {
-    "palabra": "Vaso",
-    "prohibidas": [
-      "Beber",
-      "Agua",
-      "Cristal",
-      "Líquido",
-      "Bebida"
-    ]
-  },
-  {
-    "palabra": "Botella",
-    "prohibidas": [
-      "Líquido",
-      "Agua",
-      "Tapón",
-      "Beber",
-      "Plástico"
     ]
   },
   {
@@ -700,86 +5420,6 @@
     ]
   },
   {
-    "palabra": "Escuela",
-    "prohibidas": [
-      "Clase",
-      "Estudiar",
-      "Maestro",
-      "Libros",
-      "Alumnos"
-    ]
-  },
-  {
-    "palabra": "Biblioteca",
-    "prohibidas": [
-      "Libros",
-      "Leer",
-      "Estudiar",
-      "Silencio",
-      "Préstamo"
-    ]
-  },
-  {
-    "palabra": "Cine",
-    "prohibidas": [
-      "Película",
-      "Pantalla",
-      "Palomitas",
-      "Ver",
-      "Butaca"
-    ]
-  },
-  {
-    "palabra": "Teatro",
-    "prohibidas": [
-      "Obra",
-      "Actores",
-      "Escenario",
-      "Representación",
-      "Aplausos"
-    ]
-  },
-  {
-    "palabra": "Museo",
-    "prohibidas": [
-      "Arte",
-      "Pintura",
-      "Historia",
-      "Escultura",
-      "Exposición"
-    ]
-  },
-  {
-    "palabra": "Radio",
-    "prohibidas": [
-      "Música",
-      "Oír",
-      "Emisora",
-      "Onda",
-      "Noticias"
-    ]
-  },
-  {
-    "palabra": "Televisión",
-    "prohibidas": [
-      "Pantalla",
-      "Ver",
-      "Programas",
-      "Mando",
-      "Noticias"
-    ]
-  },
-  {
-    "palabra": "Periódico",
-    "prohibidas": [
-      "Noticias",
-      "Leer",
-      "Papel",
-      "Diario",
-      "Información"
-    ]
-  },
-  {
     "palabra": "Mapa",
     "prohibidas": [
       "Países",
@@ -790,36 +5430,6 @@
     ]
   },
   {
-    "palabra": "Brújula",
-    "prohibidas": [
-      "Orientación",
-      "Norte",
-      "Sur",
-      "Dirección",
-      "Aguja"
-    ]
-  },
-  {
-    "palabra": "Microscopio",
-    "prohibidas": [
-      "Lupa",
-      "Observar",
-      "Pequeño",
-      "Lente",
-      "Ciencia"
-    ]
-  },
-  {
-    "palabra": "Telescopio",
-    "prohibidas": [
-      "Estrellas",
-      "Espacio",
-      "Ver",
-      "Planetas",
-      "Lente"
-    ]
-  },
-  {
     "palabra": "Cuerda",
     "prohibidas": [
       "Atar",
@@ -827,36 +5437,6 @@
       "Nudo",
       "Soga",
       "Tirar"
-    ]
-  },
-  {
-    "palabra": "Candado",
-    "prohibidas": [
-      "Cerrar",
-      "Seguridad",
-      "Llave",
-      "Puerta",
-      "Cadena"
-    ]
-  },
-  {
-    "palabra": "Martillo",
-    "prohibidas": [
-      "Clavo",
-      "Golpear",
-      "Herramienta",
-      "Madera",
-      "Palo"
-    ]
-  },
-  {
-    "palabra": "Tijeras",
-    "prohibidas": [
-      "Cortar",
-      "Papel",
-      "Cuchillas",
-      "Manos",
-      "Filo"
     ]
   },
   {
@@ -880,26 +5460,6 @@
     ]
   },
   {
-    "palabra": "Escoba",
-    "prohibidas": [
-      "Barren",
-      "Limpiar",
-      "Suelo",
-      "Polvo",
-      "Basura"
-    ]
-  },
-  {
-    "palabra": "Cuchillo",
-    "prohibidas": [
-      "Cortar",
-      "Comida",
-      "Filo",
-      "Cocina",
-      "Afilado"
-    ]
-  },
-  {
     "palabra": "Plancha",
     "prohibidas": [
       "Ropa",
@@ -907,26 +5467,6 @@
       "Arrugas",
       "Vapor",
       "Planchar"
-    ]
-  },
-  {
-    "palabra": "Aspiradora",
-    "prohibidas": [
-      "Limpiar",
-      "Polvo",
-      "Suelo",
-      "Suciedad",
-      "Motor"
-    ]
-  },
-  {
-    "palabra": "Lavadora",
-    "prohibidas": [
-      "Ropa",
-      "Lavar",
-      "Agua",
-      "Electrodoméstico",
-      "Limpieza"
     ]
   },
   {
@@ -940,26 +5480,6 @@
     ]
   },
   {
-    "palabra": "Microondas",
-    "prohibidas": [
-      "Comida",
-      "Calentar",
-      "Horno",
-      "Rápido",
-      "Plato"
-    ]
-  },
-  {
-    "palabra": "Nevera",
-    "prohibidas": [
-      "Frío",
-      "Comida",
-      "Guardar",
-      "Cocina",
-      "Electrodoméstico"
-    ]
-  },
-  {
     "palabra": "Horno",
     "prohibidas": [
       "Calentar",
@@ -970,16 +5490,6 @@
     ]
   },
   {
-    "palabra": "Bombilla",
-    "prohibidas": [
-      "Luz",
-      "Encender",
-      "Electricidad",
-      "Cristal",
-      "Brillar"
-    ]
-  },
-  {
     "palabra": "Pila",
     "prohibidas": [
       "Energía",
@@ -987,16 +5497,6 @@
       "Batería",
       "Electrodoméstico",
       "Voltio"
-    ]
-  },
-  {
-    "palabra": "Cable",
-    "prohibidas": [
-      "Conectar",
-      "Electricidad",
-      "Corriente",
-      "Alambre",
-      "Conexión"
     ]
   },
   {
@@ -1020,16 +5520,6 @@
     ]
   },
   {
-    "palabra": "Techo",
-    "prohibidas": [
-      "Arriba",
-      "Habitación",
-      "Casa",
-      "Pared",
-      "Cubierta"
-    ]
-  },
-  {
     "palabra": "Suelo",
     "prohibidas": [
       "Abajo",
@@ -1037,36 +5527,6 @@
       "Casa",
       "Andar",
       "Limpiar"
-    ]
-  },
-  {
-    "palabra": "Alfombra",
-    "prohibidas": [
-      "Suelo",
-      "Tapete",
-      "Peluda",
-      "Limpiar",
-      "Salón"
-    ]
-  },
-  {
-    "palabra": "Cuadro",
-    "prohibidas": [
-      "Pared",
-      "Pintura",
-      "Marco",
-      "Arte",
-      "Colgar"
-    ]
-  },
-  {
-    "palabra": "Lámpara",
-    "prohibidas": [
-      "Luz",
-      "Techo",
-      "Mesa",
-      "Bombilla",
-      "Encender"
     ]
   },
   {
@@ -1140,16 +5600,6 @@
     ]
   },
   {
-    "palabra": "Ducha",
-    "prohibidas": [
-      "Agua",
-      "Bañarse",
-      "Jabón",
-      "Baño",
-      "Caliente"
-    ]
-  },
-  {
     "palabra": "Bañera",
     "prohibidas": [
       "Agua",
@@ -1160,16 +5610,6 @@
     ]
   },
   {
-    "palabra": "Esponja",
-    "prohibidas": [
-      "Ducha",
-      "Lavar",
-      "Suave",
-      "Baño",
-      "Mar"
-    ]
-  },
-  {
     "palabra": "Teclado",
     "prohibidas": [
       "Escribir",
@@ -1177,26 +5617,6 @@
       "Letras",
       "Teclas",
       "Mecanografiar"
-    ]
-  },
-  {
-    "palabra": "Ratón",
-    "prohibidas": [
-      "Ordenador",
-      "Puntero",
-      "Clíc",
-      "Cable",
-      "Mover"
-    ]
-  },
-  {
-    "palabra": "Impresora",
-    "prohibidas": [
-      "Papel",
-      "Tinta",
-      "Imprimir",
-      "Ordenador",
-      "Documento"
     ]
   },
   {
@@ -1220,16 +5640,6 @@
     ]
   },
   {
-    "palabra": "Webcam",
-    "prohibidas": [
-      "Cámara",
-      "Internet",
-      "Videollamada",
-      "Imagen",
-      "Ordenador"
-    ]
-  },
-  {
     "palabra": "Altavoces",
     "prohibidas": [
       "Sonido",
@@ -1237,56 +5647,6 @@
       "Escuchar",
       "Volumen",
       "Ordenador"
-    ]
-  },
-  {
-    "palabra": "Micrófono",
-    "prohibidas": [
-      "Voz",
-      "Grabar",
-      "Sonido",
-      "Cantar",
-      "Hablar"
-    ]
-  },
-  {
-    "palabra": "Auriculares",
-    "prohibidas": [
-      "Oído",
-      "Música",
-      "Escuchar",
-      "Cable",
-      "Cascos"
-    ]
-  },
-  {
-    "palabra": "Batería",
-    "prohibidas": [
-      "Energía",
-      "Eléctrica",
-      "Recargar",
-      "Móvil",
-      "Pila"
-    ]
-  },
-  {
-    "palabra": "Robot",
-    "prohibidas": [
-      "Máquina",
-      "Humanoide",
-      "Tecnología",
-      "Autómata",
-      "Ciencia"
-    ]
-  },
-  {
-    "palabra": "Autobús",
-    "prohibidas": [
-      "Vehículo",
-      "Transporte",
-      "Viaje",
-      "Público",
-      "Parada"
     ]
   },
   {
@@ -1310,36 +5670,6 @@
     ]
   },
   {
-    "palabra": "Helicóptero",
-    "prohibidas": [
-      "Volar",
-      "Avión",
-      "Hélices",
-      "Aire",
-      "Piloto"
-    ]
-  },
-  {
-    "palabra": "Submarino",
-    "prohibidas": [
-      "Agua",
-      "Bajo",
-      "Mar",
-      "Navegar",
-      "Pesca"
-    ]
-  },
-  {
-    "palabra": "Cohete",
-    "prohibidas": [
-      "Espacio",
-      "Lanzamiento",
-      "Viaje",
-      "NASA",
-      "Explosión"
-    ]
-  },
-  {
     "palabra": "Satélite",
     "prohibidas": [
       "Espacio",
@@ -1360,26 +5690,6 @@
     ]
   },
   {
-    "palabra": "Universo",
-    "prohibidas": [
-      "Espacio",
-      "Planetas",
-      "Todo",
-      "Grande",
-      "Infinito"
-    ]
-  },
-  {
-    "palabra": "Galaxia",
-    "prohibidas": [
-      "Universo",
-      "Estrellas",
-      "Vía láctea",
-      "Espacio",
-      "Grande"
-    ]
-  },
-  {
     "palabra": "Agujero negro",
     "prohibidas": [
       "Espacio",
@@ -1387,16 +5697,6 @@
       "Oscuro",
       "Gravedad",
       "Atrapar"
-    ]
-  },
-  {
-    "palabra": "Cometa",
-    "prohibidas": [
-      "Espacio",
-      "Estrella",
-      "Cola",
-      "Luz",
-      "Cielo"
     ]
   },
   {
@@ -1410,46 +5710,6 @@
     ]
   },
   {
-    "palabra": "Relámpago",
-    "prohibidas": [
-      "Rayo",
-      "Cielo",
-      "Trueno",
-      "Tormenta",
-      "Luz"
-    ]
-  },
-  {
-    "palabra": "Trueno",
-    "prohibidas": [
-      "Sonido",
-      "Rayo",
-      "Cielo",
-      "Tormenta",
-      "Ruido"
-    ]
-  },
-  {
-    "palabra": "Arco iris",
-    "prohibidas": [
-      "Colores",
-      "Cielo",
-      "Lluvia",
-      "Sol",
-      "Luz"
-    ]
-  },
-  {
-    "palabra": "Volcán",
-    "prohibidas": [
-      "Montaña",
-      "Fuego",
-      "Lava",
-      "Erupción",
-      "Humo"
-    ]
-  },
-  {
     "palabra": "Terremoto",
     "prohibidas": [
       "Tierra",
@@ -1457,26 +5717,6 @@
       "Destrucción",
       "Mover",
       "Suelo"
-    ]
-  },
-  {
-    "palabra": "Tsunami",
-    "prohibidas": [
-      "Ola",
-      "Mar",
-      "Gigante",
-      "Agua",
-      "Desastre"
-    ]
-  },
-  {
-    "palabra": "Huracán",
-    "prohibidas": [
-      "Viento",
-      "Tormenta",
-      "Destrucción",
-      "Ciclón",
-      "Fuerza"
     ]
   },
   {
@@ -1490,46 +5730,6 @@
     ]
   },
   {
-    "palabra": "Desierto",
-    "prohibidas": [
-      "Arena",
-      "Seco",
-      "Calor",
-      "Cactus",
-      "Camello"
-    ]
-  },
-  {
-    "palabra": "Jungla",
-    "prohibidas": [
-      "Selva",
-      "Verde",
-      "Árboles",
-      "Animales",
-      "Húmedo"
-    ]
-  },
-  {
-    "palabra": "Océano",
-    "prohibidas": [
-      "Mar",
-      "Agua",
-      "Azul",
-      "Grande",
-      "Planeta"
-    ]
-  },
-  {
-    "palabra": "Río",
-    "prohibidas": [
-      "Agua",
-      "Correr",
-      "Cauce",
-      "Pescado",
-      "Navegar"
-    ]
-  },
-  {
     "palabra": "Lago",
     "prohibidas": [
       "Agua",
@@ -1537,26 +5737,6 @@
       "Grande",
       "Navegar",
       "Río"
-    ]
-  },
-  {
-    "palabra": "Cascada",
-    "prohibidas": [
-      "Agua",
-      "Caer",
-      "Río",
-      "Salto",
-      "Alto"
-    ]
-  },
-  {
-    "palabra": "Puente",
-    "prohibidas": [
-      "Río",
-      "Atravesar",
-      "Caminar",
-      "Estructura",
-      "Pilar"
     ]
   },
   {
@@ -1570,16 +5750,6 @@
     ]
   },
   {
-    "palabra": "Bosque",
-    "prohibidas": [
-      "Árboles",
-      "Naturaleza",
-      "Verde",
-      "Madera",
-      "Animales"
-    ]
-  },
-  {
     "palabra": "Campo",
     "prohibidas": [
       "Tierra",
@@ -1587,36 +5757,6 @@
       "Granja",
       "Naturaleza",
       "Plantas"
-    ]
-  },
-  {
-    "palabra": "Granja",
-    "prohibidas": [
-      "Animales",
-      "Campo",
-      "Tierra",
-      "Tractor",
-      "Granjero"
-    ]
-  },
-  {
-    "palabra": "Jardín",
-    "prohibidas": [
-      "Flores",
-      "Plantas",
-      "Casa",
-      "Verde",
-      "Sembrar"
-    ]
-  },
-  {
-    "palabra": "Hojas",
-    "prohibidas": [
-      "Árbol",
-      "Verde",
-      "Otoño",
-      "Planta",
-      "Rama"
     ]
   },
   {
@@ -1660,16 +5800,6 @@
     ]
   },
   {
-    "palabra": "Fruta",
-    "prohibidas": [
-      "Comida",
-      "Dulce",
-      "Árbol",
-      "Planta",
-      "Comer"
-    ]
-  },
-  {
     "palabra": "Verdura",
     "prohibidas": [
       "Planta",
@@ -1690,176 +5820,6 @@
     ]
   },
   {
-    "palabra": "León",
-    "prohibidas": [
-      "Animal",
-      "Melena",
-      "Rey",
-      "Selva",
-      "Rugir"
-    ]
-  },
-  {
-    "palabra": "Tigre",
-    "prohibidas": [
-      "Gato",
-      "Animal",
-      "Rayas",
-      "Selva",
-      "Feroz"
-    ]
-  },
-  {
-    "palabra": "Mono",
-    "prohibidas": [
-      "Animal",
-      "Árbol",
-      "Plátano",
-      "Cola",
-      "Selva"
-    ]
-  },
-  {
-    "palabra": "Serpiente",
-    "prohibidas": [
-      "Animal",
-      "Reptil",
-      "Arrastrarse",
-      "Veneno",
-      "No piernas"
-    ]
-  },
-  {
-    "palabra": "Cocodrilo",
-    "prohibidas": [
-      "Reptil",
-      "Agua",
-      "Dientes",
-      "Grande",
-      "Fuerte"
-    ]
-  },
-  {
-    "palabra": "Jirafa",
-    "prohibidas": [
-      "Animal",
-      "Cuello",
-      "Largo",
-      "Manchas",
-      "Alto"
-    ]
-  },
-  {
-    "palabra": "Oso",
-    "prohibidas": [
-      "Animal",
-      "Miel",
-      "Garras",
-      "Hibernar",
-      "Bosque"
-    ]
-  },
-  {
-    "palabra": "Tiburón",
-    "prohibidas": [
-      "Pez",
-      "Mar",
-      "Dientes",
-      "Aleta",
-      "Grande"
-    ]
-  },
-  {
-    "palabra": "Delfín",
-    "prohibidas": [
-      "Animal",
-      "Mar",
-      "Inteligente",
-      "Nadar",
-      "Aleta"
-    ]
-  },
-  {
-    "palabra": "Ballena",
-    "prohibidas": [
-      "Animal",
-      "Mar",
-      "Grande",
-      "Nadar",
-      "Cetáceo"
-    ]
-  },
-  {
-    "palabra": "Pato",
-    "prohibidas": [
-      "Pájaro",
-      "Agua",
-      "Cuac",
-      "Pico",
-      "Nadar"
-    ]
-  },
-  {
-    "palabra": "Gallina",
-    "prohibidas": [
-      "Animal",
-      "Huevo",
-      "Granja",
-      "Corral",
-      "Pollo"
-    ]
-  },
-  {
-    "palabra": "Vaca",
-    "prohibidas": [
-      "Animal",
-      "Leche",
-      "Mu",
-      "Cuernos",
-      "Granja"
-    ]
-  },
-  {
-    "palabra": "Cerdo",
-    "prohibidas": [
-      "Animal",
-      "Granja",
-      "Rosa",
-      "Hocico",
-      "Comer"
-    ]
-  },
-  {
-    "palabra": "Caballo",
-    "prohibidas": [
-      "Animal",
-      "Montar",
-      "Crines",
-      "Granja",
-      "Galopar"
-    ]
-  },
-  {
-    "palabra": "Oveja",
-    "prohibidas": [
-      "Animal",
-      "Lana",
-      "Baa",
-      "Granja",
-      "Rebaño"
-    ]
-  },
-  {
-    "palabra": "Araña",
-    "prohibidas": [
-      "Insecto",
-      "Telaraña",
-      "Patas",
-      "Ocho",
-      "Tejer"
-    ]
-  },
-  {
     "palabra": "Mosca",
     "prohibidas": [
       "Insecto",
@@ -1870,56 +5830,6 @@
     ]
   },
   {
-    "palabra": "Abeja",
-    "prohibidas": [
-      "Insecto",
-      "Miel",
-      "Picar",
-      "Amarillo",
-      "Colmena"
-    ]
-  },
-  {
-    "palabra": "Hormiga",
-    "prohibidas": [
-      "Insecto",
-      "Pequeña",
-      "Colonia",
-      "Trabajar",
-      "Fila"
-    ]
-  },
-  {
-    "palabra": "Cuerpo humano",
-    "prohibidas": [
-      "Persona",
-      "Partes",
-      "Anatomía",
-      "Brazos",
-      "Piernas"
-    ]
-  },
-  {
-    "palabra": "Cabeza",
-    "prohibidas": [
-      "Parte",
-      "Cuerpo",
-      "Pensar",
-      "Cara",
-      "Pelo"
-    ]
-  },
-  {
-    "palabra": "Ojos",
-    "prohibidas": [
-      "Ver",
-      "Cara",
-      "Vista",
-      "Parpadear",
-      "Lágrima"
-    ]
-  },
-  {
     "palabra": "Nariz",
     "prohibidas": [
       "Oler",
@@ -1927,26 +5837,6 @@
       "Respirar",
       "Olfato",
       "Olores"
-    ]
-  },
-  {
-    "palabra": "Boca",
-    "prohibidas": [
-      "Comer",
-      "Hablar",
-      "Dientes",
-      "Labios",
-      "Sonreír"
-    ]
-  },
-  {
-    "palabra": "Oreja",
-    "prohibidas": [
-      "Oír",
-      "Sonido",
-      "Escuchar",
-      "Cabeza",
-      "Audición"
     ]
   },
   {
@@ -1967,16 +5857,6 @@
       "Mano",
       "Codo",
       "Músculo"
-    ]
-  },
-  {
-    "palabra": "Mano",
-    "prohibidas": [
-      "Dedos",
-      "Coger",
-      "Brazo",
-      "Escribir",
-      "Palmada"
     ]
   },
   {
@@ -2040,26 +5920,6 @@
     ]
   },
   {
-    "palabra": "Corazón",
-    "prohibidas": [
-      "Órgano",
-      "Amor",
-      "Latido",
-      "Pecho",
-      "Sangre"
-    ]
-  },
-  {
-    "palabra": "Cerebro",
-    "prohibidas": [
-      "Órgano",
-      "Pensar",
-      "Cabeza",
-      "Inteligencia",
-      "Memoria"
-    ]
-  },
-  {
     "palabra": "Pulmón",
     "prohibidas": [
       "Órgano",
@@ -2067,26 +5927,6 @@
       "Aire",
       "Oxígeno",
       "Pecho"
-    ]
-  },
-  {
-    "palabra": "Hueso",
-    "prohibidas": [
-      "Esqueleto",
-      "Duro",
-      "Cuerpo",
-      "Rodilla",
-      "Fuerte"
-    ]
-  },
-  {
-    "palabra": "Sangre",
-    "prohibidas": [
-      "Rojo",
-      "Cuerpo",
-      "Herida",
-      "Vena",
-      "Corazón"
     ]
   },
   {
@@ -2110,16 +5950,6 @@
     ]
   },
   {
-    "palabra": "Piel",
-    "prohibidas": [
-      "Cuerpo",
-      "Cubrir",
-      "Tocar",
-      "Órgano",
-      "Sensación"
-    ]
-  },
-  {
     "palabra": "Sudor",
     "prohibidas": [
       "Calor",
@@ -2127,16 +5957,6 @@
       "Cuerpo",
       "Ejercicio",
       "Gotas"
-    ]
-  },
-  {
-    "palabra": "Lágrima",
-    "prohibidas": [
-      "Llorar",
-      "Triste",
-      "Ojos",
-      "Agua",
-      "Cara"
     ]
   },
   {
@@ -2180,26 +6000,6 @@
     ]
   },
   {
-    "palabra": "Beso",
-    "prohibidas": [
-      "Boca",
-      "Labios",
-      "Amor",
-      "Novios",
-      "Caricia"
-    ]
-  },
-  {
-    "palabra": "Amor",
-    "prohibidas": [
-      "Sentimiento",
-      "Querer",
-      "Corazón",
-      "Familia",
-      "Pareja"
-    ]
-  },
-  {
     "palabra": "Odio",
     "prohibidas": [
       "Sentimiento",
@@ -2207,46 +6007,6 @@
       "Contrario",
       "Enemigo",
       "Enfado"
-    ]
-  },
-  {
-    "palabra": "Alegría",
-    "prohibidas": [
-      "Feliz",
-      "Sentimiento",
-      "Risa",
-      "Contento",
-      "Sonrisa"
-    ]
-  },
-  {
-    "palabra": "Tristeza",
-    "prohibidas": [
-      "Llorar",
-      "Sentimiento",
-      "Mal",
-      "Lágrimas",
-      "Depresión"
-    ]
-  },
-  {
-    "palabra": "Miedo",
-    "prohibidas": [
-      "Sentimiento",
-      "Asustado",
-      "Monstruo",
-      "Peligro",
-      "Oscuridad"
-    ]
-  },
-  {
-    "palabra": "Sorpresa",
-    "prohibidas": [
-      "Asombro",
-      "Cara",
-      "Regalo",
-      "Inesperado",
-      "Emoción"
     ]
   },
   {
@@ -2270,26 +6030,6 @@
     ]
   },
   {
-    "palabra": "Amistad",
-    "prohibidas": [
-      "Amigos",
-      "Relación",
-      "Compañeros",
-      "Cariño",
-      "Afecto"
-    ]
-  },
-  {
-    "palabra": "Familia",
-    "prohibidas": [
-      "Padres",
-      "Hijos",
-      "Hermanos",
-      "Parientes",
-      "Casa"
-    ]
-  },
-  {
     "palabra": "Amigos",
     "prohibidas": [
       "Amistad",
@@ -2307,16 +6047,6 @@
       "Enseñar",
       "Alumnos",
       "Profesor"
-    ]
-  },
-  {
-    "palabra": "Médico",
-    "prohibidas": [
-      "Doctor",
-      "Hospital",
-      "Enfermo",
-      "Cura",
-      "Salud"
     ]
   },
   {
@@ -2350,26 +6080,6 @@
     ]
   },
   {
-    "palabra": "Escritor",
-    "prohibidas": [
-      "Libro",
-      "Escribir",
-      "Historia",
-      "Pluma",
-      "Papel"
-    ]
-  },
-  {
-    "palabra": "Actor",
-    "prohibidas": [
-      "Cine",
-      "Película",
-      "Teatro",
-      "Interpretar",
-      "Personaje"
-    ]
-  },
-  {
     "palabra": "Deportista",
     "prohibidas": [
       "Deporte",
@@ -2397,26 +6107,6 @@
       "País",
       "Votos",
       "Partido"
-    ]
-  },
-  {
-    "palabra": "Policía",
-    "prohibidas": [
-      "Ley",
-      "Proteger",
-      "Delito",
-      "Cárcel",
-      "Uniforme"
-    ]
-  },
-  {
-    "palabra": "Bombero",
-    "prohibidas": [
-      "Fuego",
-      "Incendio",
-      "Apagar",
-      "Agua",
-      "Manguera"
     ]
   },
   {
@@ -2460,16 +6150,6 @@
     ]
   },
   {
-    "palabra": "Cartero",
-    "prohibidas": [
-      "Carta",
-      "Correo",
-      "Repartir",
-      "Buzón",
-      "Paquete"
-    ]
-  },
-  {
     "palabra": "Jardinero",
     "prohibidas": [
       "Jardín",
@@ -2477,66 +6157,6 @@
       "Flores",
       "Cuidado",
       "Sembrar"
-    ]
-  },
-  {
-    "palabra": "Mago",
-    "prohibidas": [
-      "Magia",
-      "Truco",
-      "Sombrero",
-      "Ilusión",
-      "Desaparecer"
-    ]
-  },
-  {
-    "palabra": "Payaso",
-    "prohibidas": [
-      "Circo",
-      "Nariz",
-      "Risa",
-      "Cara",
-      "Pintura"
-    ]
-  },
-  {
-    "palabra": "Princesa",
-    "prohibidas": [
-      "Reina",
-      "Castillo",
-      "Príncipe",
-      "Vestido",
-      "Corona"
-    ]
-  },
-  {
-    "palabra": "Rey",
-    "prohibidas": [
-      "Corona",
-      "Reino",
-      "Castillo",
-      "Monarca",
-      "Poder"
-    ]
-  },
-  {
-    "palabra": "Pirata",
-    "prohibidas": [
-      "Barco",
-      "Tesoro",
-      "Parche",
-      "Mar",
-      "Bandera"
-    ]
-  },
-  {
-    "palabra": "Ninja",
-    "prohibidas": [
-      "Japón",
-      "Guerra",
-      "Oscuro",
-      "Sigilo",
-      "Espada"
     ]
   },
   {
@@ -2560,56 +6180,6 @@
     ]
   },
   {
-    "palabra": "Pescador",
-    "prohibidas": [
-      "Pez",
-      "Río",
-      "Caña",
-      "Agua",
-      "Mar"
-    ]
-  },
-  {
-    "palabra": "Carpintero",
-    "prohibidas": [
-      "Madera",
-      "Mesa",
-      "Martillo",
-      "Clavo",
-      "Herramientas"
-    ]
-  },
-  {
-    "palabra": "Albañil",
-    "prohibidas": [
-      "Casa",
-      "Construir",
-      "Ladrillo",
-      "Cemento",
-      "Obra"
-    ]
-  },
-  {
-    "palabra": "Fontanero",
-    "prohibidas": [
-      "Agua",
-      "Tubería",
-      "Grifo",
-      "Arreglar",
-      "Fuga"
-    ]
-  },
-  {
-    "palabra": "Electricista",
-    "prohibidas": [
-      "Luz",
-      "Cable",
-      "Corriente",
-      "Arreglar",
-      "Electricidad"
-    ]
-  },
-  {
     "palabra": "Mecánico",
     "prohibidas": [
       "Coche",
@@ -2620,66 +6190,6 @@
     ]
   },
   {
-    "palabra": "Peluquero",
-    "prohibidas": [
-      "Pelo",
-      "Cortar",
-      "Tijeras",
-      "Salón",
-      "Peinar"
-    ]
-  },
-  {
-    "palabra": "Dentista",
-    "prohibidas": [
-      "Dientes",
-      "Boca",
-      "Doctor",
-      "Dolor",
-      "Clínica"
-    ]
-  },
-  {
-    "palabra": "Veterinario",
-    "prohibidas": [
-      "Animal",
-      "Mascota",
-      "Doctor",
-      "Curar",
-      "Enfermo"
-    ]
-  },
-  {
-    "palabra": "Abogado",
-    "prohibidas": [
-      "Ley",
-      "Juicio",
-      "Juez",
-      "Defensa",
-      "Tribunal"
-    ]
-  },
-  {
-    "palabra": "Juez",
-    "prohibidas": [
-      "Juicio",
-      "Ley",
-      "Justicia",
-      "Tribunal",
-      "Sentencia"
-    ]
-  },
-  {
-    "palabra": "Ladrón",
-    "prohibidas": [
-      "Robar",
-      "Dinero",
-      "Cárcel",
-      "Policía",
-      "Criminal"
-    ]
-  },
-  {
     "palabra": "Detectiv",
     "prohibidas": [
       "Policía",
@@ -2687,16 +6197,6 @@
       "Investigar",
       "Pista",
       "Crimen"
-    ]
-  },
-  {
-    "palabra": "Espía",
-    "prohibidas": [
-      "Secreto",
-      "Gobierno",
-      "Agente",
-      "Información",
-      "Disimular"
     ]
   },
   {
@@ -2720,86 +6220,6 @@
     ]
   },
   {
-    "palabra": "Fantasma",
-    "prohibidas": [
-      "Espíritu",
-      "Blanco",
-      "Asustar",
-      "Casa",
-      "Transparente"
-    ]
-  },
-  {
-    "palabra": "Bruja",
-    "prohibidas": [
-      "Escoba",
-      "Magia",
-      "Sombrero",
-      "Mala",
-      "Poción"
-    ]
-  },
-  {
-    "palabra": "Monstruo",
-    "prohibidas": [
-      "Miedo",
-      "Grande",
-      "Feo",
-      "Asustar",
-      "Noche"
-    ]
-  },
-  {
-    "palabra": "Vampiro",
-    "prohibidas": [
-      "Chupar",
-      "Sangre",
-      "Murciélago",
-      "Drácula",
-      "Noche"
-    ]
-  },
-  {
-    "palabra": "Zombi",
-    "prohibidas": [
-      "Muerto",
-      "Caminar",
-      "Cerebros",
-      "Malo",
-      "Película"
-    ]
-  },
-  {
-    "palabra": "Alienígena",
-    "prohibidas": [
-      "Extraterrestre",
-      "Espacio",
-      "OVNI",
-      "Planeta",
-      "Verde"
-    ]
-  },
-  {
-    "palabra": "Dragón",
-    "prohibidas": [
-      "Fuego",
-      "Volador",
-      "Mítico",
-      "Escamas",
-      "Cueva"
-    ]
-  },
-  {
-    "palabra": "Sirena",
-    "prohibidas": [
-      "Mitad",
-      "Pez",
-      "Mar",
-      "Cantar",
-      "Hermosa"
-    ]
-  },
-  {
     "palabra": "Hada",
     "prohibidas": [
       "Mágica",
@@ -2817,26 +6237,6 @@
       "Barba",
       "Sombrero",
       "Bosque"
-    ]
-  },
-  {
-    "palabra": "Duende",
-    "prohibidas": [
-      "Irlandés",
-      "Pequeño",
-      "Tesoro",
-      "Verde",
-      "Sombrero"
-    ]
-  },
-  {
-    "palabra": "Ángel",
-    "prohibidas": [
-      "Cielo",
-      "Alas",
-      "Bueno",
-      "Religión",
-      "Halo"
     ]
   },
   {
@@ -2860,36 +6260,6 @@
     ]
   },
   {
-    "palabra": "Iglesia",
-    "prohibidas": [
-      "Religión",
-      "Misa",
-      "Dios",
-      "Rezar",
-      "Edificio"
-    ]
-  },
-  {
-    "palabra": "Templo",
-    "prohibidas": [
-      "Religión",
-      "Antiguo",
-      "Edificio",
-      "Dios",
-      "Misa"
-    ]
-  },
-  {
-    "palabra": "Cementerio",
-    "prohibidas": [
-      "Muertos",
-      "Tumbas",
-      "Lápidas",
-      "Cuerpo",
-      "Entierro"
-    ]
-  },
-  {
     "palabra": "Funeral",
     "prohibidas": [
       "Muerte",
@@ -2900,16 +6270,6 @@
     ]
   },
   {
-    "palabra": "Boda",
-    "prohibidas": [
-      "Matrimonio",
-      "Novia",
-      "Anillo",
-      "Iglesia",
-      "Casamiento"
-    ]
-  },
-  {
     "palabra": "Bautizo",
     "prohibidas": [
       "Bebé",
@@ -2917,26 +6277,6 @@
       "Religión",
       "Iglesia",
       "Ceremonia"
-    ]
-  },
-  {
-    "palabra": "Cumpleaños",
-    "prohibidas": [
-      "Celebración",
-      "Pastel",
-      "Regalo",
-      "Fiesta",
-      "Edad"
-    ]
-  },
-  {
-    "palabra": "Navidad",
-    "prohibidas": [
-      "Diciembre",
-      "Regalos",
-      "Árbol",
-      "Papá Noel",
-      "Familia"
     ]
   },
   {
@@ -2970,26 +6310,6 @@
     ]
   },
   {
-    "palabra": "Baloncesto",
-    "prohibidas": [
-      "Canasta",
-      "Balón",
-      "Saltar",
-      "Deporte",
-      "Equipo"
-    ]
-  },
-  {
-    "palabra": "Tenis",
-    "prohibidas": [
-      "Raqueta",
-      "Pelota",
-      "Red",
-      "Deporte",
-      "Cancha"
-    ]
-  },
-  {
     "palabra": "Natación",
     "prohibidas": [
       "Agua",
@@ -2997,16 +6317,6 @@
       "Piscina",
       "Deporte",
       "Bañador"
-    ]
-  },
-  {
-    "palabra": "Atletismo",
-    "prohibidas": [
-      "Correr",
-      "Saltar",
-      "Deporte",
-      "Pista",
-      "Carrera"
     ]
   },
   {
@@ -3070,16 +6380,6 @@
     ]
   },
   {
-    "palabra": "Dados",
-    "prohibidas": [
-      "Juego",
-      "Cubos",
-      "Puntos",
-      "Lanzar",
-      "Azar"
-    ]
-  },
-  {
     "palabra": "Dominó",
     "prohibidas": [
       "Fichas",
@@ -3110,16 +6410,6 @@
     ]
   },
   {
-    "palabra": "Música",
-    "prohibidas": [
-      "Sonido",
-      "Cantar",
-      "Instrumento",
-      "Escuchar",
-      "Melodía"
-    ]
-  },
-  {
     "palabra": "Rock",
     "prohibidas": [
       "Música",
@@ -3140,16 +6430,6 @@
     ]
   },
   {
-    "palabra": "Jazz",
-    "prohibidas": [
-      "Música",
-      "Saxofón",
-      "Ritmo",
-      "Improvisación",
-      "Nueva Orleans"
-    ]
-  },
-  {
     "palabra": "Clásica",
     "prohibidas": [
       "Música",
@@ -3157,16 +6437,6 @@
       "Mozart",
       "Seria",
       "Piano"
-    ]
-  },
-  {
-    "palabra": "Ópera",
-    "prohibidas": [
-      "Música",
-      "Cantar",
-      "Teatro",
-      "Orquesta",
-      "Clásica"
     ]
   },
   {
@@ -3180,16 +6450,6 @@
     ]
   },
   {
-    "palabra": "Piano",
-    "prohibidas": [
-      "Teclas",
-      "Música",
-      "Cuerdas",
-      "Tocar",
-      "Instrumento"
-    ]
-  },
-  {
     "palabra": "Tambor",
     "prohibidas": [
       "Música",
@@ -3197,16 +6457,6 @@
       "Instrumento",
       "Baqueta",
       "Ritmo"
-    ]
-  },
-  {
-    "palabra": "Violín",
-    "prohibidas": [
-      "Instrumento",
-      "Cuerdas",
-      "Arco",
-      "Tocar",
-      "Música"
     ]
   },
   {
@@ -3220,16 +6470,6 @@
     ]
   },
   {
-    "palabra": "Trompeta",
-    "prohibidas": [
-      "Instrumento",
-      "Viento",
-      "Boca",
-      "Música",
-      "Latón"
-    ]
-  },
-  {
     "palabra": "Arte",
     "prohibidas": [
       "Creatividad",
@@ -3240,26 +6480,6 @@
     ]
   },
   {
-    "palabra": "Escultura",
-    "prohibidas": [
-      "Arte",
-      "Figura",
-      "Forma",
-      "Tallar",
-      "Estatua"
-    ]
-  },
-  {
-    "palabra": "Fotografía",
-    "prohibidas": [
-      "Cámara",
-      "Imagen",
-      "Capturar",
-      "Luz",
-      "Digital"
-    ]
-  },
-  {
     "palabra": "Dibujo",
     "prohibidas": [
       "Papel",
@@ -3267,16 +6487,6 @@
       "Dibujar",
       "Colores",
       "Boceto"
-    ]
-  },
-  {
-    "palabra": "Poesía",
-    "prohibidas": [
-      "Verso",
-      "Escribir",
-      "Sentimiento",
-      "Ritmo",
-      "Literatura"
     ]
   },
   {
@@ -3300,16 +6510,6 @@
     ]
   },
   {
-    "palabra": "Ciencia",
-    "prohibidas": [
-      "Estudio",
-      "Conocimiento",
-      "Experimento",
-      "Teoría",
-      "Laboratorio"
-    ]
-  },
-  {
     "palabra": "Matemáticas",
     "prohibidas": [
       "Números",
@@ -3327,26 +6527,6 @@
       "Energía",
       "Newton",
       "Movimiento"
-    ]
-  },
-  {
-    "palabra": "Química",
-    "prohibidas": [
-      "Ciencia",
-      "Átomos",
-      "Elemento",
-      "Tabla",
-      "Reacción"
-    ]
-  },
-  {
-    "palabra": "Biología",
-    "prohibidas": [
-      "Ciencia",
-      "Vida",
-      "Animales",
-      "Plantas",
-      "Célula"
     ]
   },
   {
@@ -3430,16 +6610,6 @@
     ]
   },
   {
-    "palabra": "Japonés",
-    "prohibidas": [
-      "Idioma",
-      "Japón",
-      "Tokio",
-      "Sushi",
-      "Escribir"
-    ]
-  },
-  {
     "palabra": "Ruso",
     "prohibidas": [
       "Idioma",
@@ -3470,16 +6640,6 @@
     ]
   },
   {
-    "palabra": "Ajedrez",
-    "prohibidas": [
-      "Juego",
-      "Tablero",
-      "Rey",
-      "Reina",
-      "Peón"
-    ]
-  },
-  {
     "palabra": "Costura",
     "prohibidas": [
       "Ropa",
@@ -3497,16 +6657,6 @@
       "Casa",
       "Manualidades",
       "Construir"
-    ]
-  },
-  {
-    "palabra": "Internet",
-    "prohibidas": [
-      "Red",
-      "Conexión",
-      "Web",
-      "Información",
-      "Ordenador"
     ]
   },
   {
@@ -3547,16 +6697,6 @@
       "Planetas",
       "Telescopio",
       "Cielo"
-    ]
-  },
-  {
-    "palabra": "Buzo",
-    "prohibidas": [
-      "Agua",
-      "Nadar",
-      "Mar",
-      "Oxígeno",
-      "Botella"
     ]
   },
   {
@@ -3620,16 +6760,6 @@
     ]
   },
   {
-    "palabra": "Poeta",
-    "prohibidas": [
-      "Verso",
-      "Escribir",
-      "Poesía",
-      "Sentimientos",
-      "Rima"
-    ]
-  },
-  {
     "palabra": "Programador",
     "prohibidas": [
       "Ordenador",
@@ -3690,16 +6820,6 @@
     ]
   },
   {
-    "palabra": "Astronauta",
-    "prohibidas": [
-      "Espacio",
-      "Cohete",
-      "Viaje",
-      "Luna",
-      "Traje"
-    ]
-  },
-  {
     "palabra": "Biólogo",
     "prohibidas": [
       "Vida",
@@ -3737,16 +6857,6 @@
       "Imagen",
       "Lente",
       "Retrato"
-    ]
-  },
-  {
-    "palabra": "Profesor",
-    "prohibidas": [
-      "Escuela",
-      "Enseñar",
-      "Clase",
-      "Alumnos",
-      "Examen"
     ]
   },
   {
@@ -3890,26 +7000,6 @@
     ]
   },
   {
-    "palabra": "bambú",
-    "prohibidas": [
-      "caña",
-      "planta",
-      "árbol",
-      "madera",
-      "asiático"
-    ]
-  },
-  {
-    "palabra": "bocadillo",
-    "prohibidas": [
-      "sándwich",
-      "merienda",
-      "pan",
-      "jamón",
-      "queso"
-    ]
-  },
-  {
     "palabra": "brisa",
     "prohibidas": [
       "viento",
@@ -3997,16 +7087,6 @@
       "río",
       "salto",
       "corriente"
-    ]
-  },
-  {
-    "palabra": "cebolla",
-    "prohibidas": [
-      "verdura",
-      "picar",
-      "llorar",
-      "cocina",
-      "guiso"
     ]
   },
   {
@@ -4110,16 +7190,6 @@
     ]
   },
   {
-    "palabra": "farmacia",
-    "prohibidas": [
-      "medicinas",
-      "doctor",
-      "pastillas",
-      "enfermo",
-      "curar"
-    ]
-  },
-  {
     "palabra": "fósforo",
     "prohibidas": [
       "cerilla",
@@ -4157,16 +7227,6 @@
       "combustible",
       "tanque",
       "gasolinera"
-    ]
-  },
-  {
-    "palabra": "gorila",
-    "prohibidas": [
-      "mono",
-      "simio",
-      "jungla",
-      "animal",
-      "fuerte"
     ]
   },
   {
@@ -4220,16 +7280,6 @@
     ]
   },
   {
-    "palabra": "hipopótamo",
-    "prohibidas": [
-      "animal",
-      "río",
-      "África",
-      "grande",
-      "pesado"
-    ]
-  },
-  {
     "palabra": "hoguera",
     "prohibidas": [
       "fuego",
@@ -4270,16 +7320,6 @@
     ]
   },
   {
-    "palabra": "jaula",
-    "prohibidas": [
-      "pájaro",
-      "encerrado",
-      "prisión",
-      "animal",
-      "barrotes"
-    ]
-  },
-  {
     "palabra": "kilogramo",
     "prohibidas": [
       "peso",
@@ -4310,16 +7350,6 @@
     ]
   },
   {
-    "palabra": "lagartija",
-    "prohibidas": [
-      "reptil",
-      "pared",
-      "cola",
-      "pequeño",
-      "lagarto"
-    ]
-  },
-  {
     "palabra": "latido",
     "prohibidas": [
       "corazón",
@@ -4327,16 +7357,6 @@
       "palpitación",
       "ritmo",
       "vida"
-    ]
-  },
-  {
-    "palabra": "libélula",
-    "prohibidas": [
-      "insecto",
-      "volar",
-      "alas",
-      "charco",
-      "verde"
     ]
   },
   {
@@ -4420,26 +7440,6 @@
     ]
   },
   {
-    "palabra": "mosquito",
-    "prohibidas": [
-      "zancudo",
-      "insecto",
-      "picar",
-      "verano",
-      "molesto"
-    ]
-  },
-  {
-    "palabra": "naranja",
-    "prohibidas": [
-      "fruta",
-      "jugo",
-      "color",
-      "ácido",
-      "cítrico"
-    ]
-  },
-  {
     "palabra": "náufrago",
     "prohibidas": [
       "barco",
@@ -4497,16 +7497,6 @@
       "panadero",
       "masa",
       "pastelería"
-    ]
-  },
-  {
-    "palabra": "parque",
-    "prohibidas": [
-      "jardín",
-      "árbol",
-      "banco",
-      "verde",
-      "niños"
     ]
   },
   {
@@ -4570,16 +7560,6 @@
     ]
   },
   {
-    "palabra": "pirámide",
-    "prohibidas": [
-      "Egipto",
-      "tumba",
-      "faraón",
-      "triángulo",
-      "monumento"
-    ]
-  },
-  {
     "palabra": "pistola",
     "prohibidas": [
       "arma",
@@ -4587,16 +7567,6 @@
       "disparar",
       "revólver",
       "fuego"
-    ]
-  },
-  {
-    "palabra": "plátano",
-    "prohibidas": [
-      "banana",
-      "fruta",
-      "amarillo",
-      "pelar",
-      "racimo"
     ]
   },
   {
@@ -4650,16 +7620,6 @@
     ]
   },
   {
-    "palabra": "sardina",
-    "prohibidas": [
-      "pescado",
-      "lata",
-      "mar",
-      "aceite",
-      "pequeño"
-    ]
-  },
-  {
     "palabra": "sendero",
     "prohibidas": [
       "camino",
@@ -4700,16 +7660,6 @@
     ]
   },
   {
-    "palabra": "tortuga",
-    "prohibidas": [
-      "caparazón",
-      "animal",
-      "lenta",
-      "mar",
-      "reptil"
-    ]
-  },
-  {
     "palabra": "trébol",
     "prohibidas": [
       "planta",
@@ -4717,36 +7667,6 @@
       "suerte",
       "verde",
       "prado"
-    ]
-  },
-  {
-    "palabra": "unicornio",
-    "prohibidas": [
-      "cuerno",
-      "mito",
-      "caballo",
-      "blanco",
-      "mágico"
-    ]
-  },
-  {
-    "palabra": "vacaciones",
-    "prohibidas": [
-      "viaje",
-      "descanso",
-      "playa",
-      "tiempo libre",
-      "turismo"
-    ]
-  },
-  {
-    "palabra": "ventilador",
-    "prohibidas": [
-      "aire",
-      "fresco",
-      "calor",
-      "aspas",
-      "mover"
     ]
   },
   {
@@ -4770,36 +7690,6 @@
     ]
   },
   {
-    "palabra": "yogur",
-    "prohibidas": [
-      "lácteo",
-      "leche",
-      "fruta",
-      "postre",
-      "cremoso"
-    ]
-  },
-  {
-    "palabra": "zanahoria",
-    "prohibidas": [
-      "verdura",
-      "conejo",
-      "naranja",
-      "planta",
-      "ensalada"
-    ]
-  },
-  {
-    "palabra": "zoológico",
-    "prohibidas": [
-      "animales",
-      "jaula",
-      "visita",
-      "parque",
-      "zoo"
-    ]
-  },
-  {
     "palabra": "zurdo",
     "prohibidas": [
       "izquierda",
@@ -4817,16 +7707,6 @@
       "Reino Unido",
       "capital",
       "ciudad"
-    ]
-  },
-  {
-    "palabra": "París",
-    "prohibidas": [
-      "Francia",
-      "Torre Eiffel",
-      "capital",
-      "ciudad",
-      "luz"
     ]
   },
   {
@@ -5030,16 +7910,6 @@
     ]
   },
   {
-    "palabra": "Bora Bora",
-    "prohibidas": [
-      "isla",
-      "playa",
-      "océano",
-      "Pacífico",
-      "paraíso"
-    ]
-  },
-  {
     "palabra": "Las Vegas",
     "prohibidas": [
       "ciudad",
@@ -5047,16 +7917,6 @@
       "juego",
       "Nevada",
       "luces"
-    ]
-  },
-  {
-    "palabra": "Amazonas",
-    "prohibidas": [
-      "río",
-      "selva",
-      "jungla",
-      "Sudamérica",
-      "Brasil"
     ]
   },
   {
@@ -5147,16 +8007,6 @@
       "Pandora",
       "ciencia ficción",
       "James Cameron"
-    ]
-  },
-  {
-    "palabra": "Harry Potter",
-    "prohibidas": [
-      "película",
-      "mago",
-      "varita",
-      "magia",
-      "Hogwarts"
     ]
   },
   {
@@ -5560,16 +8410,6 @@
     ]
   },
   {
-    "palabra": "Torres del Paine",
-    "prohibidas": [
-      "Chile",
-      "Patagonia",
-      "parque",
-      "montaña",
-      "paisaje"
-    ]
-  },
-  {
     "palabra": "Tequila",
     "prohibidas": [
       "México",
@@ -5597,16 +8437,6 @@
       "pescado",
       "arroz",
       "crudo"
-    ]
-  },
-  {
-    "palabra": "Lomo Saltado",
-    "prohibidas": [
-      "Perú",
-      "comida",
-      "carne",
-      "patatas",
-      "tradicional"
     ]
   },
   {
@@ -5710,46 +8540,6 @@
     ]
   },
   {
-    "palabra": "Antártida",
-    "prohibidas": [
-      "continente",
-      "hielo",
-      "frío",
-      "sur",
-      "pingüino"
-    ]
-  },
-  {
-    "palabra": "Canadá",
-    "prohibidas": [
-      "país",
-      "América",
-      "nieve",
-      "Toronto",
-      "hoja de arce"
-    ]
-  },
-  {
-    "palabra": "Grecia",
-    "prohibidas": [
-      "país",
-      "Europa",
-      "Atenas",
-      "mitología",
-      "antigua"
-    ]
-  },
-  {
-    "palabra": "Islandia",
-    "prohibidas": [
-      "país",
-      "norte",
-      "hielo",
-      "volcán",
-      "geiser"
-    ]
-  },
-  {
     "palabra": "Dublín",
     "prohibidas": [
       "capital",
@@ -5837,26 +8627,6 @@
       "glaciares",
       "mar",
       "valle"
-    ]
-  },
-  {
-    "palabra": "Tailandia",
-    "prohibidas": [
-      "país",
-      "Asia",
-      "Bangkok",
-      "playas",
-      "templos"
-    ]
-  },
-  {
-    "palabra": "Vietnam",
-    "prohibidas": [
-      "país",
-      "Asia",
-      "guerra",
-      "Hanói",
-      "Saigón"
     ]
   },
   {
@@ -6107,16 +8877,6 @@
       "anciano",
       "niño",
       "casa"
-    ]
-  },
-  {
-    "palabra": "Wall-E",
-    "prohibidas": [
-      "película",
-      "robot",
-      "basura",
-      "futuro",
-      "espacio"
     ]
   }
 ]
