@@ -14,7 +14,7 @@ class TabuGame {
             pass: 0,
             total: 0
         };
-        this.maxPasses = 3;
+        this.maxPasses = 30;
         this.isMobile = window.innerWidth <= 768;
         
         this.initializeElements();
