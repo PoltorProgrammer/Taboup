@@ -2223,8 +2223,8 @@
     "palabra": "Medusa",
     "prohibidas": [
       "Mar",
-      "Transparente",
-      "Tentáculos",
+      "Transparent",
+      "Tentacles",
       "Picada",
       "Gelatina"
     ]
@@ -2232,11 +2232,11 @@
   {
     "palabra": "Ostra",
     "prohibidas": [
-      "Marisco",
-      "Concha",
+      "Marisc",
+      "Petxina",
       "Perla",
-      "Comer",
-      "Playa"
+      "Menjar",
+      "Platja"
     ]
   },
   {
@@ -2250,13 +2250,13 @@
     ]
   },
   {
-    "palabra": "Calamar gigante",
+    "palabra": "Calamar gegant",
     "prohibidas": [
       "Oceà",
-      "Molusco",
-      "Tentáculos",
+      "Molusc",
+      "Tentacles",
       "Tinta",
-      "Criatura"
+      "Animal"
     ]
   },
   {
