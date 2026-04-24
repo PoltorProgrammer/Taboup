@@ -1,0 +1,417 @@
+/* =====================================================
+   RESPONSIVE — Breakpoints para tablet y móvil
+   Especial atención a iOS Safari y iPhone pequeños
+   ===================================================== */
+
+/* ---- Tablet (≤ 1200px) ---- */
+@media (max-width: 1200px) {
+    .main-game-area {
+        margin-left: 240px;
+        margin-right: 160px;
+    }
+
+    .discarded-area.desktop-only { width: 220px; }
+
+    .game-controls { right: 20px; }
+}
+
+/* ---- Móvil (≤ 768px) ---- */
+@media (max-width: 768px) {
+
+    /* ==== Visibilidad ==== */
+    .desktop-only { display: none !important; }
+    .mobile-only  { display: block !important; }
+
+    /* ==== Body / scroll ==== */
+    body {
+        overflow-y: auto;
+        overflow-x: hidden;
+        /* iOS momentum scroll */
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* ==== Pantalla inicial ==== */
+    .initial-screen {
+        padding: 24px 20px;
+        /* Asegurar que se puede hacer scroll si no cabe todo */
+        justify-content: flex-start;
+        padding-top: max(24px, env(safe-area-inset-top, 24px));
+        padding-bottom: max(24px, env(safe-area-inset-bottom, 24px));
+        gap: 0;
+    }
+
+    /* Centrar el contenido verticalmente cuando hay espacio */
+    @supports (height: 100dvh) {
+        .initial-screen {
+            min-height: 100dvh;
+            justify-content: center;
+        }
+    }
+
+    .title-container {
+        margin-bottom: 28px;
+    }
+
+    .game-logo {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 14px;
+    }
+
+    .title {
+        font-size: 2.8em;
+        letter-spacing: 5px;
+        margin-bottom: 6px;
+    }
+
+    .subtitle {
+        font-size: 0.95em;
+        letter-spacing: 1px;
+    }
+
+    /* ==== Grupos de botones ==== */
+    .start-buttons {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 12px;
+        width: 100%;
+        max-width: 340px;
+        align-items: stretch;
+    }
+
+    .extra-buttons {
+        flex-direction: row;     /* mapa y reglas en fila */
+        gap: 10px;
+        width: 100%;
+        max-width: 340px;
+        align-items: stretch;
+    }
+
+    /* ==== Botones ==== */
+    .btn {
+        min-width: 0;             /* anular el min-width de desktop */
+        max-width: none;
+        flex: 1 1 auto;
+        padding: 14px 16px;
+        border-radius: 14px;
+        width: 100%;
+    }
+
+    /* En la fila de extra-buttons cada botón ocupa la mitad */
+    .extra-buttons .btn {
+        flex: 1 1 0;
+        padding: 12px 10px;
+    }
+
+    .btn-title {
+        font-size: 0.95em;
+        margin-bottom: 2px;
+    }
+
+    .btn-subtitle {
+        font-size: 0.78em;
+    }
+
+    /* ==== Header / Timer ==== */
+    .header { top: 10px; }
+
+    .timer-container {
+        padding: 8px 14px;
+        gap: 10px;
+        border-radius: 16px;
+    }
+
+    .timer-display {
+        font-size: 1.4em;
+        min-width: 68px;
+    }
+
+    .btn-pause {
+        width: 34px;
+        height: 34px;
+    }
+
+    /* ==== Área de juego ==== */
+    .game-area {
+        padding-top: 70px;
+        /* iOS: usar dvh para la altura real */
+        min-height: 100vh;
+        min-height: 100dvh;
+        overflow: hidden;
+    }
+
+    .main-game-area {
+        flex-direction: column;
+        gap: 0;
+        padding: 4px 16px 16px 16px;
+        padding-bottom: max(16px, env(safe-area-inset-bottom, 16px));
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: flex-start;
+        height: auto;
+        overflow: hidden;
+    }
+
+    /* ==== Cartas descartadas móvil ==== */
+    .discarded-area.mobile-only {
+        order: 1;
+        width: 100%;
+        height: 100px;
+        flex-shrink: 0;
+        margin-bottom: 10px;
+        padding: 5px 0;
+        background: transparent;
+        border: none;
+    }
+
+    /* ==== Carta y controles ==== */
+    .card-game-section {
+        order: 2;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        min-height: 0;
+        gap: 14px;
+        padding-bottom: 0;
+    }
+
+    .card-container {
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* Carta: escalar al ancho de pantalla disponible */
+    .card {
+        width: min(290px, 80vw);
+        height: min(390px, 58vh);
+        height: min(390px, 58dvh);
+    }
+
+    /*
+     * FIX CRÍTICO: .card-deck colapsa a 0 porque todos sus hijos son
+     * position:absolute. Hay que darle tamaño explícito igual a la carta
+     * para que .card-container tenga altura real y los botones queden debajo.
+     */
+    .card-deck {
+        width: min(290px, 80vw);
+        height: min(390px, 58vh);
+        height: min(390px, 58dvh);
+    }
+
+    .card-container {
+        width: 100%;
+        /* Altura = la del deck + algo de margen para las sombras */
+        height: min(390px, 58vh);
+        height: min(390px, 58dvh);
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-word      { font-size: 2em; line-height: 1.15; }
+    .forbidden-word { font-size: 1em; padding: 3px 0; }
+    .next-card-word      { font-size: 2em; line-height: 1.15; }
+    .next-forbidden-word { font-size: 1em; padding: 3px 0; }
+
+    /* ==== Controles de juego — fila debajo de la carta ==== */
+    .game-controls {
+        position: static;
+        transform: none;
+        left: auto; right: auto; bottom: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        gap: 10px;
+        flex-shrink: 0;
+        padding: 0;
+        margin-top: 6px;
+        /* Respetar home bar de iPhone */
+        margin-bottom: env(safe-area-inset-bottom, 0px);
+        background: transparent;
+        z-index: auto;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .game-controls .control-btn {
+        flex: 1 1 0;
+        min-width: 0;
+        max-width: none;
+        padding: 8px;
+        height: 75px;
+        min-height: 75px;
+        max-height: none;
+        border-radius: 18px;
+        transform: none;
+        box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+        gap: 0;
+        /* Estilos nativos de botón en Safari */
+        -webkit-appearance: none;
+        appearance: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .game-controls .control-btn:active:not(:disabled) {
+        transform: scale(0.95);
+    }
+
+    .game-controls .control-btn .btn-icon { font-size: 2.5em; line-height: 1; }
+    .game-controls .control-btn .btn-text { display: none; }
+
+    /* ==== Animaciones responsive ==== */
+    .error-text-big { font-size: 3.5em; letter-spacing: 4px; }
+    .error-subtitle { font-size: 1.3em; }
+    .time-text-big  { font-size: 3.5em; letter-spacing: 4px; }
+    .time-subtitle  { font-size: 1.3em; }
+
+    /* ==== Pantalla de revisión ==== */
+    .review-area {
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: max(20px, env(safe-area-inset-bottom, 20px));
+    }
+
+    .review-container {
+        margin: 8px auto;
+        padding: 16px;
+        max-width: 98%;
+    }
+
+    .review-title { font-size: 1.6em; }
+
+    .review-buttons {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 16px;
+        padding: 14px 0;
+    }
+
+    .review-buttons .btn {
+        min-width: auto;
+        max-width: none;
+        width: 100%;
+    }
+
+    .final-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: 16px 0;
+    }
+
+    .stat-card  { padding: 12px; }
+    .stat-value { font-size: 2em; }
+    .stat-label { font-size: 0.9em; }
+
+    .review-cards-section { margin-top: 20px; }
+
+    .review-cards {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 8px;
+        max-height: 280px;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 6px 4px;
+    }
+
+    .review-card          { padding: 10px; }
+    .review-card-word     { font-size: 0.95em; margin-bottom: 5px; }
+    .review-card-forbidden { font-size: 0.78em; margin-bottom: 6px; line-height: 1.3; }
+    .review-card-status   { font-size: 0.68em; padding: 3px 7px; }
+
+    /* ==== Pantallas de mapa y reglas ==== */
+    .map-container,
+    .rules-container {
+        width: 92%;
+        max-height: 82vh;
+        max-height: 82dvh;
+        padding: 20px 16px;
+        border-radius: 25px;
+        /* Margen para la home bar */
+        margin-bottom: env(safe-area-inset-bottom, 0px);
+    }
+
+    .map-title,
+    .rules-title { font-size: 1.5em; }
+
+    .rule-section { padding: 14px; margin-bottom: 16px; }
+}
+
+/* ---- iPhone muy pequeño (≤ 390px, ej. iPhone SE / 13 mini) ---- */
+@media (max-width: 390px) {
+    .initial-screen {
+        padding: 16px 14px;
+    }
+
+    .game-logo {
+        width: 72px;
+        height: 72px;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 2.4em;
+        letter-spacing: 4px;
+    }
+
+    .subtitle { font-size: 0.85em; }
+
+    .start-buttons { gap: 10px; }
+    .extra-buttons { gap: 8px; }
+
+    .btn { padding: 12px 10px; border-radius: 12px; }
+    .btn-title   { font-size: 0.9em; }
+    .btn-subtitle { font-size: 0.72em; }
+
+    .card {
+        width: min(270px, 85vw);
+        height: min(360px, 56vh);
+        height: min(360px, 56dvh);
+    }
+
+    /* Mismo fix de colapso para pantallas muy pequeñas */
+    .card-deck {
+        width: min(270px, 85vw);
+        height: min(360px, 56vh);
+        height: min(360px, 56dvh);
+    }
+
+    .card-container {
+        height: min(360px, 56vh);
+        height: min(360px, 56dvh);
+    }
+
+    .card-word, .next-card-word      { font-size: 1.8em; line-height: 1.15; }
+    .forbidden-word, .next-forbidden-word { font-size: 0.9em; padding: 2px 0; }
+
+    .game-controls { gap: 8px; max-width: 290px; }
+    .game-controls .control-btn { min-height: 58px; height: 58px; padding: 8px; }
+    .game-controls .control-btn .btn-icon { font-size: 1.8em; }
+}
+
+/* ---- Pantalla muy alta (portrait tablet / iPad) ---- */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .main-game-area {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .discarded-area.desktop-only { display: none !important; }
+    .mobile-only { display: block !important; }
+
+    .game-controls {
+        position: static;
+        transform: none;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 20px;
+    }
+}

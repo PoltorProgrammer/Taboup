@@ -1,0 +1,8881 @@
+[
+  {
+    "palabra": "Swan",
+    "prohibidas": [
+      "Bird",
+      "Neck",
+      "White",
+      "Lake",
+      "Float"
+    ]
+  },
+  {
+    "palabra": "Panama",
+    "prohibidas": [
+      "America",
+      "Canal",
+      "Country",
+      "Central America",
+      "Bridge"
+    ]
+  },
+  {
+    "palabra": "Lynx",
+    "prohibidas": [
+      "Feline",
+      "Spain",
+      "Ears",
+      "Fur",
+      "Fish"
+    ]
+  },
+  {
+    "palabra": "New Zealand",
+    "prohibidas": [
+      "Country",
+      "Oceania",
+      "Island",
+      "Kiwi",
+      "Rugby"
+    ]
+  },
+  {
+    "palabra": "Hamster",
+    "prohibidas": [
+      "Rodent",
+      "Small",
+      "Pet",
+      "Cage",
+      "Wheel"
+    ]
+  },
+  {
+    "palabra": "Poland",
+    "prohibidas": [
+      "Europe",
+      "Warsaw",
+      "Cold",
+      "Country",
+      "War"
+    ]
+  },
+  {
+    "palabra": "Porcupine",
+    "prohibidas": [
+      "Animal",
+      "Quills",
+      "Ball",
+      "Roll",
+      "Forest"
+    ]
+  },
+  {
+    "palabra": "Colombia",
+    "prohibidas": [
+      "South America",
+      "Bogota",
+      "Coffee",
+      "Country",
+      "Culture"
+    ]
+  },
+  {
+    "palabra": "Buffalo",
+    "prohibidas": [
+      "Animal",
+      "Horns",
+      "Large",
+      "India",
+      "America"
+    ]
+  },
+  {
+    "palabra": "Israel",
+    "prohibidas": [
+      "Country",
+      "Asia",
+      "Jerusalem",
+      "Conflict",
+      "Religion"
+    ]
+  },
+  {
+    "palabra": "Sea Lion",
+    "prohibidas": [
+      "Mammal",
+      "Water",
+      "Whiskers",
+      "Flippers",
+      "Fish"
+    ]
+  },
+  {
+    "palabra": "Finland",
+    "prohibidas": [
+      "Europe",
+      "Sauna",
+      "Lake",
+      "Cold",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Duck",
+    "prohibidas": [
+      "Bird",
+      "Feathers",
+      "Water",
+      "Beak",
+      "Quack"
+    ]
+  },
+  {
+    "palabra": "Romania",
+    "prohibidas": [
+      "Europe",
+      "Bucharest",
+      "Country",
+      "Dracula",
+      "Culture"
+    ]
+  },
+  {
+    "palabra": "Chile",
+    "prohibidas": [
+      "South America",
+      "Santiago",
+      "Long",
+      "Wine",
+      "Mountain Range"
+    ]
+  },
+  {
+    "palabra": "Bison",
+    "prohibidas": [
+      "Animal",
+      "Large",
+      "America",
+      "Horns",
+      "Buffalo"
+    ]
+  },
+  {
+    "palabra": "Morocco",
+    "prohibidas": [
+      "Africa",
+      "Desert",
+      "Casablanca",
+      "Country",
+      "Capital"
+    ]
+  },
+  {
+    "palabra": "Turkey",
+    "prohibidas": [
+      "Bird",
+      "Christmas",
+      "Feathers",
+      "Food",
+      "Meat"
+    ]
+  },
+  {
+    "palabra": "Philippines",
+    "prohibidas": [
+      "Asia",
+      "Manila",
+      "Country",
+      "Island",
+      "Ocean"
+    ]
+  },
+  {
+    "palabra": "Hen",
+    "prohibidas": [
+      "Bird",
+      "Farm",
+      "Egg",
+      "Layer",
+      "Coop"
+    ]
+  },
+  {
+    "palabra": "Greece",
+    "prohibidas": [
+      "Europe",
+      "Athens",
+      "Mythology",
+      "Olympics",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Vulture",
+    "prohibidas": [
+      "Bird",
+      "Scavenger",
+      "Head",
+      "Bald",
+      "Fly"
+    ]
+  },
+  {
+    "palabra": "Peru",
+    "prohibidas": [
+      "South America",
+      "Machu Picchu",
+      "Andes",
+      "Inca",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Ocelot",
+    "prohibidas": [
+      "Feline",
+      "Small",
+      "Spots",
+      "America",
+      "Hunting"
+    ]
+  },
+  {
+    "palabra": "Sweden",
+    "prohibidas": [
+      "Europe",
+      "Stockholm",
+      "Ikea",
+      "Cold",
+      "Viking"
+    ]
+  },
+  {
+    "palabra": "Skunk",
+    "prohibidas": [
+      "Animal",
+      "Bad",
+      "Smell",
+      "White",
+      "Black"
+    ]
+  },
+  {
+    "palabra": "China",
+    "prohibidas": [
+      "Asia",
+      "Wall",
+      "Panda",
+      "Beijing",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Deer",
+    "prohibidas": [
+      "Animal",
+      "Forest",
+      "Horns",
+      "Deer",
+      "Wild"
+    ]
+  },
+  {
+    "palabra": "Denmark",
+    "prohibidas": [
+      "Europe",
+      "Copenhagen",
+      "Vikings",
+      "Lego",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Skunk",
+    "prohibidas": [
+      "Animal",
+      "Bad",
+      "Smell",
+      "White",
+      "Black"
+    ]
+  },
+  {
+    "palabra": "Indonesia",
+    "prohibidas": [
+      "Asia",
+      "Bali",
+      "Island",
+      "Country",
+      "Volcanoes"
+    ]
+  },
+  {
+    "palabra": "Opossum",
+    "prohibidas": [
+      "Animal",
+      "Marsupial",
+      "Tail",
+      "America",
+      "Pouch"
+    ]
+  },
+  {
+    "palabra": "Thailand",
+    "prohibidas": [
+      "Asia",
+      "Bangkok",
+      "Temple",
+      "Elephant",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Armadillo",
+    "prohibidas": [
+      "Animal",
+      "Shell",
+      "Ball",
+      "South America",
+      "Earth"
+    ]
+  },
+  {
+    "palabra": "Egypt",
+    "prohibidas": [
+      "Africa",
+      "Pyramids",
+      "Pharaoh",
+      "Nile",
+      "Ancient"
+    ]
+  },
+  {
+    "palabra": "Swordfish",
+    "prohibidas": [
+      "Sea",
+      "Beak",
+      "Fish",
+      "Swimmer",
+      "Fast"
+    ]
+  },
+  {
+    "palabra": "Norway",
+    "prohibidas": [
+      "Europe",
+      "Fjords",
+      "Viking",
+      "Cold",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Jaguar",
+    "prohibidas": [
+      "Feline",
+      "America",
+      "Jungle",
+      "Spots",
+      "Predator"
+    ]
+  },
+  {
+    "palabra": "Australia",
+    "prohibidas": [
+      "Country",
+      "Kangaroo",
+      "Koala",
+      "Sydney",
+      "Island"
+    ]
+  },
+  {
+    "palabra": "Puma",
+    "prohibidas": [
+      "Feline",
+      "Mountain",
+      "Cat",
+      "South America",
+      "Predator"
+    ]
+  },
+  {
+    "palabra": "Ireland",
+    "prohibidas": [
+      "Europe",
+      "Dublin",
+      "Green",
+      "Clover",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Gorilla",
+    "prohibidas": [
+      "Monkey",
+      "Jungle",
+      "Africa",
+      "Ape",
+      "Strong"
+    ]
+  },
+  {
+    "palabra": "Iceland",
+    "prohibidas": [
+      "Island",
+      "Ice",
+      "Volcanoes",
+      "Aurora",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Hyena",
+    "prohibidas": [
+      "Animal",
+      "Africa",
+      "Scavenger",
+      "Laugh",
+      "Pack"
+    ]
+  },
+  {
+    "palabra": "Mexico",
+    "prohibidas": [
+      "America",
+      "Tacos",
+      "Capital",
+      "Chichen",
+      "Aztec"
+    ]
+  },
+  {
+    "palabra": "Beaver",
+    "prohibidas": [
+      "Animal",
+      "River",
+      "Teeth",
+      "Dam",
+      "Build"
+    ]
+  },
+  {
+    "palabra": "Ecuador",
+    "prohibidas": [
+      "South America",
+      "Galapagos",
+      "Quito",
+      "Country",
+      "Half"
+    ]
+  },
+  {
+    "palabra": "Dromedary",
+    "prohibidas": [
+      "Camel",
+      "Hump",
+      "Desert",
+      "Sand",
+      "Transport"
+    ]
+  },
+  {
+    "palabra": "South Africa",
+    "prohibidas": [
+      "Africa",
+      "Johannesburg",
+      "Lions",
+      "Country",
+      "Continent"
+    ]
+  },
+  {
+    "palabra": "Leopard",
+    "prohibidas": [
+      "Feline",
+      "Spots",
+      "Tree",
+      "Hunting",
+      "Africa"
+    ]
+  },
+  {
+    "palabra": "Spain",
+    "prohibidas": [
+      "Europe",
+      "Madrid",
+      "Bull",
+      "Sun",
+      "Tapas"
+    ]
+  },
+  {
+    "palabra": "Zebra",
+    "prohibidas": [
+      "Animal",
+      "Africa",
+      "White",
+      "Black",
+      "Stripes"
+    ]
+  },
+  {
+    "palabra": "Argentina",
+    "prohibidas": [
+      "South America",
+      "Tango",
+      "Buenos Aires",
+      "Meat",
+      "Messi"
+    ]
+  },
+  {
+    "palabra": "Penguin",
+    "prohibidas": [
+      "Antarctica",
+      "Ice",
+      "Cold",
+      "Bird",
+      "Swimmer"
+    ]
+  },
+  {
+    "palabra": "Brazil",
+    "prohibidas": [
+      "South America",
+      "Samba",
+      "Soccer",
+      "River",
+      "Carnival"
+    ]
+  },
+  {
+    "palabra": "Rhinoceros",
+    "prohibidas": [
+      "Animal",
+      "Horn",
+      "Large",
+      "Africa",
+      "Gray"
+    ]
+  },
+  {
+    "palabra": "Italy",
+    "prohibidas": [
+      "Europe",
+      "Rome",
+      "Pizza",
+      "Colosseum",
+      "Boot"
+    ]
+  },
+  {
+    "palabra": "Crocodile",
+    "prohibidas": [
+      "Reptile",
+      "Jaw",
+      "Water",
+      "Nile",
+      "Lizard"
+    ]
+  },
+  {
+    "palabra": "France",
+    "prohibidas": [
+      "Europe",
+      "Paris",
+      "Tower",
+      "Wine",
+      "Capital"
+    ]
+  },
+  {
+    "palabra": "Toucan",
+    "prohibidas": [
+      "Bird",
+      "Beak",
+      "Colors",
+      "Jungle",
+      "Exotic"
+    ]
+  },
+  {
+    "palabra": "India",
+    "prohibidas": [
+      "Asia",
+      "Taj Mahal",
+      "Bollywood",
+      "Elephant",
+      "Capital"
+    ]
+  },
+  {
+    "palabra": "Monkey",
+    "prohibidas": [
+      "Animal",
+      "Tree",
+      "Jungle",
+      "Banana",
+      "Tail"
+    ]
+  },
+  {
+    "palabra": "Holland",
+    "prohibidas": [
+      "Europe",
+      "Windmills",
+      "Flowers",
+      "Bicycle",
+      "Amsterdam"
+    ]
+  },
+  {
+    "palabra": "Octopus",
+    "prohibidas": [
+      "Sea",
+      "Tentacles",
+      "Eight",
+      "Intelligent",
+      "Ink"
+    ]
+  },
+  {
+    "palabra": "Turkey",
+    "prohibidas": [
+      "Asia",
+      "Istanbul",
+      "Mosque",
+      "Bosphorus",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Vietnam",
+    "prohibidas": [
+      "Asia",
+      "War",
+      "Hanoi",
+      "Rice",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Dolphin",
+    "prohibidas": [
+      "Sea",
+      "Animal",
+      "Intelligent",
+      "Jump",
+      "Mammal"
+    ]
+  },
+  {
+    "palabra": "Crab",
+    "prohibidas": [
+      "Seafood",
+      "Claws",
+      "Beach",
+      "Shell",
+      "Walk"
+    ]
+  },
+  {
+    "palabra": "Tiger",
+    "prohibidas": [
+      "Feline",
+      "Stripes",
+      "Large",
+      "Hunting",
+      "Jungle"
+    ]
+  },
+  {
+    "palabra": "Japan",
+    "prohibidas": [
+      "Asia",
+      "Tokyo",
+      "Sushi",
+      "Sun",
+      "Island"
+    ]
+  },
+  {
+    "palabra": "Chameleon",
+    "prohibidas": [
+      "Reptil",
+      "Change",
+      "Color",
+      "Tongue",
+      "Eyes"
+    ]
+  },
+  {
+    "palabra": "Giraffe",
+    "prohibidas": [
+      "Animal",
+      "Neck",
+      "Long",
+      "Africa",
+      "Spots"
+    ]
+  },
+  {
+    "palabra": "Germany",
+    "prohibidas": [
+      "Europe",
+      "Berlin",
+      "Beer",
+      "Wall",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Seagull",
+    "prohibidas": [
+      "Bird",
+      "Sea",
+      "Beach",
+      "Flying",
+      "Scream"
+    ]
+  },
+  {
+    "palabra": "Panda Bear",
+    "prohibidas": [
+      "China",
+      "Bamboo",
+      "Bear",
+      "White",
+      "Black"
+    ]
+  },
+  {
+    "palabra": "Meerkat",
+    "prohibidas": [
+      "Animal",
+      "Small",
+      "Africa",
+      "Group",
+      "Desert"
+    ]
+  },
+  {
+    "palabra": "Scotland",
+    "prohibidas": [
+      "Europe",
+      "Kilt",
+      "Whisky",
+      "Castle",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Snake",
+    "prohibidas": [
+      "Reptile",
+      "Poison",
+      "Slither",
+      "Bite",
+      "Serpent"
+    ]
+  },
+  {
+    "palabra": "Hippopotamus",
+    "prohibidas": [
+      "Animal",
+      "River",
+      "Water",
+      "Africa",
+      "Large"
+    ]
+  },
+  {
+    "palabra": "Wild Boar",
+    "prohibidas": [
+      "Pig",
+      "Forest",
+      "Animal",
+      "Tusk",
+      "Wild"
+    ]
+  },
+  {
+    "palabra": "Dog",
+    "prohibidas": [
+      "Animal",
+      "Pet",
+      "Bark",
+      "Bone",
+      "Four"
+    ]
+  },
+  {
+    "palabra": "Sloth",
+    "prohibidas": [
+      "Animal",
+      "Slow",
+      "Tree",
+      "South America",
+      "Fur"
+    ]
+  },
+  {
+    "palabra": "Koala",
+    "prohibidas": [
+      "Australia",
+      "Marsupial",
+      "Eucalyptus",
+      "Cute",
+      "Tree"
+    ]
+  },
+  {
+    "palabra": "Owl",
+    "prohibidas": [
+      "Bird",
+      "Night",
+      "Wisdom",
+      "Feathers",
+      "Forest"
+    ]
+  },
+  {
+    "palabra": "Fox",
+    "prohibidas": [
+      "Animal",
+      "Sly",
+      "Tail",
+      "Forest",
+      "Dog"
+    ]
+  },
+  {
+    "palabra": "Ostrich",
+    "prohibidas": [
+      "Bird",
+      "Large",
+      "Egg",
+      "Feathers",
+      "Africa"
+    ]
+  },
+  {
+    "palabra": "Raccoon",
+    "prohibidas": [
+      "Animal",
+      "Mask",
+      "Hands",
+      "Trash",
+      "Nocturnal"
+    ]
+  },
+  {
+    "palabra": "Russia",
+    "prohibidas": [
+      "Europe",
+      "Moscow",
+      "Cold",
+      "Putin",
+      "Vodka"
+    ]
+  },
+  {
+    "palabra": "Turtle",
+    "prohibidas": [
+      "Reptile",
+      "Slow",
+      "Shell",
+      "Beach",
+      "Longevity"
+    ]
+  },
+  {
+    "palabra": "Wolf",
+    "prohibidas": [
+      "Animal",
+      "Forest",
+      "Howl",
+      "Pack",
+      "Hunting"
+    ]
+  },
+  {
+    "palabra": "Horse",
+    "prohibidas": [
+      "Animal",
+      "Ride",
+      "Farm",
+      "Neigh",
+      "Mane"
+    ]
+  },
+  {
+    "palabra": "Sheep",
+    "prohibidas": [
+      "Animal",
+      "Wool",
+      "Farm",
+      "Bleat",
+      "Flock"
+    ]
+  },
+  {
+    "palabra": "Elephant",
+    "prohibidas": [
+      "Trunk",
+      "Pachyderm",
+      "Ears",
+      "Large",
+      "Africa"
+    ]
+  },
+  {
+    "palabra": "Bat",
+    "prohibidas": [
+      "Mammal",
+      "Fly",
+      "Night",
+      "Cave",
+      "Wings"
+    ]
+  },
+  {
+    "palabra": "Cow",
+    "prohibidas": [
+      "Animal",
+      "Milk",
+      "Farm",
+      "Moo",
+      "Field"
+    ]
+  },
+  {
+    "palabra": "Panda",
+    "prohibidas": [
+      "China",
+      "Bamboo",
+      "Bear",
+      "White",
+      "Black"
+    ]
+  },
+  {
+    "palabra": "Goat",
+    "prohibidas": [
+      "Animal",
+      "Mountain",
+      "Milk",
+      "Beard",
+      "Horn"
+    ]
+  },
+  {
+    "palabra": "Kangaroo",
+    "prohibidas": [
+      "Australia",
+      "Pouch",
+      "Jump",
+      "Animal",
+      "Joey"
+    ]
+  },
+  {
+    "palabra": "Cheetah",
+    "prohibidas": [
+      "Feline",
+      "Speed",
+      "Spots",
+      "Africa",
+      "Hunting"
+    ]
+  },
+  {
+    "palabra": "Portugal",
+    "prohibidas": [
+      "Europe",
+      "Lisbon",
+      "Cristiano",
+      "Sea",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Bear",
+    "prohibidas": [
+      "Animal",
+      "Forest",
+      "Honey",
+      "Winter",
+      "Claws"
+    ]
+  },
+  {
+    "palabra": "Dinosaur",
+    "prohibidas": [
+      "Extinct",
+      "Reptile",
+      "Fossil",
+      "Giant",
+      "Jurassic"
+    ]
+  },
+  {
+    "palabra": "Shark",
+    "prohibidas": [
+      "Sea",
+      "Fish",
+      "Fin",
+      "Teeth",
+      "Predator"
+    ]
+  },
+  {
+    "palabra": "Fish",
+    "prohibidas": [
+      "Animal",
+      "Water",
+      "Fins",
+      "Swimmer",
+      "Scales"
+    ]
+  },
+  {
+    "palabra": "Llama",
+    "prohibidas": [
+      "Animal",
+      "Andes",
+      "South America",
+      "Spit",
+      "Mountain"
+    ]
+  },
+  {
+    "palabra": "Switzerland",
+    "prohibidas": [
+      "Europe",
+      "Alps",
+      "Chocolate",
+      "Watches",
+      "Cheese"
+    ]
+  },
+  {
+    "palabra": "Eagle",
+    "prohibidas": [
+      "Bird",
+      "Sky",
+      "Predator",
+      "Claws",
+      "Fly"
+    ]
+  },
+  {
+    "palabra": "Cuba",
+    "prohibidas": [
+      "Island",
+      "Caribbean",
+      "Havana",
+      "Rum",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Cat",
+    "prohibidas": [
+      "Animal",
+      "Domestic",
+      "Meow",
+      "Feline",
+      "Whiskers"
+    ]
+  },
+  {
+    "palabra": "Canada",
+    "prohibidas": [
+      "North America",
+      "Leaves",
+      "Cold",
+      "Country",
+      "Bear"
+    ]
+  },
+  {
+    "palabra": "Spinning Top",
+    "prohibidas": [
+      "Toy",
+      "Wood",
+      "String",
+      "Spin",
+      "Tip"
+    ]
+  },
+  {
+    "palabra": "Top",
+    "prohibidas": [
+      "Toy",
+      "String",
+      "Wood",
+      "Spin",
+      "Tip"
+    ]
+  },
+  {
+    "palabra": "Ant",
+    "prohibidas": [
+      "Insect",
+      "Small",
+      "Work",
+      "Colony",
+      "Earth"
+    ]
+  },
+  {
+    "palabra": "Butterfly",
+    "prohibidas": [
+      "Wings",
+      "Insect",
+      "Colors",
+      "Caterpillar",
+      "Fly"
+    ]
+  },
+  {
+    "palabra": "Mosquito",
+    "prohibidas": [
+      "Insect",
+      "Bite",
+      "Fly",
+      "Buzz",
+      "Water"
+    ]
+  },
+  {
+    "palabra": "Spider",
+    "prohibidas": [
+      "Insect",
+      "Web",
+      "Legs",
+      "Bite",
+      "Weave"
+    ]
+  },
+  {
+    "palabra": "Bee",
+    "prohibidas": [
+      "Insect",
+      "Honey",
+      "Hive",
+      "Flower",
+      "Sting"
+    ]
+  },
+  {
+    "palabra": "Dragonfly",
+    "prohibidas": [
+      "Insect",
+      "Fly",
+      "Wings",
+      "Water",
+      "Long"
+    ]
+  },
+  {
+    "palabra": "Cricket",
+    "prohibidas": [
+      "Insect",
+      "Singing",
+      "Night",
+      "Jump",
+      "Green"
+    ]
+  },
+  {
+    "palabra": "Snail",
+    "prohibidas": [
+      "Shell",
+      "Slow",
+      "Garden",
+      "Slug",
+      "House"
+    ]
+  },
+  {
+    "palabra": "Meat",
+    "prohibidas": [
+      "Food",
+      "Protein",
+      "Animal",
+      "Steak",
+      "Cook"
+    ]
+  },
+  {
+    "palabra": "Fish",
+    "prohibidas": [
+      "Sea",
+      "Food",
+      "Water",
+      "Fish",
+      "Dinner"
+    ]
+  },
+  {
+    "palabra": "Rice",
+    "prohibidas": [
+      "Food",
+      "Grain",
+      "White",
+      "China",
+      "Paella"
+    ]
+  },
+  {
+    "palabra": "Pasta",
+    "prohibidas": [
+      "Food",
+      "Flour",
+      "Noodles",
+      "Sauce",
+      "Italian"
+    ]
+  },
+  {
+    "palabra": "Cheese",
+    "prohibidas": [
+      "Milk",
+      "Food",
+      "Melt",
+      "Yellow",
+      "Dairy"
+    ]
+  },
+  {
+    "palabra": "Bread",
+    "prohibidas": [
+      "Flour",
+      "Food",
+      "Oven",
+      "Breakfast",
+      "Toast"
+    ]
+  },
+  {
+    "palabra": "Apple",
+    "prohibidas": [
+      "Fruit",
+      "Red",
+      "Tree",
+      "Eat",
+      "Round"
+    ]
+  },
+  {
+    "palabra": "Banana",
+    "prohibidas": [
+      "Fruit",
+      "Yellow",
+      "Peel",
+      "Monkey",
+      "Sweet"
+    ]
+  },
+  {
+    "palabra": "Orange",
+    "prohibidas": [
+      "Fruit",
+      "Citrus",
+      "Juice",
+      "Color",
+      "Round"
+    ]
+  },
+  {
+    "palabra": "Pear",
+    "prohibidas": [
+      "Fruit",
+      "Green",
+      "Sweet",
+      "Tree",
+      "Water"
+    ]
+  },
+  {
+    "palabra": "Watermelon",
+    "prohibidas": [
+      "Fruit",
+      "Summer",
+      "Red",
+      "Water",
+      "Seeds"
+    ]
+  },
+  {
+    "palabra": "Grapes",
+    "prohibidas": [
+      "Fruit",
+      "Bunch",
+      "Wine",
+      "Green",
+      "Purple"
+    ]
+  },
+  {
+    "palabra": "Tomato",
+    "prohibidas": [
+      "Red",
+      "Vegetable",
+      "Plant",
+      "Sauce",
+      "Salad"
+    ]
+  },
+  {
+    "palabra": "Lettuce",
+    "prohibidas": [
+      "Leaf",
+      "Green",
+      "Salad",
+      "Vegetable",
+      "Water"
+    ]
+  },
+  {
+    "palabra": "Carrot",
+    "prohibidas": [
+      "Vegetable",
+      "Orange",
+      "Rabbit",
+      "Root",
+      "Garden"
+    ]
+  },
+  {
+    "palabra": "Potato",
+    "prohibidas": [
+      "Vegetable",
+      "Earth",
+      "Fries",
+      "Food",
+      "Cook"
+    ]
+  },
+  {
+    "palabra": "Onion",
+    "prohibidas": [
+      "Vegetable",
+      "Cry",
+      "Seasoning",
+      "Cook",
+      "Bulb"
+    ]
+  },
+  {
+    "palabra": "Garlic",
+    "prohibidas": [
+      "Seasoning",
+      "Bulb",
+      "Smell",
+      "Vampire",
+      "Cooking"
+    ]
+  },
+  {
+    "palabra": "Pepper",
+    "prohibidas": [
+      "Vegetable",
+      "Red",
+      "Green",
+      "Chili",
+      "Spicy"
+    ]
+  },
+  {
+    "palabra": "Broccoli",
+    "prohibidas": [
+      "Vegetable",
+      "Green",
+      "Tree",
+      "Healthy",
+      "Flower"
+    ]
+  },
+  {
+    "palabra": "Juice",
+    "prohibidas": [
+      "Drink",
+      "Fruit",
+      "Liquid",
+      "Orange",
+      "Vitamin"
+    ]
+  },
+  {
+    "palabra": "Milk",
+    "prohibidas": [
+      "Drink",
+      "Cow",
+      "White",
+      "Dairy",
+      "Breakfast"
+    ]
+  },
+  {
+    "palabra": "Beer",
+    "prohibidas": [
+      "Drink",
+      "Alcohol",
+      "Cold",
+      "Foam",
+      "Bottle"
+    ]
+  },
+  {
+    "palabra": "Wine",
+    "prohibidas": [
+      "Drink",
+      "Grapes",
+      "Alcohol",
+      "Bottle",
+      "Glass"
+    ]
+  },
+  {
+    "palabra": "Coffee",
+    "prohibidas": [
+      "Drink",
+      "Hot",
+      "Beans",
+      "Cup",
+      "Wake up"
+    ]
+  },
+  {
+    "palabra": "Tea",
+    "prohibidas": [
+      "Drink",
+      "Hot",
+      "Leaves",
+      "Cup",
+      "Infusion"
+    ]
+  },
+  {
+    "palabra": "Water",
+    "prohibidas": [
+      "Drink",
+      "Life",
+      "Liquid",
+      "Transparent",
+      "Ice"
+    ]
+  },
+  {
+    "palabra": "Book",
+    "prohibidas": [
+      "Read",
+      "Pages",
+      "History",
+      "Paper",
+      "Novel"
+    ]
+  },
+  {
+    "palabra": "Bed",
+    "prohibidas": [
+      "Sleep",
+      "Room",
+      "Mattress",
+      "Sheet",
+      "Rest"
+    ]
+  },
+  {
+    "palabra": "Chair",
+    "prohibidas": [
+      "Furniture",
+      "Sit",
+      "Seat",
+      "Legs",
+      "Wood"
+    ]
+  },
+  {
+    "palabra": "Table",
+    "prohibidas": [
+      "Furniture",
+      "Eat",
+      "Sit",
+      "Legs",
+      "Surface"
+    ]
+  },
+  {
+    "palabra": "Lamp",
+    "prohibidas": [
+      "Light",
+      "Bulb",
+      "Illuminate",
+      "Room",
+      "Turn on"
+    ]
+  },
+  {
+    "palabra": "Clock",
+    "prohibidas": [
+      "Time",
+      "Hours",
+      "Minutes",
+      "Seconds",
+      "Hands"
+    ]
+  },
+  {
+    "palabra": "Telephone",
+    "prohibidas": [
+      "Call",
+      "Communicate",
+      "Mobile",
+      "Screen",
+      "Number"
+    ]
+  },
+  {
+    "palabra": "Computer",
+    "prohibidas": [
+      "Technology",
+      "Screen",
+      "Keyboard",
+      "Mouse",
+      "Programs"
+    ]
+  },
+  {
+    "palabra": "Television",
+    "prohibidas": [
+      "Screen",
+      "Watch",
+      "Series",
+      "News",
+      "Remote"
+    ]
+  },
+  {
+    "palabra": "Car",
+    "prohibidas": [
+      "Vehicle",
+      "Drive",
+      "Wheels",
+      "Motor",
+      "Transport"
+    ]
+  },
+  {
+    "palabra": "Airplane",
+    "prohibidas": [
+      "Fly",
+      "Wing",
+      "Airport",
+      "Pilot",
+      "Passengers"
+    ]
+  },
+  {
+    "palabra": "Train",
+    "prohibidas": [
+      "Wagons",
+      "Tracks",
+      "Station",
+      "Travel",
+      "Machine"
+    ]
+  },
+  {
+    "palabra": "Ship",
+    "prohibidas": [
+      "Sail",
+      "Sea",
+      "Water",
+      "Vessel",
+      "Travel"
+    ]
+  },
+  {
+    "palabra": "Bicycle",
+    "prohibidas": [
+      "Pedals",
+      "Wheels",
+      "Ride",
+      "Handlebar",
+      "Transport"
+    ]
+  },
+  {
+    "palabra": "Energy Drink",
+    "prohibidas": [
+      "Red Bull",
+      "Caffeine",
+      "Sugar",
+      "Wings",
+      "Wake up"
+    ]
+  },
+  {
+    "palabra": "Chocolate",
+    "prohibidas": [
+      "Cocoa",
+      "Sweet",
+      "Dessert",
+      "Bar",
+      "Candy"
+    ]
+  },
+  {
+    "palabra": "Sky",
+    "prohibidas": [
+      "Clouds",
+      "Blue",
+      "Air",
+      "Birds",
+      "Up"
+    ]
+  },
+  {
+    "palabra": "Cloud",
+    "prohibidas": [
+      "Sky",
+      "Rain",
+      "White",
+      "Cotton",
+      "Shape"
+    ]
+  },
+  {
+    "palabra": "Star",
+    "prohibidas": [
+      "Space",
+      "Sky",
+      "Shine",
+      "Night",
+      "Light"
+    ]
+  },
+  {
+    "palabra": "Moon",
+    "prohibidas": [
+      "Night",
+      "Sky",
+      "Round",
+      "Satellite",
+      "Earth"
+    ]
+  },
+  {
+    "palabra": "Sun",
+    "prohibidas": [
+      "Sky",
+      "Heat",
+      "Star",
+      "Day",
+      "Light"
+    ]
+  },
+  {
+    "palabra": "Lightning",
+    "prohibidas": [
+      "Thunder",
+      "Electricity",
+      "Storm",
+      "Bolt",
+      "Sky"
+    ]
+  },
+  {
+    "palabra": "Volcano",
+    "prohibidas": [
+      "Mountain",
+      "Eruption",
+      "Lava",
+      "Magma",
+      "Fire"
+    ]
+  },
+  {
+    "palabra": "Glacier",
+    "prohibidas": [
+      "Ice",
+      "Mountain",
+      "Snow",
+      "Cold",
+      "Pole"
+    ]
+  },
+  {
+    "palabra": "Desert",
+    "prohibidas": [
+      "Sand",
+      "Heat",
+      "Drought",
+      "Cactus",
+      "Camel"
+    ]
+  },
+  {
+    "palabra": "Jungle",
+    "prohibidas": [
+      "Jungle",
+      "Trees",
+      "Animals",
+      "Green",
+      "Tropical"
+    ]
+  },
+  {
+    "palabra": "Waterfall",
+    "prohibidas": [
+      "Water",
+      "Fall",
+      "River",
+      "Fall",
+      "Nature"
+    ]
+  },
+  {
+    "palabra": "Beach",
+    "prohibidas": [
+      "Sea",
+      "Sand",
+      "Sun",
+      "Vacation",
+      "Swimsuit"
+    ]
+  },
+  {
+    "palabra": "Swimming Pool",
+    "prohibidas": [
+      "Water",
+      "Swimmer",
+      "Bathe",
+      "Summer",
+      "Earth"
+    ]
+  },
+  {
+    "palabra": "Forest",
+    "prohibidas": [
+      "Trees",
+      "Nature",
+      "Jungle",
+      "Green",
+      "Wood"
+    ]
+  },
+  {
+    "palabra": "Park",
+    "prohibidas": [
+      "Trees",
+      "Green",
+      "Games",
+      "Walk",
+      "City"
+    ]
+  },
+  {
+    "palabra": "Hospital",
+    "prohibidas": [
+      "Sick",
+      "Doctor",
+      "Cure",
+      "ER",
+      "Medicine"
+    ]
+  },
+  {
+    "palabra": "School",
+    "prohibidas": [
+      "School",
+      "Study",
+      "Teacher",
+      "Students",
+      "Class"
+    ]
+  },
+  {
+    "palabra": "Supermarket",
+    "prohibidas": [
+      "Buy",
+      "Food",
+      "Cart",
+      "Checkout",
+      "Store"
+    ]
+  },
+  {
+    "palabra": "Theater",
+    "prohibidas": [
+      "Play",
+      "Actor",
+      "Stage",
+      "Audience",
+      "Performance"
+    ]
+  },
+  {
+    "palabra": "Cinema",
+    "prohibidas": [
+      "Movies",
+      "Screen",
+      "Popcorn",
+      "Seats",
+      "Projector"
+    ]
+  },
+  {
+    "palabra": "Museum",
+    "prohibidas": [
+      "Art",
+      "History",
+      "Visit",
+      "Paintings",
+      "Sculptures"
+    ]
+  },
+  {
+    "palabra": "Cathedral",
+    "prohibidas": [
+      "Church",
+      "Religion",
+      "Ancient",
+      "Christian",
+      "Architecture"
+    ]
+  },
+  {
+    "palabra": "Prison",
+    "prohibidas": [
+      "Jail",
+      "Criminals",
+      "Bars",
+      "Cell",
+      "Police"
+    ]
+  },
+  {
+    "palabra": "Library",
+    "prohibidas": [
+      "Books",
+      "Read",
+      "Shelf",
+      "Silence",
+      "Study"
+    ]
+  },
+  {
+    "palabra": "War",
+    "prohibidas": [
+      "Fight",
+      "Battle",
+      "Soldiers",
+      "Weapon",
+      "Violence"
+    ]
+  },
+  {
+    "palabra": "Peace",
+    "prohibidas": [
+      "Tranquility",
+      "Silence",
+      "No",
+      "War",
+      "Calm"
+    ]
+  },
+  {
+    "palabra": "Justice",
+    "prohibidas": [
+      "Law",
+      "Judge",
+      "Court",
+      "Equality",
+      "Right"
+    ]
+  },
+  {
+    "palabra": "Happiness",
+    "prohibidas": [
+      "Joy",
+      "Content",
+      "Smile",
+      "Emotion",
+      "Feeling"
+    ]
+  },
+  {
+    "palabra": "Sadness",
+    "prohibidas": [
+      "Emotion",
+      "Cry",
+      "Unhappy",
+      "Feeling",
+      "Grief"
+    ]
+  },
+  {
+    "palabra": "Fear",
+    "prohibidas": [
+      "Scare",
+      "Terror",
+      "Darkness",
+      "Emotion",
+      "Ghost"
+    ]
+  },
+  {
+    "palabra": "Surprise",
+    "prohibidas": [
+      "Emotion",
+      "Unexpected",
+      "Amazement",
+      "Gift",
+      "Face"
+    ]
+  },
+  {
+    "palabra": "Love",
+    "prohibidas": [
+      "Feeling",
+      "Heart",
+      "Couple",
+      "Dear",
+      "Affection"
+    ]
+  },
+  {
+    "palabra": "Friendship",
+    "prohibidas": [
+      "Friends",
+      "Relationship",
+      "Feeling",
+      "Company",
+      "Trust"
+    ]
+  },
+  {
+    "palabra": "Family",
+    "prohibidas": [
+      "Parents",
+      "Children",
+      "Home",
+      "Siblings",
+      "Kinship"
+    ]
+  },
+  {
+    "palabra": "Work",
+    "prohibidas": [
+      "Office",
+      "Money",
+      "Labor",
+      "Job",
+      "Occupation"
+    ]
+  },
+  {
+    "palabra": "Vacation",
+    "prohibidas": [
+      "Travel",
+      "Rest",
+      "Beach",
+      "Summer",
+      "Freedom"
+    ]
+  },
+  {
+    "palabra": "Sleep",
+    "prohibidas": [
+      "Sleep",
+      "Night",
+      "Dream",
+      "Reality",
+      "Desire"
+    ]
+  },
+  {
+    "palabra": "Music",
+    "prohibidas": [
+      "Sound",
+      "Sing",
+      "Rhythm",
+      "Instrument",
+      "Note"
+    ]
+  },
+  {
+    "palabra": "Painting",
+    "prohibidas": [
+      "Art",
+      "Canvas",
+      "Frame",
+      "Brush",
+      "Color"
+    ]
+  },
+  {
+    "palabra": "Poetry",
+    "prohibidas": [
+      "Verse",
+      "Rhythm",
+      "Write",
+      "Stanza",
+      "Rhyme"
+    ]
+  },
+  {
+    "palabra": "Story",
+    "prohibidas": [
+      "History",
+      "Read",
+      "Children",
+      "Narration",
+      "Book"
+    ]
+  },
+  {
+    "palabra": "Joke",
+    "prohibidas": [
+      "Laughter",
+      "Humor",
+      "Prank",
+      "Tell",
+      "Funny"
+    ]
+  },
+  {
+    "palabra": "Bird",
+    "prohibidas": [
+      "Fly",
+      "Bird",
+      "Feathers",
+      "Nest",
+      "Sky"
+    ]
+  },
+  {
+    "palabra": "Parrot",
+    "prohibidas": [
+      "Bird",
+      "Talk",
+      "Colors",
+      "Cage",
+      "Feathers"
+    ]
+  },
+  {
+    "palabra": "Hummingbird",
+    "prohibidas": [
+      "Bird",
+      "Small",
+      "Fly",
+      "Flower",
+      "Wings"
+    ]
+  },
+  {
+    "palabra": "Peacock",
+    "prohibidas": [
+      "Bird",
+      "Feathers",
+      "Tail",
+      "Colors",
+      "Displays"
+    ]
+  },
+  {
+    "palabra": "Owl",
+    "prohibidas": [
+      "Bird",
+      "Night",
+      "Eyes",
+      "Lechuza",
+      "Feathers"
+    ]
+  },
+  {
+    "palabra": "Pigeon",
+    "prohibidas": [
+      "Bird",
+      "Feathers",
+      "City",
+      "Peace",
+      "Fly"
+    ]
+  },
+  {
+    "palabra": "Lion",
+    "prohibidas": [
+      "Animal",
+      "Mane",
+      "King",
+      "Jungle",
+      "Roar"
+    ]
+  },
+  {
+    "palabra": "Whale",
+    "prohibidas": [
+      "Mammal",
+      "Sea",
+      "Giant",
+      "Song",
+      "Water"
+    ]
+  },
+  {
+    "palabra": "Polar Bear",
+    "prohibidas": [
+      "White",
+      "Cold",
+      "Ice",
+      "Arctic",
+      "Animal"
+    ]
+  },
+  {
+    "palabra": "Camel",
+    "prohibidas": [
+      "Desert",
+      "Hump",
+      "Animal",
+      "Sand",
+      "Travel"
+    ]
+  },
+  {
+    "palabra": "Pig",
+    "prohibidas": [
+      "Animal",
+      "Farm",
+      "Hog",
+      "Meat",
+      "Oink"
+    ]
+  },
+  {
+    "palabra": "Rooster",
+    "prohibidas": [
+      "Bird",
+      "Farm",
+      "Crest",
+      "Sings",
+      "Eggs"
+    ]
+  },
+  {
+    "palabra": "Chicken",
+    "prohibidas": [
+      "Bird",
+      "Food",
+      "Farm",
+      "Meat",
+      "Egg"
+    ]
+  },
+  {
+    "palabra": "Donkey",
+    "prohibidas": [
+      "Animal",
+      "Farm",
+      "Brays",
+      "Ears",
+      "Load"
+    ]
+  },
+  {
+    "palabra": "Rabbit",
+    "prohibidas": [
+      "Animal",
+      "Carrot",
+      "Jumps",
+      "Ears",
+      "Slow"
+    ]
+  },
+  {
+    "palabra": "Squirrel",
+    "prohibidas": [
+      "Animal",
+      "Tree",
+      "Nuts",
+      "Tail",
+      "Forest"
+    ]
+  },
+  {
+    "palabra": "Starfish",
+    "prohibidas": [
+      "Sea",
+      "Beach",
+      "Animal",
+      "Five",
+      "Points"
+    ]
+  },
+  {
+    "palabra": "Jellyfish",
+    "prohibidas": [
+      "Sea",
+      "Transparent",
+      "Tentacles",
+      "Sting",
+      "Jelly"
+    ]
+  },
+  {
+    "palabra": "Oyster",
+    "prohibidas": [
+      "Seafood",
+      "Shell",
+      "Pearl",
+      "Eat",
+      "Beach"
+    ]
+  },
+  {
+    "palabra": "Pig",
+    "prohibidas": [
+      "Animal",
+      "Farm",
+      "Hog",
+      "Meat",
+      "Oink"
+    ]
+  },
+  {
+    "palabra": "Giant Squid",
+    "prohibidas": [
+      "Ocean",
+      "Mollusk",
+      "Tentacles",
+      "Ink",
+      "Creature"
+    ]
+  },
+  {
+    "palabra": "Diving",
+    "prohibidas": [
+      "Water",
+      "Scuba Diving",
+      "Sea",
+      "Tank",
+      "Depth"
+    ]
+  },
+  {
+    "palabra": "Climber",
+    "prohibidas": [
+      "Mountain",
+      "Rope",
+      "Peak",
+      "Rock",
+      "Height"
+    ]
+  },
+  {
+    "palabra": "Board Game",
+    "prohibidas": [
+      "Friends",
+      "Dice",
+      "Cards",
+      "Family",
+      "Match"
+    ]
+  },
+  {
+    "palabra": "Marathon",
+    "prohibidas": [
+      "Run",
+      "Race",
+      "Distance",
+      "Athlete",
+      "Goal"
+    ]
+  },
+  {
+    "palabra": "Sandwich",
+    "prohibidas": [
+      "Bread",
+      "Food",
+      "Ham",
+      "Cheese",
+      "Lunch"
+    ]
+  },
+  {
+    "palabra": "Production Line",
+    "prohibidas": [
+      "Factory",
+      "Belt",
+      "Work",
+      "Assembly",
+      "Product"
+    ]
+  },
+  {
+    "palabra": "Sculpture",
+    "prohibidas": [
+      "Art",
+      "Carve",
+      "Marble",
+      "Statue",
+      "Shape"
+    ]
+  },
+  {
+    "palabra": "Cookie",
+    "prohibidas": [
+      "Dessert",
+      "Sweet",
+      "Oven",
+      "Chocolate",
+      "Flour"
+    ]
+  },
+  {
+    "palabra": "Orchestra",
+    "prohibidas": [
+      "Music",
+      "Conductor",
+      "Symphony",
+      "Instruments",
+      "Concert"
+    ]
+  },
+  {
+    "palabra": "Mirror",
+    "prohibidas": [
+      "Reflection",
+      "Glass",
+      "Image",
+      "Look",
+      "Room"
+    ]
+  },
+  {
+    "palabra": "Pirate",
+    "prohibidas": [
+      "Ship",
+      "Treasure",
+      "Captain",
+      "Chest",
+      "Patch"
+    ]
+  },
+  {
+    "palabra": "Photography",
+    "prohibidas": [
+      "Camera",
+      "Image",
+      "Portrait",
+      "Flash",
+      "Photo"
+    ]
+  },
+  {
+    "palabra": "Axolotl",
+    "prohibidas": [
+      "Amphibian",
+      "Mexico",
+      "Gills",
+      "Water",
+      "Tadpole"
+    ]
+  },
+  {
+    "palabra": "Watercolor",
+    "prohibidas": [
+      "Painting",
+      "Water",
+      "Paper",
+      "Brush",
+      "Color"
+    ]
+  },
+  {
+    "palabra": "Crater",
+    "prohibidas": [
+      "Volcano",
+      "Hole",
+      "Mountain",
+      "Explosion",
+      "Valley"
+    ]
+  },
+  {
+    "palabra": "Temple",
+    "prohibidas": [
+      "Religion",
+      "Prayer",
+      "Ancient",
+      "God",
+      "Sacrifice"
+    ]
+  },
+  {
+    "palabra": "Garden",
+    "prohibidas": [
+      "Plants",
+      "Flowers",
+      "Green",
+      "House",
+      "Nature"
+    ]
+  },
+  {
+    "palabra": "Comet",
+    "prohibidas": [
+      "Space",
+      "Tail",
+      "Star",
+      "Ice",
+      "Planet"
+    ]
+  },
+  {
+    "palabra": "Space Station",
+    "prohibidas": [
+      "Satellite",
+      "Orbit",
+      "Astronaut",
+      "Earth",
+      "Ship"
+    ]
+  },
+  {
+    "palabra": "Rainbow",
+    "prohibidas": [
+      "Colors",
+      "Rain",
+      "Sky",
+      "Sun",
+      "Optical"
+    ]
+  },
+  {
+    "palabra": "Battery",
+    "prohibidas": [
+      "Energy",
+      "Electric",
+      "Rechargeable",
+      "Battery",
+      "Charger"
+    ]
+  },
+  {
+    "palabra": "Labyrinth",
+    "prohibidas": [
+      "Path",
+      "Entrance",
+      "Exit",
+      "Lost",
+      "Wall"
+    ]
+  },
+  {
+    "palabra": "Cartoon",
+    "prohibidas": [
+      "Drawings",
+      "Humor",
+      "Children",
+      "Comics",
+      "Animation"
+    ]
+  },
+  {
+    "palabra": "Ocean",
+    "prohibidas": [
+      "Sea",
+      "Water",
+      "Deep",
+      "Fish",
+      "Ship"
+    ]
+  },
+  {
+    "palabra": "Robot",
+    "prohibidas": [
+      "Machine",
+      "Technology",
+      "Intelligence",
+      "Automaton",
+      "Arm"
+    ]
+  },
+  {
+    "palabra": "Human Body",
+    "prohibidas": [
+      "Anatomy",
+      "Bones",
+      "Muscles",
+      "Organs",
+      "Skin"
+    ]
+  },
+  {
+    "palabra": "Compass",
+    "prohibidas": [
+      "North",
+      "South",
+      "Direction",
+      "Orientation",
+      "Map"
+    ]
+  },
+  {
+    "palabra": "Pyramid",
+    "prohibidas": [
+      "Egypt",
+      "Pharaoh",
+      "Tomb",
+      "Shape",
+      "Triangle"
+    ]
+  },
+  {
+    "palabra": "Telescope",
+    "prohibidas": [
+      "Observe",
+      "Stars",
+      "Sky",
+      "Planets",
+      "Space"
+    ]
+  },
+  {
+    "palabra": "Hurricane",
+    "prohibidas": [
+      "Wind",
+      "Storm",
+      "Cyclone",
+      "Disaster",
+      "Eye"
+    ]
+  },
+  {
+    "palabra": "Piano",
+    "prohibidas": [
+      "Instrument",
+      "Music",
+      "Keys",
+      "Melody",
+      "Strings"
+    ]
+  },
+  {
+    "palabra": "Submarine",
+    "prohibidas": [
+      "Water",
+      "Sea",
+      "Ship",
+      "Under",
+      "War"
+    ]
+  },
+  {
+    "palabra": "Paris",
+    "prohibidas": [
+      "France",
+      "Eiffel Tower",
+      "Love",
+      "Capital",
+      "City"
+    ]
+  },
+  {
+    "palabra": "Breakfast",
+    "prohibidas": [
+      "Morning",
+      "Food",
+      "Milk",
+      "Bread",
+      "Toast"
+    ]
+  },
+  {
+    "palabra": "Scissors",
+    "prohibidas": [
+      "Cut",
+      "Paper",
+      "Blade",
+      "Edge",
+      "Crafts"
+    ]
+  },
+  {
+    "palabra": "Rocket",
+    "prohibidas": [
+      "Space",
+      "Launch",
+      "Ship",
+      "Fuel",
+      "Travel"
+    ]
+  },
+  {
+    "palabra": "Tear",
+    "prohibidas": [
+      "Cry",
+      "Eyes",
+      "Sadness",
+      "Water",
+      "Feeling"
+    ]
+  },
+  {
+    "palabra": "Stairs",
+    "prohibidas": [
+      "Up",
+      "Down",
+      "Steps",
+      "House",
+      "Floor"
+    ]
+  },
+  {
+    "palabra": "Balloon",
+    "prohibidas": [
+      "Air",
+      "Float",
+      "Party",
+      "Helium",
+      "Inflate"
+    ]
+  },
+  {
+    "palabra": "Skull",
+    "prohibidas": [
+      "Bone",
+      "Head",
+      "Skeleton",
+      "Death",
+      "Skull"
+    ]
+  },
+  {
+    "palabra": "Microwave",
+    "prohibidas": [
+      "Heat",
+      "Oven",
+      "Kitchen",
+      "Plate",
+      "Food"
+    ]
+  },
+  {
+    "palabra": "Guitar",
+    "prohibidas": [
+      "Strings",
+      "Music",
+      "Chords",
+      "Instrument",
+      "Play"
+    ]
+  },
+  {
+    "palabra": "Skeleton",
+    "prohibidas": [
+      "Bones",
+      "Body",
+      "Anatomy",
+      "Framework",
+      "Skull"
+    ]
+  },
+  {
+    "palabra": "Vampire",
+    "prohibidas": [
+      "Night",
+      "Blood",
+      "Dracula",
+      "Fangs",
+      "Bat"
+    ]
+  },
+  {
+    "palabra": "Castle",
+    "prohibidas": [
+      "Princess",
+      "Fortress",
+      "King",
+      "Walls",
+      "Middle Ages"
+    ]
+  },
+  {
+    "palabra": "Hat",
+    "prohibidas": [
+      "Head",
+      "Cap",
+      "Accessories",
+      "Sun",
+      "Straw"
+    ]
+  },
+  {
+    "palabra": "Washing Machine",
+    "prohibidas": [
+      "Clothes",
+      "Wash",
+      "Appliance",
+      "Dirty",
+      "Clean"
+    ]
+  },
+  {
+    "palabra": "Diamond",
+    "prohibidas": [
+      "Jewel",
+      "Shiny",
+      "Hard",
+      "Precious",
+      "Ring"
+    ]
+  },
+  {
+    "palabra": "Tractor",
+    "prohibidas": [
+      "Field",
+      "Agriculture",
+      "Farm",
+      "Vehicle",
+      "Wheels"
+    ]
+  },
+  {
+    "palabra": "Hamburger",
+    "prohibidas": [
+      "Meat",
+      "Bread",
+      "Food",
+      "Cheese",
+      "Lettuce"
+    ]
+  },
+  {
+    "palabra": "Tsunami",
+    "prohibidas": [
+      "Wave",
+      "Giant",
+      "Sea",
+      "Disaster",
+      "Japan"
+    ]
+  },
+  {
+    "palabra": "Zoo",
+    "prohibidas": [
+      "Animals",
+      "Cages",
+      "Visit",
+      "Zoo",
+      "Lion"
+    ]
+  },
+  {
+    "palabra": "Volcanic Eruption",
+    "prohibidas": [
+      "Volcano",
+      "Lava",
+      "Fire",
+      "Explosion",
+      "Ash"
+    ]
+  },
+  {
+    "palabra": "Dancer",
+    "prohibidas": [
+      "Dance",
+      "Music",
+      "Stage",
+      "Movement",
+      "Body"
+    ]
+  },
+  {
+    "palabra": "Vacuum Cleaner",
+    "prohibidas": [
+      "Dust",
+      "Clean",
+      "Dirty",
+      "Appliance",
+      "House"
+    ]
+  },
+  {
+    "palabra": "Bow",
+    "prohibidas": [
+      "Arrow",
+      "Weapon",
+      "Shoot",
+      "Hunt",
+      "String"
+    ]
+  },
+  {
+    "palabra": "Leaves",
+    "prohibidas": [
+      "Tree",
+      "Plant",
+      "Green",
+      "Autumn",
+      "Fall"
+    ]
+  },
+  {
+    "palabra": "Monster",
+    "prohibidas": [
+      "Fear",
+      "Ugly",
+      "Fantasy",
+      "Movie",
+      "Story"
+    ]
+  },
+  {
+    "palabra": "Aquarium",
+    "prohibidas": [
+      "Fish",
+      "Water",
+      "Glass",
+      "Tank",
+      "Sea"
+    ]
+  },
+  {
+    "palabra": "Umbrella",
+    "prohibidas": [
+      "Rain",
+      "Water",
+      "Open",
+      "Close",
+      "Protection"
+    ]
+  },
+  {
+    "palabra": "Bomb",
+    "prohibidas": [
+      "Explosion",
+      "Weapon",
+      "Detonate",
+      "War",
+      "Movie"
+    ]
+  },
+  {
+    "palabra": "Magician",
+    "prohibidas": [
+      "Magic",
+      "Hat",
+      "Trick",
+      "Illusion",
+      "Rabbit"
+    ]
+  },
+  {
+    "palabra": "Astronaut",
+    "prohibidas": [
+      "Space",
+      "Rocket",
+      "Gravity",
+      "Planet",
+      "Ship"
+    ]
+  },
+  {
+    "palabra": "Ping-pong",
+    "prohibidas": [
+      "Table",
+      "Ball",
+      "Racket",
+      "Sport",
+      "Game"
+    ]
+  },
+  {
+    "palabra": "Backpack",
+    "prohibidas": [
+      "Back",
+      "Carry",
+      "School",
+      "Travel",
+      "Luggage"
+    ]
+  },
+  {
+    "palabra": "River",
+    "prohibidas": [
+      "Water",
+      "Current",
+      "Bed",
+      "Mountain",
+      "Born"
+    ]
+  },
+  {
+    "palabra": "Lighthouse",
+    "prohibidas": [
+      "Coast",
+      "Light",
+      "Ship",
+      "Night",
+      "Guide"
+    ]
+  },
+  {
+    "palabra": "Sponge",
+    "prohibidas": [
+      "Clean",
+      "Bubbles",
+      "Bathe",
+      "Water",
+      "Porous"
+    ]
+  },
+  {
+    "palabra": "Candy",
+    "prohibidas": [
+      "Sweet",
+      "Sugar",
+      "Lollipop",
+      "Flavors",
+      "Greedy"
+    ]
+  },
+  {
+    "palabra": "Ice Cream",
+    "prohibidas": [
+      "Cold",
+      "Summer",
+      "Cone",
+      "Dessert",
+      "Flavor"
+    ]
+  },
+  {
+    "palabra": "Bubble",
+    "prohibidas": [
+      "Bubble",
+      "Soap",
+      "Air",
+      "Water",
+      "Explodes"
+    ]
+  },
+  {
+    "palabra": "Witch",
+    "prohibidas": [
+      "Broom",
+      "Enchantress",
+      "Evil",
+      "Magic",
+      "Cauldron"
+    ]
+  },
+  {
+    "palabra": "Colosseum",
+    "prohibidas": [
+      "Rome",
+      "Ancient",
+      "Gladiator",
+      "Amphitheater",
+      "Emperor"
+    ]
+  },
+  {
+    "palabra": "Scorpion",
+    "prohibidas": [
+      "Poison",
+      "Stinger",
+      "Arachnid",
+      "Desert",
+      "Pincers"
+    ]
+  },
+  {
+    "palabra": "Sunshade",
+    "prohibidas": [
+      "Beach",
+      "Sun",
+      "Sand",
+      "Protection",
+      "Open"
+    ]
+  },
+  {
+    "palabra": "Sword",
+    "prohibidas": [
+      "Weapon",
+      "Knight",
+      "Edge",
+      "Fight",
+      "Metal"
+    ]
+  },
+  {
+    "palabra": "Brain",
+    "prohibidas": [
+      "Head",
+      "Think",
+      "Organ",
+      "Intelligence",
+      "Neurons"
+    ]
+  },
+  {
+    "palabra": "Fire",
+    "prohibidas": [
+      "Heat",
+      "Burn",
+      "Smoke",
+      "Flame",
+      "Fire"
+    ]
+  },
+  {
+    "palabra": "Pizza",
+    "prohibidas": [
+      "Food",
+      "Cheese",
+      "Dough",
+      "Oven",
+      "Round"
+    ]
+  },
+  {
+    "palabra": "Microscope",
+    "prohibidas": [
+      "See",
+      "Small",
+      "Lens",
+      "Science",
+      "Laboratory"
+    ]
+  },
+  {
+    "palabra": "Soldier",
+    "prohibidas": [
+      "Army",
+      "War",
+      "Uniform",
+      "Weapon",
+      "Fight"
+    ]
+  },
+  {
+    "palabra": "Birds",
+    "prohibidas": [
+      "Fly",
+      "Wings",
+      "Nest",
+      "Feathers",
+      "Sing"
+    ]
+  },
+  {
+    "palabra": "Fork",
+    "prohibidas": [
+      "Eat",
+      "Prongs",
+      "Cutlery",
+      "Table",
+      "Kitchen"
+    ]
+  },
+  {
+    "palabra": "Camera",
+    "prohibidas": [
+      "Photography",
+      "Video",
+      "Image",
+      "Movie",
+      "Shoot"
+    ]
+  },
+  {
+    "palabra": "Ice",
+    "prohibidas": [
+      "Water",
+      "Cold",
+      "Frozen",
+      "Cube",
+      "Glacier"
+    ]
+  },
+  {
+    "palabra": "Ball",
+    "prohibidas": [
+      "Play",
+      "Round",
+      "Sport",
+      "Ball",
+      "Kick"
+    ]
+  },
+  {
+    "palabra": "Fir",
+    "prohibidas": [
+      "Tree",
+      "Christmas",
+      "Conifer",
+      "Forest",
+      "Pine"
+    ]
+  },
+  {
+    "palabra": "Shower",
+    "prohibidas": [
+      "Bathe",
+      "Water",
+      "Clean",
+      "Bathroom",
+      "Soap"
+    ]
+  },
+  {
+    "palabra": "Lightning",
+    "prohibidas": [
+      "Storm",
+      "Thunder",
+      "Electricity",
+      "Sky",
+      "Lightning"
+    ]
+  },
+  {
+    "palabra": "Soccer",
+    "prohibidas": [
+      "Ball",
+      "Sport",
+      "Goal",
+      "Players",
+      "Pitch"
+    ]
+  },
+  {
+    "palabra": "Game",
+    "prohibidas": [
+      "Have fun",
+      "Toy",
+      "Children",
+      "Rules",
+      "Match"
+    ]
+  },
+  {
+    "palabra": "Spoon",
+    "prohibidas": [
+      "Eat",
+      "Soup",
+      "Cutlery",
+      "Mouth",
+      "Kitchen"
+    ]
+  },
+  {
+    "palabra": "Helicopter",
+    "prohibidas": [
+      "Fly",
+      "Propeller",
+      "Sky",
+      "Airplane",
+      "Machine"
+    ]
+  },
+  {
+    "palabra": "Tooth",
+    "prohibidas": [
+      "Mouth",
+      "Chew",
+      "Bone",
+      "Clean",
+      "Dentist"
+    ]
+  },
+  {
+    "palabra": "Snow",
+    "prohibidas": [
+      "Cold",
+      "Winter",
+      "White",
+      "Sky",
+      "Flakes"
+    ]
+  },
+  {
+    "palabra": "Stadium",
+    "prohibidas": [
+      "Sport",
+      "Soccer",
+      "Stands",
+      "Audience",
+      "Field"
+    ]
+  },
+  {
+    "palabra": "Baby",
+    "prohibidas": [
+      "Newborn",
+      "Born",
+      "Diaper",
+      "Llorar",
+      "Child"
+    ]
+  },
+  {
+    "palabra": "Fan",
+    "prohibidas": [
+      "Air",
+      "Heat",
+      "Move",
+      "Fan",
+      "Hand"
+    ]
+  },
+  {
+    "palabra": "Lawyer",
+    "prohibidas": [
+      "Law",
+      "Judge",
+      "Court",
+      "Defend",
+      "Trial"
+    ]
+  },
+  {
+    "palabra": "Coat",
+    "prohibidas": [
+      "Clothes",
+      "Cold",
+      "Winter",
+      "Wear",
+      "Jacket"
+    ]
+  },
+  {
+    "palabra": "Actor",
+    "prohibidas": [
+      "Movie",
+      "Theater",
+      "Perform",
+      "Character",
+      "Stage"
+    ]
+  },
+  {
+    "palabra": "Chess",
+    "prohibidas": [
+      "Game",
+      "Board",
+      "Pieces",
+      "King",
+      "Strategy"
+    ]
+  },
+  {
+    "palabra": "Bricklayer",
+    "prohibidas": [
+      "Construction",
+      "Brick",
+      "Cement",
+      "Work",
+      "Building"
+    ]
+  },
+  {
+    "palabra": "Joy",
+    "prohibidas": [
+      "Happiness",
+      "Emotion",
+      "Content",
+      "Smile",
+      "Feeling"
+    ]
+  },
+  {
+    "palabra": "Carpet",
+    "prohibidas": [
+      "Floor",
+      "Clean",
+      "Decoration",
+      "Rug",
+      "House"
+    ]
+  },
+  {
+    "palabra": "Alien",
+    "prohibidas": [
+      "Extraterrestrial",
+      "Space",
+      "Saucer",
+      "Other",
+      "Galaxy"
+    ]
+  },
+  {
+    "palabra": "Ring",
+    "prohibidas": [
+      "Finger",
+      "Jewel",
+      "Wedding",
+      "Circular",
+      "Metal"
+    ]
+  },
+  {
+    "palabra": "Antarctica",
+    "prohibidas": [
+      "Pole",
+      "Cold",
+      "Ice",
+      "Continent",
+      "Ocean"
+    ]
+  },
+  {
+    "palabra": "Closet",
+    "prohibidas": [
+      "Clothes",
+      "Save",
+      "Doors",
+      "Wood",
+      "Room"
+    ]
+  },
+  {
+    "palabra": "Athletics",
+    "prohibidas": [
+      "Sport",
+      "Run",
+      "Jump",
+      "Throw",
+      "Track"
+    ]
+  },
+  {
+    "palabra": "Headphones",
+    "prohibidas": [
+      "Ear",
+      "Music",
+      "Sound",
+      "Cable",
+      "Listen"
+    ]
+  },
+  {
+    "palabra": "Bus",
+    "prohibidas": [
+      "Transport",
+      "Travel",
+      "Passengers",
+      "Stop",
+      "Conductor"
+    ]
+  },
+  {
+    "palabra": "Basketball",
+    "prohibidas": [
+      "Ball",
+      "Basket",
+      "Sport",
+      "Dribble",
+      "Team"
+    ]
+  },
+  {
+    "palabra": "Bamboo",
+    "prohibidas": [
+      "Plant",
+      "Panda",
+      "China",
+      "Cane",
+      "Forest"
+    ]
+  },
+  {
+    "palabra": "Bank",
+    "prohibidas": [
+      "Money",
+      "Seat",
+      "Sit",
+      "Park",
+      "Savings"
+    ]
+  },
+  {
+    "palabra": "Drink",
+    "prohibidas": [
+      "Drink",
+      "Liquid",
+      "Glass",
+      "Water",
+      "Swallow"
+    ]
+  },
+  {
+    "palabra": "Kiss",
+    "prohibidas": [
+      "Mouth",
+      "Lips",
+      "Affection",
+      "Love",
+      "Contact"
+    ]
+  },
+  {
+    "palabra": "Biology",
+    "prohibidas": [
+      "Science",
+      "Life",
+      "Study",
+      "Plants",
+      "Animals"
+    ]
+  },
+  {
+    "palabra": "Mouth",
+    "prohibidas": [
+      "Comer",
+      "Hablar",
+      "Lips",
+      "Teeth",
+      "Saliva"
+    ]
+  },
+  {
+    "palabra": "Sandwich",
+    "prohibidas": [
+      "Pan",
+      "Food",
+      "Ham",
+      "Cheese",
+      "Lunch"
+    ]
+  },
+  {
+    "palabra": "Wedding",
+    "prohibidas": [
+      "Marriage",
+      "Bride",
+      "Ring",
+      "Ceremony",
+      "Party"
+    ]
+  },
+  {
+    "palabra": "Handbag",
+    "prohibidas": [
+      "Save",
+      "Carry",
+      "Belt",
+      "Wallet",
+      "Hand"
+    ]
+  },
+  {
+    "palabra": "Pen",
+    "prohibidas": [
+      "Write",
+      "Ink",
+      "Paper",
+      "Pen",
+      "Tip"
+    ]
+  },
+  {
+    "palabra": "Firefighter",
+    "prohibidas": [
+      "Fire",
+      "Extinguish",
+      "Hose",
+      "Help",
+      "Emergency"
+    ]
+  },
+  {
+    "palabra": "Diver",
+    "prohibidas": [
+      "Water",
+      "Sea",
+      "Under",
+      "Suit",
+      "Breathe"
+    ]
+  },
+  {
+    "palabra": "Head",
+    "prohibidas": [
+      "Body",
+      "Face",
+      "Brain",
+      "Hair",
+      "Part"
+    ]
+  },
+  {
+    "palabra": "Cable",
+    "prohibidas": [
+      "Electricity",
+      "Connect",
+      "Wire",
+      "Plug",
+      "Current"
+    ]
+  },
+  {
+    "palabra": "Cactus",
+    "prohibidas": [
+      "Plant",
+      "Desert",
+      "Thorns",
+      "Water",
+      "Flower"
+    ]
+  },
+  {
+    "palabra": "Alligator",
+    "prohibidas": [
+      "Reptile",
+      "Crocodile",
+      "Water",
+      "Jaw",
+      "Swamp"
+    ]
+  },
+  {
+    "palabra": "Truck",
+    "prohibidas": [
+      "Big",
+      "Vehicle",
+      "Goods",
+      "Load",
+      "Transport"
+    ]
+  },
+  {
+    "palabra": "Padlock",
+    "prohibidas": [
+      "Close",
+      "Security",
+      "Key",
+      "Metal",
+      "Door"
+    ]
+  },
+  {
+    "palabra": "Carpenter",
+    "prohibidas": [
+      "Wood",
+      "Nail",
+      "Hammer",
+      "Furniture",
+      "Build"
+    ]
+  },
+  {
+    "palabra": "Postman",
+    "prohibidas": [
+      "Mail",
+      "Letter",
+      "Package",
+      "Delivery",
+      "Work"
+    ]
+  },
+  {
+    "palabra": "Cemetery",
+    "prohibidas": [
+      "Dead",
+      "Tomb",
+      "Gravestone",
+      "Bury",
+      "Funeral"
+    ]
+  },
+  {
+    "palabra": "Science",
+    "prohibidas": [
+      "Study",
+      "Experiment",
+      "Investigation",
+      "Physics",
+      "Laboratory"
+    ]
+  },
+  {
+    "palabra": "Kitchen",
+    "prohibidas": [
+      "Food",
+      "Home",
+      "Prepare",
+      "Pot",
+      "Recipe"
+    ]
+  },
+  {
+    "palabra": "Heart",
+    "prohibidas": [
+      "Organ",
+      "Pumping",
+      "Blood",
+      "Beat",
+      "Love"
+    ]
+  },
+  {
+    "palabra": "Painting",
+    "prohibidas": [
+      "Painting",
+      "Frame",
+      "Canvas",
+      "Art",
+      "Wall"
+    ]
+  },
+  {
+    "palabra": "Knife",
+    "prohibidas": [
+      "Cut",
+      "Kitchen",
+      "Blade",
+      "Edge",
+      "Metal"
+    ]
+  },
+  {
+    "palabra": "Cave",
+    "prohibidas": [
+      "Hole",
+      "Darkness",
+      "Bats",
+      "Mountain",
+      "Stone"
+    ]
+  },
+  {
+    "palabra": "Birthday",
+    "prohibidas": [
+      "Party",
+      "Cake",
+      "Candles",
+      "Gift",
+      "Celebration"
+    ]
+  },
+  {
+    "palabra": "Dice",
+    "prohibidas": [
+      "Game",
+      "Throw",
+      "Points",
+      "Six",
+      "Cubes"
+    ]
+  },
+  {
+    "palabra": "Dentist",
+    "prohibidas": [
+      "Teeth",
+      "Mouth",
+      "Checkup",
+      "Cleaning",
+      "Molar"
+    ]
+  },
+  {
+    "palabra": "Money",
+    "prohibidas": [
+      "Coin",
+      "Bill",
+      "Buy",
+      "Pay",
+      "Wealth"
+    ]
+  },
+  {
+    "palabra": "Doctor",
+    "prohibidas": [
+      "Hospital",
+      "Disease",
+      "Cure",
+      "Medicine",
+      "Nurse"
+    ]
+  },
+  {
+    "palabra": "Dragon",
+    "prohibidas": [
+      "Creature",
+      "Fantasy",
+      "Wings",
+      "Fire",
+      "Myth"
+    ]
+  },
+  {
+    "palabra": "Elf",
+    "prohibidas": [
+      "Creature",
+      "Myth",
+      "Small",
+      "Forest",
+      "Hat"
+    ]
+  },
+  {
+    "palabra": "Electrician",
+    "prohibidas": [
+      "Electricity",
+      "Cable",
+      "Repair",
+      "Light",
+      "House"
+    ]
+  },
+  {
+    "palabra": "Broom",
+    "prohibidas": [
+      "Clean",
+      "Sweep",
+      "Floor",
+      "Witch",
+      "Dust"
+    ]
+  },
+  {
+    "palabra": "School",
+    "prohibidas": [
+      "Study",
+      "Class",
+      "Teacher",
+      "Books",
+      "Students"
+    ]
+  },
+  {
+    "palabra": "Spy",
+    "prohibidas": [
+      "Secret",
+      "Agent",
+      "Mission",
+      "Information",
+      "Costumes"
+    ]
+  },
+  {
+    "palabra": "Ghost",
+    "prohibidas": [
+      "Spirit",
+      "Fear",
+      "House",
+      "Sheet",
+      "Appears"
+    ]
+  },
+  {
+    "palabra": "Flower",
+    "prohibidas": [
+      "Plant",
+      "Petals",
+      "Garden",
+      "Perfume",
+      "Color"
+    ]
+  },
+  {
+    "palabra": "Plumber",
+    "prohibidas": [
+      "Water",
+      "Pipes",
+      "Faucet",
+      "Repair",
+      "Work"
+    ]
+  },
+  {
+    "palabra": "Fruit",
+    "prohibidas": [
+      "Eat",
+      "Tree",
+      "Flavor",
+      "Sweet",
+      "Apple"
+    ]
+  },
+  {
+    "palabra": "Glasses",
+    "prohibidas": [
+      "Eyes",
+      "See",
+      "Sun",
+      "Crystals",
+      "Frame"
+    ]
+  },
+  {
+    "palabra": "Galaxy",
+    "prohibidas": [
+      "Stars",
+      "Universe",
+      "Space",
+      "Milky Way",
+      "Planets"
+    ]
+  },
+  {
+    "palabra": "Church",
+    "prohibidas": [
+      "Religion",
+      "God",
+      "Mass",
+      "Believers",
+      "Pray"
+    ]
+  },
+  {
+    "palabra": "Igloo",
+    "prohibidas": [
+      "Ice",
+      "House",
+      "Eskimos",
+      "Cold",
+      "Snow"
+    ]
+  },
+  {
+    "palabra": "Printer",
+    "prohibidas": [
+      "Paper",
+      "Ink",
+      "Machine",
+      "Text",
+      "Drawing"
+    ]
+  },
+  {
+    "palabra": "Toilet",
+    "prohibidas": [
+      "Bathroom",
+      "Toilet",
+      "Sanitary",
+      "Water",
+      "Excrement"
+    ]
+  },
+  {
+    "palabra": "Winter",
+    "prohibidas": [
+      "Cold",
+      "Season",
+      "Snow",
+      "December",
+      "January"
+    ]
+  },
+  {
+    "palabra": "Judge",
+    "prohibidas": [
+      "Law",
+      "Court",
+      "Justice",
+      "Sentence",
+      "Lawyer"
+    ]
+  },
+  {
+    "palabra": "Thief",
+    "prohibidas": [
+      "Steal",
+      "Money",
+      "Jail",
+      "Police",
+      "Crime"
+    ]
+  },
+  {
+    "palabra": "Lizard",
+    "prohibidas": [
+      "Reptile",
+      "Wall",
+      "Small",
+      "Sun",
+      "Tail"
+    ]
+  },
+  {
+    "palabra": "Pencil",
+    "prohibidas": [
+      "Write",
+      "Paper",
+      "Wood",
+      "Lead",
+      "Draw"
+    ]
+  },
+  {
+    "palabra": "Hand",
+    "prohibidas": [
+      "Arm",
+      "Fingers",
+      "Take",
+      "Palm",
+      "Part"
+    ]
+  },
+  {
+    "palabra": "Hammer",
+    "prohibidas": [
+      "Nail",
+      "Hit",
+      "Wood",
+      "Tool",
+      "Metal"
+    ]
+  },
+  {
+    "palabra": "Microphone",
+    "prohibidas": [
+      "Sound",
+      "Talk",
+      "Sing",
+      "Voice",
+      "Amplifier"
+    ]
+  },
+  {
+    "palabra": "Mountain",
+    "prohibidas": [
+      "Peak",
+      "Climb",
+      "Hiking",
+      "Nature",
+      "Earth"
+    ]
+  },
+  {
+    "palabra": "Motorcycle",
+    "prohibidas": [
+      "Moto",
+      "Vehicle",
+      "Two",
+      "Wheels",
+      "Speed"
+    ]
+  },
+  {
+    "palabra": "Doctor",
+    "prohibidas": [
+      "Hospital",
+      "Sick",
+      "Cure",
+      "Health",
+      "Doctor"
+    ]
+  },
+  {
+    "palabra": "Christmas",
+    "prohibidas": [
+      "December",
+      "Gifts",
+      "Tree",
+      "Santa",
+      "Claus"
+    ]
+  },
+  {
+    "palabra": "Ninja",
+    "prohibidas": [
+      "Warrior",
+      "Japan",
+      "Stealth",
+      "Darkness",
+      "Knives"
+    ]
+  },
+  {
+    "palabra": "Girlfriend",
+    "prohibidas": [
+      "Partner",
+      "Woman",
+      "Wedding",
+      "Engagement",
+      "Boyfriend"
+    ]
+  },
+  {
+    "palabra": "Eyes",
+    "prohibidas": [
+      "See",
+      "Face",
+      "Eyelids",
+      "Vision",
+      "Pupil"
+    ]
+  },
+  {
+    "palabra": "Pot",
+    "prohibidas": [
+      "Kitchen",
+      "Food",
+      "Hot",
+      "Cook",
+      "Metal"
+    ]
+  },
+  {
+    "palabra": "Ear",
+    "prohibidas": [
+      "Hearing",
+      "Listen",
+      "Face",
+      "Part",
+      "Sound"
+    ]
+  },
+  {
+    "palabra": "Panther",
+    "prohibidas": [
+      "Feline",
+      "Black",
+      "Animal",
+      "Jungle",
+      "Jaguar"
+    ]
+  },
+  {
+    "palabra": "Hairdresser",
+    "prohibidas": [
+      "Hair",
+      "Cut",
+      "Scissors",
+      "Salon",
+      "Comb"
+    ]
+  },
+  {
+    "palabra": "Fisherman",
+    "prohibidas": [
+      "Fish",
+      "Sea",
+      "Rod",
+      "Net",
+      "Water"
+    ]
+  },
+  {
+    "palabra": "Skin",
+    "prohibidas": [
+      "Body",
+      "Touch",
+      "Organ",
+      "Soft",
+      "Protection"
+    ]
+  },
+  {
+    "palabra": "Painter",
+    "prohibidas": [
+      "Paint",
+      "Canvas",
+      "Painting",
+      "Artist",
+      "Brush"
+    ]
+  },
+  {
+    "palabra": "Feather",
+    "prohibidas": [
+      "Bird",
+      "Write",
+      "Light",
+      "Pen",
+      "Fly"
+    ]
+  },
+  {
+    "palabra": "Poet",
+    "prohibidas": [
+      "Poetry",
+      "Verse",
+      "Write",
+      "Author",
+      "Feeling"
+    ]
+  },
+  {
+    "palabra": "Police",
+    "prohibidas": [
+      "Law",
+      "Order",
+      "Arrest",
+      "Uniform",
+      "Detective"
+    ]
+  },
+  {
+    "palabra": "Princess",
+    "prohibidas": [
+      "Prince",
+      "Queen",
+      "Castle",
+      "Tale",
+      "Crown"
+    ]
+  },
+  {
+    "palabra": "Teacher",
+    "prohibidas": [
+      "Class",
+      "Teach",
+      "Students",
+      "School",
+      "Master"
+    ]
+  },
+  {
+    "palabra": "Bridge",
+    "prohibidas": [
+      "River",
+      "Cross",
+      "Vehicles",
+      "Structure",
+      "Connection"
+    ]
+  },
+  {
+    "palabra": "Radio",
+    "prohibidas": [
+      "Music",
+      "Station",
+      "Sound",
+      "Antenna",
+      "Listen"
+    ]
+  },
+  {
+    "palabra": "King",
+    "prohibidas": [
+      "Monarch",
+      "Queen",
+      "Crown",
+      "Castle",
+      "Government"
+    ]
+  },
+  {
+    "palabra": "Wheel",
+    "prohibidas": [
+      "Car",
+      "Circular",
+      "Turn",
+      "Metal",
+      "Rubber"
+    ]
+  },
+  {
+    "palabra": "Blood",
+    "prohibidas": [
+      "Body",
+      "Red",
+      "Wound",
+      "Poison",
+      "Heart"
+    ]
+  },
+  {
+    "palabra": "Tennis",
+    "prohibidas": [
+      "Sport",
+      "Racket",
+      "Ball",
+      "Court",
+      "Play"
+    ]
+  },
+  {
+    "palabra": "Earth",
+    "prohibidas": [
+      "Planet",
+      "World",
+      "Globe",
+      "Country",
+      "Ground"
+    ]
+  },
+  {
+    "palabra": "Trumpet",
+    "prohibidas": [
+      "Instrument",
+      "Music",
+      "Wind",
+      "Brass",
+      "Mouth"
+    ]
+  },
+  {
+    "palabra": "Thunder",
+    "prohibidas": [
+      "Sound",
+      "Lightning",
+      "Storm",
+      "Noise",
+      "Loud"
+    ]
+  },
+  {
+    "palabra": "Unicorn",
+    "prohibidas": [
+      "Horn",
+      "Horse",
+      "Magical",
+      "Fantasy",
+      "Myth"
+    ]
+  },
+  {
+    "palabra": "Glass",
+    "prohibidas": [
+      "Drink",
+      "Water",
+      "Glass",
+      "Liquid",
+      "Container"
+    ]
+  },
+  {
+    "palabra": "Window",
+    "prohibidas": [
+      "House",
+      "Glass",
+      "Open",
+      "Close",
+      "See"
+    ]
+  },
+  {
+    "palabra": "Vet",
+    "prohibidas": [
+      "Animals",
+      "Doctor",
+      "Cure",
+      "Clinic",
+      "Pets"
+    ]
+  },
+  {
+    "palabra": "Shoes",
+    "prohibidas": [
+      "Foot",
+      "Footwear",
+      "Wear",
+      "Walk",
+      "Tie"
+    ]
+  },
+  {
+    "palabra": "Zombie",
+    "prohibidas": [
+      "Dead",
+      "Alive",
+      "Walk",
+      "Brain",
+      "Infected"
+    ]
+  },
+  {
+    "palabra": "Zoo",
+    "prohibidas": [
+      "Animals",
+      "Cages",
+      "Visit",
+      "Zoo",
+      "Park"
+    ]
+  },
+  {
+    "palabra": "Angel",
+    "prohibidas": [
+      "Wing",
+      "Sky",
+      "God",
+      "Spirit",
+      "White"
+    ]
+  },
+  {
+    "palabra": "Tree",
+    "prohibidas": [
+      "Trunk",
+      "Leaves",
+      "Wood",
+      "Forest",
+      "Plant"
+    ]
+  },
+  {
+    "palabra": "Opera",
+    "prohibidas": [
+      "Theater",
+      "Music",
+      "Sing",
+      "Stage",
+      "Work"
+    ]
+  },
+  {
+    "palabra": "Movie",
+    "prohibidas": [
+      "Cinema",
+      "Actors",
+      "Director",
+      "Popcorn",
+      "Story"
+    ]
+  },
+  {
+    "palabra": "Door",
+    "prohibidas": [
+      "House",
+      "Open",
+      "Close",
+      "Entrance",
+      "Wood"
+    ]
+  },
+  {
+    "palabra": "Bottle",
+    "prohibidas": [
+      "Liquid",
+      "Plastic",
+      "Cap",
+      "Drink",
+      "Water"
+    ]
+  },
+  {
+    "palabra": "Writer",
+    "prohibidas": [
+      "Book",
+      "Write",
+      "Author",
+      "Story",
+      "Novel"
+    ]
+  },
+  {
+    "palabra": "Falls",
+    "prohibidas": [
+      "Water",
+      "Jump",
+      "River",
+      "Waterfall",
+      "Nature"
+    ]
+  },
+  {
+    "palabra": "Cobweb",
+    "prohibidas": [
+      "Spider",
+      "Weave",
+      "Insect",
+      "Net",
+      "Sticky"
+    ]
+  },
+  {
+    "palabra": "Mouse",
+    "prohibidas": [
+      "Animal",
+      "Computer",
+      "Small",
+      "Cheese",
+      "Rodent"
+    ]
+  },
+  {
+    "palabra": "Newspaper",
+    "prohibidas": [
+      "News",
+      "Read",
+      "Daily",
+      "Press",
+      "Paper"
+    ]
+  },
+  {
+    "palabra": "Ball",
+    "prohibidas": [
+      "Ball",
+      "Soccer",
+      "Play",
+      "Round",
+      "Sport"
+    ]
+  },
+  {
+    "palabra": "Lemon",
+    "prohibidas": [
+      "Fruit",
+      "Sour",
+      "Yellow",
+      "Citric",
+      "Juice"
+    ]
+  },
+  {
+    "palabra": "Honey",
+    "prohibidas": [
+      "Sweet",
+      "Bee",
+      "Honeycomb",
+      "Yellow",
+      "Liquid"
+    ]
+  },
+  {
+    "palabra": "Hot Air Balloon",
+    "prohibidas": [
+      "Air",
+      "Fly",
+      "Basket",
+      "Hot",
+      "Travel"
+    ]
+  },
+  {
+    "palabra": "Mermaid",
+    "prohibidas": [
+      "Sea",
+      "Myth",
+      "Fish",
+      "Tail",
+      "Song"
+    ]
+  },
+  {
+    "palabra": "Spaghetti",
+    "prohibidas": [
+      "Pasta",
+      "Italian",
+      "Fork",
+      "Tomato",
+      "Noodles"
+    ]
+  },
+  {
+    "palabra": "Farm",
+    "prohibidas": [
+      "Animals",
+      "Field",
+      "Agriculture",
+      "Tractor",
+      "Corral"
+    ]
+  },
+  {
+    "palabra": "Japanese",
+    "prohibidas": [
+      "Country",
+      "Sushi",
+      "Language",
+      "Asia",
+      "People"
+    ]
+  },
+  {
+    "palabra": "Kangaroo",
+    "prohibidas": [
+      "Animal",
+      "Australia",
+      "Jump",
+      "Bag",
+      "Marsupial"
+    ]
+  },
+  {
+    "palabra": "Spaceship",
+    "prohibidas": [
+      "Space",
+      "Rocket",
+      "Astronaut",
+      "Travel",
+      "Launch"
+    ]
+  },
+  {
+    "palabra": "Obelisk",
+    "prohibidas": [
+      "Monumento",
+      "Egypt",
+      "Tall",
+      "Stone",
+      "Needles"
+    ]
+  },
+  {
+    "palabra": "Xylophone",
+    "prohibidas": [
+      "Instrument",
+      "Music",
+      "Hit",
+      "Plates",
+      "Percussion"
+    ]
+  },
+  {
+    "palabra": "Yogurt",
+    "prohibidas": [
+      "Dairy",
+      "Breakfast",
+      "Spoon",
+      "Fruit",
+      "Little cup"
+    ]
+  },
+  {
+    "palabra": "Cherry",
+    "prohibidas": [
+      "Fruit",
+      "Red",
+      "Tree",
+      "Small",
+      "Dessert"
+    ]
+  },
+  {
+    "palabra": "Axe",
+    "prohibidas": [
+      "Tool",
+      "Wood",
+      "Cut",
+      "Edge",
+      "Trunk"
+    ]
+  },
+  {
+    "palabra": "Rider",
+    "prohibidas": [
+      "Horse",
+      "Ride",
+      "Gallop",
+      "Saddle",
+      "Run"
+    ]
+  },
+  {
+    "palabra": "Neptune",
+    "prohibidas": [
+      "Planet",
+      "God",
+      "Space",
+      "Blue",
+      "Universe"
+    ]
+  },
+  {
+    "palabra": "Operating Room",
+    "prohibidas": [
+      "Hospital",
+      "Surgery",
+      "Doctor",
+      "Operation",
+      "Table"
+    ]
+  },
+  {
+    "palabra": "Grape",
+    "prohibidas": [
+      "Fruit",
+      "Bunch",
+      "Wine",
+      "Purple",
+      "Green"
+    ]
+  },
+  {
+    "palabra": "Violin",
+    "prohibidas": [
+      "Instrument",
+      "Strings",
+      "Bow",
+      "Music",
+      "Classical"
+    ]
+  },
+  {
+    "palabra": "Yoga",
+    "prohibidas": [
+      "Exercise",
+      "Posture",
+      "Breathing",
+      "Mind",
+      "Relaxation"
+    ]
+  },
+  {
+    "palabra": "Dart",
+    "prohibidas": [
+      "Game",
+      "Tip",
+      "Target",
+      "Throw",
+      "Aim"
+    ]
+  },
+  {
+    "palabra": "Flamenco",
+    "prohibidas": [
+      "Dance",
+      "Guitar",
+      "Spain",
+      "Music",
+      "Costume"
+    ]
+  },
+  {
+    "palabra": "Electric Guitar",
+    "prohibidas": [
+      "Music",
+      "Rock",
+      "Strings",
+      "Amplifier",
+      "Concert"
+    ]
+  },
+  {
+    "palabra": "Mushroom",
+    "prohibidas": [
+      "Mushroom",
+      "Forest",
+      "Eat",
+      "Plant",
+      "Earth"
+    ]
+  },
+  {
+    "palabra": "Kayak",
+    "prohibidas": [
+      "Boat",
+      "Row",
+      "Water",
+      "River",
+      "Sport"
+    ]
+  },
+  {
+    "palabra": "Laser",
+    "prohibidas": [
+      "Light",
+      "Beam",
+      "Science",
+      "Project",
+      "Red"
+    ]
+  },
+  {
+    "palabra": "Chemical",
+    "prohibidas": [
+      "Science",
+      "Laboratory",
+      "Experiment",
+      "Atoms",
+      "Formula"
+    ]
+  },
+  {
+    "palabra": "Oak",
+    "prohibidas": [
+      "Tree",
+      "Wood",
+      "Forest",
+      "Leaf",
+      "Strong"
+    ]
+  },
+  {
+    "palabra": "Wheelchair",
+    "prohibidas": [
+      "Walk",
+      "Move",
+      "Person",
+      "Disability",
+      "Hospital"
+    ]
+  },
+  {
+    "palabra": "Universe",
+    "prohibidas": [
+      "Space",
+      "Galaxy",
+      "Planets",
+      "Stars",
+      "Everything"
+    ]
+  },
+  {
+    "palabra": "Sail",
+    "prohibidas": [
+      "Ship",
+      "Sea",
+      "Wind",
+      "Sail",
+      "Vessel"
+    ]
+  },
+  {
+    "palabra": "Whiskey",
+    "prohibidas": [
+      "Drink",
+      "Alcohol",
+      "Scotch",
+      "Glass",
+      "Mature"
+    ]
+  },
+  {
+    "palabra": "Yacht",
+    "prohibidas": [
+      "Boat",
+      "Luxury",
+      "Sea",
+      "Sail",
+      "Vessel"
+    ]
+  },
+  {
+    "palabra": "Amazon",
+    "prohibidas": [
+      "River",
+      "Jungle",
+      "Brazil",
+      "Water",
+      "Green"
+    ]
+  },
+  {
+    "palabra": "Seal",
+    "prohibidas": [
+      "Animal",
+      "Sea",
+      "Cold",
+      "Arctic",
+      "Snow"
+    ]
+  },
+  {
+    "palabra": "Balloons",
+    "prohibidas": [
+      "Air",
+      "Float",
+      "Party",
+      "Colors",
+      "Inflated"
+    ]
+  },
+  {
+    "palabra": "Falcon",
+    "prohibidas": [
+      "Bird",
+      "Hunt",
+      "Fly",
+      "Raptor",
+      "Sky"
+    ]
+  },
+  {
+    "palabra": "Syringe",
+    "prohibidas": [
+      "Needles",
+      "Doctor",
+      "Inject",
+      "Medicine",
+      "Hospital"
+    ]
+  },
+  {
+    "palabra": "Fridge",
+    "prohibidas": [
+      "Cold",
+      "Food",
+      "Store",
+      "Freeze",
+      "Kitchen"
+    ]
+  },
+  {
+    "palabra": "Cable car",
+    "prohibidas": [
+      "Rope",
+      "Mountain",
+      "Transport",
+      "Cabin",
+      "Height"
+    ]
+  },
+  {
+    "palabra": "Wifi",
+    "prohibidas": [
+      "Internet",
+      "Connection",
+      "Network",
+      "Router",
+      "Cable"
+    ]
+  },
+  {
+    "palabra": "Bulb",
+    "prohibidas": [
+      "Light",
+      "Electric",
+      "Glass",
+      "Turn on",
+      "Illuminate"
+    ]
+  },
+  {
+    "palabra": "Magnet",
+    "prohibidas": [
+      "Metal",
+      "Attract",
+      "Fridge",
+      "Pole",
+      "Force"
+    ]
+  },
+  {
+    "palabra": "Kiwi",
+    "prohibidas": [
+      "Fruit",
+      "Green",
+      "Sour",
+      "Hairy",
+      "New Zealand"
+    ]
+  },
+  {
+    "palabra": "Reindeer",
+    "prohibidas": [
+      "Christmas",
+      "Sleigh",
+      "Santa Claus",
+      "Snow",
+      "Animal"
+    ]
+  },
+  {
+    "palabra": "Fan",
+    "prohibidas": [
+      "Air",
+      "Move",
+      "Heat",
+      "Seat",
+      "Plug"
+    ]
+  },
+  {
+    "palabra": "Washington",
+    "prohibidas": [
+      "Capital",
+      "USA",
+      "President",
+      "White",
+      "City"
+    ]
+  },
+  {
+    "palabra": "Squid",
+    "prohibidas": [
+      "Sea",
+      "Ink",
+      "Tentacles",
+      "Fish",
+      "Cephalopod"
+    ]
+  },
+  {
+    "palabra": "Dagger",
+    "prohibidas": [
+      "Knife",
+      "Weapon",
+      "Edge",
+      "Cut",
+      "Tip"
+    ]
+  },
+  {
+    "palabra": "Noodle",
+    "prohibidas": [
+      "Pasta",
+      "Soup",
+      "Thin",
+      "Italian",
+      "Food"
+    ]
+  },
+  {
+    "palabra": "Chemistry",
+    "prohibidas": [
+      "Science",
+      "Laboratory",
+      "Experiment",
+      "Atoms",
+      "Elements"
+    ]
+  },
+  {
+    "palabra": "Sardine",
+    "prohibidas": [
+      "Fish",
+      "Sea",
+      "Silver",
+      "Food",
+      "Can"
+    ]
+  },
+  {
+    "palabra": "Wind",
+    "prohibidas": [
+      "Blow",
+      "Air",
+      "Movement",
+      "Strong",
+      "Whistle"
+    ]
+  },
+  {
+    "palabra": "Water Polo",
+    "prohibidas": [
+      "Sport",
+      "Pool",
+      "Ball",
+      "Swim",
+      "Goal"
+    ]
+  },
+  {
+    "palabra": "Sneaker",
+    "prohibidas": [
+      "Footwear",
+      "Sport",
+      "Foot",
+      "Run",
+      "Train"
+    ]
+  },
+  {
+    "palabra": "Propeller",
+    "prohibidas": [
+      "Airplane",
+      "Turn",
+      "Motor",
+      "Air",
+      "Blades"
+    ]
+  },
+  {
+    "palabra": "Jewels",
+    "prohibidas": [
+      "Necklace",
+      "Ring",
+      "Gold",
+      "Silver",
+      "Valuable"
+    ]
+  },
+  {
+    "palabra": "Swim",
+    "prohibidas": [
+      "Water",
+      "Pool",
+      "Sea",
+      "Move",
+      "Style"
+    ]
+  },
+  {
+    "palabra": "Hearing",
+    "prohibidas": [
+      "Listen",
+      "Sound",
+      "Ear",
+      "Noise",
+      "Sense"
+    ]
+  },
+  {
+    "palabra": "Clown",
+    "prohibidas": [
+      "Circus",
+      "Laughter",
+      "Nose",
+      "Makeup",
+      "Funny"
+    ]
+  },
+  {
+    "palabra": "Nail",
+    "prohibidas": [
+      "Finger",
+      "Hand",
+      "Manicure",
+      "Grow",
+      "Cut"
+    ]
+  },
+  {
+    "palabra": "Wendy",
+    "prohibidas": [
+      "Peter Pan",
+      "Girl",
+      "Neverland",
+      "Tale",
+      "Disney"
+    ]
+  },
+  {
+    "palabra": "Donut",
+    "prohibidas": [
+      "Sweet",
+      "Food",
+      "Doughnut",
+      "Hole",
+      "Glazed"
+    ]
+  },
+  {
+    "palabra": "Ham",
+    "prohibidas": [
+      "Pig",
+      "Food",
+      "Cut",
+      "Tapa",
+      "Salty"
+    ]
+  },
+  {
+    "palabra": "Webcam",
+    "prohibidas": [
+      "Camera",
+      "Computer",
+      "Videocall",
+      "Internet",
+      "Screen"
+    ]
+  },
+  {
+    "palabra": "Toy",
+    "prohibidas": [
+      "Child",
+      "Play",
+      "Doll",
+      "Fun",
+      "Entertainment"
+    ]
+  },
+  {
+    "palabra": "Internet",
+    "prohibidas": [
+      "Network",
+      "Web",
+      "Connection",
+      "Browse",
+      "World"
+    ]
+  },
+  {
+    "palabra": "Jazz",
+    "prohibidas": [
+      "Music",
+      "Saxophone",
+      "Rhythm",
+      "Improvisation",
+      "New Orleans"
+    ]
+  },
+  {
+    "palabra": "Wall-E",
+    "prohibidas": [
+      "Movie",
+      "Robot",
+      "Trash",
+      "Future",
+      "Space"
+    ]
+  },
+  {
+    "palabra": "Rain",
+    "prohibidas": [
+      "Water",
+      "Clouds",
+      "Wet",
+      "Drops",
+      "Umbrella"
+    ]
+  },
+  {
+    "palabra": "Island",
+    "prohibidas": [
+      "Sea",
+      "Land",
+      "Lonely",
+      "Waters",
+      "Paradise"
+    ]
+  },
+  {
+    "palabra": "Ceiling",
+    "prohibidas": [
+      "House",
+      "Above",
+      "Covering",
+      "Construction",
+      "Protection"
+    ]
+  },
+  {
+    "palabra": "Cafe",
+    "prohibidas": [
+      "Coffee",
+      "Drink",
+      "Tables",
+      "Serve",
+      "Cups"
+    ]
+  },
+  {
+    "palabra": "Facebook",
+    "prohibidas": [
+      "Social network",
+      "Mark Zuckerberg",
+      "Publish",
+      "Friends",
+      "Meta"
+    ]
+  },
+  {
+    "palabra": "Harry Potter",
+    "prohibidas": [
+      "Movie",
+      "Magic",
+      "Wand",
+      "Hogwarts",
+      "Wizard"
+    ]
+  },
+  {
+    "palabra": "Little Mouse",
+    "prohibidas": [
+      "Mouse",
+      "Animal",
+      "Small",
+      "Cheese",
+      "Rodent"
+    ]
+  },
+  {
+    "palabra": "Walt Disney",
+    "prohibidas": [
+      "Drawings",
+      "Movies",
+      "Mickey Mouse",
+      "Animation",
+      "Park"
+    ]
+  },
+  {
+    "palabra": "Karate",
+    "prohibidas": [
+      "Sport",
+      "Fight",
+      "Martial Arts",
+      "Belt",
+      "Judo"
+    ]
+  },
+  {
+    "palabra": "Quixote",
+    "prohibidas": [
+      "Book",
+      "Cervantes",
+      "Nobleman",
+      "Windmills",
+      "Knight"
+    ]
+  },
+  {
+    "palabra": "Robbery",
+    "prohibidas": [
+      "Thief",
+      "Police",
+      "Crime",
+      "Take",
+      "Money"
+    ]
+  },
+  {
+    "palabra": "Silence",
+    "prohibidas": [
+      "Noise",
+      "Mute",
+      "Quiet",
+      "Sound",
+      "Hear"
+    ]
+  },
+  {
+    "palabra": "Xenophobia",
+    "prohibidas": [
+      "Hate",
+      "Foreigner",
+      "Fear",
+      "Racism",
+      "Country"
+    ]
+  },
+  {
+    "palabra": "Cage",
+    "prohibidas": [
+      "Birds",
+      "Animals",
+      "Close",
+      "Iron",
+      "Enclose"
+    ]
+  },
+  {
+    "palabra": "Magnifying glass",
+    "prohibidas": [
+      "Increase",
+      "Small",
+      "Glass",
+      "Detective",
+      "See"
+    ]
+  },
+  {
+    "palabra": "Burn",
+    "prohibidas": [
+      "Fire",
+      "Heat",
+      "Skin",
+      "Pain",
+      "Accident"
+    ]
+  },
+  {
+    "palabra": "Pharaoh",
+    "prohibidas": [
+      "Egypt",
+      "King",
+      "Pyramid",
+      "Tomb",
+      "Death"
+    ]
+  },
+  {
+    "palabra": "Game Of Thrones",
+    "prohibidas": [
+      "Series",
+      "Dragons",
+      "HBO",
+      "Winter",
+      "Fantasy"
+    ]
+  },
+  {
+    "palabra": "Roller coaster",
+    "prohibidas": [
+      "Park",
+      "Attractions",
+      "Car",
+      "Speed",
+      "Climb"
+    ]
+  },
+  {
+    "palabra": "Deodorant",
+    "prohibidas": [
+      "Perfume",
+      "Armpit",
+      "Smell",
+      "Hygiene",
+      "Spray"
+    ]
+  },
+  {
+    "palabra": "Pharmacy",
+    "prohibidas": [
+      "Medicines",
+      "Sick",
+      "Buy",
+      "Prescription",
+      "Pills"
+    ]
+  },
+  {
+    "palabra": "Barcelona",
+    "prohibidas": [
+      "City",
+      "Spain",
+      "Gaudi",
+      "Catalonia",
+      "Sea"
+    ]
+  },
+  {
+    "palabra": "Brush",
+    "prohibidas": [
+      "Hair",
+      "Teeth",
+      "Clean",
+      "Comb",
+      "Handle"
+    ]
+  },
+  {
+    "palabra": "Bone",
+    "prohibidas": [
+      "Skeleton",
+      "Body",
+      "Animal",
+      "Dog",
+      "White"
+    ]
+  },
+  {
+    "palabra": "Browser",
+    "prohibidas": [
+      "Internet",
+      "Web",
+      "Google",
+      "Programs",
+      "Search"
+    ]
+  },
+  {
+    "palabra": "Dress",
+    "prohibidas": [
+      "Clothes",
+      "Wear",
+      "Woman",
+      "Skirt",
+      "Fabric"
+    ]
+  },
+  {
+    "palabra": "Eggs",
+    "prohibidas": [
+      "Hen",
+      "Food",
+      "Omelet",
+      "Cook",
+      "Shell"
+    ]
+  },
+  {
+    "palabra": "Potatoes",
+    "prohibidas": [
+      "Vegetable",
+      "Fritter",
+      "Earth",
+      "Eat",
+      "Root"
+    ]
+  },
+  {
+    "palabra": "Soup",
+    "prohibidas": [
+      "Liquid",
+      "Spoon",
+      "Hot",
+      "Vegetables",
+      "Eat"
+    ]
+  },
+  {
+    "palabra": "Key",
+    "prohibidas": [
+      "Door",
+      "Open",
+      "Close",
+      "Padlock",
+      "Metal"
+    ]
+  },
+  {
+    "palabra": "Factory",
+    "prohibidas": [
+      "Work",
+      "Machines",
+      "Produce",
+      "Workers",
+      "Industry"
+    ]
+  },
+  {
+    "palabra": "Map",
+    "prohibidas": [
+      "Countries",
+      "Cities",
+      "Indicate",
+      "Travel",
+      "Paper"
+    ]
+  },
+  {
+    "palabra": "Rope",
+    "prohibidas": [
+      "Tie",
+      "Link",
+      "Knot",
+      "String",
+      "Pull"
+    ]
+  },
+  {
+    "palabra": "Drill",
+    "prohibidas": [
+      "Hole",
+      "Wall",
+      "Tool",
+      "Electric",
+      "Rotate"
+    ]
+  },
+  {
+    "palabra": "Shovel",
+    "prohibidas": [
+      "Earth",
+      "Dig",
+      "Hand",
+      "Garden",
+      "Sand"
+    ]
+  },
+  {
+    "palabra": "Iron",
+    "prohibidas": [
+      "Clothes",
+      "Hot",
+      "Wrinkles",
+      "Steam",
+      "Iron"
+    ]
+  },
+  {
+    "palabra": "Hairdryer",
+    "prohibidas": [
+      "Hair",
+      "Dry",
+      "Heat",
+      "Air",
+      "Blow"
+    ]
+  },
+  {
+    "palabra": "Oven",
+    "prohibidas": [
+      "Heat",
+      "Cook",
+      "Food",
+      "Microwave",
+      "Fire"
+    ]
+  },
+  {
+    "palabra": "Battery",
+    "prohibidas": [
+      "Energy",
+      "Remote",
+      "Battery",
+      "Appliance",
+      "Volt"
+    ]
+  },
+  {
+    "palabra": "Plug",
+    "prohibidas": [
+      "Connect",
+      "Current",
+      "Wall",
+      "Cable",
+      "Electric"
+    ]
+  },
+  {
+    "palabra": "Wall",
+    "prohibidas": [
+      "House",
+      "Brick",
+      "Paint",
+      "Room",
+      "Muro"
+    ]
+  },
+  {
+    "palabra": "Floor",
+    "prohibidas": [
+      "Down",
+      "Piso",
+      "House",
+      "Walk",
+      "Clean"
+    ]
+  },
+  {
+    "palabra": "Soap",
+    "prohibidas": [
+      "Clean",
+      "Hand",
+      "Shower",
+      "Foam",
+      "Water"
+    ]
+  },
+  {
+    "palabra": "Shampoo",
+    "prohibidas": [
+      "Hair",
+      "Wash",
+      "Shower",
+      "Foam",
+      "Bottle"
+    ]
+  },
+  {
+    "palabra": "Toothbrush",
+    "prohibidas": [
+      "Mouth",
+      "Clean",
+      "Paste",
+      "Morning",
+      "Teeth"
+    ]
+  },
+  {
+    "palabra": "Toothpaste",
+    "prohibidas": [
+      "Teeth",
+      "Brush",
+      "Mouth",
+      "Tube",
+      "Clean"
+    ]
+  },
+  {
+    "palabra": "Towel",
+    "prohibidas": [
+      "Dry",
+      "Shower",
+      "Body",
+      "Bathroom",
+      "Cotton"
+    ]
+  },
+  {
+    "palabra": "Toilet Paper",
+    "prohibidas": [
+      "Bathroom",
+      "Clean",
+      "Roll",
+      "Toilet",
+      "Discard"
+    ]
+  },
+  {
+    "palabra": "Washbasin",
+    "prohibidas": [
+      "Bathroom",
+      "Water",
+      "Faucet",
+      "Hand",
+      "Sink"
+    ]
+  },
+  {
+    "palabra": "Bathtub",
+    "prohibidas": [
+      "Water",
+      "Bathe",
+      "Shower",
+      "Soap",
+      "Bathroom"
+    ]
+  },
+  {
+    "palabra": "Keyboard",
+    "prohibidas": [
+      "Write",
+      "Computer",
+      "Letters",
+      "Keys",
+      "Type"
+    ]
+  },
+  {
+    "palabra": "Scanner",
+    "prohibidas": [
+      "Document",
+      "Image",
+      "Digitize",
+      "Paper",
+      "Machine"
+    ]
+  },
+  {
+    "palabra": "Pendrive",
+    "prohibidas": [
+      "USB",
+      "Memory",
+      "Save",
+      "Computer",
+      "Data"
+    ]
+  },
+  {
+    "palabra": "Speakers",
+    "prohibidas": [
+      "Sound",
+      "Music",
+      "Listen",
+      "Volume",
+      "Computer"
+    ]
+  },
+  {
+    "palabra": "Taxi",
+    "prohibidas": [
+      "Car",
+      "Pay",
+      "Driver",
+      "Trip",
+      "Street"
+    ]
+  },
+  {
+    "palabra": "Moto",
+    "prohibidas": [
+      "Vehicle",
+      "Wheels",
+      "Helmet",
+      "Motor",
+      "Handlebars"
+    ]
+  },
+  {
+    "palabra": "Satellite",
+    "prohibidas": [
+      "Space",
+      "Orbit",
+      "Planet",
+      "Signal",
+      "Earth"
+    ]
+  },
+  {
+    "palabra": "Planet",
+    "prohibidas": [
+      "Space",
+      "Solar system",
+      "Earth",
+      "Universe",
+      "Orbit"
+    ]
+  },
+  {
+    "palabra": "Black Hole",
+    "prohibidas": [
+      "Space",
+      "Star",
+      "Dark",
+      "Gravity",
+      "Trap"
+    ]
+  },
+  {
+    "palabra": "Meteorite",
+    "prohibidas": [
+      "Space",
+      "Stone",
+      "Fall",
+      "Earth",
+      "Star"
+    ]
+  },
+  {
+    "palabra": "Earthquake",
+    "prohibidas": [
+      "Earth",
+      "Tremor",
+      "Destruction",
+      "Move",
+      "Ground"
+    ]
+  },
+  {
+    "palabra": "Flood",
+    "prohibidas": [
+      "Water",
+      "Rain",
+      "Rise",
+      "Street",
+      "House"
+    ]
+  },
+  {
+    "palabra": "Lake",
+    "prohibidas": [
+      "Water",
+      "Pond",
+      "Large",
+      "Sail",
+      "River"
+    ]
+  },
+  {
+    "palabra": "Valley",
+    "prohibidas": [
+      "Mountains",
+      "Low",
+      "Green",
+      "River",
+      "Terrain"
+    ]
+  },
+  {
+    "palabra": "Field",
+    "prohibidas": [
+      "Earth",
+      "Green",
+      "Farm",
+      "Nature",
+      "Plants"
+    ]
+  },
+  {
+    "palabra": "Roots",
+    "prohibidas": [
+      "Tree",
+      "Earth",
+      "Plant",
+      "Under",
+      "Support"
+    ]
+  },
+  {
+    "palabra": "Trunk",
+    "prohibidas": [
+      "Tree",
+      "Wood",
+      "Large",
+      "Strong",
+      "Cut"
+    ]
+  },
+  {
+    "palabra": "Branch",
+    "prohibidas": [
+      "Tree",
+      "Trunk",
+      "Leaves",
+      "Stick",
+      "Subir"
+    ]
+  },
+  {
+    "palabra": "Seed",
+    "prohibidas": [
+      "Plant",
+      "Grow",
+      "Fruit",
+      "Earth",
+      "Germinate"
+    ]
+  },
+  {
+    "palabra": "Verdura",
+    "prohibidas": [
+      "Planta",
+      "Comida",
+      "Jardín",
+      "Saludable",
+      "Cocinar"
+    ]
+  },  {
+    "palabra": "Animal",
+    "prohibidas": [
+      "Living being",
+      "Walk",
+      "Pet",
+      "Wild",
+      "Forest"
+    ]
+  },
+  {
+    "palabra": "Fly",
+    "prohibidas": [
+      "Insect",
+      "Fly",
+      "Wing",
+      "Annoying",
+      "Dirt"
+    ]
+  },
+  {
+    "palabra": "Nose",
+    "prohibidas": [
+      "Smell",
+      "Face",
+      "Breathe",
+      "Olfactory",
+      "Odors"
+    ]
+  },
+  {
+    "palabra": "Hair",
+    "prohibidas": [
+      "Head",
+      "Cut",
+      "Lock of hair",
+      "Comb",
+      "Long"
+    ]
+  },
+  {
+    "palabra": "Arm",
+    "prohibidas": [
+      "Body",
+      "Move",
+      "Hand",
+      "Elbow",
+      "Muscle"
+    ]
+  },
+  {
+    "palabra": "Finger",
+    "prohibidas": [
+      "Hand",
+      "Nail",
+      "Touch",
+      "Small",
+      "Tip"
+    ]
+  },
+  {
+    "palabra": "Leg",
+    "prohibidas": [
+      "Body",
+      "Walk",
+      "Run",
+      "Knee",
+      "Foot"
+    ]
+  },
+  {
+    "palabra": "Foot",
+    "prohibidas": [
+      "Leg",
+      "Walk",
+      "Shoes",
+      "Sock",
+      "Toe"
+    ]
+  },
+  {
+    "palabra": "Knee",
+    "prohibidas": [
+      "Leg",
+      "Joint",
+      "Bend",
+      "Bone",
+      "Middle"
+    ]
+  },
+  {
+    "palabra": "Elbow",
+    "prohibidas": [
+      "Arm",
+      "Joint",
+      "Bend",
+      "Bone",
+      "Middle"
+    ]
+  },
+  {
+    "palabra": "Stomach",
+    "prohibidas": [
+      "Body",
+      "Food",
+      "Digestion",
+      "Belly",
+      "Pain"
+    ]
+  },
+  {
+    "palabra": "Lung",
+    "prohibidas": [
+      "Organ",
+      "Breathe",
+      "Air",
+      "Oxygen",
+      "Chest"
+    ]
+  },
+  {
+    "palabra": "Muscle",
+    "prohibidas": [
+      "Strength",
+      "Body",
+      "Arm",
+      "Gym",
+      "Bone"
+    ]
+  },
+  {
+    "palabra": "Nerve",
+    "prohibidas": [
+      "Sensation",
+      "Body",
+      "Pain",
+      "Electricity",
+      "Brain"
+    ]
+  },
+  {
+    "palabra": "Sweat",
+    "prohibidas": [
+      "Heat",
+      "Water",
+      "Body",
+      "Exercise",
+      "Drops"
+    ]
+  },
+  {
+    "palabra": "Yawn",
+    "prohibidas": [
+      "Tired",
+      "Sleep",
+      "Mouth",
+      "Open",
+      "Large"
+    ]
+  },
+  {
+    "palabra": "Sneeze",
+    "prohibidas": [
+      "Nose",
+      "Atchoo",
+      "Sound",
+      "Mouth",
+      "Flu"
+    ]
+  },
+  {
+    "palabra": "Smile",
+    "prohibidas": [
+      "Mouth",
+      "Happy",
+      "Face",
+      "Joy",
+      "Teeth"
+    ]
+  },
+  {
+    "palabra": "Hug",
+    "prohibidas": [
+      "Love",
+      "Arms",
+      "Body",
+      "Friends",
+      "Affection"
+    ]
+  },
+  {
+    "palabra": "Hate",
+    "prohibidas": [
+      "Feeling",
+      "Negative",
+      "Opposite",
+      "Enemy",
+      "Anger"
+    ]
+  },
+  {
+    "palabra": "Anger",
+    "prohibidas": [
+      "Feeling",
+      "Rage",
+      "Bad mood",
+      "Shout",
+      "Angry"
+    ]
+  },
+  {
+    "palabra": "Shame",
+    "prohibidas": [
+      "Red",
+      "Feeling",
+      "Hide",
+      "Embarrassing",
+      "Face"
+    ]
+  },
+  {
+    "palabra": "Friends",
+    "prohibidas": [
+      "Friendship",
+      "People",
+      "Play",
+      "Company",
+      "Love"
+    ]
+  },
+  {
+    "palabra": "Teacher",
+    "prohibidas": [
+      "School",
+      "Class",
+      "Teach",
+      "Students",
+      "Professor"
+    ]
+  },
+  {
+    "palabra": "Scientist",
+    "prohibidas": [
+      "Laboratory",
+      "Science",
+      "Research",
+      "Experiment",
+      "Discovery"
+    ]
+  },
+  {
+    "palabra": "Artist",
+    "prohibidas": [
+      "Art",
+      "Painter",
+      "Drawing",
+      "Create",
+      "Talent"
+    ]
+  },
+  {
+    "palabra": "Musician",
+    "prohibidas": [
+      "Music",
+      "Sing",
+      "Instrument",
+      "Play",
+      "Band"
+    ]
+  },
+  {
+    "palabra": "Athlete",
+    "prohibidas": [
+      "Sport",
+      "Play",
+      "Competition",
+      "Athlete",
+      "Win"
+    ]
+  },
+  {
+    "palabra": "Soccer player",
+    "prohibidas": [
+      "Soccer",
+      "Sport",
+      "Ball",
+      "Goal",
+      "Goal"
+    ]
+  },
+  {
+    "palabra": "Politician",
+    "prohibidas": [
+      "Government",
+      "President",
+      "Country",
+      "Votes",
+      "Party"
+    ]
+  },
+  {
+    "palabra": "Pilot",
+    "prohibidas": [
+      "Airplane",
+      "Fly",
+      "Drive",
+      "Air",
+      "Sky"
+    ]
+  },
+  {
+    "palabra": "Captain",
+    "prohibidas": [
+      "Ship",
+      "Leader",
+      "Team",
+      "Sail",
+      "Command"
+    ]
+  },
+  {
+    "palabra": "Cook",
+    "prohibidas": [
+      "Cook",
+      "Food",
+      "Restaurant",
+      "Chef",
+      "Dish"
+    ]
+  },
+  {
+    "palabra": "Baker",
+    "prohibidas": [
+      "Bread",
+      "Make",
+      "Oven",
+      "Flour",
+      "Food"
+    ]
+  },
+  {
+    "palabra": "Gardener",
+    "prohibidas": [
+      "Garden",
+      "Plants",
+      "Flores",
+      "Care",
+      "Plant"
+    ]
+  },
+  {
+    "palabra": "Cowboy",
+    "prohibidas": [
+      "Horse",
+      "Hat",
+      "Gun",
+      "West",
+      "Movie"
+    ]
+  },
+  {
+    "palabra": "Hunter",
+    "prohibidas": [
+      "Forest",
+      "Animals",
+      "Gun",
+      "Food",
+      "Trap"
+    ]
+  },
+  {
+    "palabra": "Mechanic",
+    "prohibidas": [
+      "Car",
+      "Motor",
+      "Fix",
+      "Workshop",
+      "Wheel"
+    ]
+  },
+  {
+    "palabra": "Detective",
+    "prohibidas": [
+      "Police",
+      "Mystery",
+      "Investigar",
+      "Hint",
+      "Crime"
+    ]
+  },
+  {
+    "palabra": "Hero",
+    "prohibidas": [
+      "Save",
+      "Good",
+      "Powers",
+      "Superhero",
+      "Villain"
+    ]
+  },
+  {
+    "palabra": "Villain",
+    "prohibidas": [
+      "Bad",
+      "Hero",
+      "Enemy",
+      "Steal",
+      "Power"
+    ]
+  },
+  {
+    "palabra": "Fairy",
+    "prohibidas": [
+      "Magic",
+      "Small",
+      "Wings",
+      "Dust",
+      "Forest"
+    ]
+  },
+  {
+    "palabra": "Gnome",
+    "prohibidas": [
+      "Garden",
+      "Small",
+      "Beard",
+      "Hat",
+      "Forest"
+    ]
+  },
+  {
+    "palabra": "Demon",
+    "prohibidas": [
+      "Bad",
+      "Fire",
+      "Hell",
+      "Horns",
+      "Religion"
+    ]
+  },
+  {
+    "palabra": "God",
+    "prohibidas": [
+      "Religion",
+      "Create",
+      "Heaven",
+      "Powerful",
+      "Pray"
+    ]
+  },
+  {
+    "palabra": "Funeral",
+    "prohibidas": [
+      "Death",
+      "Burial",
+      "Ceremony",
+      "Sadness",
+      "Deceased"
+    ]
+  },
+  {
+    "palabra": "Baptism",
+    "prohibidas": [
+      "Baby",
+      "Water",
+      "Religion",
+      "Church",
+      "Ceremony"
+    ]
+  },
+  {
+    "palabra": "Halloween",
+    "prohibidas": [
+      "October",
+      "Costumes",
+      "Fear",
+      "Sweets",
+      "Party"
+    ]
+  },
+  {
+    "palabra": "Carnival",
+    "prohibidas": [
+      "Costumes",
+      "Party",
+      "Dance",
+      "Masks",
+      "Parade"
+    ]
+  },
+  {
+    "palabra": "Sport",
+    "prohibidas": [
+      "Game",
+      "Exercise",
+      "Athlete",
+      "Ball",
+      "Team"
+    ]
+  },
+  {
+    "palabra": "Swimming",
+    "prohibidas": [
+      "Water",
+      "Swim",
+      "Pool",
+      "Sport",
+      "Swimsuit"
+    ]
+  },
+  {
+    "palabra": "Gymnastics",
+    "prohibidas": [
+      "Body",
+      "Exercise",
+      "Deporte",
+      "Muscle",
+      "Flexibility"
+    ]
+  },
+  {
+    "palabra": "Skiing",
+    "prohibidas": [
+      "Snow",
+      "Winter",
+      "Sport",
+      "Mountain",
+      "Go down"
+    ]
+  },
+  {
+    "palabra": "Boxing",
+    "prohibidas": [
+      "Fight",
+      "Punches",
+      "Gloves",
+      "Sport",
+      "Ring"
+    ]
+  },
+  {
+    "palabra": "Chess",
+    "prohibidas": [
+      "Game",
+      "Board",
+      "White",
+      "Black",
+      "King"
+    ]
+  },
+  {
+    "palabra": "Darts",
+    "prohibidas": [
+      "Game",
+      "Target",
+      "Tip",
+      "Throw",
+      "Score"
+    ]
+  },
+  {
+    "palabra": "Cards",
+    "prohibidas": [
+      "Deck",
+      "Game",
+      "Hand",
+      "Poker",
+      "Deal"
+    ]
+  },
+  {
+    "palabra": "Dominoes",
+    "prohibidas": [
+      "Tiles",
+      "Game",
+      "Puntos",
+      "Table",
+      "Fall"
+    ]
+  },
+  {
+    "palabra": "Puzzle",
+    "prohibidas": [
+      "Pieces",
+      "Game",
+      "Assemble",
+      "Image",
+      "Fit"
+    ]
+  },
+  {
+    "palabra": "Video Game",
+    "prohibidas": [
+      "Screen",
+      "Console",
+      "Play",
+      "Controller",
+      "Virtual"
+    ]
+  },
+  {
+    "palabra": "Rock",
+    "prohibidas": [
+      "Music",
+      "Guitar",
+      "Band",
+      "Loud",
+      "Electric"
+    ]
+  },
+  {
+    "palabra": "Pop",
+    "prohibidas": [
+      "Music",
+      "Modern",
+      "Popular",
+      "Bailar",
+      "Song"
+    ]
+  },
+  {
+    "palabra": "Classical",
+    "prohibidas": [
+      "Music",
+      "Orchestra",
+      "Mozart",
+      "Serious",
+      "Piano"
+    ]
+  },
+  {
+    "palabra": "Musical Instrument",
+    "prohibidas": [
+      "Music",
+      "Sound",
+      "Tocar",
+      "Piano",
+      "Guitar"
+    ]
+  },
+  {
+    "palabra": "Drum",
+    "prohibidas": [
+      "Music",
+      "Hit",
+      "Instrument",
+      "Drumstick",
+      "Rhythm"
+    ]
+  },
+  {
+    "palabra": "Flute",
+    "prohibidas": [
+      "Blow",
+      "Instrument",
+      "Music",
+      "Holes",
+      "Wind"
+    ]
+  },
+  {
+    "palabra": "Art",
+    "prohibidas": [
+      "Creativity",
+      "Painting",
+      "Sculpture",
+      "Beauty",
+      "Expression"
+    ]
+  },
+  {
+    "palabra": "Drawing",
+    "prohibidas": [
+      "Paper",
+      "Pencil",
+      "Draw",
+      "Colors",
+      "Sketch"
+    ]
+  },
+  {
+    "palabra": "Novel",
+    "prohibidas": [
+      "Book",
+      "History",
+      "Long",
+      "Characters",
+      "Read"
+    ]
+  },
+  {
+    "palabra": "Literature",
+    "prohibidas": [
+      "Books",
+      "Write",
+      "Leer",
+      "Poetry",
+      "Novel"
+    ]
+  },
+  {
+    "palabra": "Math",
+    "prohibidas": [
+      "Numbers",
+      "Addition",
+      "Subtraction",
+      "Calculation",
+      "Problems"
+    ]
+  },
+  {
+    "palabra": "Physics",
+    "prohibidas": [
+      "Science",
+      "Gravity",
+      "Energy",
+      "Newton",
+      "Movement"
+    ]
+  },
+  {
+    "palabra": "History",
+    "prohibidas": [
+      "Past",
+      "Dates",
+      "Events",
+      "Ancient",
+      "Book"
+    ]
+  },
+  {
+    "palabra": "Geography",
+    "prohibidas": [
+      "Map",
+      "Countries",
+      "Mountains",
+      "Rivers",
+      "Capital"
+    ]
+  },
+  {
+    "palabra": "Language",
+    "prohibidas": [
+      "Hablar",
+      "Tongue",
+      "Communication",
+      "Palabras",
+      "Escribir"
+    ]
+  },
+  {
+    "palabra": "Spanish",
+    "prohibidas": [
+      "Idioma",
+      "Spain",
+      "America",
+      "Speak",
+      "Letters"
+    ]
+  },
+  {
+    "palabra": "English",
+    "prohibidas": [
+      "Idioma",
+      "England",
+      "USA",
+      "Speak",
+      "Letters"
+    ]
+  },
+  {
+    "palabra": "French",
+    "prohibidas": [
+      "Idioma",
+      "France",
+      "Paris",
+      "Speak",
+      "Letters"
+    ]
+  },
+  {
+    "palabra": "German",
+    "prohibidas": [
+      "Idioma",
+      "Germany",
+      "Berlin",
+      "Speak",
+      "Letters"
+    ]
+  },
+  {
+    "palabra": "Chinese",
+    "prohibidas": [
+      "Language",
+      "China",
+      "Asia",
+      "Speak",
+      "Characters"
+    ]
+  },
+  {
+    "palabra": "Russian",
+    "prohibidas": [
+      "Language",
+      "Russia",
+      "Moscow",
+      "Cyrillic",
+      "Speak"
+    ]
+  },
+  {
+    "palabra": "Dance",
+    "prohibidas": [
+      "Baile",
+      "Music",
+      "Move",
+      "Body",
+      "Rhythm"
+    ]
+  },
+  {
+    "palabra": "Gardening",
+    "prohibidas": [
+      "Garden",
+      "Plants",
+      "Flowers",
+      "Care",
+      "Plant"
+    ]
+  },
+  {
+    "palabra": "Sewing",
+    "prohibidas": [
+      "Clothes",
+      "Needle",
+      "Thread",
+      "Fabric",
+      "Sew"
+    ]
+  },
+  {
+    "palabra": "DIY",
+    "prohibidas": [
+      "Tools",
+      "Fix",
+      "House",
+      "Crafts",
+      "Build"
+    ]
+  },
+  {
+    "palabra": "Social Network",
+    "prohibidas": [
+      "Friends",
+      "Internet",
+      "Photos",
+      "Facebook",
+      "Instagram"
+    ]
+  },
+  {
+    "palabra": "Mobile Phone",
+    "prohibidas": [
+      "Call",
+      "Communication",
+      "Smartphone",
+      "Message",
+      "Screen"
+    ]
+  },
+  {
+    "palabra": "Architect",
+    "prohibidas": [
+      "House",
+      "Blueprint",
+      "Building",
+      "Design",
+      "Construction"
+    ]
+  },
+  {
+    "palabra": "Astronomer",
+    "prohibidas": [
+      "Stars",
+      "Universe",
+      "Planets",
+      "Telescope",
+      "Sky"
+    ]
+  },
+  {
+    "palabra": "Locksmith",
+    "prohibidas": [
+      "Key",
+      "Lock",
+      "Door",
+      "Metal",
+      "Open"
+    ]
+  },
+  {
+    "palabra": "Sculptor",
+    "prohibidas": [
+      "Art",
+      "Statue",
+      "Shape",
+      "Carve",
+      "Stone"
+    ]
+  },
+  {
+    "palabra": "Philosopher",
+    "prohibidas": [
+      "Think",
+      "Ideas",
+      "Wisdom",
+      "Questions",
+      "Life"
+    ]
+  },
+  {
+    "palabra": "Jeweler",
+    "prohibidas": [
+      "Gold",
+      "Silver",
+      "Ring",
+      "Necklace",
+      "Jewel"
+    ]
+  },
+  {
+    "palabra": "Dressmaker",
+    "prohibidas": [
+      "Clothes",
+      "Fabric",
+      "Sew",
+      "Design",
+      "Sewing"
+    ]
+  },
+  {
+    "palabra": "Novelist",
+    "prohibidas": [
+      "Book",
+      "Write",
+      "Story",
+      "Fiction",
+      "Long"
+    ]
+  },
+  {
+    "palabra": "Programmer",
+    "prohibidas": [
+      "Computer",
+      "Code",
+      "Software",
+      "Technology",
+      "Application"
+    ]
+  },
+  {
+    "palabra": "Psychologist",
+    "prohibidas": [
+      "Mind",
+      "Emotions",
+      "Speak",
+      "Problems",
+      "Help"
+    ]
+  },
+  {
+    "palabra": "Taxi Driver",
+    "prohibidas": [
+      "Car",
+      "Street",
+      "Pay",
+      "Drive",
+      "Client"
+    ]
+  },
+  {
+    "palabra": "Volunteer",
+    "prohibidas": [
+      "Help",
+      "Money",
+      "Work",
+      "Free",
+      "Time"
+    ]
+  },
+  {
+    "palabra": "Farmer",
+    "prohibidas": [
+      "Field",
+      "Earth",
+      "Sowing",
+      "Harvest",
+      "Tractor"
+    ]
+  },
+  {
+    "palabra": "Archaeologist",
+    "prohibidas": [
+      "Ancient",
+      "Earth",
+      "Dig",
+      "Fossil",
+      "History"
+    ]
+  },
+  {
+    "palabra": "Biologist",
+    "prohibidas": [
+      "Life",
+      "Animals",
+      "Plants",
+      "Nature",
+      "Cells"
+    ]
+  },
+  {
+    "palabra": "Cashier",
+    "prohibidas": [
+      "Money",
+      "Store",
+      "Supermarket",
+      "Pay",
+      "Client"
+    ]
+  },
+  {
+    "palabra": "Janitor",
+    "prohibidas": [
+      "Building",
+      "Clean",
+      "Care",
+      "Door",
+      "Porter"
+    ]
+  },
+  {
+    "palabra": "Photographer",
+    "prohibidas": [
+      "Camera",
+      "Photo",
+      "Image",
+      "Lens",
+      "Portrait"
+    ]
+  },
+  {
+    "palabra": "Tailor",
+    "prohibidas": [
+      "Clothes",
+      "Sew",
+      "Suit",
+      "Fabric",
+      "Thread"
+    ]
+  },
+  {
+    "palabra": "Chef",
+    "prohibidas": [
+      "Cook",
+      "Restaurant",
+      "Food",
+      "Kitchen",
+      "Dish"
+    ]
+  },
+  {
+    "palabra": "Comedian",
+    "prohibidas": [
+      "Laugh",
+      "Joke",
+      "Funny",
+      "Stage",
+      "Monologue"
+    ]
+  },
+  {
+    "palabra": "Designer",
+    "prohibidas": [
+      "Create",
+      "Clothes",
+      "Design",
+      "Sketch",
+      "Elegant"
+    ]
+  },
+  {
+    "palabra": "Coach",
+    "prohibidas": [
+      "Sport",
+      "Team",
+      "Teach",
+      "Game",
+      "Win"
+    ]
+  },
+  {
+    "palabra": "Hobby",
+    "prohibidas": [
+      "Taste",
+      "Pastime",
+      "Hobby",
+      "Interest",
+      "Enthusiasm"
+    ]
+  },
+  {
+    "palabra": "Warehouse",
+    "prohibidas": [
+      "Deposit",
+      "Cellar",
+      "Barn",
+      "Silo",
+      "Garage"
+    ]
+  },
+  {
+    "palabra": "Host",
+    "prohibidas": [
+      "Guest",
+      "Guest",
+      "Organizer",
+      "Receiver",
+      "Owner"
+    ]
+  },
+  {
+    "palabra": "Applause",
+    "prohibidas": [
+      "Ovation",
+      "Bravo",
+      "Clapping",
+      "Praise",
+      "Congratulation"
+    ]
+  },
+  {
+    "palabra": "Clay",
+    "prohibidas": [
+      "Mud",
+      "Earth",
+      "Slime",
+      "Sludge",
+      "Ceramics"
+    ]
+  },
+  {
+    "palabra": "Armor",
+    "prohibidas": [
+      "Breastplate",
+      "Shield",
+      "Protection",
+      "Helmet",
+      "Mesh"
+    ]
+  },
+  {
+    "palabra": "Artisan",
+    "prohibidas": [
+      "Crafts",
+      "Creator",
+      "Work",
+      "Trade",
+      "Manufacturer"
+    ]
+  },
+  {
+    "palabra": "Athletic",
+    "prohibidas": [
+      "Sport",
+      "Exercise",
+      "Strong",
+      "Agile",
+      "Athlete"
+    ]
+  },
+  {
+    "palabra": "Roof Terrace",
+    "prohibidas": [
+      "Terrace",
+      "Roof",
+      "Covering",
+      "Balcony",
+      "Azotea"
+    ]
+  },
+  {
+    "palabra": "Breeze",
+    "prohibidas": [
+      "Wind",
+      "Soft",
+      "Air",
+      "Fresh",
+      "Current"
+    ]
+  },
+  {
+    "palabra": "Brooch",
+    "prohibidas": [
+      "Pin",
+      "Jewel",
+      "Clip",
+      "Ornament",
+      "Fasten"
+    ]
+  },
+  {
+    "palabra": "Mockery",
+    "prohibidas": [
+      "Mockery",
+      "Ridicule",
+      "Joke",
+      "Prank",
+      "Offense"
+    ]
+  },
+  {
+    "palabra": "Knight",
+    "prohibidas": [
+      "Gentleman",
+      "Noble",
+      "Prince",
+      "Lord",
+      "Courteous"
+    ]
+  },
+  {
+    "palabra": "Hair",
+    "prohibidas": [
+      "Hair",
+      "Mane",
+      "Curls",
+      "Braid",
+      "Straight"
+    ]
+  },
+  {
+    "palabra": "Bell",
+    "prohibidas": [
+      "Church",
+      "Ring",
+      "Metal",
+      "Clock",
+      "Toll"
+    ]
+  },
+  {
+    "palabra": "Shell",
+    "prohibidas": [
+      "Shell",
+      "Turtle",
+      "Crab",
+      "Protection",
+      "Armor"
+    ]
+  },
+  {
+    "palabra": "Billboard",
+    "prohibidas": [
+      "Cinema",
+      "Theater",
+      "Ads",
+      "Poster",
+      "Publicity"
+    ]
+  },
+  {
+    "palabra": "Waterfall",
+    "prohibidas": [
+      "Waterfall",
+      "Water",
+      "River",
+      "Jump",
+      "Current"
+    ]
+  },
+  {
+    "palabra": "Vest",
+    "prohibidas": [
+      "Jacket",
+      "Garment",
+      "Wear",
+      "Coat",
+      "Sleeveless"
+    ]
+  },
+  {
+    "palabra": "Scar",
+    "prohibidas": [
+      "Wound",
+      "Mark",
+      "Scratch",
+      "Body",
+      "Skin"
+    ]
+  },
+  {
+    "palabra": "Swing",
+    "prohibidas": [
+      "Park",
+      "Child",
+      "Game",
+      "Sway",
+      "Rope"
+    ]
+  },
+  {
+    "palabra": "Condor",
+    "prohibidas": [
+      "Bird",
+      "Eagle",
+      "Flight",
+      "Mountain",
+      "Andean"
+    ]
+  },
+  {
+    "palabra": "Zipper",
+    "prohibidas": [
+      "Closure",
+      "Drawer",
+      "Zipper",
+      "Pants",
+      "Go up"
+    ]
+  },
+  {
+    "palabra": "Cover",
+    "prohibidas": [
+      "Roof",
+      "Car",
+      "Book",
+      "Ship",
+      "Lid"
+    ]
+  },
+  {
+    "palabra": "Mirage",
+    "prohibidas": [
+      "Illusion",
+      "Vision",
+      "Image",
+      "Deception",
+      "Desert"
+    ]
+  },
+  {
+    "palabra": "Handcuffs",
+    "prohibidas": [
+      "Hands",
+      "Jail",
+      "Police",
+      "Arrest",
+      "Prison"
+    ]
+  },
+  {
+    "palabra": "Statue",
+    "prohibidas": [
+      "Sculpture",
+      "Figure",
+      "Marble",
+      "Monument",
+      "Bronze"
+    ]
+  },
+  {
+    "palabra": "Label",
+    "prohibidas": [
+      "Protocol",
+      "Good manners",
+      "Behavior",
+      "Clothes",
+      "Price"
+    ]
+  },
+  {
+    "palabra": "Match",
+    "prohibidas": [
+      "Match",
+      "Fire",
+      "Box",
+      "Light",
+      "Flame"
+    ]
+  },
+  {
+    "palabra": "Border",
+    "prohibidas": [
+      "Limit",
+      "Country",
+      "Customs",
+      "Division",
+      "Travel"
+    ]
+  },
+  {
+    "palabra": "Scribble",
+    "prohibidas": [
+      "Drawing",
+      "Scratch",
+      "Scribble",
+      "Ugly",
+      "Line"
+    ]
+  },
+  {
+    "palabra": "Gasoline",
+    "prohibidas": [
+      "Car",
+      "Motor",
+      "Fuel",
+      "Tank",
+      "Gas station"
+    ]
+  },
+  {
+    "palabra": "Recorder",
+    "prohibidas": [
+      "Microphone",
+      "Sound",
+      "Audio",
+      "Tape",
+      "Voice"
+    ]
+  },
+  {
+    "palabra": "Hail",
+    "prohibidas": [
+      "Ice",
+      "Rain",
+      "Cold",
+      "Storm",
+      "Little balls"
+    ]
+  },
+  {
+    "palabra": "Glove",
+    "prohibidas": [
+      "Hand",
+      "Protect",
+      "Cold",
+      "Fingers",
+      "Winter"
+    ]
+  },
+  {
+    "palabra": "Hammock",
+    "prohibidas": [
+      "Hang",
+      "Bed",
+      "Net",
+      "Rest",
+      "Shade"
+    ]
+  },
+  {
+    "palabra": "Iron",
+    "prohibidas": [
+      "Metal",
+      "Heavy",
+      "Steel",
+      "Rust",
+      "Mineral"
+    ]
+  },
+  {
+    "palabra": "Bonfire",
+    "prohibidas": [
+      "Fire",
+      "Firewood",
+      "Forest",
+      "Camp",
+      "Burn"
+    ]
+  },
+  {
+    "palabra": "Footprint",
+    "prohibidas": [
+      "Footstep",
+      "Mark",
+      "Foot",
+      "Finger",
+      "Trace"
+    ]
+  },
+  {
+    "palabra": "Idiot",
+    "prohibidas": [
+      "Dumb",
+      "Stupid",
+      "Idiot",
+      "Silly",
+      "Brute"
+    ]
+  },
+  {
+    "palabra": "Fire",
+    "prohibidas": [
+      "Fire",
+      "Burn",
+      "Forest",
+      "Firefighters",
+      "Alarm"
+    ]
+  },
+  {
+    "palabra": "Kilogram",
+    "prohibidas": [
+      "Weight",
+      "Measure",
+      "Gram",
+      "Pounds",
+      "Weigh"
+    ]
+  },
+  {
+    "palabra": "Kimono",
+    "prohibidas": [
+      "Japan",
+      "Suit",
+      "Dress",
+      "Geisha",
+      "Silk"
+    ]
+  },
+  {
+    "palabra": "Laboratory",
+    "prohibidas": [
+      "Science",
+      "Scientist",
+      "Experiment",
+      "Test tube",
+      "Research"
+    ]
+  },
+  {
+    "palabra": "Heartbeat",
+    "prohibidas": [
+      "Heart",
+      "Pulse",
+      "Palpitation",
+      "Rhythm",
+      "Life"
+    ]
+  },
+  {
+    "palabra": "Flashlight",
+    "prohibidas": [
+      "Light",
+      "Darkness",
+      "Batteries",
+      "Illuminate",
+      "Night"
+    ]
+  },
+  {
+    "palabra": "Logo",
+    "prohibidas": [
+      "Brand",
+      "Symbol",
+      "Image",
+      "Company",
+      "Design"
+    ]
+  },
+  {
+    "palabra": "Lottery",
+    "prohibidas": [
+      "Ticket",
+      "Prize",
+      "Luck",
+      "Win",
+      "Numbers"
+    ]
+  },
+  {
+    "palabra": "Luxurious",
+    "prohibidas": [
+      "Elegant",
+      "Expensive",
+      "Opulent",
+      "Rich",
+      "Glamorous"
+    ]
+  },
+  {
+    "palabra": "Magnate",
+    "prohibidas": [
+      "Millionaire",
+      "Rich",
+      "Businessman",
+      "Powerful",
+      "Money"
+    ]
+  },
+  {
+    "palabra": "Juggler",
+    "prohibidas": [
+      "Circus",
+      "Balls",
+      "Balance",
+      "Skill",
+      "Artist"
+    ]
+  },
+  {
+    "palabra": "Masquerade",
+    "prohibidas": [
+      "Costume",
+      "Mask",
+      "Party",
+      "Carnival",
+      "Dance"
+    ]
+  },
+  {
+    "palabra": "Monk",
+    "prohibidas": [
+      "Convent",
+      "Religious",
+      "Monastery",
+      "Priest",
+      "Friar"
+    ]
+  },
+  {
+    "palabra": "Shipwreck",
+    "prohibidas": [
+      "Boat",
+      "Island",
+      "Alone",
+      "Survivor",
+      "Sea"
+    ]
+  },
+  {
+    "palabra": "Nanny",
+    "prohibidas": [
+      "Care",
+      "Baby",
+      "Child",
+      "Babysitter",
+      "Employee"
+    ]
+  },
+  {
+    "palabra": "Nostalgia",
+    "prohibidas": [
+      "Memory",
+      "Past",
+      "Sadness",
+      "Melancholy",
+      "Longing"
+    ]
+  },
+  {
+    "palabra": "Navel",
+    "prohibidas": [
+      "Belly",
+      "Womb",
+      "Body",
+      "Umbilical cord",
+      "Abdomen"
+    ]
+  },
+  {
+    "palabra": "Darkness",
+    "prohibidas": [
+      "Night",
+      "Shadow",
+      "Black",
+      "No light",
+      "Darkness"
+    ]
+  },
+  {
+    "palabra": "Bakery",
+    "prohibidas": [
+      "Bread",
+      "Oven",
+      "Baker",
+      "Dough",
+      "Pastry shop"
+    ]
+  },
+  {
+    "palabra": "Freckles",
+    "prohibidas": [
+      "Spots",
+      "Sun",
+      "Face",
+      "Skin",
+      "Moles"
+    ]
+  },
+  {
+    "palabra": "Plush",
+    "prohibidas": [
+      "Bear",
+      "Doll",
+      "Soft",
+      "Toy",
+      "Stuffing"
+    ]
+  },
+  {
+    "palabra": "Eyelashes",
+    "prohibidas": [
+      "Eyes",
+      "Eyebrows",
+      "Blink",
+      "Hair",
+      "Eyelid"
+    ]
+  },
+  {
+    "palabra": "Petroleum",
+    "prohibidas": [
+      "Crude",
+      "Black",
+      "Fuel",
+      "Energy",
+      "Well"
+    ]
+  },
+  {
+    "palabra": "Picnic",
+    "prohibidas": [
+      "Food",
+      "Park",
+      "Field",
+      "Tablecloth",
+      "Basket"
+    ]
+  },
+  {
+    "palabra": "Pajamas",
+    "prohibidas": [
+      "Sleep",
+      "Night",
+      "Bed",
+      "Clothes",
+      "Rest"
+    ]
+  },
+  {
+    "palabra": "Pistol",
+    "prohibidas": [
+      "Weapon",
+      "Bullet",
+      "Shoot",
+      "Revolver",
+      "Fire"
+    ]
+  },
+  {
+    "palabra": "Pick",
+    "prohibidas": [
+      "Guitar",
+      "Plectrum",
+      "Play",
+      "Strings",
+      "Music"
+    ]
+  },
+  {
+    "palabra": "Tadpole",
+    "prohibidas": [
+      "Frog",
+      "Amphibian",
+      "Tail",
+      "Small",
+      "Pond"
+    ]
+  },
+  {
+    "palabra": "Reptile",
+    "prohibidas": [
+      "Lizard",
+      "Snake",
+      "Scales",
+      "Animal",
+      "Cold"
+    ]
+  },
+  {
+    "palabra": "Curls",
+    "prohibidas": [
+      "Hair",
+      "Hair",
+      "Wavy",
+      "Curves",
+      "Braid"
+    ]
+  },
+  {
+    "palabra": "Sharpener",
+    "prohibidas": [
+      "Pencil",
+      "Sharpen",
+      "Tip",
+      "School",
+      "Little machine"
+    ]
+  },
+  {
+    "palabra": "Path",
+    "prohibidas": [
+      "Path",
+      "Forest",
+      "Mountain",
+      "Vereda",
+      "Track"
+    ]
+  },
+  {
+    "palabra": "Drought",
+    "prohibidas": [
+      "Rain",
+      "Lack",
+      "Water",
+      "Dry",
+      "Desert"
+    ]
+  },
+  {
+    "palabra": "Superhero",
+    "prohibidas": [
+      "Power",
+      "Hero",
+      "Comic",
+      "Villain",
+      "Save"
+    ]
+  },
+  {
+    "palabra": "Tattoo",
+    "prohibidas": [
+      "Drawing",
+      "Skin",
+      "Ink",
+      "Needle",
+      "Body"
+    ]
+  },
+  {
+    "palabra": "Clover",
+    "prohibidas": [
+      "Plant",
+      "Leaves",
+      "Luck",
+      "Green",
+      "Meadow"
+    ]
+  },
+  {
+    "palabra": "Lobby",
+    "prohibidas": [
+      "Entrance",
+      "Receiver",
+      "Hallway",
+      "Door",
+      "Hotel"
+    ]
+  },
+  {
+    "palabra": "Veto",
+    "prohibidas": [
+      "Prohibit",
+      "Deny",
+      "Reject",
+      "Prevent",
+      "Right"
+    ]
+  },
+  {
+    "palabra": "Left-handed",
+    "prohibidas": [
+      "Left",
+      "Hand",
+      "Write",
+      "Different",
+      "Right-handed"
+    ]
+  },
+  {
+    "palabra": "London",
+    "prohibidas": [
+      "England",
+      "Big Ben",
+      "United Kingdom",
+      "Capital",
+      "City"
+    ]
+  },
+  {
+    "palabra": "Rome",
+    "prohibidas": [
+      "Italy",
+      "Colosseum",
+      "Capital",
+      "City",
+      "Ancient"
+    ]
+  },
+  {
+    "palabra": "Tokyo",
+    "prohibidas": [
+      "Japan",
+      "Capital",
+      "City",
+      "Metropolis",
+      "Asia"
+    ]
+  },
+  {
+    "palabra": "New York",
+    "prohibidas": [
+      "United States",
+      "The Big Apple",
+      "City",
+      "Capital",
+      "Statue of Liberty"
+    ]
+  },
+  {
+    "palabra": "Sydney",
+    "prohibidas": [
+      "Australia",
+      "Opera",
+      "City",
+      "Beach",
+      "Ocean"
+    ]
+  },
+  {
+    "palabra": "Hollywood",
+    "prohibidas": [
+      "Cinema",
+      "Movies",
+      "Actors",
+      "Fame",
+      "Los Angeles"
+    ]
+  },
+  {
+    "palabra": "Titanic",
+    "prohibidas": [
+      "Movie",
+      "Ship",
+      "Sinking",
+      "Jack",
+      "Rose"
+    ]
+  },
+  {
+    "palabra": "Star Wars",
+    "prohibidas": [
+      "Movie",
+      "War",
+      "Galaxy",
+      "Science Fiction",
+      "Jedi"
+    ]
+  },
+  {
+    "palabra": "The Beatles",
+    "prohibidas": [
+      "Band",
+      "Music",
+      "Liverpool",
+      "John Lennon",
+      "Paul McCartney"
+    ]
+  },
+  {
+    "palabra": "Queen",
+    "prohibidas": [
+      "Band",
+      "Music",
+      "Freddie Mercury",
+      "Rock",
+      "Bohemian Rhapsody"
+    ]
+  },
+  {
+    "palabra": "Madonna",
+    "prohibidas": [
+      "Singer",
+      "Pop",
+      "Music",
+      "Queen",
+      "Material"
+    ]
+  },
+  {
+    "palabra": "Michael Jackson",
+    "prohibidas": [
+      "King",
+      "Pop",
+      "Singer",
+      "Thriller",
+      "Music"
+    ]
+  },
+  {
+    "palabra": "Brad Pitt",
+    "prohibidas": [
+      "Actor",
+      "Hollywood",
+      "Movie",
+      "Famous",
+      "Cinema"
+    ]
+  },
+  {
+    "palabra": "Leonardo DiCaprio",
+    "prohibidas": [
+      "Actor",
+      "Hollywood",
+      "Movie",
+      "Cinema",
+      "Oscar"
+    ]
+  },
+  {
+    "palabra": "Marilyn Monroe",
+    "prohibidas": [
+      "Actress",
+      "Blonde",
+      "Icon",
+      "Hollywood",
+      "Famous"
+    ]
+  },
+  {
+    "palabra": "Machu Picchu",
+    "prohibidas": [
+      "Peru",
+      "Ruins",
+      "Inca",
+      "Mountain",
+      "Landscape"
+    ]
+  },
+  {
+    "palabra": "Pyramids of Giza",
+    "prohibidas": [
+      "Egypt",
+      "Pharaohs",
+      "Desert",
+      "Monument",
+      "History"
+    ]
+  },
+  {
+    "palabra": "Great Wall of China",
+    "prohibidas": [
+      "China",
+      "Wall",
+      "Long",
+      "Architecture",
+      "History"
+    ]
+  },
+  {
+    "palabra": "Roman Colosseum",
+    "prohibidas": [
+      "Rome",
+      "Italy",
+      "Ancient",
+      "Gladiators",
+      "Amphitheater"
+    ]
+  },
+  {
+    "palabra": "Salar de Uyuni",
+    "prohibidas": [
+      "Bolivia",
+      "Desert",
+      "Salt",
+      "Mirror",
+      "Landscape"
+    ]
+  },
+  {
+    "palabra": "Atacama Desert",
+    "prohibidas": [
+      "Chile",
+      "Desert",
+      "Dry",
+      "Landscape",
+      "Stars"
+    ]
+  },
+  {
+    "palabra": "Las Vegas",
+    "prohibidas": [
+      "City",
+      "Casino",
+      "Game",
+      "Nevada",
+      "Lights"
+    ]
+  },
+  {
+    "palabra": "Everest",
+    "prohibidas": [
+      "Mountain",
+      "Nepal",
+      "Peak",
+      "Height",
+      "Climb"
+    ]
+  },
+  {
+    "palabra": "Caribbean",
+    "prohibidas": [
+      "Sea",
+      "Islands",
+      "Beach",
+      "Vacation",
+      "Blue"
+    ]
+  },
+  {
+    "palabra": "Galapagos",
+    "prohibidas": [
+      "Islands",
+      "Ecuador",
+      "Turtles",
+      "Animals",
+      "Nature"
+    ]
+  },
+  {
+    "palabra": "Nirvana",
+    "prohibidas": [
+      "Band",
+      "Grunge",
+      "Kurt Cobain",
+      "Music",
+      "Smells Like Teen Spirit"
+    ]
+  },
+  {
+    "palabra": "Led Zeppelin",
+    "prohibidas": [
+      "Band",
+      "Rock",
+      "Stairway to Heaven",
+      "Music",
+      "Classic"
+    ]
+  },
+  {
+    "palabra": "Pink Floyd",
+    "prohibidas": [
+      "Band",
+      "Rock",
+      "The Wall",
+      "Music",
+      "Psychedelic"
+    ]
+  },
+  {
+    "palabra": "The Godfather",
+    "prohibidas": [
+      "Movie",
+      "Mafia",
+      "Family",
+      "Corleone",
+      "Cinema"
+    ]
+  },
+  {
+    "palabra": "Pulp Fiction",
+    "prohibidas": [
+      "Movie",
+      "Tarantino",
+      "Crimen",
+      "Dialogue",
+      "Cinema"
+    ]
+  },
+  {
+    "palabra": "Avatar",
+    "prohibidas": [
+      "Movie",
+      "Blue",
+      "Pandora",
+      "Science Fiction",
+      "James Cameron"
+    ]
+  },
+  {
+    "palabra": "Jurassic Park",
+    "prohibidas": [
+      "Movie",
+      "Dinosaurs",
+      "Park",
+      "Science Fiction",
+      "Spielberg"
+    ]
+  },
+  {
+    "palabra": "Game of Thrones",
+    "prohibidas": [
+      "Series",
+      "Throne",
+      "Dragons",
+      "Game of Thrones",
+      "Winter"
+    ]
+  },
+  {
+    "palabra": "Stranger Things",
+    "prohibidas": [
+      "Series",
+      "Eleven",
+      "Children",
+      "Demogorgon",
+      "Netflix"
+    ]
+  },
+  {
+    "palabra": "The Office",
+    "prohibidas": [
+      "Series",
+      "Office",
+      "Comedy",
+      "Dunder Mifflin",
+      "Boss"
+    ]
+  },
+  {
+    "palabra": "The Lion King",
+    "prohibidas": [
+      "Movie",
+      "Disney",
+      "Simba",
+      "Safari",
+      "Animals"
+    ]
+  },
+  {
+    "palabra": "Toy Story",
+    "prohibidas": [
+      "Movie",
+      "Toys",
+      "Woody",
+      "Buzz",
+      "Animated"
+    ]
+  },
+  {
+    "palabra": "Shrek",
+    "prohibidas": [
+      "Movie",
+      "Ogre",
+      "Donkey",
+      "Princess",
+      "Animated"
+    ]
+  },
+  {
+    "palabra": "Cristiano Ronaldo",
+    "prohibidas": [
+      "Soccer player",
+      "Portugal",
+      "Goal",
+      "Juventus",
+      "Real Madrid"
+    ]
+  },
+  {
+    "palabra": "Lionel Messi",
+    "prohibidas": [
+      "Soccer player",
+      "Argentina",
+      "Goal",
+      "Barcelona",
+      "PSG"
+    ]
+  },
+  {
+    "palabra": "LeBron James",
+    "prohibidas": [
+      "Basketball",
+      "NBA",
+      "Lakers",
+      "Player",
+      "Star"
+    ]
+  },
+  {
+    "palabra": "Stephen Curry",
+    "prohibidas": [
+      "Basketball",
+      "NBA",
+      "Warriors",
+      "Three-pointers",
+      "Player"
+    ]
+  },
+  {
+    "palabra": "Tiger Woods",
+    "prohibidas": [
+      "Golf",
+      "Sport",
+      "Player",
+      "Famous",
+      "Tournament"
+    ]
+  },
+  {
+    "palabra": "Serena Williams",
+    "prohibidas": [
+      "Tennis",
+      "Player",
+      "Racket",
+      "Sport",
+      "Champion"
+    ]
+  },
+  {
+    "palabra": "Eminem",
+    "prohibidas": [
+      "Rapper",
+      "Music",
+      "Lose Yourself",
+      "Detroit",
+      "Marshall"
+    ]
+  },
+  {
+    "palabra": "Jay-Z",
+    "prohibidas": [
+      "Rapper",
+      "Music",
+      "Brooklyn",
+      "Businessman",
+      "Beyoncé"
+    ]
+  },
+  {
+    "palabra": "Beyoncé",
+    "prohibidas": [
+      "Singer",
+      "Pop",
+      "Music",
+      "Formation",
+      "Jay-Z"
+    ]
+  },
+  {
+    "palabra": "Rihanna",
+    "prohibidas": [
+      "Singer",
+      "Music",
+      "Pop",
+      "Barbados",
+      "Fenty"
+    ]
+  },
+  {
+    "palabra": "The Rolling Stones",
+    "prohibidas": [
+      "Band",
+      "Rock",
+      "Music",
+      "Mick Jagger",
+      "Satisfaction"
+    ]
+  },
+  {
+    "palabra": "U2",
+    "prohibidas": [
+      "Band",
+      "Rock",
+      "Music",
+      "Bono",
+      "Ireland"
+    ]
+  },
+  {
+    "palabra": "Coldplay",
+    "prohibidas": [
+      "Band",
+      "Music",
+      "Pop",
+      "Chris Martin",
+      "Viva la Vida"
+    ]
+  },
+  {
+    "palabra": "Louvre Museum",
+    "prohibidas": [
+      "Paris",
+      "France",
+      "Art",
+      "Museum",
+      "Mona Lisa"
+    ]
+  },
+  {
+    "palabra": "Notre Dame Cathedral",
+    "prohibidas": [
+      "Paris",
+      "Cathedral",
+      "Gothic",
+      "Architecture",
+      "Church"
+    ]
+  },
+  {
+    "palabra": "Sagrada Familia",
+    "prohibidas": [
+      "Barcelona",
+      "Spain",
+      "Church",
+      "Gaudi",
+      "Architecture"
+    ]
+  },
+  {
+    "palabra": "The Alhambra",
+    "prohibidas": [
+      "Granada",
+      "Spain",
+      "Palace",
+      "Fortress",
+      "Arab"
+    ]
+  },
+  {
+    "palabra": "Sistine Chapel",
+    "prohibidas": [
+      "Vatican",
+      "Michelangelo",
+      "Fresco",
+      "Art",
+      "Painting"
+    ]
+  },
+  {
+    "palabra": "Kremlin",
+    "prohibidas": [
+      "Moscow",
+      "Russia",
+      "Fortress",
+      "Government",
+      "History"
+    ]
+  },
+  {
+    "palabra": "Azteca Stadium",
+    "prohibidas": [
+      "Mexico",
+      "Soccer",
+      "Stadium",
+      "Match",
+      "Mexico City"
+    ]
+  },
+  {
+    "palabra": "El Caminito",
+    "prohibidas": [
+      "Buenos Aires",
+      "Argentina",
+      "Tango",
+      "Neighborhood",
+      "Colors"
+    ]
+  },
+  {
+    "palabra": "El Prado",
+    "prohibidas": [
+      "Madrid",
+      "Museum",
+      "Art",
+      "Velazquez",
+      "Goya"
+    ]
+  },
+  {
+    "palabra": "La Boqueria",
+    "prohibidas": [
+      "Barcelona",
+      "Market",
+      "Food",
+      "Foodstuffs",
+      "Tourism"
+    ]
+  },
+  {
+    "palabra": "Easter Island",
+    "prohibidas": [
+      "Chile",
+      "Moais",
+      "Statues",
+      "Volcano",
+      "Ocean"
+    ]
+  },
+  {
+    "palabra": "Acapulco",
+    "prohibidas": [
+      "Mexico",
+      "Beach",
+      "Vacation",
+      "Tourism",
+      "Cliff divers"
+    ]
+  },
+  {
+    "palabra": "Cancun",
+    "prohibidas": [
+      "Mexico",
+      "Beach",
+      "Tourism",
+      "Vacation",
+      "Caribbean"
+    ]
+  },
+  {
+    "palabra": "Chichen Itza",
+    "prohibidas": [
+      "Mexico",
+      "Ruins",
+      "Maya",
+      "Pyramid",
+      "History"
+    ]
+  },
+  {
+    "palabra": "Dubai",
+    "prohibidas": [
+      "UAE",
+      "City",
+      "Luxury",
+      "Desert",
+      "Skyscrapers"
+    ]
+  },
+  {
+    "palabra": "Venice",
+    "prohibidas": [
+      "Italy",
+      "Canals",
+      "Gondolas",
+      "City",
+      "Water"
+    ]
+  },
+  {
+    "palabra": "Vatican",
+    "prohibidas": [
+      "Rome",
+      "Pope",
+      "Church",
+      "Country",
+      "Religion"
+    ]
+  },
+  {
+    "palabra": "Amsterdam",
+    "prohibidas": [
+      "Holland",
+      "Canals",
+      "Bicycle",
+      "City",
+      "Capital"
+    ]
+  },
+  {
+    "palabra": "Taj Mahal",
+    "prohibidas": [
+      "India",
+      "Mausoleum",
+      "Marble",
+      "Monument",
+      "Love"
+    ]
+  },
+  {
+    "palabra": "Grand Canyon",
+    "prohibidas": [
+      "Arizona",
+      "United States",
+      "Canyon",
+      "Landscape",
+      "Colorado River"
+    ]
+  },
+  {
+    "palabra": "Tequila",
+    "prohibidas": [
+      "Mexico",
+      "Drink",
+      "Agave",
+      "Alcohol",
+      "Distilled"
+    ]
+  },
+  {
+    "palabra": "Paella",
+    "prohibidas": [
+      "Spain",
+      "Food",
+      "Rice",
+      "Seafood",
+      "Traditional"
+    ]
+  },
+  {
+    "palabra": "Sushi",
+    "prohibidas": [
+      "Japan",
+      "Food",
+      "Pescado",
+      "Arroz",
+      "Raw"
+    ]
+  },
+  {
+    "palabra": "Gnocchi",
+    "prohibidas": [
+      "Italy",
+      "Pasta",
+      "Potato",
+      "Food",
+      "Traditional"
+    ]
+  },
+  {
+    "palabra": "Kim Kardashian",
+    "prohibidas": [
+      "Celebrity",
+      "Influencer",
+      "Reality",
+      "Family",
+      "Famous"
+    ]
+  },
+  {
+    "palabra": "Taylor Swift",
+    "prohibidas": [
+      "Singer",
+      "Pop",
+      "Music",
+      "Album",
+      "Famous"
+    ]
+  },
+  {
+    "palabra": "Tom Hanks",
+    "prohibidas": [
+      "Actor",
+      "Forrest Gump",
+      "Hollywood",
+      "Cinema",
+      "Movie"
+    ]
+  },
+  {
+    "palabra": "Julia Roberts",
+    "prohibidas": [
+      "Actress",
+      "Pretty Woman",
+      "Hollywood",
+      "Cinema",
+      "Movie"
+    ]
+  },
+  {
+    "palabra": "Meryl Streep",
+    "prohibidas": [
+      "Actress",
+      "Oscar",
+      "Hollywood",
+      "Cinema",
+      "Movie"
+    ]
+  },
+  {
+    "palabra": "Johnny Depp",
+    "prohibidas": [
+      "Actor",
+      "Pirates of the Caribbean",
+      "Hollywood",
+      "Cinema",
+      "Movie"
+    ]
+  },
+  {
+    "palabra": "Lady Gaga",
+    "prohibidas": [
+      "Singer",
+      "Pop",
+      "Music",
+      "Famous",
+      "Costumes"
+    ]
+  },
+  {
+    "palabra": "Kilimanjaro",
+    "prohibidas": [
+      "Mountain",
+      "Africa",
+      "Peak",
+      "Tanzania",
+      "Volcano"
+    ]
+  },
+  {
+    "palabra": "Sahara",
+    "prohibidas": [
+      "Desert",
+      "Sand",
+      "Dunes",
+      "Heat",
+      "Camel"
+    ]
+  },
+  {
+    "palabra": "Dublin",
+    "prohibidas": [
+      "Capital",
+      "Ireland",
+      "City",
+      "Europe",
+      "Pubs"
+    ]
+  },
+  {
+    "palabra": "Edinburgh",
+    "prohibidas": [
+      "Capital",
+      "Scotland",
+      "Castle",
+      "City",
+      "Europe"
+    ]
+  },
+  {
+    "palabra": "Prague",
+    "prohibidas": [
+      "Capital",
+      "Czech Republic",
+      "Bridge",
+      "City",
+      "Europe"
+    ]
+  },
+  {
+    "palabra": "Copenhagen",
+    "prohibidas": [
+      "Capital",
+      "Denmark",
+      "Mermaid",
+      "City",
+      "North"
+    ]
+  },
+  {
+    "palabra": "Lisbon",
+    "prohibidas": [
+      "Capital",
+      "Portugal",
+      "Tram",
+      "City",
+      "Tagus"
+    ]
+  },
+  {
+    "palabra": "Buenos Aires",
+    "prohibidas": [
+      "Capital",
+      "Argentina",
+      "Tango",
+      "City",
+      "Porteños"
+    ]
+  },
+  {
+    "palabra": "Rio de Janeiro",
+    "prohibidas": [
+      "Brazil",
+      "City",
+      "Carnival",
+      "Christ the Redeemer",
+      "Beach"
+    ]
+  },
+  {
+    "palabra": "Himalaya",
+    "prohibidas": [
+      "Mountains",
+      "Everest",
+      "Asia",
+      "Peak",
+      "Range"
+    ]
+  },
+  {
+    "palabra": "Fjords",
+    "prohibidas": [
+      "Norway",
+      "Landscape",
+      "Glaciers",
+      "Sea",
+      "Valley"
+    ]
+  },
+  {
+    "palabra": "Kenya",
+    "prohibidas": [
+      "Country",
+      "Africa",
+      "Safari",
+      "Animals",
+      "Giraffes"
+    ]
+  },
+  {
+    "palabra": "Gladiator",
+    "prohibidas": [
+      "Movie",
+      "Roman",
+      "Russell Crowe",
+      "Revenge",
+      "Colosseum"
+    ]
+  },
+  {
+    "palabra": "Inception",
+    "prohibidas": [
+      "Movie",
+      "Dream",
+      "Mind",
+      "Nolan",
+      "Leonardo DiCaprio"
+    ]
+  },
+  {
+    "palabra": "Forrest Gump",
+    "prohibidas": [
+      "Movie",
+      "Tom Hanks",
+      "Feather",
+      "Run",
+      "Story"
+    ]
+  },
+  {
+    "palabra": "Matrix",
+    "prohibidas": [
+      "Movie",
+      "Keanu Reeves",
+      "Pill",
+      "Reality",
+      "Neo"
+    ]
+  },
+  {
+    "palabra": "Joker",
+    "prohibidas": [
+      "Movie",
+      "Clown",
+      "Batman",
+      "Joaquin Phoenix",
+      "Villain"
+    ]
+  },
+  {
+    "palabra": "Parasite",
+    "prohibidas": [
+      "Movie",
+      "Korea",
+      "Family",
+      "Rich",
+      "Poor"
+    ]
+  },
+  {
+    "palabra": "Blade Runner",
+    "prohibidas": [
+      "Movie",
+      "Science Fiction",
+      "Replicant",
+      "Future",
+      "Harrison Ford"
+    ]
+  },
+  {
+    "palabra": "Interstellar",
+    "prohibidas": [
+      "Movie",
+      "Space",
+      "Black hole",
+      "Science Fiction",
+      "Matthew McConaughey"
+    ]
+  },
+  {
+    "palabra": "The Silence of the Lambs",
+    "prohibidas": [
+      "Movie",
+      "Hannibal",
+      "Psychopath",
+      "Clarice",
+      "Thriller"
+    ]
+  },
+  {
+    "palabra": "Fight Club",
+    "prohibidas": [
+      "Movie",
+      "Brad Pitt",
+      "Edward Norton",
+      "Tyler Durden",
+      "Double personality"
+    ]
+  },
+  {
+    "palabra": "The Avengers",
+    "prohibidas": [
+      "Movie",
+      "Superheroes",
+      "Marvel",
+      "Thanos",
+      "Team"
+    ]
+  },
+  {
+    "palabra": "La La Land",
+    "prohibidas": [
+      "Movie",
+      "Musical",
+      "Emma Stone",
+      "Ryan Gosling",
+      "Jazz"
+    ]
+  },
+  {
+    "palabra": "Coco",
+    "prohibidas": [
+      "Movie",
+      "Disney",
+      "Pixar",
+      "Mexico",
+      "Dead"
+    ]
+  },
+  {
+    "palabra": "The Lord of the Rings",
+    "prohibidas": [
+      "Movie",
+      "Hobbit",
+      "Ring",
+      "Gandalf",
+      "Middle-earth"
+    ]
+  },
+  {
+    "palabra": "The Shining",
+    "prohibidas": [
+      "Movie",
+      "Horror",
+      "Hotel",
+      "Stanley Kubrick",
+      "Jack Nicholson"
+    ]
+  },
+  {
+    "palabra": "Back to the Future",
+    "prohibidas": [
+      "Movie",
+      "Journey",
+      "Time",
+      "DeLorean",
+      "Scientist"
+    ]
+  },
+  {
+    "palabra": "Terminator",
+    "prohibidas": [
+      "Movie",
+      "Robot",
+      "Future",
+      "Arnold Schwarzenegger",
+      "Skynet"
+    ]
+  },
+  {
+    "palabra": "E.T.",
+    "prohibidas": [
+      "Movie",
+      "Extraterrestrial",
+      "Steven Spielberg",
+      "Child",
+      "Bicycle"
+    ]
+  },
+  {
+    "palabra": "Gone with the Wind",
+    "prohibidas": [
+      "Movie",
+      "Romance",
+      "Classic",
+      "Civil War",
+      "Scarlett O'Hara"
+    ]
+  },
+  {
+    "palabra": "Casablanca",
+    "prohibidas": [
+      "Movie",
+      "Black and white",
+      "Humphrey Bogart",
+      "Romance",
+      "Classic"
+    ]
+  },
+  {
+    "palabra": "Psycho",
+    "prohibidas": [
+      "Movie",
+      "Alfred Hitchcock",
+      "Suspense",
+      "Shower",
+      "Hotel"
+    ]
+  },
+  {
+    "palabra": "City of God",
+    "prohibidas": [
+      "Movie",
+      "Brazil",
+      "Favela",
+      "Crimen",
+      "Gangster"
+    ]
+  },
+  {
+    "palabra": "Finding Nemo",
+    "prohibidas": [
+      "Movie",
+      "Fish",
+      "Ocean",
+      "Marlin",
+      "Dory"
+    ]
+  },
+  {
+    "palabra": "Up",
+    "prohibidas": [
+      "Movie",
+      "Balloons",
+      "Old man",
+      "Child",
+      "House"
+    ]
+  }
+]

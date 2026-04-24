@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#0f2027">
     <title>Taboup - El juego de las palabras prohibidas</title>
-    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/PoltorProgrammer/Taboup/refs/heads/main/images/tabu_logo.png">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description"
+        content="Taboup es un party game por equipos inspirado en el clásico Tabú. Haz que tu equipo adivine palabras sin usar las palabras prohibidas.">
+    <link rel="icon" type="image/png" href="./data/images/taboup_logo.png">
+
+    <!-- Hojas de estilo modulares -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/initial-screen.css">
+    <link rel="stylesheet" href="./css/game-area.css">
+    <link rel="stylesheet" href="./css/review.css">
+    <link rel="stylesheet" href="./css/modals.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="stylesheet" href="./css/lang-selector.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- Librería para procesar Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
+
 <body>
     <div class="game-container">
         <!-- Header con timer y pausa -->
@@ -15,44 +36,83 @@
                 <div class="timer-display" id="timer">--:--</div>
                 <button class="btn-pause" id="pause-btn" title="Pausa (Espacio)">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/>
+                        <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
                     </svg>
                 </button>
             </div>
         </div>
 
-        <!-- Pantalla inicial -->
+        <!-- Modal de ajustes -->
+        <div class="settings-overlay" id="settings-overlay">
+            <div class="settings-modal">
+                <button class="btn-close" id="close-settings">✕</button>
+                <div class="settings-header">
+                    <div class="settings-title" data-i18n="settings_title">⚙️ CONFIGURACIÓN</div>
+                </div>
+                <div class="settings-content">
+                    <div class="setting-item">
+                        <label data-i18n="settings_lang">Idioma</label>
+                        <div class="lang-options-grid">
+                            <div class="lang-option-card" data-lang="es">
+                                <img src="./data/images/flags/flag_es.png" alt="es">
+                                <span>Español</span>
+                            </div>
+                            <div class="lang-option-card" data-lang="en">
+                                <img src="./data/images/flags/flag_en.png" alt="en">
+                                <span>English</span>
+                            </div>
+                            <div class="lang-option-card" data-lang="ca">
+                                <img src="./data/images/flags/flag_ca.png" alt="ca">
+                                <span>Català</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="setting-item">
+                        <label data-i18n="settings_time">Tiempo base (segundos)</label>
+                        <div class="time-input-container">
+                            <button class="time-btn" id="time-minus" aria-label="Decrease time">−</button>
+                            <input type="number" id="base-time-input" min="40" max="300" step="5" value="60">
+                            <button class="time-btn" id="time-plus" aria-label="Increase time">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="initial-screen" id="initial-screen">
+            <!-- Botón de ajustes - Solo disponible aquí -->
+            <button class="settings-btn" id="settings-btn" title="Ajustes">⚙️</button>
+
             <div class="title-container">
-                <img src="https://raw.githubusercontent.com/PoltorProgrammer/Taboup/refs/heads/main/images/tabu_logo.png" alt="Taboup Logo" class="game-logo">
+                <img src="./data/images/taboup_logo.png" alt="Taboup Logo" class="game-logo">
                 <div class="title">TABOUP</div>
-                <div class="subtitle">El juego de las palabras prohibidas</div>
+                <div class="subtitle" data-i18n="subtitle">El juego de las palabras prohibidas</div>
             </div>
             <div class="start-buttons">
                 <button class="btn btn-primary" id="start-60">
                     <div class="btn-content">
-                        <div class="btn-title">NUEVA RONDA</div>
-                        <div class="btn-subtitle">60 segundos</div>
+                        <div class="btn-title" data-i18n="new_round">NUEVA RONDA</div>
+                        <div class="btn-subtitle" data-i18n="seconds_val" id="subtitle-60">60 segundos</div>
                     </div>
                 </button>
                 <button class="btn btn-secondary" id="start-120">
                     <div class="btn-content">
-                        <div class="btn-title">⏱️ RONDA LARGA</div>
-                        <div class="btn-subtitle">120 segundos</div>
+                        <div class="btn-title" data-i18n="long_round">⏱️ RONDA LARGA</div>
+                        <div class="btn-subtitle" data-i18n="seconds_val" id="subtitle-120">120 segundos</div>
                     </div>
                 </button>
             </div>
             <div class="extra-buttons">
                 <button class="btn btn-info" id="show-map">
                     <div class="btn-content">
-                        <div class="btn-title">🗺️ VER MAPA</div>
-                        <div class="btn-subtitle">Tablero de juego</div>
+                        <div class="btn-title" data-i18n="view_map">🗺️ VER MAPA</div>
+                        <div class="btn-subtitle" data-i18n="game_board">Tablero de juego</div>
                     </div>
                 </button>
                 <button class="btn btn-info" id="show-rules">
                     <div class="btn-content">
-                        <div class="btn-title">📋 REGLAS</div>
-                        <div class="btn-subtitle">Cómo jugar</div>
+                        <div class="btn-title" data-i18n="rules">📋 REGLAS</div>
+                        <div class="btn-subtitle" data-i18n="how_to_play">Cómo jugar</div>
                     </div>
                 </button>
             </div>
@@ -62,7 +122,6 @@
         <div class="game-area" id="game-area">
             <!-- Layout para desktop: cartas descartadas a la izquierda -->
             <div class="discarded-area desktop-only">
-                <div class="discarded-title">Cartas jugadas</div>
                 <div class="discarded-cards" id="discarded-cards-desktop"></div>
             </div>
 
@@ -70,7 +129,6 @@
             <div class="main-game-area">
                 <!-- Cartas descartadas para móvil: entre timer y carta principal -->
                 <div class="discarded-area mobile-only">
-                    <div class="discarded-title">Cartas jugadas</div>
                     <div class="discarded-cards horizontal" id="discarded-cards-mobile"></div>
                 </div>
 
@@ -82,7 +140,7 @@
                             <div class="card card-shadow"></div>
                             <div class="card card-shadow" id="next-card"></div>
                             <div class="card card-current" id="current-card">
-                                <div class="card-word" id="card-word">Cargando...</div>
+                                <div class="card-word" id="card-word" data-i18n="loading">Cargando...</div>
                                 <div class="card-separator"></div>
                                 <div class="card-forbidden-list" id="card-forbidden"></div>
                             </div>
@@ -92,16 +150,27 @@
                     <!-- Controles del juego -->
                     <div class="game-controls">
                         <button class="control-btn error-btn" id="error-btn" title="Error (X)">
-                            <div class="btn-icon">✕</div>
-                            <div class="btn-text">ERROR</div>
+                            <div class="btn-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg>
+                            </div>
                         </button>
                         <button class="control-btn correct-btn" id="correct-btn" title="Correcto (C)">
-                            <div class="btn-icon">✓</div>
-                            <div class="btn-text">CORRECTO</div>
+                            <div class="btn-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
                         </button>
                         <button class="control-btn pass-btn" id="pass-btn" title="Pasar (P)">
-                            <div class="btn-icon">→</div>
-                            <div class="btn-text">PASAR</div>
+                            <div class="btn-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="4" y1="12" x2="20" y2="12"></line>
+                                    <polyline points="13 5 20 12 13 19"></polyline>
+                                </svg>
+                            </div>
                         </button>
                     </div>
                 </div>
@@ -112,25 +181,26 @@
         <div class="review-area" id="review-area">
             <div class="review-container">
                 <div class="review-header">
-                    <div class="review-title" id="review-title">¡RONDA TERMINADA!</div>
+                    <div class="review-title" id="review-title" data-i18n="review_title_time">¡RONDA TERMINADA!</div>
                 </div>
-                
-                <!-- Botones reorganizados -->
+
+                <!-- Botones de nueva ronda -->
                 <div class="review-buttons">
                     <button class="btn btn-primary" id="new-round-60">
                         <div class="btn-content">
-                            <div class="btn-title">🆕 NUEVA RONDA</div>
-                            <div class="btn-subtitle">60 segundos</div>
+                            <div class="btn-title" data-i18n="new_round">🆕 NUEVA RONDA</div>
+                            <div class="btn-subtitle" data-i18n="seconds_val" id="review-subtitle-60">60 segundos</div>
                         </div>
                     </button>
                     <button class="btn btn-secondary" id="new-round-120">
                         <div class="btn-content">
-                            <div class="btn-title">⏱️ RONDA LARGA</div>
-                            <div class="btn-subtitle">120 segundos</div>
+                            <div class="btn-title" data-i18n="long_round">⏱️ RONDA LARGA</div>
+                            <div class="btn-subtitle" data-i18n="seconds_val" id="review-subtitle-120">120 segundos
+                            </div>
                         </div>
                     </button>
                 </div>
-                
+
                 <div class="review-content">
                     <div class="review-summary" id="review-summary"></div>
                 </div>
@@ -141,16 +211,17 @@
         <div class="map-screen" id="map-screen">
             <div class="map-container">
                 <div class="map-header">
-                    <div class="map-title">🗺️ MAPA DEL JUEGO</div>
+                    <div class="map-title" data-i18n="map_title">🗺️ MAPA DEL JUEGO</div>
                     <button class="btn-close" id="close-map">✕</button>
                 </div>
                 <div class="map-content">
-                    <img src="https://raw.githubusercontent.com/PoltorProgrammer/Taboup/refs/heads/main/images/tablero_Taboup.png" alt="Tablero Taboup" class="map-image">
-                    <div class="map-download">
-                        <button class="download-btn" id="download-map-btn">
-                            💾 DESCARGAR MAPA
-                        </button>
-                    </div>
+                    <img src="https://raw.githubusercontent.com/PoltorProgrammer/Taboup/refs/heads/main/images/tablero_Taboup.png"
+                        alt="Tablero Taboup" class="map-image">
+                </div>
+                <div class="map-download">
+                    <button class="download-btn" id="download-map-btn" data-i18n="download_map">
+                        💾 DESCARGAR MAPA
+                    </button>
                 </div>
             </div>
         </div>
@@ -159,134 +230,13 @@
         <div class="rules-screen" id="rules-screen">
             <div class="rules-container">
                 <div class="rules-header">
-                    <div class="rules-title">📋 REGLAS DEL JUEGO</div>
+                    <div class="rules-title" data-i18n="rules_title">📋 REGLAS DEL JUEGO</div>
                     <button class="btn-close" id="close-rules">✕</button>
                 </div>
-                <div class="rules-content">
-                    <!-- Objetivo -->
-                    <div class="rule-section">
-                        <h3>🎯 OBJETIVO DEL JUEGO</h3>
-                        <p><strong>Taboup</strong> es un party game por equipos inspirado en el clásico <em>Tabú</em>. Haz que tu equipo adivine la <strong>palabra objetivo</strong> sin usar las <strong>palabras prohibidas</strong> ni infringir las reglas. Avanza en el tablero y sé el primero en llegar a la meta.</p>
-                    </div>
-
-                    <!-- Equipos y disposición -->
-                    <div class="rule-section">
-                        <h3>👥 EQUIPOS Y DISPOSICIÓN</h3>
-                        <p><strong>• Dos equipos:</strong> Equipo A y Equipo B</p>
-                        <p><strong>• Jugadores:</strong> Recomendado número par (4, 6, 8...)</p>
-                        <p><strong>• Disposición:</strong> Sentados en círculo alternando equipos</p>
-                        <div class="example-box">
-                            <strong>Ejemplo con 6 jugadores:</strong><br>
-                            A1 - B1 - A2 - B2 - A3 - B3
-                        </div>
-                        <p><em>Las personas a tu izquierda y derecha nunca son de tu equipo, actuando como <strong>árbitros laterales</strong>.</em></p>
-                    </div>
-
-                    <!-- Turnos -->
-                    <div class="rule-section">
-                        <h3>🔁 TURNOS Y ROTACIÓN</h3>
-                        <p><strong>• Rotación:</strong> El móvil/plataforma rota siempre en <strong>sentido anti-horario</strong></p>
-                        <p><strong>• Orden:</strong> Después de ti, juega la persona a tu <strong>derecha</strong></p>
-                        <p><strong>• Alternancia:</strong> Los equipos se alternan automáticamente (A-B-A-B...)</p>
-                    </div>
-
-                    <!-- Roles -->
-                    <div class="rule-section">
-                        <h3>🧩 ROLES EN CADA TURNO</h3>
-                        <p><strong>1. Dador de pistas:</strong> Jugador activo que describe la palabra</p>
-                        <p><strong>2. Adivinadores:</strong> Compañeros de equipo que intentan adivinar</p>
-                        <p><strong>3. Árbitros laterales:</strong> Jugadores sentados a izquierda y derecha</p>
-                        <div class="warning-box">
-                            <strong>⚠️ Importante:</strong> Los árbitros laterales vigilan las reglas y pueden pulsar "Error" si detectan infracciones.
-                        </div>
-                    </div>
-
-                    <!-- Controles -->
-                    <div class="rule-section">
-                        <h3>🎮 CONTROLES DE LA PLATAFORMA</h3>
-                        <p><strong>✅ CORRECTO:</strong> Tu equipo adivinó la palabra (+1 acierto)</p>
-                        <p><strong>➡️ PASAR:</strong> Saltar carta actual (máximo 3 por ronda)</p>
-                        <p><strong>❌ ERROR:</strong> Infracción detectada (termina la ronda inmediatamente)</p>
-                        <p><strong>⏸️ PAUSA:</strong> Detener el tiempo temporalmente</p>
-                        
-                        <div class="shortcuts-box">
-                            <strong>⌨️ Atajos de teclado:</strong><br>
-                            <strong>C</strong> = Correcto | <strong>P</strong> = Pasar | <strong>X</strong> = Error | <strong>Espacio</strong> = Pausa
-                        </div>
-                    </div>
-
-                    <!-- Reglas de comunicación -->
-                    <div class="rule-section">
-                        <h3>🗣️ REGLAS DE COMUNICACIÓN</h3>
-                        <div class="prohibited-box">
-                            <strong>🚫 PROHIBIDO:</strong>
-                            <p>• Decir <strong>palabras prohibidas</strong> o sus derivados/raíces</p>
-                            <p>• <strong>Marcar sílabas</strong> con sonidos, pausas o gestos</p>
-                            <p>• <strong>Traducir</strong> la palabra a otro idioma</p>
-                            <p>• Hacer <strong>gestos o mímica</strong></p>
-                            <p>• <strong>Deletrear</strong> la palabra o parte de ella</p>
-                            <p>• Incluir la palabra objetivo <strong>oculta</strong> en otra palabra</p>
-                        </div>
-                        
-                        <div class="allowed-box">
-                            <strong>✅ PERMITIDO:</strong>
-                            <p>• Usar <strong>sinónimos y definiciones</strong></p>
-                            <p>• Hacer <strong>rodeos descriptivos</strong></p>
-                            <p>• <strong>Onomatopeyas</strong> (si no están prohibidas)</p>
-                        </div>
-
-                        <div class="example-box">
-                            <strong>Ejemplo de infracción:</strong><br>
-                            Si la palabra es "GUITARRA" (3 sílabas), NO puedes decir:<br>
-                            <em>"Estoy tocando la... mh-mh-mh"</em> (marcando sílabas)
-                        </div>
-                    </div>
-
-                    <!-- Tiempo y finalización -->
-                    <div class="rule-section">
-                        <h3>⏰ TIEMPO Y FINALIZACIÓN</h3>
-                        <p><strong>• Duración estándar:</strong> 60 segundos por ronda</p>
-                        <p><strong>• Ronda larga:</strong> 120 segundos (casillas especiales del tablero)</p>
-                        <p><strong>• Máximo pases:</strong> 3 por ronda</p>
-                        
-                        <div class="warning-box">
-                            <strong>⚠️ La ronda termina cuando:</strong><br>
-                            • Se acaba el tiempo, O<br>
-                            • Se pulsa "Error" (final inmediato, incluso con tiempo doble)
-                        </div>
-                    </div>
-
-                    <!-- Tablero -->
-                    <div class="rule-section">
-                        <h3>🎲 EL TABLERO</h3>
-                        <p><strong>• Avance normal:</strong> 1 carta correcta = 1 casilla</p>
-                        <p><strong>• Casilla Reloj ⏱:</strong> Próxima ronda dura el doble de tiempo</p>
-                        <p><strong>• Zona Morada 🟪:</strong> Cada 3 cartas correctas = 1 casilla</p>
-                        
-                        <div class="strategy-box">
-                            <strong>💡 Estrategia:</strong> Aprovecha el doble tiempo justo antes de entrar en zona morada para maximizar el avance.
-                        </div>
-                    </div>
-
-                    <!-- Secuencia de turno -->
-                    <div class="rule-section">
-                        <h3>▶️ SECUENCIA DE UN TURNO</h3>
-                        <p><strong>1.</strong> El jugador activo recibe el móvil/plataforma</p>
-                        <p><strong>2.</strong> Inicia la ronda (60s o 120s según casilla)</p>
-                        <p><strong>3.</strong> Da pistas respetando todas las reglas</p>
-                        <p><strong>4.</strong> Usa los botones según corresponda</p>
-                        <p><strong>5.</strong> Al terminar: calcula avance y aplica efectos</p>
-                        <p><strong>6.</strong> Pasa el móvil a la persona de tu derecha</p>
-                    </div>
-
-                    <!-- Final -->
-                    <div class="rule-section">
-                        <h3>🏁 FINAL DE LA PARTIDA</h3>
-                        <p>Definan antes de empezar una de estas opciones:</p>
-                        <p><strong>•</strong> Primer equipo en llegar a la meta</p>
-                        <p><strong>•</strong> Jugar N rondas y ver quién avanza más</p>
-                        <p><strong>•</strong> Alcanzar X número de casillas</p>
-                    </div>
+                <div class="rules-content" id="rules-content-body">
+                    <!-- Las reglas se cargan dinámicamente desde rules.md -->
+                    <p style="text-align: center; padding: 20px;" data-i18n="loading_rules">Cargando reglas del juego...
+                    </p>
                 </div>
             </div>
         </div>
@@ -294,33 +244,36 @@
         <!-- Animación de ERROR en el juego -->
         <div class="game-error-animation" id="game-error-animation">
             <div class="error-flash"></div>
-            <div class="error-text-big">¡ERROR!</div>
-            <div class="error-subtitle">Ronda terminada</div>
+            <div class="error-text-big" data-i18n="error_title">¡ERROR!</div>
+            <div class="error-subtitle" data-i18n="error_subtitle">Ronda terminada</div>
         </div>
 
         <!-- Animación de TIEMPO en el juego -->
         <div class="game-time-animation" id="game-time-animation">
             <div class="time-flash"></div>
-            <div class="time-text-big">¡TIEMPO!</div>
-            <div class="time-subtitle">Ronda terminada</div>
+            <div class="time-text-big" data-i18n="time_title">¡TIEMPO!</div>
+            <div class="time-subtitle" data-i18n="time_subtitle">Ronda terminada</div>
         </div>
 
-        <!-- Mensaje de error mejorado -->
+        <!-- Modal de error técnico -->
         <div class="error-overlay" id="error-overlay">
             <div class="error-modal">
                 <div class="error-icon">⚠️</div>
                 <div class="error-text" id="error-text"></div>
-                <button class="error-close" id="error-close">Entendido</button>
+                <button class="error-close" id="error-close" data-i18n="error_close">Entendido</button>
             </div>
         </div>
 
         <!-- Indicador de carga -->
         <div class="loading-overlay" id="loading-overlay">
             <div class="loading-spinner"></div>
-            <div class="loading-text">Cargando cartas...</div>
+            <div class="loading-text" data-i18n="loading_cards">Cargando cartas...</div>
         </div>
+
     </div>
 
-    <script src="script.js"></script>
+    <!-- Script como módulo ES6 -->
+    <script type="module" src="./js/main.js"></script>
 </body>
+
 </html>

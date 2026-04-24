@@ -1,0 +1,7 @@
+.gemini/
+.DS_Store
+Taboup.lnk
+test.txt
+node_modules/
+dist/
+.env

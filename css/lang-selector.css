@@ -1,0 +1,223 @@
+/* =====================================================
+   SETTINGS & LANGUAGE
+   ===================================================== */
+
+.settings-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.settings-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(45deg) scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal Overlay */
+.settings-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    z-index: 2000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.settings-overlay.active {
+    display: flex;
+    opacity: 1;
+}
+
+.settings-modal {
+    position: relative;
+    background: rgba(15, 32, 39, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    width: 90%;
+    max-width: 450px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    overflow: visible;
+    transform: scale(0.9);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.settings-overlay.active .settings-modal {
+    transform: scale(1);
+}
+
+.settings-header {
+    padding: 20px 24px;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px 24px 0 0;
+}
+
+.settings-title {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.settings-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.setting-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.setting-item label {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Grid de idiomas */
+.lang-options-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.lang-option-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.lang-option-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+.lang-option-card.active {
+    background: rgba(52, 152, 219, 0.2);
+    border-color: #3498db;
+    box-shadow: 0 0 15px rgba(52, 152, 219, 0.3);
+}
+
+.lang-option-card img {
+    width: 32px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.lang-option-card span {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* Input de tiempo */
+.time-input-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.time-input-container input {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 12px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    outline: none;
+    transition: all 0.2s ease;
+    text-align: center;
+    min-width: 0; /* Permite que se encoja si es necesario */
+}
+
+/* Ocultar flechas nativas */
+.time-input-container input::-webkit-outer-spin-button,
+.time-input-container input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.time-input-container input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.time-input-container input:focus {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.2);
+}
+
+.time-btn {
+    width: 48px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-appearance: none;
+    appearance: none;
+    user-select: none;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.time-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.time-btn:active {
+    transform: scale(0.92);
+}

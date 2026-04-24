@@ -1,0 +1,500 @@
+/* =====================================================
+   GAME AREA — Área de juego, cartas y controles
+   ===================================================== */
+
+/* Área de juego */
+.game-area {
+    display: none;
+    height: 100vh;
+    padding-top: 100px;
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+}
+
+.game-area.active {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cartas descartadas - Desktop */
+.discarded-area.desktop-only {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 260px;
+    max-height: calc(100vh - 120px);
+    z-index: 50;
+    padding-top: 10px;
+}
+
+/* Cartas descartadas — scroll vertical (desktop) */
+.discarded-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* Scroll horizontal para móvil */
+.discarded-cards.horizontal {
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-height: 120px;
+    padding-right: 0;
+    padding-bottom: 8px;
+    gap: 12px;
+}
+
+.discarded-cards::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.discarded-cards::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.discarded-cards::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+
+/* Carta descartada */
+.discarded-card {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(0.8);
+    animation: cardAppear 0.5s ease-out;
+    border-left: 4px solid;
+    min-height: 110px;
+    max-height: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-shrink: 0;
+    position: relative;
+}
+
+/* Cartas descartadas en scroll horizontal (móvil) */
+.discarded-cards.horizontal .discarded-card {
+    min-width: 130px;
+    max-width: 130px;
+    width: 130px;
+    min-height: 110px;
+    max-height: 110px;
+    transform: scale(0.9);
+}
+
+.discarded-card.correct {
+    border-left-color: #27ae60;
+    background: linear-gradient(145deg, #d5f4e6, #ffffff);
+}
+
+.discarded-card.pass {
+    border-left-color: #f39c12;
+    background: linear-gradient(145deg, #fef9e7, #ffffff);
+}
+
+.discarded-card.error {
+    border-left-color: #e74c3c;
+    background: linear-gradient(145deg, #fadbd8, #ffffff);
+}
+
+.discarded-card-word {
+    font-size: 1em;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.discarded-cards.horizontal .discarded-card-word {
+    font-size: 0.85em;
+}
+
+.discarded-card-separator {
+    height: 1.5px;
+    background: #bdc3c7;
+    margin: 6px 0;
+    border-radius: 1px;
+    flex-shrink: 0;
+}
+
+.discarded-card-forbidden {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    overflow-y: auto;
+    min-height: 0;
+    max-height: 120px;
+}
+
+.discarded-cards.horizontal .discarded-card-forbidden {
+    max-height: 80px;
+}
+
+.discarded-card-forbidden::-webkit-scrollbar {
+    width: 3px;
+}
+
+.discarded-card-forbidden::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.discarded-card-forbidden::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+}
+
+.discarded-forbidden-word {
+    font-size: 0.7em;
+    color: #7f8c8d;
+    text-align: center;
+    padding: 1px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    flex-shrink: 0;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.discarded-cards.horizontal .discarded-forbidden-word {
+    font-size: 0.6em;
+}
+
+.discarded-card-status {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    font-size: 1em;
+    z-index: 10;
+}
+
+.discarded-cards.horizontal .discarded-card-status {
+    font-size: 0.9em;
+}
+
+/* Área principal del juego */
+.main-game-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+
+/* Cartas descartadas para móvil - entre timer y carta */
+.discarded-area.mobile-only {
+    width: 100%;
+    margin-bottom: 10px;
+    order: 1;
+}
+
+/* Sección de carta y controles */
+.card-game-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    order: 2;
+}
+
+/* ---- CARTA CENTRAL ---- */
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-deck {
+    position: relative;
+    perspective: 1500px;
+}
+
+.card {
+    width: 350px;
+    height: 480px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.4);
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card-shadow {
+    background: linear-gradient(145deg, #2c3e50, #34495e);
+    border: 2px solid #1a252f;
+}
+
+.card-shadow:nth-child(1) {
+    transform: translate(-50%, -50%) translateZ(-40px) rotate(-3deg);
+    opacity: 0.6;
+}
+
+.card-shadow:nth-child(2) {
+    transform: translate(-50%, -50%) translateZ(-20px) rotate(2deg);
+    opacity: 0.8;
+    background: white;
+    border: 3px solid #34495e;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 22px;
+    text-align: center;
+}
+
+/* Vista previa de la siguiente carta */
+.next-card-preview {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.2;
+}
+
+.next-card-word {
+    font-size: 2.4em;
+    font-weight: 900;
+    color: #2c3e50;
+    margin-bottom: 0;
+    line-height: 1.15;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+
+.next-card-separator {
+    height: 2px;
+    background: rgba(44, 62, 80, 0.3);
+    margin: 10px 0;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.next-card-forbidden {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.next-forbidden-word {
+    font-size: 1.15em;
+    color: #2c3e50;
+    font-weight: 600;
+    padding: 4px 0;
+    border-bottom: 1px solid rgba(44, 62, 80, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    line-height: 1.2;
+    flex-shrink: 0;
+}
+
+/* Carta actual */
+.card-current {
+    background: white;
+    border: 3px solid #2c3e50;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 22px;
+    text-align: center;
+    transform: translate(-50%, -50%) translateZ(0px);
+    z-index: 10;
+}
+
+.card-current.slide-out {
+    animation: cardSlideOut 0.8s cubic-bezier(0.6, 0.04, 0.98, 0.335) forwards;
+}
+
+.card-word {
+    font-size: 2.4em;
+    font-weight: 900;
+    color: #2c3e50;
+    margin-bottom: 0;
+    line-height: 1.15;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+
+.card-separator {
+    height: 2px;
+    background: rgba(44, 62, 80, 0.3);
+    margin: 10px 0;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.card-forbidden-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.forbidden-word {
+    font-size: 1.15em;
+    color: #2c3e50;
+    font-weight: 600;
+    padding: 4px 0;
+    border-bottom: 1px solid rgba(44, 62, 80, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    line-height: 1.2;
+    flex-shrink: 0;
+}
+
+.forbidden-word:last-child {
+    border-bottom: none;
+}
+
+/* ---- CONTROLES DEL JUEGO — Desktop ---- */
+.game-controls {
+    position: fixed;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    z-index: 20;
+}
+
+.control-btn {
+    background: rgba(255, 255, 255, 0.97);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 22px;
+    padding: 15px;
+    cursor: pointer;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease, border-color 0.3s ease;
+    min-width: 95px;
+    height: 95px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    position: relative;
+    overflow: hidden;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.control-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: left 0.6s;
+}
+
+.control-btn:hover::before {
+    left: 100%;
+}
+
+/* Colores específicos por acción */
+.error-btn { 
+    color: #e74c3c; 
+    border-color: rgba(231, 76, 60, 0.3);
+}
+.error-btn:active:not(:disabled) { background: #fdedec; border-color: #e74c3c; }
+
+.correct-btn { 
+    color: #27ae60; 
+    border-color: rgba(39, 174, 96, 0.3);
+}
+.correct-btn:active:not(:disabled) { background: #e9f7ef; border-color: #27ae60; }
+
+.pass-btn { 
+    color: #f39c12; 
+    border-color: rgba(243, 156, 18, 0.3);
+}
+.pass-btn:active:not(:disabled) { background: #fef5e7; border-color: #f39c12; }
+
+@media (hover: hover) and (pointer: fine) {
+    .error-btn:hover:not(:disabled) { border-color: #e74c3c; box-shadow: 0 15px 45px rgba(231, 76, 60, 0.25); }
+    .correct-btn:hover:not(:disabled) { border-color: #27ae60; box-shadow: 0 15px 45px rgba(39, 174, 96, 0.25); }
+    .pass-btn:hover:not(:disabled) { border-color: #f39c12; box-shadow: 0 15px 45px rgba(243, 156, 18, 0.25); }
+}
+
+.control-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.control-btn:disabled::before {
+    display: none;
+}
+
+.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.btn-text {
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Variantes de color de los botones de control */
+.error-btn { border-color: #e74c3c; }
+.error-btn .btn-icon,
+.error-btn .btn-text { color: #e74c3c; }
+.error-btn:hover:not(:disabled) {
+    background: rgba(231, 76, 60, 0.1);
+    border-color: #c0392b;
+}
+
+.correct-btn { border-color: #27ae60; }
+.correct-btn .btn-icon,
+.correct-btn .btn-text { color: #27ae60; }
+.correct-btn:hover:not(:disabled) {
+    background: rgba(39, 174, 96, 0.1);
+    border-color: #229954;
+}
+
+.pass-btn { border-color: #f39c12; }
+.pass-btn .btn-icon,
+.pass-btn .btn-text { color: #f39c12; }
+.pass-btn:hover:not(:disabled) {
+    background: rgba(243, 156, 18, 0.1);
+    border-color: #e67e22;
+}

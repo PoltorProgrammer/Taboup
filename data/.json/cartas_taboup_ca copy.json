@@ -1,136 +1,136 @@
 [
   {
-    "palabra": "Cisne",
+    "palabra": "Cigne",
     "prohibidas": [
-      "Ave",
-      "Cuello",
-      "Blanco",
-      "Lago",
+      "Ocell",
+      "Coll",
+      "Blanc",
+      "Llac",
       "Flotar"
     ]
   },
   {
-    "palabra": "Panamá",
+    "palabra": "Panamà",
     "prohibidas": [
-      "América",
+      "Amèrica",
       "Canal",
       "País",
-      "Centroamérica",
-      "Puente"
+      "Centreamèrica",
+      "Pont"
     ]
   },
   {
-    "palabra": "Lince",
+    "palabra": "Linx",
     "prohibidas": [
-      "Felino",
-      "España",
-      "Orejas",
-      "Pelo",
-      "Pez"
+      "Felí",
+      "Espanya",
+      "Orelles",
+      "Pèl",
+      "Mamífer"
     ]
   },
   {
-    "palabra": "Nueva Zelanda",
+    "palabra": "Nova Zelanda",
     "prohibidas": [
       "País",
-      "Oceanía",
+      "Oceania",
       "Isla",
       "Kiwi",
       "Rugby"
     ]
   },
   {
-    "palabra": "Hámster",
+    "palabra": "Hàmster",
     "prohibidas": [
       "Roedor",
-      "Pequeño",
+      "Petit",
       "Mascota",
-      "Jaula",
-      "Rueda"
+      "Gàbia",
+      "Roda"
     ]
   },
   {
-    "palabra": "Polonia",
+    "palabra": "Polònia",
     "prohibidas": [
       "Europa",
-      "Varsovia",
-      "Frío",
+      "Varsòvia",
+      "Fred",
       "País",
-      "Guerra"
+      "Comunismo"
     ]
   },
   {
-    "palabra": "Puercoespín",
+    "palabra": "Porc espí",
     "prohibidas": [
       "Animal",
-      "Espinas",
-      "Bolita",
+      "Espines",
+      "Boleta",
       "Rodar",
-      "Bosque"
+      "Bosc"
     ]
   },
   {
-    "palabra": "Colombia",
+    "palabra": "Colòmbia",
     "prohibidas": [
-      "Sudamérica",
-      "Bogotá",
-      "Café",
+      "Sud-amèrica",
+      "Bogotà",
+      "Cafè",
       "País",
       "Cultura"
     ]
   },
   {
-    "palabra": "Búfalo",
+    "palabra": "Búfal",
     "prohibidas": [
       "Animal",
-      "Cuernos",
-      "Grande",
-      "India",
-      "América"
+      "Banyes",
+      "Gran",
+      "Índia",
+      "Amèrica"
     ]
   },
   {
     "palabra": "Israel",
     "prohibidas": [
       "País",
-      "Asia",
-      "Jerusalén",
+      "Àsia",
+      "Jerusalem",
       "Conflicto",
-      "Religión"
+      "Religió"
     ]
   },
   {
     "palabra": "León marino",
     "prohibidas": [
-      "Mamífero",
-      "Agua",
+      "Mamífer",
+      "Aigua",
       "Bigotes",
       "Aletas",
-      "Pez"
+      "Peix"
     ]
   },
   {
-    "palabra": "Finlandia",
+    "palabra": "Finlàndia",
     "prohibidas": [
       "Europa",
       "Sauna",
       "Lag",
-      "Frío",
+      "Fred",
       "País"
     ]
   },
   {
-    "palabra": "Pato",
+    "palabra": "Ànec",
     "prohibidas": [
-      "Ave",
+      "Ocell",
       "Plumas",
-      "Agua",
-      "Pico",
+      "Aigua",
+      "Bec",
       "Cuac"
     ]
   },
   {
-    "palabra": "Rumanía",
+    "palabra": "Romania",
     "prohibidas": [
       "Europa",
       "Bucarest",
@@ -140,12 +140,12 @@
     ]
   },
   {
-    "palabra": "Chile",
+    "palabra": "Xile",
     "prohibidas": [
-      "Sudamérica",
+      "Sud-amèrica",
       "Santiago",
       "Largo",
-      "Vino",
+      "Vi",
       "Cordillera"
     ]
   },
@@ -153,16 +153,16 @@
     "palabra": "Bisonte",
     "prohibidas": [
       "Animal",
-      "Grande",
-      "América",
-      "Cuernos",
+      "Gran",
+      "Amèrica",
+      "Banyes",
       "Bufalo"
     ]
   },
   {
-    "palabra": "Marruecos",
+    "palabra": "Marroc",
     "prohibidas": [
-      "África",
+      "Àfrica",
       "Desierto",
       "Casablanca",
       "País",
@@ -172,27 +172,27 @@
   {
     "palabra": "Pavo",
     "prohibidas": [
-      "Ave",
-      "Navidad",
+      "Ocell",
+      "Navitat",
       "Plumas",
-      "Comida",
-      "Carne"
+      "Menjar",
+      "Carn"
     ]
   },
   {
     "palabra": "Filipinas",
     "prohibidas": [
-      "Asia",
+      "Àsia",
       "Manila",
       "País",
       "Isla",
-      "Océano"
+      "Oceà"
     ]
   },
   {
     "palabra": "Gallina",
     "prohibidas": [
-      "Ave",
+      "Ocell",
       "Granja",
       "Huevo",
       "Ponedora",
@@ -212,9 +212,9 @@
   {
     "palabra": "Buitre",
     "prohibidas": [
-      "Ave",
-      "Carroñero",
-      "Cabeza",
+      "Ocell",
+      "Carroñer",
+      "Cap",
       "Calva",
       "Volar"
     ]
@@ -222,7 +222,7 @@
   {
     "palabra": "Perú",
     "prohibidas": [
-      "Sudamérica",
+      "Sud-amèrica",
       "Machu Picchu",
       "Andes",
       "Inca",
@@ -232,20 +232,20 @@
   {
     "palabra": "Ocelote",
     "prohibidas": [
-      "Felino",
-      "Pequeño",
+      "Felí",
+      "Petit",
       "Manchas",
-      "América",
+      "Amèrica",
       "Caza"
     ]
   },
   {
-    "palabra": "Suecia",
+    "palabra": "Suècia",
     "prohibidas": [
       "Europa",
-      "Estocolmo",
+      "Estocolm",
       "Ikea",
-      "Frío",
+      "Fred",
       "Vikingo"
     ]
   },
@@ -255,14 +255,14 @@
       "Animal",
       "Mal",
       "Olor",
-      "Blanco",
-      "Negro"
+      "Blanc",
+      "Negre"
     ]
   },
   {
-    "palabra": "China",
+    "palabra": "Xina",
     "prohibidas": [
-      "Asia",
+      "Àsia",
       "Muralla",
       "Panda",
       "Pekín",
@@ -273,8 +273,8 @@
     "palabra": "Venado",
     "prohibidas": [
       "Animal",
-      "Bosque",
-      "Cuernos",
+      "Bosc",
+      "Banyes",
       "Ciervo",
       "Salvaje"
     ]
@@ -283,7 +283,7 @@
     "palabra": "Dinamarca",
     "prohibidas": [
       "Europa",
-      "Copenhague",
+      "Copenhaguen",
       "Vikingos",
       "Lego",
       "País"
@@ -295,14 +295,14 @@
       "Animal",
       "Mal",
       "Olor",
-      "Blanco",
-      "Negro"
+      "Blanc",
+      "Negre"
     ]
   },
   {
     "palabra": "Indonesia",
     "prohibidas": [
-      "Asia",
+      "Àsia",
       "Bali",
       "Isla",
       "País",
@@ -314,18 +314,18 @@
     "prohibidas": [
       "Animal",
       "Marsupial",
-      "Cola",
-      "América",
+      "Cua",
+      "Amèrica",
       "Bolsa"
     ]
   },
   {
-    "palabra": "Tailandia",
+    "palabra": "Tailàndia",
     "prohibidas": [
-      "Asia",
+      "Àsia",
       "Bangkok",
       "Templo",
-      "Elefante",
+      "Elefant",
       "País"
     ]
   },
@@ -335,26 +335,26 @@
       "Animal",
       "Caparazón",
       "Bola",
-      "Sudamérica",
-      "Tierra"
+      "Sud-amèrica",
+      "Terra"
     ]
   },
   {
-    "palabra": "Egipto",
+    "palabra": "Egipte",
     "prohibidas": [
-      "África",
+      "Àfrica",
       "Pirámides",
       "Faraón",
       "Nilo",
-      "Antiguo"
+      "Antic"
     ]
   },
   {
-    "palabra": "Pez espada",
+    "palabra": "Peix espasa",
     "prohibidas": [
       "Mar",
-      "Pico",
-      "Pez",
+      "Bec",
+      "Peix",
       "Nadador",
       "Veloz"
     ]
@@ -363,24 +363,24 @@
     "palabra": "Noruega",
     "prohibidas": [
       "Europa",
-      "Fiordos",
+      "Fiords",
       "Vikingo",
-      "Frío",
+      "Fred",
       "País"
     ]
   },
   {
     "palabra": "Jaguar",
     "prohibidas": [
-      "Felino",
-      "América",
+      "Felí",
+      "Amèrica",
       "Selva",
       "Manchas",
       "Depredador"
     ]
   },
   {
-    "palabra": "Australia",
+    "palabra": "Austràlia",
     "prohibidas": [
       "País",
       "Canguro",
@@ -392,10 +392,10 @@
   {
     "palabra": "Puma",
     "prohibidas": [
-      "Felino",
-      "Montaña",
-      "Gato",
-      "Sudamérica",
+      "Felí",
+      "Muntanya",
+      "Gat",
+      "Sud-amèrica",
       "Depredador"
     ]
   },
@@ -404,7 +404,7 @@
     "prohibidas": [
       "Europa",
       "Dublín",
-      "Verde",
+      "Verd",
       "Trébol",
       "País"
     ]
@@ -412,18 +412,18 @@
   {
     "palabra": "Gorila",
     "prohibidas": [
-      "Mono",
+      "Mico",
       "Selva",
-      "África",
+      "Àfrica",
       "Simio",
       "Fuerte"
     ]
   },
   {
-    "palabra": "Islandia",
+    "palabra": "Islàndia",
     "prohibidas": [
       "Isla",
-      "Hielo",
+      "Gel",
       "Volcanes",
       "Aurora",
       "País"
@@ -433,16 +433,16 @@
     "palabra": "Hiena",
     "prohibidas": [
       "Animal",
-      "África",
-      "Carroñero",
+      "Àfrica",
+      "Carroñer",
       "Risa",
       "Manada"
     ]
   },
   {
-    "palabra": "México",
+    "palabra": "Mèxic",
     "prohibidas": [
-      "América",
+      "Amèrica",
       "Tacos",
       "Capital",
       "Chichén",
@@ -453,7 +453,7 @@
     "palabra": "Castor",
     "prohibidas": [
       "Animal",
-      "Río",
+      "Riu",
       "Dientes",
       "Presa",
       "Construir"
@@ -462,7 +462,7 @@
   {
     "palabra": "Ecuador",
     "prohibidas": [
-      "Sudamérica",
+      "Sud-amèrica",
       "Galápagos",
       "Quito",
       "País",
@@ -470,7 +470,7 @@
     ]
   },
   {
-    "palabra": "Dromedario",
+    "palabra": "Dromedaari",
     "prohibidas": [
       "Camello",
       "Joroba",
@@ -480,9 +480,9 @@
     ]
   },
   {
-    "palabra": "Sudáfrica",
+    "palabra": "Sud-àfrica",
     "prohibidas": [
-      "África",
+      "Àfrica",
       "Johannesburgo",
       "Leones",
       "País",
@@ -492,167 +492,167 @@
   {
     "palabra": "Leopardo",
     "prohibidas": [
-      "Felino",
+      "Felí",
       "Manchas",
       "Árbol",
       "Caza",
-      "África"
+      "Àfrica"
     ]
   },
   {
-    "palabra": "España",
+    "palabra": "Espanya",
     "prohibidas": [
       "Europa",
       "Madrid",
-      "Toro",
+      "Brau",
       "Sol",
-      "Tapas"
+      "Tapes"
     ]
   },
   {
-    "palabra": "Cebra",
+    "palabra": "Zebra",
     "prohibidas": [
       "Animal",
-      "África",
-      "Blanco",
-      "Negro",
-      "Rayas"
+      "Àfrica",
+      "Blanc",
+      "Negre",
+      "Ratlles"
     ]
   },
   {
     "palabra": "Argentina",
     "prohibidas": [
-      "Sudamérica",
+      "Sud-amèrica",
       "Tango",
       "Buenos Aires",
-      "Carne",
+      "Carn",
       "Messi"
     ]
   },
   {
-    "palabra": "Pingüino",
+    "palabra": "Pingüí",
     "prohibidas": [
-      "Antártida",
-      "Hielo",
-      "Frío",
-      "Ave",
+      "Antàrtida",
+      "Gel",
+      "Fred",
+      "Ocell",
       "Nadador"
     ]
   },
   {
     "palabra": "Brasil",
     "prohibidas": [
-      "Sudamérica",
+      "Sud-amèrica",
       "Samba",
-      "Fútbol",
-      "Río",
-      "Carnaval"
+      "Futbol",
+      "Riu",
+      "Carnestoltes"
     ]
   },
   {
-    "palabra": "Rinoceronte",
+    "palabra": "Rinoceront",
     "prohibidas": [
       "Animal",
       "Cuerno",
-      "Grande",
-      "África",
+      "Gran",
+      "Àfrica",
       "Gris"
     ]
   },
   {
-    "palabra": "Italia",
+    "palabra": "Itàlia",
     "prohibidas": [
       "Europa",
       "Roma",
       "Pizza",
-      "Coliseo",
+      "Coliseu",
       "Bota"
     ]
   },
   {
-    "palabra": "Cocodrilo",
+    "palabra": "Cocodril",
     "prohibidas": [
-      "Reptil",
+      "Rèptil",
       "Mandíbula",
-      "Agua",
+      "Aigua",
       "Nilo",
-      "Lagarto"
+      "Llangardaix"
     ]
   },
   {
-    "palabra": "Francia",
+    "palabra": "França",
     "prohibidas": [
       "Europa",
       "París",
       "Torre",
-      "Vino",
+      "Vi",
       "Capital"
     ]
   },
   {
-    "palabra": "Tucán",
+    "palabra": "Tucà",
     "prohibidas": [
-      "Ave",
-      "Pico",
+      "Ocell",
+      "Bec",
       "Colores",
       "Selva",
       "Exótico"
     ]
   },
   {
-    "palabra": "India",
+    "palabra": "Índia",
     "prohibidas": [
-      "Asia",
+      "Àsia",
       "Taj Mahal",
       "Bollywood",
-      "Elefante",
+      "Elefant",
       "Capital"
     ]
   },
   {
-    "palabra": "Mono",
+    "palabra": "Mico",
     "prohibidas": [
       "Animal",
       "Árbol",
       "Selva",
       "Plátano",
-      "Cola"
+      "Cua"
     ]
   },
   {
     "palabra": "Holanda",
     "prohibidas": [
       "Europa",
-      "Molinos",
-      "Flores",
+      "Molins",
+      "Flors",
       "Bicicleta",
-      "Ámsterdam"
+      "Amsterdam"
     ]
   },
   {
-    "palabra": "Pulpo",
+    "palabra": "Pop",
     "prohibidas": [
       "Mar",
       "Tentáculos",
-      "Ocho",
-      "Inteligente",
+      "Vuit",
+      "Intel·ligent",
       "Tinta"
     ]
   },
   {
-    "palabra": "Turquía",
+    "palabra": "Turquia",
     "prohibidas": [
-      "Asia",
-      "Estambul",
-      "Mezquita",
-      "Bósforo",
+      "Àsia",
+      "Istanbul",
+      "Mesquita",
+      "Bòsfor",
       "País"
     ]
   },
   {
     "palabra": "Vietnam",
     "prohibidas": [
-      "Asia",
+      "Àsia",
       "Guerra",
       "Hanói",
       "Arroz",
@@ -664,9 +664,9 @@
     "prohibidas": [
       "Mar",
       "Animal",
-      "Inteligente",
+      "Intel·ligent",
       "Saltar",
-      "Mamífero"
+      "Mamífer"
     ]
   },
   {
@@ -682,18 +682,18 @@
   {
     "palabra": "Tigre",
     "prohibidas": [
-      "Felino",
-      "Rayas",
-      "Grande",
+      "Felí",
+      "Ratlles",
+      "Gran",
       "Caza",
       "Selva"
     ]
   },
   {
-    "palabra": "Japón",
+    "palabra": "Japó",
     "prohibidas": [
-      "Asia",
-      "Tokio",
+      "Àsia",
+      "Tòquio",
       "Sushi",
       "Sol",
       "Isla"
@@ -702,10 +702,10 @@
   {
     "palabra": "Camaleón",
     "prohibidas": [
-      "Reptil",
+      "Rèptil",
       "Cambiar",
       "Color",
-      "Lengua",
+      "Llengua",
       "Ojos"
     ]
   },
@@ -713,18 +713,18 @@
     "palabra": "Jirafa",
     "prohibidas": [
       "Animal",
-      "Cuello",
+      "Coll",
       "Largo",
-      "África",
+      "Àfrica",
       "Manchas"
     ]
   },
   {
-    "palabra": "Alemania",
+    "palabra": "Alemanya",
     "prohibidas": [
       "Europa",
       "Berlín",
-      "Cerveza",
+      "Cervesa",
       "Muro",
       "País"
     ]
@@ -732,29 +732,29 @@
   {
     "palabra": "Gaviota",
     "prohibidas": [
-      "Pájaro",
+      "Ocell",
       "Mar",
       "Playa",
       "Volando",
-      "Gritar"
+      "Cridar"
     ]
   },
   {
     "palabra": "Oso panda",
     "prohibidas": [
-      "China",
+      "Xina",
       "Bambú",
-      "Oso",
-      "Blanco",
-      "Negro"
+      "Ós",
+      "Blanc",
+      "Negre"
     ]
   },
   {
     "palabra": "Suricato",
     "prohibidas": [
       "Animal",
-      "Pequeño",
-      "África",
+      "Petit",
+      "Àfrica",
       "Grupo",
       "Desierto"
     ]
@@ -770,9 +770,9 @@
     ]
   },
   {
-    "palabra": "Serpiente",
+    "palabra": "Serp",
     "prohibidas": [
-      "Reptil",
+      "Rèptil",
       "Veneno",
       "Arrastrarse",
       "Morder",
@@ -783,17 +783,17 @@
     "palabra": "Hipopótamo",
     "prohibidas": [
       "Animal",
-      "Río",
-      "Agua",
-      "África",
-      "Grande"
+      "Riu",
+      "Aigua",
+      "Àfrica",
+      "Gran"
     ]
   },
   {
     "palabra": "Jabalí",
     "prohibidas": [
-      "Cerdo",
-      "Bosque",
+      "Porc",
+      "Bosc",
       "Animal",
       "Colmillo",
       "Salvaje"
@@ -815,14 +815,14 @@
       "Animal",
       "Lento",
       "Árbol",
-      "Sudamérica",
+      "Sud-amèrica",
       "Pelaje"
     ]
   },
   {
     "palabra": "Koala",
     "prohibidas": [
-      "Australia",
+      "Austràlia",
       "Marsupial",
       "Eucalipto",
       "Tierno",
@@ -832,49 +832,49 @@
   {
     "palabra": "Lechuza",
     "prohibidas": [
-      "Ave",
+      "Ocell",
       "Noche",
-      "Sabiduría",
+      "Saviesa",
       "Plumas",
-      "Bosque"
+      "Bosc"
     ]
   },
   {
-    "palabra": "Zorro",
+    "palabra": "Guineu",
     "prohibidas": [
       "Animal",
       "Astuto",
-      "Cola",
-      "Bosque",
+      "Cua",
+      "Bosc",
       "Perro"
     ]
   },
   {
-    "palabra": "Avestruz",
+    "palabra": "Estruç",
     "prohibidas": [
-      "Ave",
-      "Grande",
+      "Ocell",
+      "Gran",
       "Huevo",
       "Plumas",
-      "África"
+      "Àfrica"
     ]
   },
   {
     "palabra": "Mapache",
     "prohibidas": [
       "Animal",
-      "Máscara",
+      "Màscara",
       "Manos",
       "Basura",
       "Nocturno"
     ]
   },
   {
-    "palabra": "Rusia",
+    "palabra": "Rússia",
     "prohibidas": [
       "Europa",
-      "Moscú",
-      "Frío",
+      "Moscou",
+      "Fred",
       "Putin",
       "Vodka"
     ]
@@ -882,25 +882,25 @@
   {
     "palabra": "Tortuga",
     "prohibidas": [
-      "Reptil",
+      "Rèptil",
       "Lenta",
       "Caparazón",
       "Playa",
-      "Longevidad"
+      "Longevitat"
     ]
   },
   {
-    "palabra": "Lobo",
+    "palabra": "Llop",
     "prohibidas": [
       "Animal",
-      "Bosque",
+      "Bosc",
       "Aullar",
       "Manada",
       "Caza"
     ]
   },
   {
-    "palabra": "Caballo",
+    "palabra": "Cavall",
     "prohibidas": [
       "Animal",
       "Cabalgar",
@@ -910,7 +910,7 @@
     ]
   },
   {
-    "palabra": "Oveja",
+    "palabra": "Ovella",
     "prohibidas": [
       "Animal",
       "Lana",
@@ -920,23 +920,23 @@
     ]
   },
   {
-    "palabra": "Elefante",
+    "palabra": "Elefant",
     "prohibidas": [
       "Trompa",
       "Paquidermo",
-      "Orejas",
-      "Grande",
-      "África"
+      "Orelles",
+      "Gran",
+      "Àfrica"
     ]
   },
   {
     "palabra": "Murciélago",
     "prohibidas": [
-      "Mamífero",
+      "Mamífer",
       "Volar",
       "Noche",
       "Cueva",
-      "Alas"
+      "Aletes"
     ]
   },
   {
@@ -946,24 +946,24 @@
       "Leche",
       "Granja",
       "Mu",
-      "Campo"
+      "Camp"
     ]
   },
   {
     "palabra": "Panda",
     "prohibidas": [
-      "China",
+      "Xina",
       "Bambú",
-      "Oso",
-      "Blanco",
-      "Negro"
+      "Ós",
+      "Blanc",
+      "Negre"
     ]
   },
   {
     "palabra": "Cabra",
     "prohibidas": [
       "Animal",
-      "Montaña",
+      "Muntanya",
       "Leche",
       "Barba",
       "Cuerno"
@@ -972,7 +972,7 @@
   {
     "palabra": "Canguro",
     "prohibidas": [
-      "Australia",
+      "Austràlia",
       "Bolsa",
       "Saltar",
       "Animal",
@@ -982,10 +982,10 @@
   {
     "palabra": "Guepardo",
     "prohibidas": [
-      "Felino",
-      "Velocidad",
+      "Felí",
+      "Velocitat",
       "Manchas",
-      "África",
+      "Àfrica",
       "Caza"
     ]
   },
@@ -1000,12 +1000,12 @@
     ]
   },
   {
-    "palabra": "Oso",
+    "palabra": "Ós",
     "prohibidas": [
       "Animal",
-      "Bosque",
+      "Bosc",
       "Miel",
-      "Invierno",
+      "Hivern",
       "Garras"
     ]
   },
@@ -1013,7 +1013,7 @@
     "palabra": "Dinosaurio",
     "prohibidas": [
       "Extinto",
-      "Reptil",
+      "Rèptil",
       "Fósil",
       "Gigante",
       "Jurásico"
@@ -1023,17 +1023,17 @@
     "palabra": "Tiburón",
     "prohibidas": [
       "Mar",
-      "Pez",
+      "Peix",
       "Aleta",
       "Dientes",
       "Depredador"
     ]
   },
   {
-    "palabra": "Pez",
+    "palabra": "Peix",
     "prohibidas": [
       "Animal",
-      "Agua",
+      "Aigua",
       "Aletas",
       "Nadador",
       "Escamas"
@@ -1044,16 +1044,16 @@
     "prohibidas": [
       "Animal",
       "Andes",
-      "Sudamérica",
+      "Sud-amèrica",
       "Escupir",
-      "Montaña"
+      "Muntanya"
     ]
   },
   {
-    "palabra": "Suiza",
+    "palabra": "Suïssa",
     "prohibidas": [
       "Europa",
-      "Alpes",
+      "Alps",
       "Chocolate",
       "Relojes",
       "Queso"
@@ -1062,7 +1062,7 @@
   {
     "palabra": "Águila",
     "prohibidas": [
-      "Ave",
+      "Ocell",
       "Cielo",
       "Depredador",
       "Garras",
@@ -1073,19 +1073,19 @@
     "palabra": "Cuba",
     "prohibidas": [
       "Isla",
-      "Caribe",
+      "Carib",
       "Habana",
       "Ron",
       "País"
     ]
   },
   {
-    "palabra": "Gato",
+    "palabra": "Gat",
     "prohibidas": [
       "Animal",
       "Doméstico",
       "Maullar",
-      "Felino",
+      "Felí",
       "Bigotes"
     ]
   },
@@ -1094,9 +1094,9 @@
     "prohibidas": [
       "Norteamérica",
       "Hojas",
-      "Frío",
+      "Fred",
       "País",
-      "Oso"
+      "Ós"
     ]
   },
   {
@@ -1106,7 +1106,7 @@
       "Madera",
       "Cuerda",
       "Girar",
-      "Pico"
+      "Bec"
     ]
   },
   {
@@ -1116,23 +1116,23 @@
       "Cuerda",
       "Madera",
       "Girar",
-      "Pico"
+      "Bec"
     ]
   },
   {
-    "palabra": "Hormiga",
+    "palabra": "Formiga",
     "prohibidas": [
       "Insecto",
-      "Pequeño",
+      "Petit",
       "Trabajar",
       "Colonia",
-      "Tierra"
+      "Terra"
     ]
   },
   {
     "palabra": "Mariposa",
     "prohibidas": [
-      "Alas",
+      "Aletes",
       "Insecto",
       "Colores",
       "Oruga",
@@ -1140,13 +1140,13 @@
     ]
   },
   {
-    "palabra": "Mosquito",
+    "palabra": "Mosquiti",
     "prohibidas": [
       "Insecto",
-      "Picadura",
+      "Picada",
       "Volar",
       "Zumbido",
-      "Agua"
+      "Aigua"
     ]
   },
   {
@@ -1166,7 +1166,7 @@
       "Miel",
       "Colmena",
       "Flor",
-      "Picadura"
+      "Picada"
     ]
   },
   {
@@ -1174,19 +1174,19 @@
     "prohibidas": [
       "Insecto",
       "Volar",
-      "Alas",
-      "Agua",
+      "Aletes",
+      "Aigua",
       "Largo"
     ]
   },
   {
-    "palabra": "Grillo",
+    "palabra": "Grill",
     "prohibidas": [
       "Insecto",
-      "Canto",
+      "Cant",
       "Noche",
       "Salta",
-      "Verde"
+      "Verd"
     ]
   },
   {
@@ -1194,46 +1194,46 @@
     "prohibidas": [
       "Concha",
       "Lento",
-      "Jardín",
+      "Jardí",
       "Babosa",
       "Casa"
     ]
   },
   {
-    "palabra": "Carne",
+    "palabra": "Carn",
     "prohibidas": [
-      "Comida",
+      "Menjar",
       "Proteína",
       "Animal",
       "Bistec",
-      "Cocinar"
+      "Cuinar"
     ]
   },
   {
     "palabra": "Pescado",
     "prohibidas": [
       "Mar",
-      "Comida",
-      "Agua",
-      "Pez",
+      "Menjar",
+      "Aigua",
+      "Peix",
       "Cenar"
     ]
   },
   {
     "palabra": "Arroz",
     "prohibidas": [
-      "Comida",
+      "Menjar",
       "Grano",
-      "Blanco",
-      "China",
+      "Blanc",
+      "Xina",
       "Paella"
     ]
   },
   {
     "palabra": "Pasta",
     "prohibidas": [
-      "Comida",
-      "Harina",
+      "Menjar",
+      "Farina",
       "Fideos",
       "Salsa",
       "Italiana"
@@ -1243,18 +1243,18 @@
     "palabra": "Queso",
     "prohibidas": [
       "Leche",
-      "Comida",
+      "Menjar",
       "Derretir",
-      "Amarillo",
+      "Groc",
       "Lácteo"
     ]
   },
   {
-    "palabra": "Pan",
+    "palabra": "Pa",
     "prohibidas": [
-      "Harina",
-      "Comida",
-      "Horno",
+      "Farina",
+      "Menjar",
+      "Forn",
       "Desayuno",
       "Tostada"
     ]
@@ -1273,9 +1273,9 @@
     "palabra": "Plátano",
     "prohibidas": [
       "Fruta",
-      "Amarillo",
+      "Groc",
       "Cáscara",
-      "Mono",
+      "Mico",
       "Dulce"
     ]
   },
@@ -1293,10 +1293,10 @@
     "palabra": "Pera",
     "prohibidas": [
       "Fruta",
-      "Verde",
+      "Verd",
       "Dulce",
       "Árbol",
-      "Agua"
+      "Aigua"
     ]
   },
   {
@@ -1305,7 +1305,7 @@
       "Fruta",
       "Verano",
       "Roja",
-      "Agua",
+      "Aigua",
       "Semillas"
     ]
   },
@@ -1314,15 +1314,15 @@
     "prohibidas": [
       "Fruta",
       "Racimo",
-      "Vino",
-      "Verde",
+      "Vi",
+      "Verd",
       "Morado"
     ]
   },
   {
     "palabra": "Tomate",
     "prohibidas": [
-      "Rojo",
+      "Vermell",
       "Verdura",
       "Planta",
       "Salsa",
@@ -1333,10 +1333,10 @@
     "palabra": "Lechuga",
     "prohibidas": [
       "Hoja",
-      "Verde",
+      "Verd",
       "Ensalada",
       "Hortaliza",
-      "Agua"
+      "Aigua"
     ]
   },
   {
@@ -1353,10 +1353,10 @@
     "palabra": "Patata",
     "prohibidas": [
       "Verdura",
-      "Tierra",
+      "Terra",
       "Fritas",
-      "Comida",
-      "Cocinar"
+      "Menjar",
+      "Cuinar"
     ]
   },
   {
@@ -1365,7 +1365,7 @@
       "Verdura",
       "Llorar",
       "Condimento",
-      "Cocinar",
+      "Cuinar",
       "Bulbo"
     ]
   },
@@ -1383,9 +1383,9 @@
     "palabra": "Pimiento",
     "prohibidas": [
       "Verdura",
-      "Rojo",
-      "Verde",
-      "Chile",
+      "Vermell",
+      "Verd",
+      "Xile",
       "Picante"
     ]
   },
@@ -1393,7 +1393,7 @@
     "palabra": "Brócoli",
     "prohibidas": [
       "Verdura",
-      "Verde",
+      "Verd",
       "Árbol",
       "Saludable",
       "Flor"
@@ -1402,7 +1402,7 @@
   {
     "palabra": "Zumo",
     "prohibidas": [
-      "Bebida",
+      "Beguda",
       "Fruta",
       "Líquido",
       "Naranja",
@@ -1412,7 +1412,7 @@
   {
     "palabra": "Leche",
     "prohibidas": [
-      "Bebida",
+      "Beguda",
       "Vaca",
       "Blanca",
       "Lácteo",
@@ -1420,9 +1420,9 @@
     ]
   },
   {
-    "palabra": "Cerveza",
+    "palabra": "Cervesa",
     "prohibidas": [
-      "Bebida",
+      "Beguda",
       "Alcohol",
       "Fría",
       "Espuma",
@@ -1430,9 +1430,9 @@
     ]
   },
   {
-    "palabra": "Vino",
+    "palabra": "Vi",
     "prohibidas": [
-      "Bebida",
+      "Beguda",
       "Uvas",
       "Alcohol",
       "Botella",
@@ -1440,9 +1440,9 @@
     ]
   },
   {
-    "palabra": "Café",
+    "palabra": "Cafè",
     "prohibidas": [
-      "Bebida",
+      "Beguda",
       "Caliente",
       "Granos",
       "Taza",
@@ -1452,7 +1452,7 @@
   {
     "palabra": "Té",
     "prohibidas": [
-      "Bebida",
+      "Beguda",
       "Caliente",
       "Hojas",
       "Taza",
@@ -1460,30 +1460,30 @@
     ]
   },
   {
-    "palabra": "Agua",
+    "palabra": "Aigua",
     "prohibidas": [
-      "Bebida",
+      "Beguda",
       "Vida",
       "Líquido",
       "Transparente",
-      "Hielo"
+      "Gel"
     ]
   },
   {
-    "palabra": "Libro",
+    "palabra": "Llibre",
     "prohibidas": [
-      "Leer",
+      "Llegir",
       "Páginas",
-      "Historia",
+      "Història",
       "Papel",
-      "Novela"
+      "Novel·la"
     ]
   },
   {
     "palabra": "Cama",
     "prohibidas": [
       "Dormir",
-      "Habitación",
+      "Habitació",
       "Colchón",
       "Sábana",
       "Descansar"
@@ -1500,7 +1500,7 @@
     ]
   },
   {
-    "palabra": "Mesa",
+    "palabra": "Taula",
     "prohibidas": [
       "Mueble",
       "Comer",
@@ -1515,7 +1515,7 @@
       "Luz",
       "Bombilla",
       "Iluminar",
-      "Habitación",
+      "Habitació",
       "Encender"
     ]
   },
@@ -1536,13 +1536,13 @@
       "Comunicar",
       "Móvil",
       "Pantalla",
-      "Número"
+      "Númer"
     ]
   },
   {
     "palabra": "Ordenador",
     "prohibidas": [
-      "Tecnología",
+      "Tecnologia",
       "Pantalla",
       "Teclado",
       "Ratón",
@@ -1560,22 +1560,22 @@
     ]
   },
   {
-    "palabra": "Coche",
+    "palabra": "Cotxe",
     "prohibidas": [
       "Vehículo",
-      "Conducir",
+      "Conduir",
       "Ruedas",
       "Motor",
       "Transporte"
     ]
   },
   {
-    "palabra": "Avión",
+    "palabra": "Avió",
     "prohibidas": [
       "Volar",
       "Ala",
       "Aeropuerto",
-      "Piloto",
+      "Pilot",
       "Pasajeros"
     ]
   },
@@ -1584,18 +1584,18 @@
     "prohibidas": [
       "Vagones",
       "Vías",
-      "Estación",
+      "Estació",
       "Viajar",
       "Máquina"
     ]
   },
   {
-    "palabra": "Barco",
+    "palabra": "Vaixell",
     "prohibidas": [
       "Navegar",
       "Mar",
-      "Agua",
-      "Embarcación",
+      "Aigua",
+      "Embarcació",
       "Viaje"
     ]
   },
@@ -1604,7 +1604,7 @@
     "prohibidas": [
       "Pedales",
       "Ruedas",
-      "Montar",
+      "Muntar",
       "Manillar",
       "Transporte"
     ]
@@ -1615,7 +1615,7 @@
       "Red Bull",
       "Cafeína",
       "Azúcar",
-      "Alas",
+      "Aletes",
       "Despertar"
     ]
   },
@@ -1633,7 +1633,7 @@
     "palabra": "Cielo",
     "prohibidas": [
       "Nubes",
-      "Azul",
+      "Blau",
       "Aire",
       "Pájaros",
       "Arriba"
@@ -1660,13 +1660,13 @@
     ]
   },
   {
-    "palabra": "Luna",
+    "palabra": "Lluna",
     "prohibidas": [
       "Noche",
       "Cielo",
       "Redonda",
       "Satélite",
-      "Tierra"
+      "Terra"
     ]
   },
   {
@@ -1683,29 +1683,29 @@
     "palabra": "Relámpago",
     "prohibidas": [
       "Trueno",
-      "Electricidad",
+      "Electricitat",
       "Tormenta",
       "Rayo",
       "Cielo"
     ]
   },
   {
-    "palabra": "Volcán",
+    "palabra": "Volcà",
     "prohibidas": [
-      "Montaña",
-      "Erupción",
+      "Muntanya",
+      "Erupció",
       "Lava",
       "Magma",
-      "Fuego"
+      "Foc"
     ]
   },
   {
     "palabra": "Glaciar",
     "prohibidas": [
-      "Hielo",
-      "Montaña",
-      "Nieve",
-      "Frío",
+      "Gel",
+      "Muntanya",
+      "Neu",
+      "Fred",
       "Polo"
     ]
   },
@@ -1724,18 +1724,18 @@
     "prohibidas": [
       "Selva",
       "Árboles",
-      "Animales",
-      "Verde",
+      "Animals",
+      "Verd",
       "Tropical"
     ]
   },
   {
     "palabra": "Cascada",
     "prohibidas": [
-      "Agua",
+      "Aigua",
       "Salto",
-      "Río",
-      "Caer",
+      "Riu",
+      "Caure",
       "Naturaleza"
     ]
   },
@@ -1746,26 +1746,26 @@
       "Arena",
       "Sol",
       "Vacaciones",
-      "Bañador"
+      "Banyador"
     ]
   },
   {
     "palabra": "Piscina",
     "prohibidas": [
-      "Agua",
+      "Aigua",
       "Nadador",
       "Bañarse",
       "Verano",
-      "Tierra"
+      "Terra"
     ]
   },
   {
-    "palabra": "Bosque",
+    "palabra": "Bosc",
     "prohibidas": [
       "Árboles",
       "Naturaleza",
       "Selva",
-      "Verde",
+      "Verd",
       "Madera"
     ]
   },
@@ -1773,10 +1773,10 @@
     "palabra": "Parque",
     "prohibidas": [
       "Árboles",
-      "Verde",
-      "Juegos",
+      "Verd",
+      "Jocs",
       "Pasear",
-      "Ciudad"
+      "Ciutat"
     ]
   },
   {
@@ -1792,37 +1792,37 @@
   {
     "palabra": "Colegio",
     "prohibidas": [
-      "Escuela",
+      "Escola",
       "Estudiar",
-      "Profesor",
-      "Alumnos",
-      "Clase"
+      "Professor",
+      "Alumnes",
+      "Classe"
     ]
   },
   {
     "palabra": "Supermercado",
     "prohibidas": [
       "Comprar",
-      "Comida",
+      "Menjar",
       "Carro",
       "Caja",
       "Tienda"
     ]
   },
   {
-    "palabra": "Teatro",
+    "palabra": "Teatre",
     "prohibidas": [
       "Obra",
       "Actor",
-      "Escenario",
+      "Escenaari",
       "Público",
-      "Representación"
+      "Representació"
     ]
   },
   {
     "palabra": "Cine",
     "prohibidas": [
-      "Películas",
+      "Pel·lícules",
       "Pantalla",
       "Popcorn",
       "Butacas",
@@ -1832,8 +1832,8 @@
   {
     "palabra": "Museo",
     "prohibidas": [
-      "Arte",
-      "Historia",
+      "Art",
+      "Història",
       "Visitar",
       "Cuadros",
       "Esculturas"
@@ -1842,8 +1842,8 @@
   {
     "palabra": "Catedral",
     "prohibidas": [
-      "Iglesia",
-      "Religión",
+      "Església",
+      "Religió",
       "Antigua",
       "Cristiana",
       "Arquitectura"
@@ -1856,14 +1856,14 @@
       "Delincuentes",
       "Rejas",
       "Celda",
-      "Policía"
+      "Policia"
     ]
   },
   {
     "palabra": "Biblioteca",
     "prohibidas": [
       "Libros",
-      "Leer",
+      "Llegir",
       "Estantería",
       "Silencio",
       "Estudiar"
@@ -1872,7 +1872,7 @@
   {
     "palabra": "Guerra",
     "prohibidas": [
-      "Lucha",
+      "Lluita",
       "Batalla",
       "Soldados",
       "Arma",
@@ -1882,7 +1882,7 @@
   {
     "palabra": "Paz",
     "prohibidas": [
-      "Tranquilidad",
+      "Tranquilitat",
       "Silencio",
       "No",
       "Guerra",
@@ -1895,24 +1895,24 @@
       "Ley",
       "Juez",
       "Tribunal",
-      "Igualdad",
+      "Igualtat",
       "Derecho"
     ]
   },
   {
-    "palabra": "Felicidad",
+    "palabra": "Felicitat",
     "prohibidas": [
       "Alegría",
       "Contento",
       "Sonrisa",
-      "Emoción",
+      "Emoció",
       "Sentimiento"
     ]
   },
   {
-    "palabra": "Tristeza",
+    "palabra": "Tristesa",
     "prohibidas": [
-      "Emoción",
+      "Emoció",
       "Llorar",
       "Infeliz",
       "Sentimiento",
@@ -1920,19 +1920,19 @@
     ]
   },
   {
-    "palabra": "Miedo",
+    "palabra": "Por",
     "prohibidas": [
       "Susto",
       "Terror",
-      "Oscuridad",
-      "Emoción",
+      "Oscuritat",
+      "Emoció",
       "Fantasma"
     ]
   },
   {
     "palabra": "Sorpresa",
     "prohibidas": [
-      "Emoción",
+      "Emoció",
       "Inesperado",
       "Asombro",
       "Regalo",
@@ -1950,10 +1950,10 @@
     ]
   },
   {
-    "palabra": "Amistad",
+    "palabra": "Amistat",
     "prohibidas": [
-      "Amigos",
-      "Relación",
+      "Amics",
+      "Relació",
       "Sentimiento",
       "Compañía",
       "Confianza"
@@ -1973,10 +1973,10 @@
     "palabra": "Trabajo",
     "prohibidas": [
       "Oficina",
-      "Dinero",
+      "Diner",
       "Labor",
       "Empleo",
-      "Ocupación"
+      "Ocupació"
     ]
   },
   {
@@ -1990,70 +1990,70 @@
     ]
   },
   {
-    "palabra": "Sueño",
+    "palabra": "Somni",
     "prohibidas": [
       "Dormir",
       "Noche",
-      "Soñar",
-      "Realidad",
-      "Deseo"
+      "Somiar",
+      "Realitat",
+      "Desig"
     ]
   },
   {
     "palabra": "Música",
     "prohibidas": [
-      "Sonido",
+      "So",
       "Cantar",
-      "Ritmo",
-      "Instrumento",
+      "Ritme",
+      "Instrument",
       "Nota"
     ]
   },
   {
     "palabra": "Pintura",
     "prohibidas": [
-      "Arte",
-      "Lienzo",
-      "Cuadro",
-      "Pincel",
+      "Art",
+      "Lenç",
+      "Quadre",
+      "Pinzell",
       "Color"
     ]
   },
   {
-    "palabra": "Poesía",
+    "palabra": "Poesia",
     "prohibidas": [
-      "Verso",
-      "Ritmo",
-      "Escribir",
+      "Vers",
+      "Ritme",
+      "Escriure",
       "Estrofa",
       "Rima"
     ]
   },
   {
-    "palabra": "Cuento",
+    "palabra": "Conte",
     "prohibidas": [
-      "Historia",
-      "Leer",
-      "Niños",
-      "Narración",
-      "Libro"
+      "Història",
+      "Llegir",
+      "Nens",
+      "Narració",
+      "Llibre"
     ]
   },
   {
-    "palabra": "Chiste",
+    "palabra": "Acudit",
     "prohibidas": [
       "Risa",
       "Humor",
       "Broma",
       "Contar",
-      "Gracioso"
+      "Graciós"
     ]
   },
   {
-    "palabra": "Pájaro",
+    "palabra": "Ocell",
     "prohibidas": [
       "Volar",
-      "Ave",
+      "Ocell",
       "Plumas",
       "Nido",
       "Cielo"
@@ -2062,29 +2062,29 @@
   {
     "palabra": "Perico",
     "prohibidas": [
-      "Pájaro",
+      "Ocell",
       "Hablar",
       "Colores",
-      "Jaula",
+      "Gàbia",
       "Plumas"
     ]
   },
   {
     "palabra": "Colibrí",
     "prohibidas": [
-      "Pájaro",
-      "Pequeño",
+      "Ocell",
+      "Petit",
       "Volar",
       "Flor",
-      "Alas"
+      "Aletes"
     ]
   },
   {
     "palabra": "Pavo real",
     "prohibidas": [
-      "Pájaro",
+      "Ocell",
       "Plumas",
-      "Cola",
+      "Cua",
       "Colores",
       "Despliega"
     ]
@@ -2092,7 +2092,7 @@
   {
     "palabra": "Búho",
     "prohibidas": [
-      "Ave",
+      "Ocell",
       "Noche",
       "Ojos",
       "Lechuza",
@@ -2102,19 +2102,19 @@
   {
     "palabra": "Paloma",
     "prohibidas": [
-      "Ave",
+      "Ocell",
       "Plumas",
-      "Ciudad",
+      "Ciutat",
       "Paz",
       "Volar"
     ]
   },
   {
-    "palabra": "León",
+    "palabra": "Lleó",
     "prohibidas": [
       "Animal",
       "Melena",
-      "Rey",
+      "Rei",
       "Selva",
       "Rugir"
     ]
@@ -2122,19 +2122,19 @@
   {
     "palabra": "Ballena",
     "prohibidas": [
-      "Mamífero",
+      "Mamífer",
       "Mar",
       "Gigante",
-      "Canto",
-      "Agua"
+      "Cant",
+      "Aigua"
     ]
   },
   {
     "palabra": "Oso polar",
     "prohibidas": [
-      "Blanco",
-      "Frío",
-      "Hielo",
+      "Blanc",
+      "Fred",
+      "Gel",
       "Ártico",
       "Animal"
     ]
@@ -2150,19 +2150,19 @@
     ]
   },
   {
-    "palabra": "Cerdo",
+    "palabra": "Porc",
     "prohibidas": [
       "Animal",
       "Granja",
       "Cochino",
-      "Carne",
+      "Carn",
       "Oinc"
     ]
   },
   {
     "palabra": "Gallo",
     "prohibidas": [
-      "Ave",
+      "Ocell",
       "Granja",
       "Cresta",
       "Canta",
@@ -2170,12 +2170,12 @@
     ]
   },
   {
-    "palabra": "Pollo",
+    "palabra": "Pollastre",
     "prohibidas": [
-      "Ave",
-      "Comida",
+      "Ocell",
+      "Menjar",
       "Granja",
-      "Carne",
+      "Carn",
       "Huevo"
     ]
   },
@@ -2185,7 +2185,7 @@
       "Animal",
       "Granja",
       "Rebuzna",
-      "Orejas",
+      "Orelles",
       "Carga"
     ]
   },
@@ -2195,7 +2195,7 @@
       "Animal",
       "Zanahoria",
       "Salta",
-      "Orejas",
+      "Orelles",
       "Lento"
     ]
   },
@@ -2205,8 +2205,8 @@
       "Animal",
       "Árbol",
       "Nueces",
-      "Cola",
-      "Bosque"
+      "Cua",
+      "Bosc"
     ]
   },
   {
@@ -2225,7 +2225,7 @@
       "Mar",
       "Transparente",
       "Tentáculos",
-      "Picadura",
+      "Picada",
       "Gelatina"
     ]
   },
@@ -2245,14 +2245,14 @@
       "Animal",
       "Granja",
       "Cochino",
-      "Carne",
+      "Carn",
       "Oinc"
     ]
   },
   {
     "palabra": "Calamar gigante",
     "prohibidas": [
-      "Océano",
+      "Oceà",
       "Molusco",
       "Tentáculos",
       "Tinta",
@@ -2262,19 +2262,19 @@
   {
     "palabra": "Buceo",
     "prohibidas": [
-      "Agua",
+      "Aigua",
       "Submarinismo",
       "Mar",
       "Tanque",
-      "Profundidad"
+      "Profunditat"
     ]
   },
   {
     "palabra": "Escalador",
     "prohibidas": [
-      "Montaña",
+      "Muntanya",
       "Cuerda",
-      "Pico",
+      "Bec",
       "Roca",
       "Altura"
     ]
@@ -2282,9 +2282,9 @@
   {
     "palabra": "Juego de mesa",
     "prohibidas": [
-      "Amigos",
+      "Amics",
       "Dados",
-      "Cartas",
+      "Cartes",
       "Familia",
       "Partida"
     ]
@@ -2302,15 +2302,15 @@
   {
     "palabra": "Sándwich",
     "prohibidas": [
-      "Pan",
-      "Comida",
+      "Pa",
+      "Menjar",
       "Jamón",
       "Queso",
       "Almuerzo"
     ]
   },
   {
-    "palabra": "Línea de producción",
+    "palabra": "Línea de producció",
     "prohibidas": [
       "Fábrica",
       "Cinta",
@@ -2322,10 +2322,10 @@
   {
     "palabra": "Escultura",
     "prohibidas": [
-      "Arte",
+      "Art",
       "Tallar",
       "Mármol",
-      "Estatua",
+      "Estàtua",
       "Forma"
     ]
   },
@@ -2334,13 +2334,13 @@
     "prohibidas": [
       "Postre",
       "Dulce",
-      "Horno",
+      "Forn",
       "Chocolate",
-      "Harina"
+      "Farina"
     ]
   },
   {
-    "palabra": "Orquesta",
+    "palabra": "Orquestra",
     "prohibidas": [
       "Música",
       "Director",
@@ -2354,17 +2354,17 @@
     "prohibidas": [
       "Reflejo",
       "Cristal",
-      "Imagen",
+      "Imatge",
       "Mirar",
-      "Habitación"
+      "Habitació"
     ]
   },
   {
     "palabra": "Pirata",
     "prohibidas": [
-      "Barco",
+      "Vaixell",
       "Tesoro",
-      "Capitán",
+      "Capità",
       "Cofre",
       "Parche"
     ]
@@ -2373,7 +2373,7 @@
     "palabra": "Fotografía",
     "prohibidas": [
       "Cámara",
-      "Imagen",
+      "Imatge",
       "Retrato",
       "Flash",
       "Foto"
@@ -2383,9 +2383,9 @@
     "palabra": "Ajolote",
     "prohibidas": [
       "Anfibio",
-      "México",
+      "Mèxic",
       "Branquias",
-      "Agua",
+      "Aigua",
       "Renacuajo"
     ]
   },
@@ -2393,18 +2393,18 @@
     "palabra": "Acuarela",
     "prohibidas": [
       "Pintura",
-      "Agua",
+      "Aigua",
       "Papel",
-      "Pincel",
+      "Pinzell",
       "Color"
     ]
   },
   {
     "palabra": "Cráter",
     "prohibidas": [
-      "Volcán",
-      "Agujero",
-      "Montaña",
+      "Volcà",
+      "Agujer",
+      "Muntanya",
       "Explosión",
       "Valle"
     ]
@@ -2412,19 +2412,19 @@
   {
     "palabra": "Templo",
     "prohibidas": [
-      "Religión",
-      "Oración",
-      "Antiguo",
-      "Dios",
+      "Religió",
+      "Oració",
+      "Antic",
+      "Déu",
       "Sacrificio"
     ]
   },
   {
-    "palabra": "Jardín",
+    "palabra": "Jardí",
     "prohibidas": [
-      "Plantas",
-      "Flores",
-      "Verde",
+      "Plantes",
+      "Flors",
+      "Verd",
       "Casa",
       "Naturaleza"
     ]
@@ -2433,9 +2433,9 @@
     "palabra": "Cometa",
     "prohibidas": [
       "Espacio",
-      "Cola",
+      "Cua",
       "Estrella",
-      "Hielo",
+      "Gel",
       "Planeta"
     ]
   },
@@ -2445,7 +2445,7 @@
       "Satélite",
       "Órbita",
       "Astronauta",
-      "Tierra",
+      "Terra",
       "Nave"
     ]
   },
@@ -2462,8 +2462,8 @@
   {
     "palabra": "Batería",
     "prohibidas": [
-      "Energía",
-      "Eléctrica",
+      "Energia",
+      "Elèctrica",
       "Recargable",
       "Pila",
       "Cargador"
@@ -2486,24 +2486,24 @@
       "Humor",
       "Infantil",
       "Cómics",
-      "Animación"
+      "Animació"
     ]
   },
   {
-    "palabra": "Océano",
+    "palabra": "Oceà",
     "prohibidas": [
       "Mar",
-      "Agua",
+      "Aigua",
       "Profundo",
       "Peces",
-      "Barco"
+      "Vaixell"
     ]
   },
   {
     "palabra": "Robot",
     "prohibidas": [
       "Máquina",
-      "Tecnología",
+      "Tecnologia",
       "Inteligencia",
       "Autómata",
       "Brazo"
@@ -2524,15 +2524,15 @@
     "prohibidas": [
       "Norte",
       "Sur",
-      "Dirección",
-      "Orientación",
+      "Direcció",
+      "Orientació",
       "Mapa"
     ]
   },
   {
     "palabra": "Pirámide",
     "prohibidas": [
-      "Egipto",
+      "Egipte",
       "Faraón",
       "Tumba",
       "Forma",
@@ -2540,19 +2540,19 @@
     ]
   },
   {
-    "palabra": "Telescopio",
+    "palabra": "Telescopi",
     "prohibidas": [
       "Observar",
-      "Estrellas",
+      "Estrelles",
       "Cielo",
-      "Planetas",
+      "Planetes",
       "Espacio"
     ]
   },
   {
     "palabra": "Huracán",
     "prohibidas": [
-      "Viento",
+      "Vent",
       "Tormenta",
       "Ciclón",
       "Desastre",
@@ -2562,7 +2562,7 @@
   {
     "palabra": "Piano",
     "prohibidas": [
-      "Instrumento",
+      "Instrument",
       "Música",
       "Teclas",
       "Melodía",
@@ -2572,9 +2572,9 @@
   {
     "palabra": "Submarino",
     "prohibidas": [
-      "Agua",
+      "Aigua",
       "Mar",
-      "Barco",
+      "Vaixell",
       "Debajo",
       "Guerra"
     ]
@@ -2582,20 +2582,20 @@
   {
     "palabra": "París",
     "prohibidas": [
-      "Francia",
+      "França",
       "Torre Eiffel",
       "Amor",
       "Capital",
-      "Ciudad"
+      "Ciutat"
     ]
   },
   {
     "palabra": "Desayuno",
     "prohibidas": [
       "Mañana",
-      "Comida",
+      "Menjar",
       "Leche",
-      "Pan",
+      "Pa",
       "Tostadas"
     ]
   },
@@ -2606,7 +2606,7 @@
       "Papel",
       "Cuchilla",
       "Filo",
-      "Manualidades"
+      "Manualitats"
     ]
   },
   {
@@ -2624,8 +2624,8 @@
     "prohibidas": [
       "Llorar",
       "Ojos",
-      "Tristeza",
-      "Agua",
+      "Tristesa",
+      "Aigua",
       "Sentimiento"
     ]
   },
@@ -2633,7 +2633,7 @@
     "palabra": "Escalera",
     "prohibidas": [
       "Subir",
-      "Bajar",
+      "Baixar",
       "Peldaños",
       "Casa",
       "Piso"
@@ -2644,7 +2644,7 @@
     "prohibidas": [
       "Aire",
       "Flotar",
-      "Fiesta",
+      "Festa",
       "Helio",
       "Inflar"
     ]
@@ -2653,9 +2653,9 @@
     "palabra": "Cráneo",
     "prohibidas": [
       "Hueso",
-      "Cabeza",
+      "Cap",
       "Esqueleto",
-      "Muerte",
+      "Mort",
       "Calavera"
     ]
   },
@@ -2663,10 +2663,10 @@
     "palabra": "Microondas",
     "prohibidas": [
       "Calentar",
-      "Horno",
+      "Forn",
       "Cocina",
-      "Plato",
-      "Comida"
+      "Plat",
+      "Menjar"
     ]
   },
   {
@@ -2675,7 +2675,7 @@
       "Cuerdas",
       "Música",
       "Acordes",
-      "Instrumento",
+      "Instrument",
       "Tocar"
     ]
   },
@@ -2683,7 +2683,7 @@
     "palabra": "Esqueleto",
     "prohibidas": [
       "Huesos",
-      "Cuerpo",
+      "Cos",
       "Anatomía",
       "Armazón",
       "Cráneo"
@@ -2704,15 +2704,15 @@
     "prohibidas": [
       "Princesa",
       "Fortaleza",
-      "Rey",
+      "Rei",
       "Muros",
       "Edad Media"
     ]
   },
   {
-    "palabra": "Sombrero",
+    "palabra": "Barret",
     "prohibidas": [
-      "Cabeza",
+      "Cap",
       "Gorra",
       "Accesorios",
       "Sol",
@@ -2732,17 +2732,17 @@
   {
     "palabra": "Diamante",
     "prohibidas": [
-      "Joya",
+      "Joia",
       "Brillante",
       "Duro",
       "Precioso",
-      "Anillo"
+      "Ring"
     ]
   },
   {
     "palabra": "Tractor",
     "prohibidas": [
-      "Campo",
+      "Camp",
       "Agricultura",
       "Granja",
       "Vehículo",
@@ -2752,9 +2752,9 @@
   {
     "palabra": "Hamburguesa",
     "prohibidas": [
-      "Carne",
-      "Pan",
-      "Comida",
+      "Carn",
+      "Pa",
+      "Menjar",
       "Queso",
       "Lechuga"
     ]
@@ -2766,25 +2766,25 @@
       "Gigante",
       "Mar",
       "Desastre",
-      "Japón"
+      "Japó"
     ]
   },
   {
     "palabra": "Zoológico",
     "prohibidas": [
-      "Animales",
+      "Animals",
       "Jaulas",
       "Visitar",
       "Zoo",
-      "León"
+      "Lleó"
     ]
   },
   {
     "palabra": "Erupción volcánica",
     "prohibidas": [
-      "Volcán",
+      "Volcà",
       "Lava",
-      "Fuego",
+      "Foc",
       "Explosión",
       "Ceniza"
     ]
@@ -2792,17 +2792,17 @@
   {
     "palabra": "Bailarín",
     "prohibidas": [
-      "Danza",
+      "Dansa",
       "Música",
-      "Escenario",
-      "Movimiento",
-      "Cuerpo"
+      "Escenaari",
+      "Moviment",
+      "Cos"
     ]
   },
   {
     "palabra": "Aspiradora",
     "prohibidas": [
-      "Polvo",
+      "Pols",
       "Limpiar",
       "Sucio",
       "Electrodoméstico",
@@ -2824,26 +2824,26 @@
     "prohibidas": [
       "Árbol",
       "Planta",
-      "Verde",
+      "Verd",
       "Otoño",
-      "Caer"
+      "Caure"
     ]
   },
   {
     "palabra": "Monstruo",
     "prohibidas": [
-      "Miedo",
+      "Por",
       "Feo",
       "Fantasía",
-      "Película",
-      "Cuento"
+      "Pel·lícula",
+      "Conte"
     ]
   },
   {
-    "palabra": "Acuario",
+    "palabra": "Acuaari",
     "prohibidas": [
       "Peces",
-      "Agua",
+      "Aigua",
       "Cristal",
       "Tanque",
       "Mar"
@@ -2853,10 +2853,10 @@
     "palabra": "Paraguas",
     "prohibidas": [
       "Lluvia",
-      "Agua",
-      "Abrir",
+      "Aigua",
+      "Obrir",
       "Cerrar",
-      "Protección"
+      "Protecció"
     ]
   },
   {
@@ -2866,14 +2866,14 @@
       "Arma",
       "Detonar",
       "Guerra",
-      "Película"
+      "Pel·lícula"
     ]
   },
   {
     "palabra": "Mago",
     "prohibidas": [
       "Magia",
-      "Sombrero",
+      "Barret",
       "Truco",
       "Ilusión",
       "Conejo"
@@ -2884,7 +2884,7 @@
     "prohibidas": [
       "Espacio",
       "Cohete",
-      "Gravedad",
+      "Gravetat",
       "Planeta",
       "Nave"
     ]
@@ -2892,11 +2892,11 @@
   {
     "palabra": "Ping-pong",
     "prohibidas": [
-      "Mesa",
-      "Pelota",
+      "Taula",
+      "Pilota",
       "Raqueta",
-      "Deporte",
-      "Juego"
+      "Esport",
+      "Joc"
     ]
   },
   {
@@ -2904,18 +2904,18 @@
     "prohibidas": [
       "Espalda",
       "Llevar",
-      "Escuela",
+      "Escola",
       "Viaje",
       "Equipaje"
     ]
   },
   {
-    "palabra": "Río",
+    "palabra": "Riu",
     "prohibidas": [
-      "Agua",
+      "Aigua",
       "Corriente",
       "Cauce",
-      "Montaña",
+      "Muntanya",
       "Nace"
     ]
   },
@@ -2924,7 +2924,7 @@
     "prohibidas": [
       "Costa",
       "Luz",
-      "Barco",
+      "Vaixell",
       "Noche",
       "Guía"
     ]
@@ -2935,7 +2935,7 @@
       "Limpiar",
       "Burbujas",
       "Bañarse",
-      "Agua",
+      "Aigua",
       "Porosa"
     ]
   },
@@ -2952,7 +2952,7 @@
   {
     "palabra": "Helado",
     "prohibidas": [
-      "Frío",
+      "Fred",
       "Verano",
       "Cucurucho",
       "Postre",
@@ -2965,7 +2965,7 @@
       "Pompa",
       "Jabón",
       "Aire",
-      "Agua",
+      "Aigua",
       "Explota"
     ]
   },
@@ -2976,21 +2976,11 @@
       "Hechicera",
       "Malvada",
       "Magia",
-      "Caldero"
+      "Calder"
     ]
   },
   {
-    "palabra": "Coliseo",
-    "prohibidas": [
-      "Roma",
-      "Antiguo",
-      "Gladiador",
-      "Anfiteatro",
-      "Emperador"
-    ]
-  },
-  {
-    "palabra": "Escorpión",
+    "palabra": "Escorpí",
     "prohibidas": [
       "Veneno",
       "Aguijón",
@@ -3005,7 +2995,7 @@
       "Playa",
       "Sol",
       "Arena",
-      "Protección",
+      "Protecció",
       "Abierta"
     ]
   },
@@ -3013,16 +3003,16 @@
     "palabra": "Espada",
     "prohibidas": [
       "Arma",
-      "Caballero",
+      "Caballer",
       "Filo",
-      "Lucha",
+      "Lluita",
       "Metal"
     ]
   },
   {
     "palabra": "Cerebro",
     "prohibidas": [
-      "Cabeza",
+      "Cap",
       "Pensar",
       "Órgano",
       "Inteligencia",
@@ -3030,7 +3020,7 @@
     ]
   },
   {
-    "palabra": "Fuego",
+    "palabra": "Foc",
     "prohibidas": [
       "Calor",
       "Quemar",
@@ -3042,10 +3032,10 @@
   {
     "palabra": "Pizza",
     "prohibidas": [
-      "Comida",
+      "Menjar",
       "Queso",
       "Masa",
-      "Horno",
+      "Forn",
       "Redonda"
     ]
   },
@@ -3053,10 +3043,10 @@
     "palabra": "Microscopio",
     "prohibidas": [
       "Ver",
-      "Pequeño",
+      "Petit",
       "Lente",
-      "Ciencia",
-      "Laboratorio"
+      "Ciència",
+      "Laboratori"
     ]
   },
   {
@@ -3073,7 +3063,7 @@
     "palabra": "Pájaros",
     "prohibidas": [
       "Volar",
-      "Alas",
+      "Aletes",
       "Nido",
       "Plumas",
       "Cantar"
@@ -3085,7 +3075,7 @@
       "Comer",
       "Pinchos",
       "Cubierto",
-      "Mesa",
+      "Taula",
       "Cocina"
     ]
   },
@@ -3094,28 +3084,28 @@
     "prohibidas": [
       "Fotografía",
       "Vídeo",
-      "Imagen",
-      "Película",
+      "Imatge",
+      "Pel·lícula",
       "Disparar"
     ]
   },
   {
-    "palabra": "Hielo",
+    "palabra": "Gel",
     "prohibidas": [
-      "Agua",
-      "Frío",
+      "Aigua",
+      "Fred",
       "Congelado",
       "Cubito",
       "Glaciar"
     ]
   },
   {
-    "palabra": "Pelota",
+    "palabra": "Pilota",
     "prohibidas": [
       "Jugar",
       "Redonda",
-      "Deporte",
-      "Balón",
+      "Esport",
+      "Pilota",
       "Patear"
     ]
   },
@@ -3123,17 +3113,17 @@
     "palabra": "Abeto",
     "prohibidas": [
       "Árbol",
-      "Navidad",
+      "Navitat",
       "Conífera",
-      "Bosque",
+      "Bosc",
       "Pino"
     ]
   },
   {
-    "palabra": "Ducha",
+    "palabra": "Dutxa",
     "prohibidas": [
       "Bañarse",
-      "Agua",
+      "Aigua",
       "Limpiar",
       "Baño",
       "Jabón"
@@ -3144,27 +3134,27 @@
     "prohibidas": [
       "Tormenta",
       "Trueno",
-      "Electricidad",
+      "Electricitat",
       "Cielo",
       "Relámpago"
     ]
   },
   {
-    "palabra": "Fútbol",
+    "palabra": "Futbol",
     "prohibidas": [
-      "Balón",
-      "Deporte",
-      "Portería",
+      "Pilota",
+      "Esport",
+      "Porteria",
       "Jugadores",
       "Cancha"
     ]
   },
   {
-    "palabra": "Juego",
+    "palabra": "Joc",
     "prohibidas": [
       "Divertirse",
       "Juguete",
-      "Niños",
+      "Nens",
       "Reglas",
       "Partida"
     ]
@@ -3180,12 +3170,12 @@
     ]
   },
   {
-    "palabra": "Helicóptero",
+    "palabra": "Helicópter",
     "prohibidas": [
       "Volar",
       "Hélice",
       "Cielo",
-      "Avión",
+      "Avió",
       "Máquina"
     ]
   },
@@ -3200,10 +3190,10 @@
     ]
   },
   {
-    "palabra": "Nieve",
+    "palabra": "Neu",
     "prohibidas": [
-      "Frío",
-      "Invierno",
+      "Fred",
+      "Hivern",
       "Blanca",
       "Cielo",
       "Copos"
@@ -3212,21 +3202,21 @@
   {
     "palabra": "Estadio",
     "prohibidas": [
-      "Deporte",
-      "Fútbol",
+      "Esport",
+      "Futbol",
       "Gradas",
       "Público",
-      "Campo"
+      "Camp"
     ]
   },
   {
-    "palabra": "Bebé",
+    "palabra": "Bebè",
     "prohibidas": [
       "Recién",
       "Nacer",
       "Pañal",
       "Llorar",
-      "Niño"
+      "Nen"
     ]
   },
   {
@@ -3234,9 +3224,9 @@
     "prohibidas": [
       "Aire",
       "Calor",
-      "Mover",
+      "Moure",
       "Ventilador",
-      "Mano"
+      "Mà"
     ]
   },
   {
@@ -3253,8 +3243,8 @@
     "palabra": "Abrigo",
     "prohibidas": [
       "Ropa",
-      "Frío",
-      "Invierno",
+      "Fred",
+      "Hivern",
       "Poner",
       "Chaqueta"
     ]
@@ -3262,38 +3252,38 @@
   {
     "palabra": "Actor",
     "prohibidas": [
-      "Película",
-      "Teatro",
+      "Pel·lícula",
+      "Teatre",
       "Interpretar",
       "Personaje",
-      "Escenario"
+      "Escenaari"
     ]
   },
   {
     "palabra": "Ajedrez",
     "prohibidas": [
-      "Juego",
-      "Tablero",
-      "Piezas",
-      "Rey",
+      "Joc",
+      "Tauler",
+      "Peces",
+      "Rei",
       "Estrategia"
     ]
   },
   {
     "palabra": "Albañil",
     "prohibidas": [
-      "Construcción",
+      "Construcció",
       "Ladrillo",
       "Cemento",
       "Trabajo",
-      "Edificio"
+      "Edifici"
     ]
   },
   {
     "palabra": "Alegría",
     "prohibidas": [
-      "Felicidad",
-      "Emoción",
+      "Felicitat",
+      "Emoció",
       "Contento",
       "Sonrisa",
       "Sentimiento"
@@ -3304,7 +3294,7 @@
     "prohibidas": [
       "Suelo",
       "Limpiar",
-      "Decoración",
+      "Decoració",
       "Tapete",
       "Casa"
     ]
@@ -3320,42 +3310,42 @@
     ]
   },
   {
-    "palabra": "Anillo",
+    "palabra": "Ring",
     "prohibidas": [
       "Dedo",
-      "Joya",
+      "Joia",
       "Boda",
       "Circular",
       "Metal"
     ]
   },
   {
-    "palabra": "Antártida",
+    "palabra": "Antàrtida",
     "prohibidas": [
       "Polo",
-      "Frío",
-      "Hielo",
+      "Fred",
+      "Gel",
       "Continente",
-      "Océano"
+      "Oceà"
     ]
   },
   {
-    "palabra": "Armario",
+    "palabra": "Armaari",
     "prohibidas": [
       "Ropa",
       "Guardar",
       "Puertas",
       "Madera",
-      "Habitación"
+      "Habitació"
     ]
   },
   {
     "palabra": "Atletismo",
     "prohibidas": [
-      "Deporte",
+      "Esport",
       "Correr",
       "Saltar",
-      "Lanzar",
+      "Llançar",
       "Pista"
     ]
   },
@@ -3364,7 +3354,7 @@
     "prohibidas": [
       "Oído",
       "Música",
-      "Sonido",
+      "So",
       "Cable",
       "Escuchar"
     ]
@@ -3382,11 +3372,11 @@
   {
     "palabra": "Baloncesto",
     "prohibidas": [
-      "Balón",
+      "Pilota",
       "Canasta",
-      "Deporte",
+      "Esport",
       "Botar",
-      "Equipo"
+      "Equip"
     ]
   },
   {
@@ -3394,15 +3384,15 @@
     "prohibidas": [
       "Planta",
       "Panda",
-      "China",
+      "Xina",
       "Caña",
-      "Bosque"
+      "Bosc"
     ]
   },
   {
     "palabra": "Banco",
     "prohibidas": [
-      "Dinero",
+      "Diner",
       "Asiento",
       "Sentarse",
       "Parque",
@@ -3410,12 +3400,12 @@
     ]
   },
   {
-    "palabra": "Bebida",
+    "palabra": "Beguda",
     "prohibidas": [
       "Beber",
       "Líquido",
       "Vaso",
-      "Agua",
+      "Aigua",
       "Tragar"
     ]
   },
@@ -3432,11 +3422,11 @@
   {
     "palabra": "Biología",
     "prohibidas": [
-      "Ciencia",
+      "Ciència",
       "Vida",
       "Estudiar",
-      "Plantas",
-      "Animales"
+      "Plantes",
+      "Animals"
     ]
   },
   {
@@ -3452,8 +3442,8 @@
   {
     "palabra": "Bocadillo",
     "prohibidas": [
-      "Pan",
-      "Comida",
+      "Pa",
+      "Menjar",
       "Jamón",
       "Queso",
       "Almuerzo"
@@ -3464,9 +3454,9 @@
     "prohibidas": [
       "Matrimonio",
       "Novios",
-      "Anillo",
-      "Ceremonia",
-      "Fiesta"
+      "Ring",
+      "Cerimònia",
+      "Festa"
     ]
   },
   {
@@ -3476,13 +3466,13 @@
       "Llevar",
       "Cinturón",
       "Cartera",
-      "Mano"
+      "Mà"
     ]
   },
   {
     "palabra": "Bolígrafo",
     "prohibidas": [
-      "Escribir",
+      "Escriure",
       "Tinta",
       "Papel",
       "Pluma",
@@ -3490,19 +3480,19 @@
     ]
   },
   {
-    "palabra": "Bombero",
+    "palabra": "Bomber",
     "prohibidas": [
-      "Fuego",
+      "Foc",
       "Apagar",
       "Manguera",
-      "Ayuda",
+      "Ajuda",
       "Emergencia"
     ]
   },
   {
     "palabra": "Buzo",
     "prohibidas": [
-      "Agua",
+      "Aigua",
       "Mar",
       "Debajo",
       "Traje",
@@ -3510,19 +3500,19 @@
     ]
   },
   {
-    "palabra": "Cabeza",
+    "palabra": "Cap",
     "prohibidas": [
-      "Cuerpo",
+      "Cos",
       "Cara",
       "Cerebro",
-      "Pelo",
+      "Pèl",
       "Parte"
     ]
   },
   {
     "palabra": "Cable",
     "prohibidas": [
-      "Electricidad",
+      "Electricitat",
       "Conectar",
       "Alambre",
       "Enchufe",
@@ -3534,17 +3524,17 @@
     "prohibidas": [
       "Planta",
       "Desierto",
-      "Espinas",
-      "Agua",
+      "Espines",
+      "Aigua",
       "Flor"
     ]
   },
   {
     "palabra": "Caimán",
     "prohibidas": [
-      "Reptil",
-      "Cocodrilo",
-      "Agua",
+      "Rèptil",
+      "Cocodril",
+      "Aigua",
       "Mandíbula",
       "Pantano"
     ]
@@ -3552,7 +3542,7 @@
   {
     "palabra": "Camión",
     "prohibidas": [
-      "Grande",
+      "Gran",
       "Vehículo",
       "Mercancía",
       "Carga",
@@ -3563,14 +3553,14 @@
     "palabra": "Candado",
     "prohibidas": [
       "Cerrar",
-      "Seguridad",
+      "Seguritat",
       "Llave",
       "Metal",
-      "Puerta"
+      "Porta"
     ]
   },
   {
-    "palabra": "Carpintero",
+    "palabra": "Carpinter",
     "prohibidas": [
       "Madera",
       "Clavo",
@@ -3580,7 +3570,7 @@
     ]
   },
   {
-    "palabra": "Cartero",
+    "palabra": "Carter",
     "prohibidas": [
       "Correo",
       "Carta",
@@ -3600,19 +3590,19 @@
     ]
   },
   {
-    "palabra": "Ciencia",
+    "palabra": "Ciència",
     "prohibidas": [
       "Estudiar",
-      "Experimento",
-      "Investigación",
+      "Experiment",
+      "Investigació",
       "Física",
-      "Laboratorio"
+      "Laboratori"
     ]
   },
   {
     "palabra": "Cocina",
     "prohibidas": [
-      "Comida",
+      "Menjar",
       "Hogar",
       "Preparar",
       "Olla",
@@ -3630,12 +3620,12 @@
     ]
   },
   {
-    "palabra": "Cuadro",
+    "palabra": "Quadre",
     "prohibidas": [
       "Pintura",
       "Marco",
-      "Lienzo",
-      "Arte",
+      "Lenç",
+      "Art",
       "Pared"
     ]
   },
@@ -3652,29 +3642,29 @@
   {
     "palabra": "Cueva",
     "prohibidas": [
-      "Agujero",
-      "Oscuridad",
+      "Agujer",
+      "Oscuritat",
       "Murciélagos",
-      "Montaña",
-      "Piedra"
+      "Muntanya",
+      "Pedra"
     ]
   },
   {
     "palabra": "Cumpleaños",
     "prohibidas": [
-      "Fiesta",
+      "Festa",
       "Tarta",
       "Velas",
       "Regalo",
-      "Celebración"
+      "Celebració"
     ]
   },
   {
     "palabra": "Dados",
     "prohibidas": [
-      "Juego",
-      "Lanzar",
-      "Puntos",
+      "Joc",
+      "Llançar",
+      "Punts",
       "Seis",
       "Cubos"
     ]
@@ -3690,7 +3680,7 @@
     ]
   },
   {
-    "palabra": "Dinero",
+    "palabra": "Diner",
     "prohibidas": [
       "Moneda",
       "Billete",
@@ -3703,10 +3693,10 @@
     "palabra": "Doctor",
     "prohibidas": [
       "Hospital",
-      "Enfermedad",
+      "Enfermetat",
       "Curar",
       "Medicina",
-      "Enfermero"
+      "Enfermer"
     ]
   },
   {
@@ -3714,8 +3704,8 @@
     "prohibidas": [
       "Criatura",
       "Fantasía",
-      "Alas",
-      "Fuego",
+      "Aletes",
+      "Foc",
       "Mito"
     ]
   },
@@ -3724,15 +3714,15 @@
     "prohibidas": [
       "Criatura",
       "Mito",
-      "Pequeño",
-      "Bosque",
-      "Sombrero"
+      "Petit",
+      "Bosc",
+      "Barret"
     ]
   },
   {
     "palabra": "Electricista",
     "prohibidas": [
-      "Electricidad",
+      "Electricitat",
       "Cable",
       "Reparar",
       "Luz",
@@ -3746,17 +3736,17 @@
       "Barre",
       "Piso",
       "Bruja",
-      "Polvo"
+      "Pols"
     ]
   },
   {
-    "palabra": "Escuela",
+    "palabra": "Escola",
     "prohibidas": [
       "Estudiar",
-      "Clase",
-      "Profesor",
+      "Classe",
+      "Professor",
       "Libros",
-      "Alumnos"
+      "Alumnes"
     ]
   },
   {
@@ -3765,15 +3755,15 @@
       "Secreto",
       "Agente",
       "Misión",
-      "Información",
-      "Disfraces"
+      "Informació",
+      "Disfresses"
     ]
   },
   {
     "palabra": "Fantasma",
     "prohibidas": [
       "Espíritu",
-      "Miedo",
+      "Por",
       "Casa",
       "Sábana",
       "Aparece"
@@ -3784,15 +3774,15 @@
     "prohibidas": [
       "Planta",
       "Pétalos",
-      "Jardín",
+      "Jardí",
       "Perfume",
       "Color"
     ]
   },
   {
-    "palabra": "Fontanero",
+    "palabra": "Fontaner",
     "prohibidas": [
-      "Agua",
+      "Aigua",
       "Tuberías",
       "Grifo",
       "Reparar",
@@ -3822,18 +3812,18 @@
   {
     "palabra": "Galaxia",
     "prohibidas": [
-      "Estrellas",
+      "Estrelles",
       "Universo",
       "Espacio",
       "Vía Láctea",
-      "Planetas"
+      "Planetes"
     ]
   },
   {
-    "palabra": "Iglesia",
+    "palabra": "Església",
     "prohibidas": [
-      "Religión",
-      "Dios",
+      "Religió",
+      "Déu",
       "Misa",
       "Creyentes",
       "Orar"
@@ -3842,11 +3832,11 @@
   {
     "palabra": "Iglú",
     "prohibidas": [
-      "Hielo",
+      "Gel",
       "Casa",
       "Esquimales",
-      "Frío",
-      "Nieve"
+      "Fred",
+      "Neu"
     ]
   },
   {
@@ -3856,7 +3846,7 @@
       "Tinta",
       "Máquina",
       "Texto",
-      "Dibujo"
+      "Dibuix"
     ]
   },
   {
@@ -3864,19 +3854,19 @@
     "prohibidas": [
       "Baño",
       "Retrete",
-      "Sanitario",
-      "Agua",
+      "Sanitaari",
+      "Aigua",
       "Excremento"
     ]
   },
   {
-    "palabra": "Invierno",
+    "palabra": "Hivern",
     "prohibidas": [
-      "Frío",
-      "Estación",
-      "Nieve",
+      "Fred",
+      "Estació",
+      "Neu",
       "Diciembre",
-      "Enero"
+      "Ener"
     ]
   },
   {
@@ -3893,26 +3883,26 @@
     "palabra": "Ladrón",
     "prohibidas": [
       "Robar",
-      "Dinero",
+      "Diner",
       "Cárcel",
-      "Policía",
+      "Policia",
       "Delito"
     ]
   },
   {
     "palabra": "Lagartija",
     "prohibidas": [
-      "Reptil",
+      "Rèptil",
       "Pared",
-      "Pequeño",
+      "Petit",
       "Sol",
-      "Cola"
+      "Cua"
     ]
   },
   {
     "palabra": "Lápiz",
     "prohibidas": [
-      "Escribir",
+      "Escriure",
       "Papel",
       "Madera",
       "Mina",
@@ -3920,7 +3910,7 @@
     ]
   },
   {
-    "palabra": "Mano",
+    "palabra": "Mà",
     "prohibidas": [
       "Brazo",
       "Dedos",
@@ -3933,7 +3923,7 @@
     "palabra": "Martillo",
     "prohibidas": [
       "Clavo",
-      "Golpear",
+      "Colpejar",
       "Madera",
       "Herramienta",
       "Metal"
@@ -3942,7 +3932,7 @@
   {
     "palabra": "Micrófono",
     "prohibidas": [
-      "Sonido",
+      "So",
       "Hablar",
       "Cantar",
       "Voz",
@@ -3950,13 +3940,13 @@
     ]
   },
   {
-    "palabra": "Montaña",
+    "palabra": "Muntanya",
     "prohibidas": [
-      "Pico",
+      "Bec",
       "Subir",
       "Senderismo",
       "Naturaleza",
-      "Tierra"
+      "Terra"
     ]
   },
   {
@@ -3966,7 +3956,7 @@
       "Vehículo",
       "Dos",
       "Ruedas",
-      "Velocidad"
+      "Velocitat"
     ]
   },
   {
@@ -3980,7 +3970,7 @@
     ]
   },
   {
-    "palabra": "Navidad",
+    "palabra": "Navitat",
     "prohibidas": [
       "Diciembre",
       "Regalos",
@@ -3992,10 +3982,10 @@
   {
     "palabra": "Ninja",
     "prohibidas": [
-      "Guerrero",
-      "Japón",
+      "Guerrer",
+      "Japó",
       "Sigilo",
-      "Oscuridad",
+      "Oscuritat",
       "Cuchillos"
     ]
   },
@@ -4003,7 +3993,7 @@
     "palabra": "Novia",
     "prohibidas": [
       "Pareja",
-      "Mujer",
+      "Dona",
       "Boda",
       "Compromiso",
       "Novio"
@@ -4023,7 +4013,7 @@
     "palabra": "Olla",
     "prohibidas": [
       "Cocina",
-      "Comida",
+      "Menjar",
       "Caliente",
       "Cocer",
       "Metal"
@@ -4036,23 +4026,23 @@
       "Escuchar",
       "Cara",
       "Parte",
-      "Sonido"
+      "So"
     ]
   },
   {
     "palabra": "Pantera",
     "prohibidas": [
-      "Felino",
-      "Negro",
+      "Felí",
+      "Negre",
       "Animal",
       "Selva",
       "Jaguar"
     ]
   },
   {
-    "palabra": "Peluquero",
+    "palabra": "Peluquer",
     "prohibidas": [
-      "Pelo",
+      "Pèl",
       "Cortar",
       "Tijeras",
       "Salón",
@@ -4062,39 +4052,39 @@
   {
     "palabra": "Pescador",
     "prohibidas": [
-      "Pez",
+      "Peix",
       "Mar",
       "Caña",
       "Red",
-      "Agua"
+      "Aigua"
     ]
   },
   {
     "palabra": "Piel",
     "prohibidas": [
-      "Cuerpo",
+      "Cos",
       "Tacto",
       "Órgano",
       "Suave",
-      "Protección"
+      "Protecció"
     ]
   },
   {
     "palabra": "Pintor",
     "prohibidas": [
       "Pintar",
-      "Lienzo",
-      "Cuadro",
+      "Lenç",
+      "Quadre",
       "Artista",
-      "Pincel"
+      "Pinzell"
     ]
   },
   {
     "palabra": "Pluma",
     "prohibidas": [
-      "Pájaro",
-      "Escribir",
-      "Ligero",
+      "Ocell",
+      "Escriure",
+      "Liger",
       "Bolígrafo",
       "Volar"
     ]
@@ -4102,15 +4092,15 @@
   {
     "palabra": "Poeta",
     "prohibidas": [
-      "Poesía",
-      "Verso",
-      "Escribir",
+      "Poesia",
+      "Vers",
+      "Escriure",
       "Autor",
       "Sentimiento"
     ]
   },
   {
-    "palabra": "Policía",
+    "palabra": "Policia",
     "prohibidas": [
       "Ley",
       "Orden",
@@ -4122,27 +4112,27 @@
   {
     "palabra": "Princesa",
     "prohibidas": [
-      "Príncipe",
+      "Príncep",
       "Reina",
       "Castillo",
-      "Cuento",
+      "Conte",
       "Corona"
     ]
   },
   {
-    "palabra": "Profesor",
+    "palabra": "Professor",
     "prohibidas": [
-      "Clase",
-      "Enseñar",
-      "Alumnos",
-      "Escuela",
-      "Maestro"
+      "Classe",
+      "Ensenyar",
+      "Alumnes",
+      "Escola",
+      "Mestre"
     ]
   },
   {
     "palabra": "Puente",
     "prohibidas": [
-      "Río",
+      "Riu",
       "Pasar",
       "Vehículos",
       "Estructura",
@@ -4154,25 +4144,25 @@
     "prohibidas": [
       "Música",
       "Emisora",
-      "Sonido",
+      "So",
       "Antena",
       "Escuchar"
     ]
   },
   {
-    "palabra": "Rey",
+    "palabra": "Rei",
     "prohibidas": [
       "Monarca",
       "Reina",
       "Corona",
       "Castillo",
-      "Gobierno"
+      "Govern"
     ]
   },
   {
-    "palabra": "Rueda",
+    "palabra": "Roda",
     "prohibidas": [
-      "Coche",
+      "Cotxe",
       "Circular",
       "Girar",
       "Metal",
@@ -4182,8 +4172,8 @@
   {
     "palabra": "Sangre",
     "prohibidas": [
-      "Cuerpo",
-      "Rojo",
+      "Cos",
+      "Vermell",
       "Herida",
       "Veneno",
       "Corazón"
@@ -4192,15 +4182,15 @@
   {
     "palabra": "Tenis",
     "prohibidas": [
-      "Deporte",
+      "Esport",
       "Raqueta",
-      "Pelota",
+      "Pilota",
       "Cancha",
       "Jugar"
     ]
   },
   {
-    "palabra": "Tierra",
+    "palabra": "Terra",
     "prohibidas": [
       "Planeta",
       "Mundo",
@@ -4212,9 +4202,9 @@
   {
     "palabra": "Trompeta",
     "prohibidas": [
-      "Instrumento",
+      "Instrument",
       "Música",
-      "Viento",
+      "Vent",
       "Latón",
       "Boca"
     ]
@@ -4222,7 +4212,7 @@
   {
     "palabra": "Trueno",
     "prohibidas": [
-      "Sonido",
+      "So",
       "Relámpago",
       "Tormenta",
       "Ruido",
@@ -4233,7 +4223,7 @@
     "palabra": "Unicornio",
     "prohibidas": [
       "Cuerno",
-      "Caballo",
+      "Cavall",
       "Mágico",
       "Fantasía",
       "Mito"
@@ -4243,7 +4233,7 @@
     "palabra": "Vaso",
     "prohibidas": [
       "Beber",
-      "Agua",
+      "Aigua",
       "Cristal",
       "Líquido",
       "Recipiente"
@@ -4254,15 +4244,15 @@
     "prohibidas": [
       "Casa",
       "Cristal",
-      "Abrir",
+      "Obrir",
       "Cerrar",
       "Ver"
     ]
   },
   {
-    "palabra": "Veterinario",
+    "palabra": "Veterinaari",
     "prohibidas": [
-      "Animales",
+      "Animals",
       "Doctor",
       "Curar",
       "Clínica",
@@ -4292,7 +4282,7 @@
   {
     "palabra": "Zoo",
     "prohibidas": [
-      "Animales",
+      "Animals",
       "Jaulas",
       "Visitar",
       "Zoológico",
@@ -4304,9 +4294,9 @@
     "prohibidas": [
       "Ala",
       "Cielo",
-      "Dios",
+      "Déu",
       "Espíritu",
-      "Blanco"
+      "Blanc"
     ]
   },
   {
@@ -4315,35 +4305,35 @@
       "Tronco",
       "Hojas",
       "Madera",
-      "Bosque",
+      "Bosc",
       "Planta"
     ]
   },
   {
     "palabra": "Ópera",
     "prohibidas": [
-      "Teatro",
+      "Teatre",
       "Música",
       "Cantar",
-      "Escenario",
+      "Escenaari",
       "Obra"
     ]
   },
   {
-    "palabra": "Película",
+    "palabra": "Pel·lícula",
     "prohibidas": [
       "Cine",
       "Actores",
       "Director",
       "Palomitas",
-      "Historia"
+      "Història"
     ]
   },
   {
-    "palabra": "Puerta",
+    "palabra": "Porta",
     "prohibidas": [
       "Casa",
-      "Abrir",
+      "Obrir",
       "Cerrar",
       "Entrada",
       "Madera"
@@ -4356,25 +4346,25 @@
       "Plástico",
       "Tapón",
       "Beber",
-      "Agua"
+      "Aigua"
     ]
   },
   {
     "palabra": "Escritor",
     "prohibidas": [
-      "Libro",
-      "Escribir",
+      "Llibre",
+      "Escriure",
       "Autor",
-      "Historia",
-      "Novela"
+      "Història",
+      "Novel·la"
     ]
   },
   {
     "palabra": "Cataratas",
     "prohibidas": [
-      "Agua",
+      "Aigua",
       "Salto",
-      "Río",
+      "Riu",
       "Cascada",
       "Naturaleza"
     ]
@@ -4394,7 +4384,7 @@
     "prohibidas": [
       "Animal",
       "Ordenador",
-      "Pequeño",
+      "Petit",
       "Queso",
       "Roedor"
     ]
@@ -4403,20 +4393,20 @@
     "palabra": "Periódico",
     "prohibidas": [
       "Noticias",
-      "Leer",
-      "Diario",
+      "Llegir",
+      "Diaari",
       "Prensa",
       "Papel"
     ]
   },
   {
-    "palabra": "Balón",
+    "palabra": "Pilota",
     "prohibidas": [
-      "Pelota",
-      "Fútbol",
+      "Pilota",
+      "Futbol",
       "Jugar",
       "Redondo",
-      "Deporte"
+      "Esport"
     ]
   },
   {
@@ -4424,7 +4414,7 @@
     "prohibidas": [
       "Fruta",
       "Ácido",
-      "Amarillo",
+      "Groc",
       "Cítrico",
       "Zumo"
     ]
@@ -4435,7 +4425,7 @@
       "Dulce",
       "Abeja",
       "Panal",
-      "Amarillo",
+      "Groc",
       "Líquido"
     ]
   },
@@ -4454,9 +4444,9 @@
     "prohibidas": [
       "Mar",
       "Mito",
-      "Pez",
-      "Cola",
-      "Canto"
+      "Peix",
+      "Cua",
+      "Cant"
     ]
   },
   {
@@ -4472,8 +4462,8 @@
   {
     "palabra": "Granja",
     "prohibidas": [
-      "Animales",
-      "Campo",
+      "Animals",
+      "Camp",
       "Agricultura",
       "Tractor",
       "Corral"
@@ -4485,7 +4475,7 @@
       "País",
       "Sushi",
       "Idioma",
-      "Asia",
+      "Àsia",
       "Gente"
     ]
   },
@@ -4493,7 +4483,7 @@
     "palabra": "Kanguro",
     "prohibidas": [
       "Animal",
-      "Australia",
+      "Austràlia",
       "Saltar",
       "Bolsa",
       "Marsupial"
@@ -4506,25 +4496,25 @@
       "Cohete",
       "Astronauta",
       "Viaje",
-      "Lanzar"
+      "Llançar"
     ]
   },
   {
     "palabra": "Obelisco",
     "prohibidas": [
       "Monumento",
-      "Egipto",
+      "Egipte",
       "Alto",
-      "Piedra",
+      "Pedra",
       "Agujas"
     ]
   },
   {
     "palabra": "Xilófono",
     "prohibidas": [
-      "Instrumento",
+      "Instrument",
       "Música",
-      "Golpear",
+      "Colpejar",
       "Láminas",
       "Percusión"
     ]
@@ -4545,7 +4535,7 @@
       "Fruta",
       "Roja",
       "Árbol",
-      "Pequeña",
+      "Petita",
       "Postre"
     ]
   },
@@ -4562,8 +4552,8 @@
   {
     "palabra": "Jinete",
     "prohibidas": [
-      "Caballo",
-      "Montar",
+      "Cavall",
+      "Muntar",
       "Cabalgar",
       "Silla",
       "Correr"
@@ -4573,9 +4563,9 @@
     "palabra": "Neptuno",
     "prohibidas": [
       "Planeta",
-      "Dios",
+      "Déu",
       "Espacio",
-      "Azul",
+      "Blau",
       "Universo"
     ]
   },
@@ -4585,8 +4575,8 @@
       "Hospital",
       "Cirugía",
       "Médico",
-      "Operación",
-      "Mesa"
+      "Operació",
+      "Taula"
     ]
   },
   {
@@ -4594,15 +4584,15 @@
     "prohibidas": [
       "Fruta",
       "Racimo",
-      "Vino",
+      "Vi",
       "Morado",
-      "Verde"
+      "Verd"
     ]
   },
   {
     "palabra": "Violín",
     "prohibidas": [
-      "Instrumento",
+      "Instrument",
       "Cuerdas",
       "Arco",
       "Música",
@@ -4612,29 +4602,29 @@
   {
     "palabra": "Yoga",
     "prohibidas": [
-      "Ejercicio",
+      "Exercici",
       "Postura",
-      "Respiración",
+      "Respiració",
       "Mente",
-      "Relajación"
+      "Relajació"
     ]
   },
   {
     "palabra": "Dardo",
     "prohibidas": [
-      "Juego",
+      "Joc",
       "Punta",
       "Diana",
-      "Lanzar",
+      "Llançar",
       "Puntería"
     ]
   },
   {
     "palabra": "Flamenco",
     "prohibidas": [
-      "Baile",
+      "Ball",
       "Guitarra",
-      "España",
+      "Espanya",
       "Música",
       "Traje"
     ]
@@ -4653,20 +4643,20 @@
     "palabra": "Hongo",
     "prohibidas": [
       "Seta",
-      "Bosque",
+      "Bosc",
       "Comer",
       "Planta",
-      "Tierra"
+      "Terra"
     ]
   },
   {
     "palabra": "Kayak",
     "prohibidas": [
-      "Barco",
+      "Vaixell",
       "Remar",
-      "Agua",
-      "Río",
-      "Deporte"
+      "Aigua",
+      "Riu",
+      "Esport"
     ]
   },
   {
@@ -4674,17 +4664,17 @@
     "prohibidas": [
       "Luz",
       "Rayo",
-      "Ciencia",
+      "Ciència",
       "Proyectar",
-      "Rojo"
+      "Vermell"
     ]
   },
   {
     "palabra": "Químico",
     "prohibidas": [
-      "Ciencia",
-      "Laboratorio",
-      "Experimento",
+      "Ciència",
+      "Laboratori",
+      "Experiment",
       "Átomos",
       "Fórmula"
     ]
@@ -4694,7 +4684,7 @@
     "prohibidas": [
       "Árbol",
       "Madera",
-      "Bosque",
+      "Bosc",
       "Hoja",
       "Fuerte"
     ]
@@ -4705,7 +4695,7 @@
       "Andar",
       "Moverse",
       "Persona",
-      "Discapacidad",
+      "Discapacitat",
       "Hospital"
     ]
   },
@@ -4714,25 +4704,25 @@
     "prohibidas": [
       "Espacio",
       "Galaxia",
-      "Planetas",
-      "Estrellas",
+      "Planetes",
+      "Estrelles",
       "Todo"
     ]
   },
   {
     "palabra": "Vela",
     "prohibidas": [
-      "Barco",
+      "Vaixell",
       "Mar",
-      "Viento",
+      "Vent",
       "Navegar",
-      "Embarcación"
+      "Embarcació"
     ]
   },
   {
     "palabra": "Whisky",
     "prohibidas": [
-      "Bebida",
+      "Beguda",
       "Alcohol",
       "Escocés",
       "Cristal",
@@ -4742,21 +4732,21 @@
   {
     "palabra": "Yate",
     "prohibidas": [
-      "Barco",
+      "Vaixell",
       "Lujo",
       "Mar",
       "Navegar",
-      "Embarcación"
+      "Embarcació"
     ]
   },
   {
     "palabra": "Amazonas",
     "prohibidas": [
-      "Río",
+      "Riu",
       "Selva",
       "Brasil",
-      "Agua",
-      "Verde"
+      "Aigua",
+      "Verd"
     ]
   },
   {
@@ -4764,17 +4754,17 @@
     "prohibidas": [
       "Animal",
       "Mar",
-      "Frío",
+      "Fred",
       "Ártico",
-      "Nieve"
+      "Neu"
     ]
   },
   {
-    "palabra": "Globos",
+    "palabra": "Globus",
     "prohibidas": [
       "Aire",
       "Flotar",
-      "Fiesta",
+      "Festa",
       "Colores",
       "Hinchado"
     ]
@@ -4782,7 +4772,7 @@
   {
     "palabra": "Halcón",
     "prohibidas": [
-      "Pájaro",
+      "Ocell",
       "Cazar",
       "Volar",
       "Rapaz",
@@ -4802,8 +4792,8 @@
   {
     "palabra": "Nevera",
     "prohibidas": [
-      "Frío",
-      "Comida",
+      "Fred",
+      "Menjar",
       "Guardar",
       "Congelar",
       "Cocina"
@@ -4813,7 +4803,7 @@
     "palabra": "Teleférico",
     "prohibidas": [
       "Cuerda",
-      "Montaña",
+      "Muntanya",
       "Transporte",
       "Cabina",
       "Altura"
@@ -4833,7 +4823,7 @@
     "palabra": "Bombilla",
     "prohibidas": [
       "Luz",
-      "Eléctrica",
+      "Elèctrica",
       "Cristal",
       "Encender",
       "Iluminar"
@@ -4853,19 +4843,19 @@
     "palabra": "Kiwi",
     "prohibidas": [
       "Fruta",
-      "Verde",
+      "Verd",
       "Ácido",
       "Peluda",
-      "Nueva Zelanda"
+      "Nova Zelanda"
     ]
   },
   {
     "palabra": "Reno",
     "prohibidas": [
-      "Navidad",
+      "Navitat",
       "Trineo",
       "Santa Claus",
-      "Nieve",
+      "Neu",
       "Animal"
     ]
   },
@@ -4873,7 +4863,7 @@
     "palabra": "Ventilador",
     "prohibidas": [
       "Aire",
-      "Mover",
+      "Moure",
       "Calor",
       "Asiento",
       "Enchufe"
@@ -4884,9 +4874,9 @@
     "prohibidas": [
       "Capital",
       "EEUU",
-      "Presidente",
+      "President",
       "Blanca",
-      "Ciudad"
+      "Ciutat"
     ]
   },
   {
@@ -4916,15 +4906,15 @@
       "Sopa",
       "Delgado",
       "Italiana",
-      "Comida"
+      "Menjar"
     ]
   },
   {
     "palabra": "Química",
     "prohibidas": [
-      "Ciencia",
-      "Laboratorio",
-      "Experimento",
+      "Ciència",
+      "Laboratori",
+      "Experiment",
       "Átomos",
       "Elementos"
     ]
@@ -4932,19 +4922,19 @@
   {
     "palabra": "Sardina",
     "prohibidas": [
-      "Pez",
+      "Peix",
       "Mar",
       "Plata",
-      "Comida",
+      "Menjar",
       "Lata"
     ]
   },
   {
-    "palabra": "Viento",
+    "palabra": "Vent",
     "prohibidas": [
-      "Soplar",
+      "Bufar",
       "Aire",
-      "Movimiento",
+      "Moviment",
       "Fuerte",
       "Silbar"
     ]
@@ -4952,18 +4942,18 @@
   {
     "palabra": "Waterpolo",
     "prohibidas": [
-      "Deporte",
+      "Esport",
       "Piscina",
-      "Pelota",
-      "Nadar",
-      "Portería"
+      "Pilota",
+      "Nedar",
+      "Porteria"
     ]
   },
   {
     "palabra": "Zapatilla",
     "prohibidas": [
       "Calzado",
-      "Deporte",
+      "Esport",
       "Pie",
       "Correr",
       "Entrenar"
@@ -4972,7 +4962,7 @@
   {
     "palabra": "Hélice",
     "prohibidas": [
-      "Avión",
+      "Avió",
       "Girar",
       "Motor",
       "Aire",
@@ -4983,16 +4973,16 @@
     "palabra": "Joyas",
     "prohibidas": [
       "Collar",
-      "Anillo",
-      "Oro",
+      "Ring",
+      "Or",
       "Plata",
       "Valioso"
     ]
   },
   {
-    "palabra": "Nadar",
+    "palabra": "Nedar",
     "prohibidas": [
-      "Agua",
+      "Aigua",
       "Piscina",
       "Mar",
       "Moverse",
@@ -5016,14 +5006,14 @@
       "Risa",
       "Nariz",
       "Maquillaje",
-      "Gracioso"
+      "Graciós"
     ]
   },
   {
     "palabra": "Uña",
     "prohibidas": [
       "Dedo",
-      "Mano",
+      "Mà",
       "Manicura",
       "Crecer",
       "Cortar"
@@ -5033,9 +5023,9 @@
     "palabra": "Wendy",
     "prohibidas": [
       "Peter Pan",
-      "Niña",
+      "Nena",
       "Neverland",
-      "Cuento",
+      "Conte",
       "Disney"
     ]
   },
@@ -5043,17 +5033,17 @@
     "palabra": "Donut",
     "prohibidas": [
       "Dulce",
-      "Comida",
+      "Menjar",
       "Rosquilla",
-      "Agujero",
+      "Agujer",
       "Glaseado"
     ]
   },
   {
     "palabra": "Jamón",
     "prohibidas": [
-      "Cerdo",
-      "Comida",
+      "Porc",
+      "Menjar",
       "Cortar",
       "Tapa",
       "Salado"
@@ -5072,7 +5062,7 @@
   {
     "palabra": "Juguete",
     "prohibidas": [
-      "Niño",
+      "Nen",
       "Jugar",
       "Muñeco",
       "Diversión",
@@ -5094,15 +5084,15 @@
     "prohibidas": [
       "Música",
       "Saxofón",
-      "Ritmo",
-      "Improvisación",
+      "Ritme",
+      "Improvisació",
       "Nueva Orleans"
     ]
   },
   {
     "palabra": "Wall-E",
     "prohibidas": [
-      "Película",
+      "Pel·lícula",
       "Robot",
       "Basura",
       "Futuro",
@@ -5112,7 +5102,7 @@
   {
     "palabra": "Lluvia",
     "prohibidas": [
-      "Agua",
+      "Aigua",
       "Nubes",
       "Mojado",
       "Gotas",
@@ -5123,7 +5113,7 @@
     "palabra": "Isla",
     "prohibidas": [
       "Mar",
-      "Tierra",
+      "Terra",
       "Solitaria",
       "Aguas",
       "Paraíso"
@@ -5135,15 +5125,15 @@
       "Casa",
       "Arriba",
       "Cubierta",
-      "Construcción",
-      "Protección"
+      "Construcció",
+      "Protecció"
     ]
   },
   {
     "palabra": "Cafetería",
     "prohibidas": [
-      "Café",
-      "Bebida",
+      "Cafè",
+      "Beguda",
       "Mesas",
       "Servir",
       "Tazas"
@@ -5152,17 +5142,17 @@
   {
     "palabra": "Facebook",
     "prohibidas": [
-      "Red social",
+      "Xarxa social",
       "Mark Zuckerberg",
       "Publicar",
-      "Amigos",
+      "Amics",
       "Meta"
     ]
   },
   {
     "palabra": "Harry Potter",
     "prohibidas": [
-      "Película",
+      "Pel·lícula",
       "Magia",
       "Varita",
       "Hogwarts",
@@ -5174,7 +5164,7 @@
     "prohibidas": [
       "Ratón",
       "Animal",
-      "Pequeño",
+      "Petit",
       "Queso",
       "Roedor"
     ]
@@ -5183,16 +5173,16 @@
     "palabra": "Walt Disney",
     "prohibidas": [
       "Dibujos",
-      "Películas",
+      "Pel·lícules",
       "Mickey Mouse",
-      "Animación",
+      "Animació",
       "Parque"
     ]
   },
   {
     "palabra": "Kárate",
     "prohibidas": [
-      "Deporte",
+      "Esport",
       "Pelea",
       "Artes marciales",
       "Cinturón",
@@ -5202,21 +5192,21 @@
   {
     "palabra": "Quijote",
     "prohibidas": [
-      "Libro",
+      "Llibre",
       "Cervantes",
       "Hidalgo",
-      "Molinos",
-      "Caballero"
+      "Molins",
+      "Caballer"
     ]
   },
   {
     "palabra": "Robo",
     "prohibidas": [
       "Ladrón",
-      "Policía",
+      "Policia",
       "Delito",
       "Coger",
-      "Dinero"
+      "Diner"
     ]
   },
   {
@@ -5225,7 +5215,7 @@
       "Ruido",
       "Mudo",
       "Callar",
-      "Sonido",
+      "So",
       "Oír"
     ]
   },
@@ -5233,17 +5223,17 @@
     "palabra": "Xenofobia",
     "prohibidas": [
       "Odio",
-      "Extranjero",
-      "Miedo",
+      "Extranjer",
+      "Por",
       "Racismo",
       "País"
     ]
   },
   {
-    "palabra": "Jaula",
+    "palabra": "Gàbia",
     "prohibidas": [
       "Pájaros",
-      "Animales",
+      "Animals",
       "Cerrar",
       "Hierro",
       "Encerrar"
@@ -5253,7 +5243,7 @@
     "palabra": "Lupa",
     "prohibidas": [
       "Aumentar",
-      "Pequeño",
+      "Petit",
       "Cristal",
       "Detective",
       "Ver"
@@ -5262,7 +5252,7 @@
   {
     "palabra": "Quemadura",
     "prohibidas": [
-      "Fuego",
+      "Foc",
       "Calor",
       "Piel",
       "Dolor",
@@ -5272,11 +5262,11 @@
   {
     "palabra": "Faraón",
     "prohibidas": [
-      "Egipto",
-      "Rey",
+      "Egipte",
+      "Rei",
       "Pirámide",
       "Tumba",
-      "Muerte"
+      "Mort"
     ]
   },
   {
@@ -5285,7 +5275,7 @@
       "Serie",
       "Dragones",
       "HBO",
-      "Invierno",
+      "Hivern",
       "Fantasia"
     ]
   },
@@ -5295,7 +5285,7 @@
       "Parque",
       "Atracciones",
       "Carro",
-      "Velocidad",
+      "Velocitat",
       "Subir"
     ]
   },
@@ -5322,8 +5312,8 @@
   {
     "palabra": "Barcelona",
     "prohibidas": [
-      "Ciudad",
-      "España",
+      "Ciutat",
+      "Espanya",
       "Gaudí",
       "Cataluña",
       "Mar"
@@ -5332,7 +5322,7 @@
   {
     "palabra": "Cepillo",
     "prohibidas": [
-      "Pelo",
+      "Pèl",
       "Dientes",
       "Limpiar",
       "Peinar",
@@ -5343,10 +5333,10 @@
     "palabra": "Hueso",
     "prohibidas": [
       "Esqueleto",
-      "Cuerpo",
+      "Cos",
       "Animal",
       "Perro",
-      "Blanco"
+      "Blanc"
     ]
   },
   {
@@ -5364,7 +5354,7 @@
     "prohibidas": [
       "Ropa",
       "Poner",
-      "Mujer",
+      "Dona",
       "Falda",
       "Tela"
     ]
@@ -5373,9 +5363,9 @@
     "palabra": "Huevos",
     "prohibidas": [
       "Gallina",
-      "Comida",
+      "Menjar",
       "Tortilla",
-      "Cocinar",
+      "Cuinar",
       "Cáscara"
     ]
   },
@@ -5384,7 +5374,7 @@
     "prohibidas": [
       "Verdura",
       "Fritura",
-      "Tierra",
+      "Terra",
       "Comer",
       "Raíz"
     ]
@@ -5402,8 +5392,8 @@
   {
     "palabra": "Llave",
     "prohibidas": [
-      "Puerta",
-      "Abrir",
+      "Porta",
+      "Obrir",
       "Cerrar",
       "Candado",
       "Metal"
@@ -5423,7 +5413,7 @@
     "palabra": "Mapa",
     "prohibidas": [
       "Países",
-      "Ciudades",
+      "Ciutats",
       "Indicar",
       "Viajar",
       "Papel"
@@ -5442,20 +5432,20 @@
   {
     "palabra": "Taladro",
     "prohibidas": [
-      "Agujero",
+      "Agujer",
       "Pared",
       "Herramienta",
-      "Eléctrica",
+      "Elèctrica",
       "Rotar"
     ]
   },
   {
     "palabra": "Pala",
     "prohibidas": [
-      "Tierra",
+      "Terra",
       "Cavar",
-      "Mano",
-      "Jardín",
+      "Mà",
+      "Jardí",
       "Arena"
     ]
   },
@@ -5472,27 +5462,27 @@
   {
     "palabra": "Secador",
     "prohibidas": [
-      "Pelo",
+      "Pèl",
       "Secar",
       "Calor",
       "Aire",
-      "Soplar"
+      "Bufar"
     ]
   },
   {
-    "palabra": "Horno",
+    "palabra": "Forn",
     "prohibidas": [
       "Calentar",
-      "Cocinar",
-      "Comida",
+      "Cuinar",
+      "Menjar",
       "Microondas",
-      "Fuego"
+      "Foc"
     ]
   },
   {
     "palabra": "Pila",
     "prohibidas": [
-      "Energía",
+      "Energia",
       "Mando",
       "Batería",
       "Electrodoméstico",
@@ -5515,7 +5505,7 @@
       "Casa",
       "Ladrillo",
       "Pintar",
-      "Habitación",
+      "Habitació",
       "Muro"
     ]
   },
@@ -5533,18 +5523,18 @@
     "palabra": "Jabón",
     "prohibidas": [
       "Limpiar",
-      "Mano",
-      "Ducha",
+      "Mà",
+      "Dutxa",
       "Espuma",
-      "Agua"
+      "Aigua"
     ]
   },
   {
     "palabra": "Champú",
     "prohibidas": [
-      "Pelo",
+      "Pèl",
       "Lavar",
-      "Ducha",
+      "Dutxa",
       "Espuma",
       "Botella"
     ]
@@ -5573,8 +5563,8 @@
     "palabra": "Toalla",
     "prohibidas": [
       "Secar",
-      "Ducha",
-      "Cuerpo",
+      "Dutxa",
+      "Cos",
       "Baño",
       "Algodón"
     ]
@@ -5593,18 +5583,18 @@
     "palabra": "Lavabo",
     "prohibidas": [
       "Baño",
-      "Agua",
+      "Aigua",
       "Grifo",
-      "Mano",
+      "Mà",
       "Pila"
     ]
   },
   {
     "palabra": "Bañera",
     "prohibidas": [
-      "Agua",
+      "Aigua",
       "Bañarse",
-      "Ducha",
+      "Dutxa",
       "Jabón",
       "Baño"
     ]
@@ -5612,7 +5602,7 @@
   {
     "palabra": "Teclado",
     "prohibidas": [
-      "Escribir",
+      "Escriure",
       "Ordenador",
       "Letras",
       "Teclas",
@@ -5623,7 +5613,7 @@
     "palabra": "Escáner",
     "prohibidas": [
       "Documento",
-      "Imagen",
+      "Imatge",
       "Digitalizar",
       "Papel",
       "Máquina"
@@ -5642,7 +5632,7 @@
   {
     "palabra": "Altavoces",
     "prohibidas": [
-      "Sonido",
+      "So",
       "Música",
       "Escuchar",
       "Volumen",
@@ -5652,11 +5642,11 @@
   {
     "palabra": "Taxi",
     "prohibidas": [
-      "Coche",
+      "Cotxe",
       "Pagar",
       "Conductor",
       "Viaje",
-      "Calle"
+      "Carrer"
     ]
   },
   {
@@ -5676,7 +5666,7 @@
       "Orbita",
       "Planeta",
       "Señal",
-      "Tierra"
+      "Terra"
     ]
   },
   {
@@ -5684,7 +5674,7 @@
     "prohibidas": [
       "Espacio",
       "Sistema solar",
-      "Tierra",
+      "Terra",
       "Universo",
       "Órbita"
     ]
@@ -5695,7 +5685,7 @@
       "Espacio",
       "Estrella",
       "Oscuro",
-      "Gravedad",
+      "Gravetat",
       "Atrapar"
     ]
   },
@@ -5703,40 +5693,40 @@
     "palabra": "Meteorito",
     "prohibidas": [
       "Espacio",
-      "Piedra",
-      "Caer",
-      "Tierra",
+      "Pedra",
+      "Caure",
+      "Terra",
       "Estrella"
     ]
   },
   {
     "palabra": "Terremoto",
     "prohibidas": [
-      "Tierra",
+      "Terra",
       "Temblor",
-      "Destrucción",
-      "Mover",
+      "Destrucció",
+      "Moure",
       "Suelo"
     ]
   },
   {
-    "palabra": "Inundación",
+    "palabra": "Inundació",
     "prohibidas": [
-      "Agua",
+      "Aigua",
       "Lluvia",
       "Crecer",
-      "Calle",
+      "Carrer",
       "Casa"
     ]
   },
   {
-    "palabra": "Lago",
+    "palabra": "Llac",
     "prohibidas": [
-      "Agua",
+      "Aigua",
       "Estanque",
-      "Grande",
+      "Gran",
       "Navegar",
-      "Río"
+      "Riu"
     ]
   },
   {
@@ -5744,26 +5734,26 @@
     "prohibidas": [
       "Montañas",
       "Bajo",
-      "Verde",
-      "Río",
+      "Verd",
+      "Riu",
       "Terreno"
     ]
   },
   {
-    "palabra": "Campo",
+    "palabra": "Camp",
     "prohibidas": [
-      "Tierra",
-      "Verde",
+      "Terra",
+      "Verd",
       "Granja",
       "Naturaleza",
-      "Plantas"
+      "Plantes"
     ]
   },
   {
     "palabra": "Raíces",
     "prohibidas": [
       "Árbol",
-      "Tierra",
+      "Terra",
       "Planta",
       "Bajo",
       "Sostener"
@@ -5774,7 +5764,7 @@
     "prohibidas": [
       "Árbol",
       "Madera",
-      "Grande",
+      "Gran",
       "Fuerte",
       "Cortar"
     ]
@@ -5795,7 +5785,7 @@
       "Planta",
       "Crecer",
       "Fruta",
-      "Tierra",
+      "Terra",
       "Germinar"
     ]
   },
@@ -5803,10 +5793,10 @@
     "palabra": "Verdura",
     "prohibidas": [
       "Planta",
-      "Comida",
-      "Jardín",
+      "Menjar",
+      "Jardí",
       "Saludable",
-      "Cocinar"
+      "Cuinar"
     ]
   },
   {
@@ -5816,7 +5806,7 @@
       "Caminar",
       "Mascota",
       "Salvaj",
-      "Bosque"
+      "Bosc"
     ]
   },
   {
@@ -5826,7 +5816,7 @@
       "Volar",
       "Ala",
       "Molesto",
-      "Suciedad"
+      "Sucietat"
     ]
   },
   {
@@ -5840,11 +5830,11 @@
     ]
   },
   {
-    "palabra": "Pelo",
+    "palabra": "Pèl",
     "prohibidas": [
-      "Cabeza",
+      "Cap",
       "Cortar",
-      "Cabello",
+      "Cabell",
       "Peinar",
       "Largo"
     ]
@@ -5852,27 +5842,27 @@
   {
     "palabra": "Brazo",
     "prohibidas": [
-      "Cuerpo",
-      "Mover",
-      "Mano",
+      "Cos",
+      "Moure",
+      "Mà",
       "Codo",
-      "Músculo"
+      "Múscul"
     ]
   },
   {
     "palabra": "Dedo",
     "prohibidas": [
-      "Mano",
+      "Mà",
       "Uña",
       "Tocar",
-      "Pequeño",
+      "Petit",
       "Punta"
     ]
   },
   {
     "palabra": "Pierna",
     "prohibidas": [
-      "Cuerpo",
+      "Cos",
       "Andar",
       "Correr",
       "Rodilla",
@@ -5893,7 +5883,7 @@
     "palabra": "Rodilla",
     "prohibidas": [
       "Pierna",
-      "Articulación",
+      "Articulació",
       "Doblar",
       "Hueso",
       "Medio"
@@ -5903,7 +5893,7 @@
     "palabra": "Codo",
     "prohibidas": [
       "Brazo",
-      "Articulación",
+      "Articulació",
       "Doblar",
       "Hueso",
       "Medio"
@@ -5912,8 +5902,8 @@
   {
     "palabra": "Estómago",
     "prohibidas": [
-      "Cuerpo",
-      "Comida",
+      "Cos",
+      "Menjar",
       "Digestion",
       "Barriga",
       "Dolor"
@@ -5930,10 +5920,10 @@
     ]
   },
   {
-    "palabra": "Músculo",
+    "palabra": "Múscul",
     "prohibidas": [
       "Fuerza",
-      "Cuerpo",
+      "Cos",
       "Brazo",
       "Gimnasio",
       "Hueso"
@@ -5942,10 +5932,10 @@
   {
     "palabra": "Nervio",
     "prohibidas": [
-      "Sensación",
-      "Cuerpo",
+      "Sensació",
+      "Cos",
       "Dolor",
-      "Electricidad",
+      "Electricitat",
       "Cerebro"
     ]
   },
@@ -5953,9 +5943,9 @@
     "palabra": "Sudor",
     "prohibidas": [
       "Calor",
-      "Agua",
-      "Cuerpo",
-      "Ejercicio",
+      "Aigua",
+      "Cos",
+      "Exercici",
       "Gotas"
     ]
   },
@@ -5963,10 +5953,10 @@
     "palabra": "Bostezo",
     "prohibidas": [
       "Cansado",
-      "Sueño",
+      "Somni",
       "Boca",
-      "Abrir",
-      "Grande"
+      "Obrir",
+      "Gran"
     ]
   },
   {
@@ -5974,7 +5964,7 @@
     "prohibidas": [
       "Nariz",
       "Achís",
-      "Sonido",
+      "So",
       "Boca",
       "Gripe"
     ]
@@ -5994,8 +5984,8 @@
     "prohibidas": [
       "Amor",
       "Brazos",
-      "Cuerpo",
-      "Amigos",
+      "Cos",
+      "Amics",
       "Cariño"
     ]
   },
@@ -6004,403 +5994,403 @@
     "prohibidas": [
       "Sentimiento",
       "Negativo",
-      "Contrario",
-      "Enemigo",
-      "Enfado"
+      "Contraari",
+      "Enemic",
+      "Enfadat"
     ]
   },
   {
-    "palabra": "Enfado",
+    "palabra": "Enfadat",
     "prohibidas": [
       "Sentimiento",
       "Ira",
       "Malhumor",
-      "Gritar",
-      "Enojado"
+      "Cridar",
+      "Enutjat"
     ]
   },
   {
-    "palabra": "Vergüenza",
+    "palabra": "Vergonya",
     "prohibidas": [
-      "Rojo",
+      "Vermell",
       "Sentimiento",
-      "Ocultar",
-      "Penoso",
+      "Amagar",
+      "Penós",
       "Cara"
     ]
   },
   {
-    "palabra": "Amigos",
+    "palabra": "Amics",
     "prohibidas": [
-      "Amistad",
-      "Personas",
+      "Amistat",
+      "Persones",
       "Jugar",
       "Compañía",
       "Amor"
     ]
   },
   {
-    "palabra": "Maestro",
+    "palabra": "Mestre",
     "prohibidas": [
-      "Escuela",
-      "Clase",
-      "Enseñar",
-      "Alumnos",
-      "Profesor"
+      "Escola",
+      "Classe",
+      "Ensenyar",
+      "Alumnes",
+      "Professor"
     ]
   },
   {
-    "palabra": "Científico",
+    "palabra": "Científic",
     "prohibidas": [
-      "Laboratorio",
-      "Ciencia",
+      "Laboratori",
+      "Ciència",
       "Investigar",
-      "Experimento",
-      "Descubrimiento"
+      "Experiment",
+      "Descobriment"
     ]
   },
   {
     "palabra": "Artista",
     "prohibidas": [
-      "Arte",
+      "Art",
       "Pintor",
-      "Dibujo",
+      "Dibuix",
       "Crear",
-      "Talento"
+      "Talent"
     ]
   },
   {
-    "palabra": "Músico",
+    "palabra": "Músic",
     "prohibidas": [
       "Música",
       "Cantar",
-      "Instrumento",
+      "Instrument",
       "Tocar",
       "Banda"
     ]
   },
   {
-    "palabra": "Deportista",
+    "palabra": "Esportista",
     "prohibidas": [
-      "Deporte",
+      "Esport",
       "Jugar",
-      "Competición",
+      "Competició",
       "Atleta",
-      "Ganar"
+      "Guanyar"
     ]
   },
   {
     "palabra": "Futbolista",
     "prohibidas": [
-      "Fútbol",
-      "Deporte",
-      "Balón",
-      "Portería",
+      "Futbol",
+      "Esport",
+      "Pilota",
+      "Porteria",
       "Gol"
     ]
   },
   {
-    "palabra": "Político",
+    "palabra": "Polític",
     "prohibidas": [
-      "Gobierno",
-      "Presidente",
+      "Govern",
+      "President",
       "País",
       "Votos",
-      "Partido"
+      "Partit"
     ]
   },
   {
-    "palabra": "Piloto",
+    "palabra": "Pilot",
     "prohibidas": [
-      "Avión",
+      "Avió",
       "Volar",
-      "Conducir",
+      "Conduir",
       "Aire",
       "Cielo"
     ]
   },
   {
-    "palabra": "Capitán",
+    "palabra": "Capità",
     "prohibidas": [
-      "Barco",
+      "Vaixell",
       "Líder",
-      "Equipo",
+      "Equip",
       "Navegar",
       "Comandar"
     ]
   },
   {
-    "palabra": "Cocinero",
+    "palabra": "Cuiner",
     "prohibidas": [
-      "Cocinar",
-      "Comida",
-      "Restaurante",
+      "Cuinar",
+      "Menjar",
+      "Restaurant",
       "Chef",
-      "Plato"
+      "Plat"
     ]
   },
   {
-    "palabra": "Panadero",
+    "palabra": "Forner",
     "prohibidas": [
-      "Pan",
-      "Hacer",
-      "Horno",
-      "Harina",
-      "Comida"
+      "Pa",
+      "Fer",
+      "Forn",
+      "Farina",
+      "Menjar"
     ]
   },
   {
-    "palabra": "Jardinero",
+    "palabra": "Jardiner",
     "prohibidas": [
-      "Jardín",
-      "Plantas",
-      "Flores",
-      "Cuidado",
+      "Jardí",
+      "Plantes",
+      "Flors",
+      "Cura",
       "Sembrar"
     ]
   },
   {
-    "palabra": "Vaquero",
+    "palabra": "Vaquer",
     "prohibidas": [
-      "Caballo",
-      "Sombrero",
+      "Cavall",
+      "Barret",
       "Pistola",
-      "Oeste",
-      "Película"
+      "Oest",
+      "Pel·lícula"
     ]
   },
   {
-    "palabra": "Cazador",
+    "palabra": "Caçador",
     "prohibidas": [
-      "Bosque",
-      "Animales",
+      "Bosc",
+      "Animals",
       "Pistola",
-      "Comida",
+      "Menjar",
       "Trampa"
     ]
   },
   {
-    "palabra": "Mecánico",
+    "palabra": "Mecànic",
     "prohibidas": [
-      "Coche",
+      "Cotxe",
       "Motor",
       "Arreglar",
       "Taller",
-      "Rueda"
+      "Roda"
     ]
   },
   {
-    "palabra": "Detectiv",
+    "palabra": "Detectiu",
     "prohibidas": [
-      "Policía",
+      "Policia",
       "Misterio",
       "Investigar",
       "Pista",
-      "Crimen"
+      "Crim"
     ]
   },
   {
-    "palabra": "Héroe",
+    "palabra": "Heroi",
     "prohibidas": [
       "Salvar",
-      "Bueno",
-      "Poderes",
-      "Superhéroe",
-      "Villano"
+      "Bo",
+      "Poders",
+      "Superheroi",
+      "Vilà"
     ]
   },
   {
-    "palabra": "Villano",
+    "palabra": "Vilà",
     "prohibidas": [
-      "Malo",
-      "Héroe",
-      "Enemigo",
+      "Dolent",
+      "Heroi",
+      "Enemic",
       "Robar",
       "Poder"
     ]
   },
   {
-    "palabra": "Hada",
+    "palabra": "Fada",
     "prohibidas": [
-      "Mágica",
-      "Pequeña",
-      "Alas",
-      "Polvo",
-      "Bosque"
+      "Màgica",
+      "Petita",
+      "Aletes",
+      "Pols",
+      "Bosc"
     ]
   },
   {
-    "palabra": "Gnomo",
+    "palabra": "Gnom",
     "prohibidas": [
-      "Jardín",
-      "Pequeño",
+      "Jardí",
+      "Petit",
       "Barba",
-      "Sombrero",
-      "Bosque"
+      "Barret",
+      "Bosc"
     ]
   },
   {
-    "palabra": "Demonio",
+    "palabra": "Dimoni",
     "prohibidas": [
-      "Malo",
-      "Fuego",
-      "Infierno",
-      "Cuernos",
-      "Religión"
+      "Dolent",
+      "Foc",
+      "Infern",
+      "Banyes",
+      "Religió"
     ]
   },
   {
-    "palabra": "Dios",
+    "palabra": "Déu",
     "prohibidas": [
-      "Religión",
+      "Religió",
       "Crear",
       "Cielo",
-      "Poderoso",
-      "Rezr"
+      "Poderós",
+      "Resar"
     ]
   },
   {
     "palabra": "Funeral",
     "prohibidas": [
-      "Muerte",
-      "Entierro",
-      "Ceremonia",
-      "Tristeza",
-      "Difunto"
+      "Mort",
+      "Enterrament",
+      "Cerimònia",
+      "Tristesa",
+      "Difunt"
     ]
   },
   {
-    "palabra": "Bautizo",
+    "palabra": "Batteig",
     "prohibidas": [
-      "Bebé",
-      "Agua",
-      "Religión",
-      "Iglesia",
-      "Ceremonia"
+      "Bebè",
+      "Aigua",
+      "Religió",
+      "Església",
+      "Cerimònia"
     ]
   },
   {
     "palabra": "Halloween",
     "prohibidas": [
       "Octubre",
-      "Disfraces",
-      "Miedo",
-      "Dulces",
-      "Fiesta"
+      "Disfresses",
+      "Por",
+      "Dolços",
+      "Festa"
     ]
   },
   {
-    "palabra": "Carnaval",
+    "palabra": "Carnestoltes",
     "prohibidas": [
-      "Disfraces",
-      "Fiesta",
-      "Baile",
-      "Máscaras",
-      "Desfile"
+      "Disfresses",
+      "Festa",
+      "Ball",
+      "Màscares",
+      "Rúa"
     ]
   },
   {
-    "palabra": "Deporte",
+    "palabra": "Esport",
     "prohibidas": [
-      "Juego",
-      "Ejercicio",
+      "Joc",
+      "Exercici",
       "Atleta",
-      "Pelota",
-      "Equipo"
+      "Pilota",
+      "Equip"
     ]
   },
   {
-    "palabra": "Natación",
+    "palabra": "Natació",
     "prohibidas": [
-      "Agua",
-      "Nadar",
+      "Aigua",
+      "Nedar",
       "Piscina",
-      "Deporte",
-      "Bañador"
+      "Esport",
+      "Banyador"
     ]
   },
   {
-    "palabra": "Gimnasia",
+    "palabra": "Gimnàstica",
     "prohibidas": [
-      "Cuerpo",
-      "Ejercicio",
-      "Deporte",
-      "Músculo",
-      "Flexibilidad"
+      "Cos",
+      "Exercici",
+      "Esport",
+      "Múscul",
+      "Flexibilitat"
     ]
   },
   {
     "palabra": "Esquí",
     "prohibidas": [
-      "Nieve",
-      "Invierno",
-      "Deporte",
-      "Montaña",
-      "Bajar"
+      "Neu",
+      "Hivern",
+      "Esport",
+      "Muntanya",
+      "Baixar"
     ]
   },
   {
-    "palabra": "Boxeo",
+    "palabra": "Boxa",
     "prohibidas": [
-      "Lucha",
-      "Puñetazos",
-      "Guantes",
-      "Deporte",
-      "Anillo"
+      "Lluita",
+      "Cops de puny",
+      "Guants",
+      "Esport",
+      "Ring"
     ]
   },
   {
-    "palabra": "Ajeda",
+    "palabra": "Escacs",
     "prohibidas": [
-      "Juego",
-      "Tablero",
-      "Blanco",
-      "Negro",
-      "Rey"
+      "Joc",
+      "Tauler",
+      "Blanc",
+      "Negre",
+      "Rei"
     ]
   },
   {
-    "palabra": "Dardos",
+    "palabra": "Dards",
     "prohibidas": [
-      "Juego",
+      "Joc",
       "Diana",
       "Punta",
-      "Lanzar",
-      "Puntuación"
+      "Llançar",
+      "Puntuació"
     ]
   },
   {
-    "palabra": "Cartas",
+    "palabra": "Cartes",
     "prohibidas": [
-      "Baraja",
-      "Juego",
-      "Mano",
-      "Póker",
+      "Baralla",
+      "Joc",
+      "Mà",
+      "Pòquer",
       "Repartir"
     ]
   },
   {
     "palabra": "Dominó",
     "prohibidas": [
-      "Fichas",
-      "Juego",
-      "Puntos",
-      "Mesa",
-      "Caer"
+      "Fitxes",
+      "Joc",
+      "Punts",
+      "Taula",
+      "Caure"
     ]
   },
   {
     "palabra": "Puzle",
     "prohibidas": [
-      "Piezas",
-      "Juego",
-      "Montar",
-      "Imagen",
-      "Encajar"
+      "Peces",
+      "Joc",
+      "Muntar",
+      "Imatge",
+      " encaixar"
     ]
   },
   {
-    "palabra": "Videojuego",
+    "palabra": "Videojoc",
     "prohibidas": [
       "Pantalla",
       "Consola",
@@ -6416,26 +6406,26 @@
       "Guitarra",
       "Banda",
       "Fuerte",
-      "Eléctrica"
+      "Elèctrica"
     ]
   },
   {
     "palabra": "Pop",
     "prohibidas": [
       "Música",
-      "Moderno",
+      "Modern",
       "Popular",
-      "Bailar",
-      "Canción"
+      "Ballar",
+      "Cançó"
     ]
   },
   {
-    "palabra": "Clásica",
+    "palabra": "Clàssica",
     "prohibidas": [
       "Música",
-      "Orquesta",
+      "Orquestra",
       "Mozart",
-      "Seria",
+      "Seriosa",
       "Piano"
     ]
   },
@@ -6443,7 +6433,7 @@
     "palabra": "Instrumento musical",
     "prohibidas": [
       "Música",
-      "Sonido",
+      "So",
       "Tocar",
       "Piano",
       "Guitarra"
@@ -6453,34 +6443,34 @@
     "palabra": "Tambor",
     "prohibidas": [
       "Música",
-      "Golpear",
-      "Instrumento",
+      "Colpejar",
+      "Instrument",
       "Baqueta",
-      "Ritmo"
+      "Ritme"
     ]
   },
   {
     "palabra": "Flauta",
     "prohibidas": [
-      "Soplar",
-      "Instrumento",
+      "Bufar",
+      "Instrument",
       "Música",
-      "Agujeros",
-      "Viento"
+      "Forats",
+      "Vent"
     ]
   },
   {
-    "palabra": "Arte",
+    "palabra": "Art",
     "prohibidas": [
-      "Creatividad",
+      "Creativitat",
       "Pintura",
       "Escultura",
-      "Belleza",
-      "Expresión"
+      "Bellesa",
+      "Expressió"
     ]
   },
   {
-    "palabra": "Dibujo",
+    "palabra": "Dibuix",
     "prohibidas": [
       "Papel",
       "Lápiz",
@@ -6490,62 +6480,62 @@
     ]
   },
   {
-    "palabra": "Novela",
+    "palabra": "Novel·la",
     "prohibidas": [
-      "Libro",
-      "Historia",
+      "Llibre",
+      "Història",
       "Larga",
-      "Personajes",
-      "Leer"
+      "Personatges",
+      "Llegir"
     ]
   },
   {
     "palabra": "Literatura",
     "prohibidas": [
       "Libros",
-      "Escribir",
-      "Leer",
-      "Poesía",
-      "Novela"
+      "Escriure",
+      "Llegir",
+      "Poesia",
+      "Novel·la"
     ]
   },
   {
-    "palabra": "Matemáticas",
+    "palabra": "Matemàtiques",
     "prohibidas": [
-      "Números",
+      "Nombres",
       "Suma",
       "Resta",
-      "Cálculo",
-      "Problemas"
+      "Càlcul",
+      "Problemes"
     ]
   },
   {
     "palabra": "Física",
     "prohibidas": [
-      "Ciencia",
-      "Gravedad",
-      "Energía",
+      "Ciència",
+      "Gravetat",
+      "Energia",
       "Newton",
-      "Movimiento"
+      "Moviment"
     ]
   },
   {
-    "palabra": "Historia",
+    "palabra": "Història",
     "prohibidas": [
-      "Pasado",
+      "Passat",
       "Fechas",
-      "Eventos",
-      "Antiguo",
-      "Libro"
+      "Esdeveniments",
+      "Antic",
+      "Llibre"
     ]
   },
   {
-    "palabra": "Geografía",
+    "palabra": "Geografia",
     "prohibidas": [
       "Mapa",
       "Países",
       "Montañas",
-      "Ríos",
+      "Rius",
       "Capital"
     ]
   },
@@ -6553,18 +6543,18 @@
     "palabra": "Idioma",
     "prohibidas": [
       "Hablar",
-      "Lengua",
-      "Comunicación",
-      "Palabras",
-      "Escribir"
+      "Llengua",
+      "Comunicació",
+      "Paraules",
+      "Escriure"
     ]
   },
   {
     "palabra": "Español",
     "prohibidas": [
       "Idioma",
-      "España",
-      "América",
+      "Espanya",
+      "Amèrica",
       "Hablar",
       "Letras"
     ]
@@ -6573,69 +6563,69 @@
     "palabra": "Inglés",
     "prohibidas": [
       "Idioma",
-      "Inglaterra",
+      "Anglaterra",
       "USA",
       "Hablar",
       "Letras"
     ]
   },
   {
-    "palabra": "Francés",
+    "palabra": "Francès",
     "prohibidas": [
       "Idioma",
-      "Francia",
+      "França",
       "París",
       "Hablar",
       "Letras"
     ]
   },
   {
-    "palabra": "Alemán",
+    "palabra": "Alemany",
     "prohibidas": [
       "Idioma",
-      "Alemania",
+      "Alemanya",
       "Berlín",
       "Hablar",
       "Letras"
     ]
   },
   {
-    "palabra": "Chino",
+    "palabra": "Xinès",
     "prohibidas": [
       "Idioma",
-      "China",
-      "Asia",
+      "Xina",
+      "Àsia",
       "Hablar",
-      "Caracteres"
+      "Caràcters"
     ]
   },
   {
-    "palabra": "Ruso",
+    "palabra": "Rus",
     "prohibidas": [
       "Idioma",
-      "Rusia",
-      "Moscú",
-      "Cirílico",
+      "Rússia",
+      "Moscou",
+      "Ciríl·lic",
       "Hablar"
     ]
   },
   {
-    "palabra": "Danza",
+    "palabra": "Dansa",
     "prohibidas": [
-      "Baile",
+      "Ball",
       "Música",
-      "Mover",
-      "Cuerpo",
-      "Ritmo"
+      "Moure",
+      "Cos",
+      "Ritme"
     ]
   },
   {
-    "palabra": "Jardinería",
+    "palabra": "Jardineria",
     "prohibidas": [
-      "Jardín",
-      "Plantas",
-      "Flores",
-      "Cuidado",
+      "Jardí",
+      "Plantes",
+      "Flors",
+      "Cura",
       "Sembrar"
     ]
   },
@@ -6643,26 +6633,26 @@
     "palabra": "Costura",
     "prohibidas": [
       "Ropa",
-      "Aguja",
-      "Hilo",
+      "Agulla",
+      "Fil",
       "Tela",
-      "Coser"
+      "Cosir"
     ]
   },
   {
-    "palabra": "Bricolaje",
+    "palabra": "Bricolatge",
     "prohibidas": [
-      "Herramientas",
+      "Eines",
       "Arreglar",
       "Casa",
-      "Manualidades",
+      "Manualitats",
       "Construir"
     ]
   },
   {
-    "palabra": "Red social",
+    "palabra": "Xarxa social",
     "prohibidas": [
-      "Amigos",
+      "Amics",
       "Internet",
       "Fotos",
       "Facebook",
@@ -6670,73 +6660,73 @@
     ]
   },
   {
-    "palabra": "Teléfono móvil",
+    "palabra": "Telèfon mòbil",
     "prohibidas": [
       "Llamar",
-      "Comunicación",
+      "Comunicació",
       "Smartphone",
-      "Mensaje",
+      "Missatge",
       "Pantalla"
     ]
   },
   {
-    "palabra": "Arquitecto",
+    "palabra": "Arquitecte",
     "prohibidas": [
       "Casa",
-      "Plano",
-      "Edificio",
-      "Diseñar",
-      "Construcción"
+      "Plànol",
+      "Edifici",
+      "Dissenyar",
+      "Construcció"
     ]
   },
   {
-    "palabra": "Astrónomo",
+    "palabra": "Astrònom",
     "prohibidas": [
-      "Estrellas",
+      "Estrelles",
       "Universo",
-      "Planetas",
-      "Telescopio",
+      "Planetes",
+      "Telescopi",
       "Cielo"
     ]
   },
   {
-    "palabra": "Cerrajero",
+    "palabra": "Serraller",
     "prohibidas": [
       "Llave",
-      "Cerradura",
-      "Puerta",
+      "Panys",
+      "Porta",
       "Metal",
-      "Abrir"
+      "Obrir"
     ]
   },
   {
     "palabra": "Escultor",
     "prohibidas": [
-      "Arte",
-      "Estatua",
+      "Art",
+      "Estàtua",
       "Forma",
       "Tallar",
-      "Piedra"
+      "Pedra"
     ]
   },
   {
-    "palabra": "Filósofo",
+    "palabra": "Filòsof",
     "prohibidas": [
       "Pensar",
       "Ideas",
-      "Sabiduría",
-      "Preguntas",
+      "Saviesa",
+      "Preguntes",
       "Vida"
     ]
   },
   {
-    "palabra": "Joyero",
+    "palabra": "Joier",
     "prohibidas": [
-      "Oro",
+      "Or",
       "Plata",
-      "Anillo",
+      "Ring",
       "Collar",
-      "Joya"
+      "Joia"
     ]
   },
   {
@@ -6744,18 +6734,18 @@
     "prohibidas": [
       "Ropa",
       "Tela",
-      "Coser",
-      "Diseño",
+      "Cosir",
+      "Disseny",
       "Costura"
     ]
   },
   {
-    "palabra": "Novelista",
+    "palabra": "Novel·lista",
     "prohibidas": [
-      "Libro",
-      "Escribir",
-      "Historia",
-      "Ficción",
+      "Llibre",
+      "Escriure",
+      "Història",
+      "Ficció",
       "Largo"
     ]
   },
@@ -6763,37 +6753,37 @@
     "palabra": "Programador",
     "prohibidas": [
       "Ordenador",
-      "Código",
+      "Codi",
       "Software",
-      "Tecnología",
-      "Aplicación"
+      "Tecnologia",
+      "Aplicació"
     ]
   },
   {
-    "palabra": "Psicólogo",
+    "palabra": "Psicòleg",
     "prohibidas": [
       "Mente",
-      "Emociones",
+      "Emocions",
       "Hablar",
-      "Problemas",
-      "Ayuda"
+      "Problemes",
+      "Ajuda"
     ]
   },
   {
     "palabra": "Taxista",
     "prohibidas": [
-      "Coche",
-      "Calle",
+      "Cotxe",
+      "Carrer",
       "Pagar",
-      "Conducir",
-      "Cliente"
+      "Conduir",
+      "Client"
     ]
   },
   {
-    "palabra": "Voluntario",
+    "palabra": "Voluntari",
     "prohibidas": [
       "Ayudar",
-      "Dinero",
+      "Diner",
       "Trabajo",
       "Gratis",
       "Tiempo"
@@ -6802,51 +6792,51 @@
   {
     "palabra": "Agricultor",
     "prohibidas": [
-      "Campo",
-      "Tierra",
-      "Siembra",
-      "Cosecha",
+      "Camp",
+      "Terra",
+      "Sembra",
+      "Collita",
       "Tractor"
     ]
   },
   {
     "palabra": "Arqueólogo",
     "prohibidas": [
-      "Antiguo",
-      "Tierra",
+      "Antic",
+      "Terra",
       "Excavar",
       "Fósil",
-      "Historia"
+      "Història"
     ]
   },
   {
     "palabra": "Biólogo",
     "prohibidas": [
       "Vida",
-      "Animales",
-      "Plantas",
+      "Animals",
+      "Plantes",
       "Naturaleza",
       "Células"
     ]
   },
   {
-    "palabra": "Cajero",
+    "palabra": "Cajer",
     "prohibidas": [
-      "Dinero",
+      "Diner",
       "Tienda",
       "Supermercado",
       "Pagar",
-      "Cliente"
+      "Client"
     ]
   },
   {
     "palabra": "Conserje",
     "prohibidas": [
-      "Edificio",
+      "Edifici",
       "Limpiar",
-      "Cuidado",
-      "Puerta",
-      "Portero"
+      "Cura",
+      "Porta",
+      "Porter"
     ]
   },
   {
@@ -6854,7 +6844,7 @@
     "prohibidas": [
       "Cámara",
       "Foto",
-      "Imagen",
+      "Imatge",
       "Lente",
       "Retrato"
     ]
@@ -6863,29 +6853,29 @@
     "palabra": "Sastre",
     "prohibidas": [
       "Ropa",
-      "Coser",
+      "Cosir",
       "Traje",
       "Tela",
-      "Hilo"
+      "Fil"
     ]
   },
   {
     "palabra": "Chef",
     "prohibidas": [
-      "Cocinar",
-      "Restaurante",
-      "Comida",
+      "Cuinar",
+      "Restaurant",
+      "Menjar",
       "Cocina",
-      "Plato"
+      "Plat"
     ]
   },
   {
     "palabra": "Cómico",
     "prohibidas": [
       "Reír",
-      "Chiste",
-      "Gracioso",
-      "Escenario",
+      "Acudit",
+      "Graciós",
+      "Escenaari",
       "Monólogo"
     ]
   },
@@ -6894,7 +6884,7 @@
     "prohibidas": [
       "Crear",
       "Ropa",
-      "Diseño",
+      "Disseny",
       "Boceto",
       "Elegante"
     ]
@@ -6902,15 +6892,15 @@
   {
     "palabra": "Entrenador",
     "prohibidas": [
-      "Deporte",
-      "Equipo",
-      "Enseñar",
-      "Juego",
-      "Ganar"
+      "Esport",
+      "Equip",
+      "Ensenyar",
+      "Joc",
+      "Guanyar"
     ]
   },
   {
-    "palabra": "afición",
+    "palabra": "afició",
     "prohibidas": [
       "gusto",
       "pasatiempo",
@@ -6924,7 +6914,7 @@
     "prohibidas": [
       "depósito",
       "bodega",
-      "granero",
+      "graner",
       "silo",
       "garaje"
     ]
@@ -6942,18 +6932,18 @@
   {
     "palabra": "aplauso",
     "prohibidas": [
-      "ovación",
+      "ovació",
       "bravo",
       "palmas",
       "elogio",
-      "felicitación"
+      "felicitació"
     ]
   },
   {
     "palabra": "arcilla",
     "prohibidas": [
       "barro",
-      "tierra",
+      "terra",
       "fango",
       "lodo",
       "cerámica"
@@ -6964,7 +6954,7 @@
     "prohibidas": [
       "coraza",
       "escudo",
-      "protección",
+      "protecció",
       "casco",
       "malla"
     ]
@@ -6982,7 +6972,7 @@
   {
     "palabra": "atlético",
     "prohibidas": [
-      "deporte",
+      "esport",
       "ejercicio",
       "fuerte",
       "ágil",
@@ -7030,11 +7020,11 @@
     ]
   },
   {
-    "palabra": "caballero",
+    "palabra": "caballer",
     "prohibidas": [
       "gentilhombre",
       "noble",
-      "príncipe",
+      "príncep",
       "señor",
       "cortés"
     ]
@@ -7065,7 +7055,7 @@
       "concha",
       "tortuga",
       "cangrejo",
-      "protección",
+      "protecció",
       "armadura"
     ]
   },
@@ -7073,18 +7063,18 @@
     "palabra": "cartelera",
     "prohibidas": [
       "cine",
-      "teatro",
+      "teatre",
       "anuncios",
       "póster",
-      "publicidad"
+      "publicitat"
     ]
   },
   {
     "palabra": "catarata",
     "prohibidas": [
       "cascada",
-      "agua",
-      "río",
+      "aigua",
+      "riu",
       "salto",
       "corriente"
     ]
@@ -7113,8 +7103,8 @@
     "palabra": "columpio",
     "prohibidas": [
       "parque",
-      "niño",
-      "juego",
+      "nen",
+      "joc",
       "balancear",
       "cuerda"
     ]
@@ -7125,7 +7115,7 @@
       "ave",
       "águila",
       "vuelo",
-      "montaña",
+      "muntanya",
       "andino"
     ]
   },
@@ -7193,7 +7183,7 @@
     "palabra": "fósforo",
     "prohibidas": [
       "cerilla",
-      "fuego",
+      "foc",
       "caja",
       "encender",
       "llama"
@@ -7242,9 +7232,9 @@
   {
     "palabra": "granizo",
     "prohibidas": [
-      "hielo",
+      "gel",
       "lluvia",
-      "frío",
+      "fred",
       "tormenta",
       "bolitas"
     ]
@@ -7254,7 +7244,7 @@
     "prohibidas": [
       "mano",
       "proteger",
-      "frío",
+      "fred",
       "dedos",
       "invierno"
     ]
@@ -7274,7 +7264,7 @@
     "prohibidas": [
       "metal",
       "pesado",
-      "acero",
+      "acer",
       "óxido",
       "mineral"
     ]
@@ -7282,9 +7272,9 @@
   {
     "palabra": "hoguera",
     "prohibidas": [
-      "fuego",
+      "foc",
       "leña",
-      "bosque",
+      "bosc",
       "campamento",
       "quemar"
     ]
@@ -7312,9 +7302,9 @@
   {
     "palabra": "incendio",
     "prohibidas": [
-      "fuego",
+      "foc",
       "quemar",
-      "bosque",
+      "bosc",
       "bomberos",
       "alarma"
     ]
@@ -7332,7 +7322,7 @@
   {
     "palabra": "kimono",
     "prohibidas": [
-      "Japón",
+      "Japó",
       "traje",
       "vestido",
       "geisha",
@@ -7346,7 +7336,7 @@
       "científico",
       "experimento",
       "probeta",
-      "investigación"
+      "investigació"
     ]
   },
   {
@@ -7354,7 +7344,7 @@
     "prohibidas": [
       "corazón",
       "pulso",
-      "palpitación",
+      "palpitació",
       "ritmo",
       "vida"
     ]
@@ -7363,7 +7353,7 @@
     "palabra": "linterna",
     "prohibidas": [
       "luz",
-      "oscuridad",
+      "oscuritat",
       "pilas",
       "alumbrar",
       "noche"
@@ -7402,11 +7392,11 @@
   {
     "palabra": "magnate",
     "prohibidas": [
-      "millonario",
+      "millonaari",
       "rico",
-      "empresario",
+      "empresaari",
       "poderoso",
-      "dinero"
+      "diner"
     ]
   },
   {
@@ -7415,7 +7405,7 @@
       "circo",
       "bolas",
       "equilibrio",
-      "habilidad",
+      "habilitat",
       "artista"
     ]
   },
@@ -7454,7 +7444,7 @@
     "prohibidas": [
       "cuidar",
       "bebé",
-      "niño",
+      "nen",
       "canguro",
       "empleada"
     ]
@@ -7480,11 +7470,11 @@
     ]
   },
   {
-    "palabra": "oscuridad",
+    "palabra": "oscuritat",
     "prohibidas": [
       "noche",
       "sombra",
-      "negro",
+      "negre",
       "sin luz",
       "tinieblas"
     ]
@@ -7492,9 +7482,9 @@
   {
     "palabra": "panadería",
     "prohibidas": [
-      "pan",
+      "pa",
       "horno",
-      "panadero",
+      "panader",
       "masa",
       "pastelería"
     ]
@@ -7533,7 +7523,7 @@
     "palabra": "petróleo",
     "prohibidas": [
       "crudo",
-      "negro",
+      "negre",
       "combustible",
       "energía",
       "pozo"
@@ -7542,7 +7532,7 @@
   {
     "palabra": "picnic",
     "prohibidas": [
-      "comida",
+      "menjar",
       "parque",
       "campo",
       "mantel",
@@ -7566,7 +7556,7 @@
       "bala",
       "disparar",
       "revólver",
-      "fuego"
+      "foc"
     ]
   },
   {
@@ -7596,7 +7586,7 @@
       "serpiente",
       "escamas",
       "animal",
-      "frío"
+      "fred"
     ]
   },
   {
@@ -7620,11 +7610,11 @@
     ]
   },
   {
-    "palabra": "sendero",
+    "palabra": "sender",
     "prohibidas": [
       "camino",
-      "bosque",
-      "montaña",
+      "bosc",
+      "muntanya",
       "vereda",
       "pista"
     ]
@@ -7634,7 +7624,7 @@
     "prohibidas": [
       "lluvia",
       "falta",
-      "agua",
+      "aigua",
       "seco",
       "desierto"
     ]
@@ -7665,7 +7655,7 @@
       "planta",
       "hojas",
       "suerte",
-      "verde",
+      "verd",
       "prado"
     ]
   },
@@ -7702,58 +7692,58 @@
   {
     "palabra": "Londres",
     "prohibidas": [
-      "Inglaterra",
+      "Anglaterra",
       "Big Ben",
-      "Reino Unido",
+      "Regne Unit",
       "capital",
-      "ciudad"
+      "ciutat"
     ]
   },
   {
     "palabra": "Roma",
     "prohibidas": [
-      "Italia",
-      "Coliseo",
+      "Itàlia",
+      "Coliseu",
       "capital",
-      "ciudad",
+      "ciutat",
       "antigua"
     ]
   },
   {
-    "palabra": "Tokio",
+    "palabra": "Tòquio",
     "prohibidas": [
-      "Japón",
+      "Japó",
       "capital",
-      "ciudad",
+      "ciutat",
       "metrópolis",
-      "Asia"
+      "Àsia"
     ]
   },
   {
-    "palabra": "Nueva York",
+    "palabra": "Nova York",
     "prohibidas": [
-      "Estados Unidos",
-      "La Gran Manzana",
-      "ciudad",
+      "Estats Units",
+      "La Gran Poma",
+      "ciutat",
       "capital",
-      "Estatua de la Libertad"
+      "Estàtua de la Llibertat"
     ]
   },
   {
     "palabra": "Sydney",
     "prohibidas": [
-      "Australia",
+      "Austràlia",
       "Ópera",
-      "ciudad",
+      "ciutat",
       "playa",
-      "océano"
+      "oceà"
     ]
   },
   {
     "palabra": "Hollywood",
     "prohibidas": [
       "cine",
-      "películas",
+      "pel·lícules",
       "actores",
       "fama",
       "Los Ángeles"
@@ -7762,7 +7752,7 @@
   {
     "palabra": "Titanic",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "barco",
       "hundimiento",
       "Jack",
@@ -7772,10 +7762,10 @@
   {
     "palabra": "Star Wars",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "guerra",
       "galaxia",
-      "ciencia ficción",
+      "ciencia ficció",
       "Jedi"
     ]
   },
@@ -7812,7 +7802,7 @@
   {
     "palabra": "Michael Jackson",
     "prohibidas": [
-      "rey",
+      "rei",
       "pop",
       "cantante",
       "Thriller",
@@ -7824,7 +7814,7 @@
     "prohibidas": [
       "actor",
       "Hollywood",
-      "película",
+      "pel·lícula",
       "famoso",
       "cine"
     ]
@@ -7834,7 +7824,7 @@
     "prohibidas": [
       "actor",
       "Hollywood",
-      "película",
+      "pel·lícula",
       "cine",
       "Oscar"
     ]
@@ -7855,14 +7845,14 @@
       "Perú",
       "ruinas",
       "Inca",
-      "montaña",
+      "muntanya",
       "paisaje"
     ]
   },
   {
-    "palabra": "Pirámides de Giza",
+    "palabra": "Piràmides de Guiza",
     "prohibidas": [
-      "Egipto",
+      "Egipte",
       "faraones",
       "desierto",
       "monumento",
@@ -7870,9 +7860,9 @@
     ]
   },
   {
-    "palabra": "Gran Muralla China",
+    "palabra": "Gran Muralla Xinesa",
     "prohibidas": [
-      "China",
+      "Xina",
       "muro",
       "larga",
       "arquitectura",
@@ -7880,17 +7870,17 @@
     ]
   },
   {
-    "palabra": "Coliseo Romano",
+    "palabra": "Coliseu Romà",
     "prohibidas": [
       "Roma",
-      "Italia",
+      "Itàlia",
       "antiguo",
       "gladiadores",
       "anfiteatro"
     ]
   },
   {
-    "palabra": "Salar de Uyuni",
+    "palabra": "Salar d'Uyuni",
     "prohibidas": [
       "Bolivia",
       "desierto",
@@ -7900,21 +7890,21 @@
     ]
   },
   {
-    "palabra": "Desierto de Atacama",
+    "palabra": "Desert d'Atacama",
     "prohibidas": [
-      "Chile",
+      "Xile",
       "desierto",
       "seco",
       "paisaje",
-      "estrellas"
+      "estrelles"
     ]
   },
   {
     "palabra": "Las Vegas",
     "prohibidas": [
-      "ciudad",
+      "ciutat",
       "casino",
-      "juego",
+      "joc",
       "Nevada",
       "luces"
     ]
@@ -7922,7 +7912,7 @@
   {
     "palabra": "Everest",
     "prohibidas": [
-      "montaña",
+      "muntanya",
       "Nepal",
       "cima",
       "altura",
@@ -7930,13 +7920,13 @@
     ]
   },
   {
-    "palabra": "Caribe",
+    "palabra": "Carib",
     "prohibidas": [
       "mar",
       "islas",
       "playa",
       "vacaciones",
-      "azul"
+      "blau"
     ]
   },
   {
@@ -7980,9 +7970,9 @@
     ]
   },
   {
-    "palabra": "El Padrino",
+    "palabra": "El Padrí",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "mafia",
       "familia",
       "Corleone",
@@ -7992,9 +7982,9 @@
   {
     "palabra": "Pulp Fiction",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "Tarantino",
-      "crimen",
+      "crim",
       "dialogo",
       "cine"
     ]
@@ -8002,25 +7992,25 @@
   {
     "palabra": "Avatar",
     "prohibidas": [
-      "película",
-      "azul",
+      "pel·lícula",
+      "blau",
       "Pandora",
-      "ciencia ficción",
+      "ciencia ficció",
       "James Cameron"
     ]
   },
   {
     "palabra": "Jurassic Park",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "dinosaurios",
       "parque",
-      "ciencia ficción",
+      "ciencia ficció",
       "Spielberg"
     ]
   },
   {
-    "palabra": "Game of Thrones",
+    "palabra": "Joc de Trons",
     "prohibidas": [
       "serie",
       "trono",
@@ -8034,7 +8024,7 @@
     "prohibidas": [
       "serie",
       "once",
-      "niños",
+      "nens",
       "Demogorgon",
       "Netflix"
     ]
@@ -8050,9 +8040,9 @@
     ]
   },
   {
-    "palabra": "El Rey León",
+    "palabra": "El Rei Lleó",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "Disney",
       "simba",
       "safari",
@@ -8062,7 +8052,7 @@
   {
     "palabra": "Toy Story",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "juguetes",
       "Woody",
       "Buzz",
@@ -8072,7 +8062,7 @@
   {
     "palabra": "Shrek",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "ogro",
       "burro",
       "princesa",
@@ -8123,7 +8113,7 @@
     "palabra": "Tiger Woods",
     "prohibidas": [
       "golf",
-      "deporte",
+      "esport",
       "jugador",
       "famoso",
       "torneo"
@@ -8135,14 +8125,14 @@
       "tenis",
       "jugadora",
       "raqueta",
-      "deporte",
+      "esport",
       "campeona"
     ]
   },
   {
     "palabra": "Eminem",
     "prohibidas": [
-      "rapero",
+      "raper",
       "música",
       "Lose Yourself",
       "Detroit",
@@ -8152,10 +8142,10 @@
   {
     "palabra": "Jay-Z",
     "prohibidas": [
-      "rapero",
+      "raper",
       "música",
       "Brooklyn",
-      "empresario",
+      "empresaari",
       "Beyoncé"
     ]
   },
@@ -8210,17 +8200,17 @@
     ]
   },
   {
-    "palabra": "Museo del Louvre",
+    "palabra": "Museu del Louvre",
     "prohibidas": [
       "París",
-      "Francia",
+      "França",
       "arte",
       "museo",
       "Mona Lisa"
     ]
   },
   {
-    "palabra": "Catedral de Notre Dame",
+    "palabra": "Catedral de Notre-Dame",
     "prohibidas": [
       "París",
       "catedral",
@@ -8230,29 +8220,29 @@
     ]
   },
   {
-    "palabra": "Sagrada Familia",
+    "palabra": "Sagrada Família",
     "prohibidas": [
       "Barcelona",
-      "España",
+      "Espanya",
       "iglesia",
       "Gaudí",
       "arquitectura"
     ]
   },
   {
-    "palabra": "La Alhambra",
+    "palabra": "L'Alhambra",
     "prohibidas": [
       "Granada",
-      "España",
+      "Espanya",
       "palacio",
       "fortaleza",
       "árabe"
     ]
   },
   {
-    "palabra": "Capilla Sixtina",
+    "palabra": "Capella Sixtina",
     "prohibidas": [
-      "Vaticano",
+      "Vaticà",
       "Miguel Ángel",
       "fresco",
       "arte",
@@ -8262,21 +8252,21 @@
   {
     "palabra": "Kremlin",
     "prohibidas": [
-      "Moscú",
-      "Rusia",
+      "Moscou",
+      "Rússia",
       "fortaleza",
       "gobierno",
       "historia"
     ]
   },
   {
-    "palabra": "Estadio Azteca",
+    "palabra": "Estadi Azteca",
     "prohibidas": [
-      "México",
+      "Mèxic",
       "fútbol",
       "estadio",
       "partido",
-      "Ciudad de México"
+      "Ciutat de Mèxic"
     ]
   },
   {
@@ -8304,25 +8294,25 @@
     "prohibidas": [
       "Barcelona",
       "mercado",
-      "comida",
+      "menjar",
       "alimentos",
       "turismo"
     ]
   },
   {
-    "palabra": "Isla de Pascua",
+    "palabra": "Illa de Pasqua",
     "prohibidas": [
-      "Chile",
+      "Xile",
       "Moáis",
       "estatuas",
       "volcán",
-      "océano"
+      "oceà"
     ]
   },
   {
     "palabra": "Acapulco",
     "prohibidas": [
-      "México",
+      "Mèxic",
       "playa",
       "vacaciones",
       "turismo",
@@ -8332,17 +8322,17 @@
   {
     "palabra": "Cancún",
     "prohibidas": [
-      "México",
+      "Mèxic",
       "playa",
       "turismo",
       "vacaciones",
-      "Caribe"
+      "Carib"
     ]
   },
   {
     "palabra": "Chichén Itzá",
     "prohibidas": [
-      "México",
+      "Mèxic",
       "ruinas",
       "maya",
       "pirámide",
@@ -8353,24 +8343,24 @@
     "palabra": "Dubai",
     "prohibidas": [
       "Emiratos Árabes",
-      "ciudad",
+      "ciutat",
       "lujo",
       "desierto",
       "rascacielos"
     ]
   },
   {
-    "palabra": "Venecia",
+    "palabra": "Venècia",
     "prohibidas": [
-      "Italia",
+      "Itàlia",
       "canales",
       "góndolas",
-      "ciudad",
-      "agua"
+      "ciutat",
+      "aigua"
     ]
   },
   {
-    "palabra": "Vaticano",
+    "palabra": "Vaticà",
     "prohibidas": [
       "Roma",
       "Papa",
@@ -8385,14 +8375,14 @@
       "Holanda",
       "canales",
       "bicicleta",
-      "ciudad",
+      "ciutat",
       "capital"
     ]
   },
   {
     "palabra": "Taj Mahal",
     "prohibidas": [
-      "India",
+      "Índia",
       "mausoleo",
       "mármol",
       "monumento",
@@ -8400,10 +8390,10 @@
     ]
   },
   {
-    "palabra": "El Gran Cañón",
+    "palabra": "El Gran Canyó",
     "prohibidas": [
       "Arizona",
-      "Estados Unidos",
+      "Estats Units",
       "cañón",
       "paisaje",
       "río Colorado"
@@ -8412,8 +8402,8 @@
   {
     "palabra": "Tequila",
     "prohibidas": [
-      "México",
-      "bebida",
+      "Mèxic",
+      "beguda",
       "agave",
       "alcohol",
       "destilado"
@@ -8422,8 +8412,8 @@
   {
     "palabra": "Paella",
     "prohibidas": [
-      "España",
-      "comida",
+      "Espanya",
+      "menjar",
       "arroz",
       "mariscos",
       "tradicional"
@@ -8432,8 +8422,8 @@
   {
     "palabra": "Sushi",
     "prohibidas": [
-      "Japón",
-      "comida",
+      "Japó",
+      "menjar",
       "pescado",
       "arroz",
       "crudo"
@@ -8442,17 +8432,17 @@
   {
     "palabra": "Gnocchi",
     "prohibidas": [
-      "Italia",
+      "Itàlia",
       "pasta",
       "patata",
-      "comida",
+      "menjar",
       "tradicional"
     ]
   },
   {
     "palabra": "Kim Kardashian",
     "prohibidas": [
-      "celebridad",
+      "celebritat",
       "influencer",
       "reality",
       "familia",
@@ -8476,7 +8466,7 @@
       "Forrest Gump",
       "Hollywood",
       "cine",
-      "película"
+      "pel·lícula"
     ]
   },
   {
@@ -8486,7 +8476,7 @@
       "Pretty Woman",
       "Hollywood",
       "cine",
-      "película"
+      "pel·lícula"
     ]
   },
   {
@@ -8496,7 +8486,7 @@
       "Oscar",
       "Hollywood",
       "cine",
-      "película"
+      "pel·lícula"
     ]
   },
   {
@@ -8506,7 +8496,7 @@
       "Piratas del Caribe",
       "Hollywood",
       "cine",
-      "película"
+      "pel·lícula"
     ]
   },
   {
@@ -8522,15 +8512,15 @@
   {
     "palabra": "Kilimanjaro",
     "prohibidas": [
-      "montaña",
-      "África",
+      "muntanya",
+      "Àfrica",
       "cima",
       "Tanzania",
       "volcán"
     ]
   },
   {
-    "palabra": "Sahara",
+    "palabra": "Sàhara",
     "prohibidas": [
       "desierto",
       "arena",
@@ -8544,18 +8534,18 @@
     "prohibidas": [
       "capital",
       "Irlanda",
-      "ciudad",
+      "ciutat",
       "Europa",
       "pubs"
     ]
   },
   {
-    "palabra": "Edimburgo",
+    "palabra": "Edimburg",
     "prohibidas": [
       "capital",
       "Escocia",
       "castillo",
-      "ciudad",
+      "ciutat",
       "Europa"
     ]
   },
@@ -8563,19 +8553,19 @@
     "palabra": "Praga",
     "prohibidas": [
       "capital",
-      "República Checa",
+      "República Txeca",
       "puente",
-      "ciudad",
+      "ciutat",
       "Europa"
     ]
   },
   {
-    "palabra": "Copenhague",
+    "palabra": "Copenhaguen",
     "prohibidas": [
       "capital",
       "Dinamarca",
       "sirena",
-      "ciudad",
+      "ciutat",
       "norte"
     ]
   },
@@ -8585,7 +8575,7 @@
       "capital",
       "Portugal",
       "tranvía",
-      "ciudad",
+      "ciutat",
       "Tajo"
     ]
   },
@@ -8595,32 +8585,32 @@
       "capital",
       "Argentina",
       "tango",
-      "ciudad",
+      "ciutat",
       "porteños"
     ]
   },
   {
-    "palabra": "Río de Janeiro",
+    "palabra": "Rio de Janeiro",
     "prohibidas": [
       "Brasil",
-      "ciudad",
+      "ciutat",
       "carnaval",
       "Cristo Redentor",
       "playa"
     ]
   },
   {
-    "palabra": "Himalaya",
+    "palabra": "Himàlaia",
     "prohibidas": [
       "montañas",
       "Everest",
-      "Asia",
+      "Àsia",
       "cima",
       "cordillera"
     ]
   },
   {
-    "palabra": "Fiordos",
+    "palabra": "Fiords",
     "prohibidas": [
       "Noruega",
       "paisaje",
@@ -8630,10 +8620,10 @@
     ]
   },
   {
-    "palabra": "Kenia",
+    "palabra": "Kenya",
     "prohibidas": [
       "país",
-      "África",
+      "Àfrica",
       "safari",
       "animales",
       "jirafas"
@@ -8642,17 +8632,17 @@
   {
     "palabra": "Gladiator",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "romano",
       "Russell Crowe",
       "venganza",
-      "Coliseo"
+      "Coliseu"
     ]
   },
   {
     "palabra": "Inception",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "sueño",
       "mente",
       "Nolan",
@@ -8662,7 +8652,7 @@
   {
     "palabra": "Forrest Gump",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "Tom Hanks",
       "pluma",
       "correr",
@@ -8672,17 +8662,17 @@
   {
     "palabra": "Matrix",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "Keanu Reeves",
       "pastilla",
-      "realidad",
+      "realitat",
       "Neo"
     ]
   },
   {
     "palabra": "Joker",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "payaso",
       "Batman",
       "Joaquin Phoenix",
@@ -8690,9 +8680,9 @@
     ]
   },
   {
-    "palabra": "Parásitos",
+    "palabra": "Paràsits",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "Corea",
       "familia",
       "rica",
@@ -8702,8 +8692,8 @@
   {
     "palabra": "Blade Runner",
     "prohibidas": [
-      "película",
-      "ciencia ficción",
+      "pel·lícula",
+      "ciencia ficció",
       "replicante",
       "futuro",
       "Harrison Ford"
@@ -8712,17 +8702,17 @@
   {
     "palabra": "Interstellar",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "espacio",
       "agujero negro",
-      "ciencia ficción",
+      "ciencia ficció",
       "Matthew McConaughey"
     ]
   },
   {
-    "palabra": "El Silencio de los Corderos",
+    "palabra": "El silenci dels anyells",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "Hannibal",
       "psicópata",
       "Clarice",
@@ -8730,19 +8720,19 @@
     ]
   },
   {
-    "palabra": "El Club de la Pelea",
+    "palabra": "El club de la lluita",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "Brad Pitt",
       "Edward Norton",
       "Tyler Durden",
-      "doble personalidad"
+      "doble personalitat"
     ]
   },
   {
-    "palabra": "Los Vengadores",
+    "palabra": "Els Venjadors",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "superhéroes",
       "Marvel",
       "Thanos",
@@ -8752,7 +8742,7 @@
   {
     "palabra": "La La Land",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "musical",
       "Emma Stone",
       "Ryan Gosling",
@@ -8762,17 +8752,17 @@
   {
     "palabra": "Coco",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "Disney",
       "Pixar",
-      "México",
+      "Mèxic",
       "muertos"
     ]
   },
   {
-    "palabra": "El Señor de los Anillos",
+    "palabra": "El Senyor dels Anells",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "hobbit",
       "anillo",
       "Gandalf",
@@ -8780,9 +8770,9 @@
     ]
   },
   {
-    "palabra": "El Resplandor",
+    "palabra": "El resplendor",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "terror",
       "hotel",
       "Stanley Kubrick",
@@ -8790,9 +8780,9 @@
     ]
   },
   {
-    "palabra": "Regreso al Futuro",
+    "palabra": "Retorn al futur",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "viaje",
       "tiempo",
       "DeLorean",
@@ -8802,7 +8792,7 @@
   {
     "palabra": "Terminator",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "robot",
       "futuro",
       "Arnold Schwarzenegger",
@@ -8812,19 +8802,19 @@
   {
     "palabra": "E.T.",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "extraterrestre",
       "Steven Spielberg",
-      "niño",
+      "nen",
       "bicicleta"
     ]
   },
   {
-    "palabra": "Lo que el viento se llevó",
+    "palabra": "Allò que el vent s'endugué",
     "prohibidas": [
-      "película",
-      "romance",
-      "clásica",
+      "pel·lícula",
+      "romanç",
+      "clàssica",
       "Guerra Civil",
       "Scarlett O'Hara"
     ]
@@ -8832,39 +8822,39 @@
   {
     "palabra": "Casablanca",
     "prohibidas": [
-      "película",
-      "blanco y negro",
+      "pel·lícula",
+      "blanc i negre",
       "humphrey bogart",
-      "romance",
-      "clásica"
+      "romanç",
+      "clàssica"
     ]
   },
   {
-    "palabra": "Psicosis",
+    "palabra": "Psicosi",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "Alfred Hitchcock",
-      "suspense",
-      "ducha",
+      "suspens",
+      "dutxa",
       "hotel"
     ]
   },
   {
-    "palabra": "Ciudad de Dios",
+    "palabra": "Ciutat de Déu",
     "prohibidas": [
-      "película",
+      "pel·lícula",
       "Brasil",
       "favela",
-      "crimen",
+      "crim",
       "gangster"
     ]
   },
   {
-    "palabra": "Buscando a Nemo",
+    "palabra": "Buscant en Nemo",
     "prohibidas": [
-      "película",
-      "pez",
-      "océano",
+      "pel·lícula",
+      "peix",
+      "oceà",
       "marlin",
       "Dory"
     ]
@@ -8872,10 +8862,10 @@
   {
     "palabra": "Up",
     "prohibidas": [
-      "película",
-      "globos",
-      "anciano",
-      "niño",
+      "pel·lícula",
+      "globus",
+      "ancià",
+      "nen",
       "casa"
     ]
   }

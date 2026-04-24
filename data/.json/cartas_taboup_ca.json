@@ -1,0 +1,8872 @@
+[
+  {
+    "palabra": "Cigne",
+    "prohibidas": [
+      "Ocell",
+      "Coll",
+      "Blanc",
+      "Llac",
+      "Flotar"
+    ]
+  },
+  {
+    "palabra": "Panamà",
+    "prohibidas": [
+      "Amèrica",
+      "Canal",
+      "País",
+      "Centreamèrica",
+      "Pont"
+    ]
+  },
+  {
+    "palabra": "Linx",
+    "prohibidas": [
+      "Felí",
+      "Espanya",
+      "Orelles",
+      "Pèl",
+      "Mamífer"
+    ]
+  },
+  {
+    "palabra": "Nova Zelanda",
+    "prohibidas": [
+      "País",
+      "Oceania",
+      "Illa",
+      "Kiwi",
+      "Rugby"
+    ]
+  },
+  {
+    "palabra": "Hàmster",
+    "prohibidas": [
+      "Roedor",
+      "Petit",
+      "Mascota",
+      "Gàbia",
+      "Roda"
+    ]
+  },
+  {
+    "palabra": "Polònia",
+    "prohibidas": [
+      "Europa",
+      "Varsòvia",
+      "Fred",
+      "País",
+      "Comunisme"
+    ]
+  },
+  {
+    "palabra": "Porc espí",
+    "prohibidas": [
+      "Animal",
+      "Espines",
+      "Boleta",
+      "Rodar",
+      "Bosc"
+    ]
+  },
+  {
+    "palabra": "Colòmbia",
+    "prohibidas": [
+      "Sud-amèrica",
+      "Bogotà",
+      "Cafè",
+      "País",
+      "Cultura"
+    ]
+  },
+  {
+    "palabra": "Búfal",
+    "prohibidas": [
+      "Animal",
+      "Banyes",
+      "Gran",
+      "Índia",
+      "Amèrica"
+    ]
+  },
+  {
+    "palabra": "Israel",
+    "prohibidas": [
+      "País",
+      "Àsia",
+      "Jerusalem",
+      "Conflicte",
+      "Religió"
+    ]
+  },
+  {
+    "palabra": "Lleó marí",
+    "prohibidas": [
+      "Mamífer",
+      "Aigua",
+      "Bigotis",
+      "Aletes",
+      "Peix"
+    ]
+  },
+  {
+    "palabra": "Finlàndia",
+    "prohibidas": [
+      "Europa",
+      "Sauna",
+      "Llac",
+      "Fred",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Ànec",
+    "prohibidas": [
+      "Ocell",
+      "Plomes",
+      "Aigua",
+      "Bec",
+      "Cuac"
+    ]
+  },
+  {
+    "palabra": "Romania",
+    "prohibidas": [
+      "Europa",
+      "Bucarest",
+      "País",
+      "Dràcula",
+      "Cultura"
+    ]
+  },
+  {
+    "palabra": "Xile",
+    "prohibidas": [
+      "Sud-amèrica",
+      "Santiago",
+      "Llarg",
+      "Vi",
+      "Serralada"
+    ]
+  },
+  {
+    "palabra": "Bisó",
+    "prohibidas": [
+      "Animal",
+      "Gran",
+      "Amèrica",
+      "Banyes",
+      "Búfal"
+    ]
+  },
+  {
+    "palabra": "Marroc",
+    "prohibidas": [
+      "Àfrica",
+      "Desert",
+      "Casablanca",
+      "País",
+      "Capital"
+    ]
+  },
+  {
+    "palabra": "Dindi",
+    "prohibidas": [
+      "Ocell",
+      "Nadal",
+      "Plomes",
+      "Menjar",
+      "Carn"
+    ]
+  },
+  {
+    "palabra": "Filipines",
+    "prohibidas": [
+      "Àsia",
+      "Manila",
+      "País",
+      "Illa",
+      "Oceà"
+    ]
+  },
+  {
+    "palabra": "Gallina",
+    "prohibidas": [
+      "Ocell",
+      "Granja",
+      "Ou",
+      "Ponedora",
+      "Corral"
+    ]
+  },
+  {
+    "palabra": "Grècia",
+    "prohibidas": [
+      "Europa",
+      "Atenes",
+      "Mitologia",
+      "Olimpiades",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Voltor",
+    "prohibidas": [
+      "Ocell",
+      "Carronyaire",
+      "Cap",
+      "Calva",
+      "Volar"
+    ]
+  },
+  {
+    "palabra": "Perú",
+    "prohibidas": [
+      "Sud-amèrica",
+      "Machu Picchu",
+      "Andes",
+      "Inca",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Ocelot",
+    "prohibidas": [
+      "Felí",
+      "Petit",
+      "Taques",
+      "Amèrica",
+      "Caça"
+    ]
+  },
+  {
+    "palabra": "Suècia",
+    "prohibidas": [
+      "Europa",
+      "Estocolm",
+      "Ikea",
+      "Fred",
+      "Viking"
+    ]
+  },
+  {
+    "palabra": "Mofeta",
+    "prohibidas": [
+      "Animal",
+      "Mal",
+      "Olor",
+      "Blanc",
+      "Negre"
+    ]
+  },
+  {
+    "palabra": "Xina",
+    "prohibidas": [
+      "Àsia",
+      "Muralla",
+      "Panda",
+      "Pekín",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Cérvol",
+    "prohibidas": [
+      "Animal",
+      "Bosc",
+      "Banyes",
+      "Cérvol",
+      "Salvatge"
+    ]
+  },
+  {
+    "palabra": "Dinamarca",
+    "prohibidas": [
+      "Europa",
+      "Copenhaguen",
+      "Vikings",
+      "Lego",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Mofeta",
+    "prohibidas": [
+      "Animal",
+      "Mala",
+      "Olor",
+      "Blanc",
+      "Negre"
+    ]
+  },
+  {
+    "palabra": "Indonèsia",
+    "prohibidas": [
+      "Àsia",
+      "Bali",
+      "Illa",
+      "País",
+      "Volcans"
+    ]
+  },
+  {
+    "palabra": "Sariga",
+    "prohibidas": [
+      "Animal",
+      "Marsupial",
+      "Cua",
+      "Amèrica",
+      "Bossa"
+    ]
+  },
+  {
+    "palabra": "Tailàndia",
+    "prohibidas": [
+      "Àsia",
+      "Bangkok",
+      "Templo",
+      "Elefant",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Armadillo",
+    "prohibidas": [
+      "Animal",
+      "Closca",
+      "Bola",
+      "Sud-amèrica",
+      "Terra"
+    ]
+  },
+  {
+    "palabra": "Egipte",
+    "prohibidas": [
+      "Àfrica",
+      "Piràmides",
+      "Faraó",
+      "Nil",
+      "Antic"
+    ]
+  },
+  {
+    "palabra": "Peix espasa",
+    "prohibidas": [
+      "Mar",
+      "Bec",
+      "Peix",
+      "Nadador",
+      "Veloc"
+    ]
+  },
+  {
+    "palabra": "Noruega",
+    "prohibidas": [
+      "Europa",
+      "Fiords",
+      "Viking",
+      "Fred",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Jaguar",
+    "prohibidas": [
+      "Felí",
+      "Amèrica",
+      "Selva",
+      "Taques",
+      "Depredador"
+    ]
+  },
+  {
+    "palabra": "Austràlia",
+    "prohibidas": [
+      "País",
+      "Cangur",
+      "Koala",
+      "Sydney",
+      "Illa"
+    ]
+  },
+  {
+    "palabra": "Puma",
+    "prohibidas": [
+      "Felí",
+      "Muntanya",
+      "Gat",
+      "Sud-amèrica",
+      "Depredador"
+    ]
+  },
+  {
+    "palabra": "Irlanda",
+    "prohibidas": [
+      "Europa",
+      "Dublín",
+      "Verd",
+      "Trèvol",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Gorila",
+    "prohibidas": [
+      "Mico",
+      "Selva",
+      "Àfrica",
+      "Simi",
+      "Fort"
+    ]
+  },
+  {
+    "palabra": "Islàndia",
+    "prohibidas": [
+      "Illa",
+      "Gel",
+      "Volcans",
+      "Aurora",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Hiena",
+    "prohibidas": [
+      "Animal",
+      "Àfrica",
+      "Carronyaire",
+      "Rialla",
+      "Manada"
+    ]
+  },
+  {
+    "palabra": "Mèxic",
+    "prohibidas": [
+      "Amèrica",
+      "Tacos",
+      "Capital",
+      "Chichén",
+      "Azteca"
+    ]
+  },
+  {
+    "palabra": "Castor",
+    "prohibidas": [
+      "Animal",
+      "Riu",
+      "Dientes",
+      "Presa",
+      "Construir"
+    ]
+  },
+  {
+    "palabra": "Ecuador",
+    "prohibidas": [
+      "Sud-amèrica",
+      "Galápagos",
+      "Quito",
+      "País",
+      "Meitat"
+    ]
+  },
+  {
+    "palabra": "Dromedari",
+    "prohibidas": [
+      "Camell",
+      "Giba",
+      "Desert",
+      "Sorra",
+      "Transport"
+    ]
+  },
+  {
+    "palabra": "Sud-àfrica",
+    "prohibidas": [
+      "Àfrica",
+      "Johannesburgo",
+      "Lleons",
+      "País",
+      "Continent"
+    ]
+  },
+  {
+    "palabra": "Leopard",
+    "prohibidas": [
+      "Felí",
+      "Taques",
+      "Arbre",
+      "Caça",
+      "Àfrica"
+    ]
+  },
+  {
+    "palabra": "Espanya",
+    "prohibidas": [
+      "Europa",
+      "Madrid",
+      "Brau",
+      "Sol",
+      "Tapes"
+    ]
+  },
+  {
+    "palabra": "Zebra",
+    "prohibidas": [
+      "Animal",
+      "Àfrica",
+      "Blanc",
+      "Negre",
+      "Ratlles"
+    ]
+  },
+  {
+    "palabra": "Argentina",
+    "prohibidas": [
+      "Sud-amèrica",
+      "Tango",
+      "Buenos Aires",
+      "Carn",
+      "Messi"
+    ]
+  },
+  {
+    "palabra": "Pingüí",
+    "prohibidas": [
+      "Antàrtida",
+      "Gel",
+      "Fred",
+      "Ocell",
+      "Nadador"
+    ]
+  },
+  {
+    "palabra": "Brasil",
+    "prohibidas": [
+      "Sud-amèrica",
+      "Samba",
+      "Futbol",
+      "Riu",
+      "Carnestoltes"
+    ]
+  },
+  {
+    "palabra": "Rinoceront",
+    "prohibidas": [
+      "Animal",
+      "Banya",
+      "Gran",
+      "Àfrica",
+      "Gris"
+    ]
+  },
+  {
+    "palabra": "Itàlia",
+    "prohibidas": [
+      "Europa",
+      "Roma",
+      "Pizza",
+      "Coliseu",
+      "Bota"
+    ]
+  },
+  {
+    "palabra": "Cocodril",
+    "prohibidas": [
+      "Rèptil",
+      "Mandíbula",
+      "Aigua",
+      "Nil",
+      "Llangardaix"
+    ]
+  },
+  {
+    "palabra": "França",
+    "prohibidas": [
+      "Europa",
+      "París",
+      "Torre",
+      "Vi",
+      "Capital"
+    ]
+  },
+  {
+    "palabra": "Tucà",
+    "prohibidas": [
+      "Ocell",
+      "Bec",
+      "Colors",
+      "Selva",
+      "Exòtic"
+    ]
+  },
+  {
+    "palabra": "Índia",
+    "prohibidas": [
+      "Àsia",
+      "Taj Mahal",
+      "Bollywood",
+      "Elefant",
+      "Capital"
+    ]
+  },
+  {
+    "palabra": "Mico",
+    "prohibidas": [
+      "Animal",
+      "Arbre",
+      "Selva",
+      "Plàtan",
+      "Cua"
+    ]
+  },
+  {
+    "palabra": "Holanda",
+    "prohibidas": [
+      "Europa",
+      "Molins",
+      "Flors",
+      "Bicicleta",
+      "Amsterdam"
+    ]
+  },
+  {
+    "palabra": "Pop",
+    "prohibidas": [
+      "Mar",
+      "Tentacles",
+      "Vuit",
+      "Intel·ligent",
+      "Tinta"
+    ]
+  },
+  {
+    "palabra": "Turquia",
+    "prohibidas": [
+      "Àsia",
+      "Istanbul",
+      "Mesquita",
+      "Bòsfor",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Vietnam",
+    "prohibidas": [
+      "Àsia",
+      "Guerra",
+      "Hanói",
+      "Arròs",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Dofí",
+    "prohibidas": [
+      "Mar",
+      "Animal",
+      "Intel·ligent",
+      "Saltar",
+      "Mamífer"
+    ]
+  },
+  {
+    "palabra": "Cranc",
+    "prohibidas": [
+      "Marisc",
+      "Pinces",
+      "Platja",
+      "Closca",
+      "Caminar"
+    ]
+  },
+  {
+    "palabra": "Tigre",
+    "prohibidas": [
+      "Felí",
+      "Ratlles",
+      "Gran",
+      "Caza",
+      "Selva"
+    ]
+  },
+  {
+    "palabra": "Japó",
+    "prohibidas": [
+      "Àsia",
+      "Tòquio",
+      "Sushi",
+      "Sol",
+      "Isla"
+    ]
+  },
+  {
+    "palabra": "Camaleó",
+    "prohibidas": [
+      "Rèptil",
+      "Canviar",
+      "Color",
+      "Llengua",
+      "Ulls"
+    ]
+  },
+  {
+    "palabra": "Girafa",
+    "prohibidas": [
+      "Animal",
+      "Coll",
+      "Llarg",
+      "Àfrica",
+      "Taques"
+    ]
+  },
+  {
+    "palabra": "Alemanya",
+    "prohibidas": [
+      "Europa",
+      "Berlín",
+      "Cervesa",
+      "Mur",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Gavina",
+    "prohibidas": [
+      "Ocell",
+      "Mar",
+      "Platja",
+      "Volant",
+      "Cridar"
+    ]
+  },
+  {
+    "palabra": "Ós panda",
+    "prohibidas": [
+      "Xina",
+      "Bambú",
+      "Ós",
+      "Blanc",
+      "Negre"
+    ]
+  },
+  {
+    "palabra": "Suricato",
+    "prohibidas": [
+      "Animal",
+      "Petit",
+      "Àfrica",
+      "Grup",
+      "Desert"
+    ]
+  },
+  {
+    "palabra": "Escòcia",
+    "prohibidas": [
+      "Europa",
+      "Faldilla",
+      "Whisky",
+      "Castell",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Serp",
+    "prohibidas": [
+      "Rèptil",
+      "Verí",
+      "Arrossegar-se",
+      "Mossegar",
+      "Colobra"
+    ]
+  },
+  {
+    "palabra": "Hipopòtam",
+    "prohibidas": [
+      "Animal",
+      "Riu",
+      "Aigua",
+      "Àfrica",
+      "Gran"
+    ]
+  },
+  {
+    "palabra": "Senglar",
+    "prohibidas": [
+      "Porc",
+      "Bosc",
+      "Animal",
+      "Ullal",
+      "Salvatge"
+    ]
+  },
+  {
+    "palabra": "Gos",
+    "prohibidas": [
+      "Animal",
+      "Mascota",
+      "Lladrar",
+      "Os",
+      "Quatre"
+    ]
+  },
+  {
+    "palabra": "Perròs",
+    "prohibidas": [
+      "Animal",
+      "Lent",
+      "Arbre",
+      "Sud-amèrica",
+      "Pelatge"
+    ]
+  },
+  {
+    "palabra": "Koala",
+    "prohibidas": [
+      "Austràlia",
+      "Marsupial",
+      "Eucaliptus",
+      "Tendre",
+      "Arbre"
+    ]
+  },
+  {
+    "palabra": "Òliba",
+    "prohibidas": [
+      "Ocell",
+      "Nit",
+      "Saviesa",
+      "Plomes",
+      "Bosc"
+    ]
+  },
+  {
+    "palabra": "Guineu",
+    "prohibidas": [
+      "Animal",
+      "Astut",
+      "Cua",
+      "Bosc",
+      "Gos"
+    ]
+  },
+  {
+    "palabra": "Estruç",
+    "prohibidas": [
+      "Ocell",
+      "Gran",
+      "Ou",
+      "Plomes",
+      "Àfrica"
+    ]
+  },
+  {
+    "palabra": "Mapatxe",
+    "prohibidas": [
+      "Animal",
+      "Màscara",
+      "Mans",
+      "Brossa",
+      "Nocturn"
+    ]
+  },
+  {
+    "palabra": "Rússia",
+    "prohibidas": [
+      "Europa",
+      "Moscou",
+      "Fred",
+      "Putin",
+      "Vodka"
+    ]
+  },
+  {
+    "palabra": "Tortuga",
+    "prohibidas": [
+      "Rèptil",
+      "Lenta",
+      "Closca",
+      "Platja",
+      "Longevitat"
+    ]
+  },
+  {
+    "palabra": "Llop",
+    "prohibidas": [
+      "Animal",
+      "Bosc",
+      "Udolar",
+      "Manada",
+      "Caça"
+    ]
+  },
+  {
+    "palabra": "Cavall",
+    "prohibidas": [
+      "Animal",
+      "Cavalcar",
+      "Granja",
+      "Rinclament",
+      "Crineres"
+    ]
+  },
+  {
+    "palabra": "Ovella",
+    "prohibidas": [
+      "Animal",
+      "Llana",
+      "Granja",
+      "Beleig",
+      "Ramat"
+    ]
+  },
+  {
+    "palabra": "Elefant",
+    "prohibidas": [
+      "Trompa",
+      "Paquidermo",
+      "Orelles",
+      "Gran",
+      "Àfrica"
+    ]
+  },
+  {
+    "palabra": "Ratpenat",
+    "prohibidas": [
+      "Mamífer",
+      "Volar",
+      "Nit",
+      "Cova",
+      "Aletes"
+    ]
+  },
+  {
+    "palabra": "Vaca",
+    "prohibidas": [
+      "Animal",
+      "Llet",
+      "Granja",
+      "Mu",
+      "Camp"
+    ]
+  },
+  {
+    "palabra": "Panda",
+    "prohibidas": [
+      "Xina",
+      "Bambú",
+      "Ós",
+      "Blanc",
+      "Negre"
+    ]
+  },
+  {
+    "palabra": "Cabra",
+    "prohibidas": [
+      "Animal",
+      "Muntanya",
+      "Llet",
+      "Barba",
+      "Banya"
+    ]
+  },
+  {
+    "palabra": "Cangur",
+    "prohibidas": [
+      "Austràlia",
+      "Bossa",
+      "Saltar",
+      "Animal",
+      "Cria"
+    ]
+  },
+  {
+    "palabra": "Guepard",
+    "prohibidas": [
+      "Felí",
+      "Velocitat",
+      "Taques",
+      "Àfrica",
+      "Caça"
+    ]
+  },
+  {
+    "palabra": "Portugal",
+    "prohibidas": [
+      "Europa",
+      "Lisboa",
+      "Cristiano",
+      "Mar",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Ós",
+    "prohibidas": [
+      "Animal",
+      "Bosc",
+      "Mel",
+      "Hivern",
+      "Grapes"
+    ]
+  },
+  {
+    "palabra": "Dinosaure",
+    "prohibidas": [
+      "Extint",
+      "Rèptil",
+      "Fòssil",
+      "Gegant",
+      "Juràssic"
+    ]
+  },
+  {
+    "palabra": "Tauró",
+    "prohibidas": [
+      "Mar",
+      "Peix",
+      "Aleta",
+      "Dents",
+      "Depredador"
+    ]
+  },
+  {
+    "palabra": "Peix",
+    "prohibidas": [
+      "Animal",
+      "Aigua",
+      "Aletes",
+      "Nadador",
+      "Escates"
+    ]
+  },
+  {
+    "palabra": "Llama",
+    "prohibidas": [
+      "Animal",
+      "Andes",
+      "Sud-amèrica",
+      "Escupir",
+      "Muntanya"
+    ]
+  },
+  {
+    "palabra": "Suïssa",
+    "prohibidas": [
+      "Europa",
+      "Alps",
+      "Xocolata",
+      "Rellotges",
+      "Formatge"
+    ]
+  },
+  {
+    "palabra": "Àguila",
+    "prohibidas": [
+      "Ocell",
+      "Cel",
+      "Depredador",
+      "Grapes",
+      "Volar"
+    ]
+  },
+  {
+    "palabra": "Cuba",
+    "prohibidas": [
+      "Illa",
+      "Carib",
+      "Havana",
+      "Ron",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Gat",
+    "prohibidas": [
+      "Animal",
+      "Domèstic",
+      "Miolar",
+      "Felí",
+      "Bigotis"
+    ]
+  },
+  {
+    "palabra": "Canadà",
+    "prohibidas": [
+      "Amèrica del Nord",
+      "Fulles",
+      "Fred",
+      "País",
+      "Ós"
+    ]
+  },
+  {
+    "palabra": "Baldufa",
+    "prohibidas": [
+      "Joguina",
+      "Fusta",
+      "Corda",
+      "Girar",
+      "Bec"
+    ]
+  },
+  {
+    "palabra": "Baldufa",
+    "prohibidas": [
+      "Joguina",
+      "Corda",
+      "Fusta",
+      "Girar",
+      "Punta"
+    ]
+  },
+  {
+    "palabra": "Formiga",
+    "prohibidas": [
+      "Insecte",
+      "Petit",
+      "Treballar",
+      "Colònia",
+      "Terra"
+    ]
+  },
+  {
+    "palabra": "Papallona",
+    "prohibidas": [
+      "Aletes",
+      "Insecte",
+      "Colors",
+      "Eruga",
+      "Volar"
+    ]
+  },
+  {
+    "palabra": "Mosquit",
+    "prohibidas": [
+      "Insecte",
+      "Picada",
+      "Volar",
+      "Zumzeig",
+      "Aigua"
+    ]
+  },
+  {
+    "palabra": "Aranya",
+    "prohibidas": [
+      "Insecte",
+      "Tel d'aranya",
+      "Potes",
+      "Mossegar",
+      "Teixir"
+    ]
+  },
+  {
+    "palabra": "Abella",
+    "prohibidas": [
+      "Insecte",
+      "Mel",
+      "Rusc",
+      "Flor",
+      "Picada"
+    ]
+  },
+  {
+    "palabra": "Libèl·lula",
+    "prohibidas": [
+      "Insecte",
+      "Volar",
+      "Aletes",
+      "Aigua",
+      "Llarg"
+    ]
+  },
+  {
+    "palabra": "Grill",
+    "prohibidas": [
+      "Insecte",
+      "Cant",
+      "Nit",
+      "Salta",
+      "Verd"
+    ]
+  },
+  {
+    "palabra": "Caragol",
+    "prohibidas": [
+      "Closca",
+      "Lent",
+      "Jardí",
+      "Llimac",
+      "Casa"
+    ]
+  },
+  {
+    "palabra": "Carn",
+    "prohibidas": [
+      "Menjar",
+      "Proteïna",
+      "Animal",
+      "Bistec",
+      "Cuinar"
+    ]
+  },
+  {
+    "palabra": "Peix",
+    "prohibidas": [
+      "Mar",
+      "Menjar",
+      "Aigua",
+      "Escates",
+      "Sopar"
+    ]
+  },
+  {
+    "palabra": "Arròs",
+    "prohibidas": [
+      "Menjar",
+      "Gran",
+      "Blanc",
+      "Xina",
+      "Paella"
+    ]
+  },
+  {
+    "palabra": "Pasta",
+    "prohibidas": [
+      "Menjar",
+      "Farina",
+      "Fideus",
+      "Salsa",
+      "Italiana"
+    ]
+  },
+  {
+    "palabra": "Formatge",
+    "prohibidas": [
+      "Llet",
+      "Menjar",
+      "Fondre",
+      "Groc",
+      "Llacti"
+    ]
+  },
+  {
+    "palabra": "Pa",
+    "prohibidas": [
+      "Farina",
+      "Menjar",
+      "Forn",
+      "Esmorzar",
+      "Torrada"
+    ]
+  },
+  {
+    "palabra": "Poma",
+    "prohibidas": [
+      "Fruita",
+      "Vermella",
+      "Arbre",
+      "Menjar",
+      "Rodona"
+    ]
+  },
+  {
+    "palabra": "Plàtan",
+    "prohibidas": [
+      "Fruita",
+      "Groc",
+      "Pell",
+      "Mico",
+      "Dolç"
+    ]
+  },
+  {
+    "palabra": "Taronja",
+    "prohibidas": [
+      "Fruita",
+      "Cítric",
+      "Suc",
+      "Color",
+      "Rodona"
+    ]
+  },
+  {
+    "palabra": "Pera",
+    "prohibidas": [
+      "Fruita",
+      "Verd",
+      "Dolç",
+      "Arbre",
+      "Aigua"
+    ]
+  },
+  {
+    "palabra": "Sindria",
+    "prohibidas": [
+      "Fruita",
+      "Estiu",
+      "Vermella",
+      "Aigua",
+      "Llavors"
+    ]
+  },
+  {
+    "palabra": "Raïm",
+    "prohibidas": [
+      "Fruita",
+      "Pom",
+      "Vi",
+      "Verd",
+      "Morat"
+    ]
+  },
+  {
+    "palabra": "Tomàquet",
+    "prohibidas": [
+      "Vermell",
+      "Verdura",
+      "Planta",
+      "Salsa",
+      "Amanida"
+    ]
+  },
+  {
+    "palabra": "Enciam",
+    "prohibidas": [
+      "Fulla",
+      "Verd",
+      "Amanida",
+      "Hortalissa",
+      "Aigua"
+    ]
+  },
+  {
+    "palabra": "Pastanaga",
+    "prohibidas": [
+      "Verdura",
+      "Taronja",
+      "Conill",
+      "Arrel",
+      "Hort"
+    ]
+  },
+  {
+    "palabra": "Patata",
+    "prohibidas": [
+      "Verdura",
+      "Terra",
+      "Fregides",
+      "Menjar",
+      "Cuinar"
+    ]
+  },
+  {
+    "palabra": "Ceba",
+    "prohibidas": [
+      "Verdura",
+      "Plorar",
+      "Condiment",
+      "Cuinar",
+      "Bulb"
+    ]
+  },
+  {
+    "palabra": "All",
+    "prohibidas": [
+      "Condiment",
+      "Bulb",
+      "Olor",
+      "Vampir",
+      "Cuina"
+    ]
+  },
+  {
+    "palabra": "Pebrot",
+    "prohibidas": [
+      "Verdura",
+      "Vermell",
+      "Verd",
+      "Xile",
+      "Picant"
+    ]
+  },
+  {
+    "palabra": "Brócoli",
+    "prohibidas": [
+      "Verdura",
+      "Verd",
+      "Árbol",
+      "Saludable",
+      "Flor"
+    ]
+  },
+  {
+    "palabra": "Suc",
+    "prohibidas": [
+      "Beguda",
+      "Fruita",
+      "Líquid",
+      "Taronja",
+      "Vitamina"
+    ]
+  },
+  {
+    "palabra": "Llet",
+    "prohibidas": [
+      "Beguda",
+      "Vaca",
+      "Blanca",
+      "Llacti",
+      "Esmorzar"
+    ]
+  },
+  {
+    "palabra": "Cervesa",
+    "prohibidas": [
+      "Beguda",
+      "Alcohol",
+      "Freda",
+      "Escuma",
+      "Ampolla"
+    ]
+  },
+  {
+    "palabra": "Vi",
+    "prohibidas": [
+      "Beguda",
+      "Raïm",
+      "Alcohol",
+      "Ampolla",
+      "Copa"
+    ]
+  },
+  {
+    "palabra": "Cafè",
+    "prohibidas": [
+      "Beguda",
+      "Calent",
+      "Grans",
+      "Tassa",
+      "Despertar"
+    ]
+  },
+  {
+    "palabra": "Té",
+    "prohibidas": [
+      "Beguda",
+      "Calent",
+      "Fulles",
+      "Tassa",
+      "Infusió"
+    ]
+  },
+  {
+    "palabra": "Aigua",
+    "prohibidas": [
+      "Beguda",
+      "Vida",
+      "Líquid",
+      "Transparent",
+      "Gel"
+    ]
+  },
+  {
+    "palabra": "Llibre",
+    "prohibidas": [
+      "Llegir",
+      "Pàgines",
+      "Història",
+      "Paper",
+      "Novel·la"
+    ]
+  },
+  {
+    "palabra": "Cama",
+    "prohibidas": [
+      "Dormir",
+      "Habitació",
+      "Matalàs",
+      "Llençol",
+      "Descansar"
+    ]
+  },
+  {
+    "palabra": "Cadira",
+    "prohibidas": [
+      "Moble",
+      "Seure",
+      "Seient",
+      "Potes",
+      "Fusta"
+    ]
+  },
+  {
+    "palabra": "Taula",
+    "prohibidas": [
+      "Moble",
+      "Menjar",
+      "Seure",
+      "Potes",
+      "Superfície"
+    ]
+  },
+  {
+    "palabra": "Llum",
+    "prohibidas": [
+      "Llum",
+      "Bombeta",
+      "Il·luminar",
+      "Habitació",
+      "Encendre"
+    ]
+  },
+  {
+    "palabra": "Rellotge",
+    "prohibidas": [
+      "Temps",
+      "Hores",
+      "Minuts",
+      "Segons",
+      "Agulles"
+    ]
+  },
+  {
+    "palabra": "Telèfon",
+    "prohibidas": [
+      "Trucar",
+      "Comunicar",
+      "Mòbil",
+      "Pantalla",
+      "Número"
+    ]
+  },
+  {
+    "palabra": "Ordinador",
+    "prohibidas": [
+      "Tecnologia",
+      "Pantalla",
+      "Teclat",
+      "Ratolí",
+      "Programes"
+    ]
+  },
+  {
+    "palabra": "Televisió",
+    "prohibidas": [
+      "Pantalla",
+      "Veure",
+      "Sèrie",
+      "Notícies",
+      "Comandament"
+    ]
+  },
+  {
+    "palabra": "Cotxe",
+    "prohibidas": [
+      "Vehicle",
+      "Conduir",
+      "Rodes",
+      "Motor",
+      "Transport"
+    ]
+  },
+  {
+    "palabra": "Avió",
+    "prohibidas": [
+      "Volar",
+      "Ala",
+      "Aeroport",
+      "Pilot",
+      "Passatgers"
+    ]
+  },
+  {
+    "palabra": "Tren",
+    "prohibidas": [
+      "Vagons",
+      "Vies",
+      "Estació",
+      "Viatjar",
+      "Màquina"
+    ]
+  },
+  {
+    "palabra": "Vaixell",
+    "prohibidas": [
+      "Navegar",
+      "Mar",
+      "Aigua",
+      "Embarcació",
+      "Viatge"
+    ]
+  },
+  {
+    "palabra": "Bicicleta",
+    "prohibidas": [
+      "Pedals",
+      "Rodes",
+      "Muntar",
+      "Manillar",
+      "Transport"
+    ]
+  },
+  {
+    "palabra": "Beguda energètica",
+    "prohibidas": [
+      "Red Bull",
+      "Cofeïna",
+      "Sucre",
+      "Aletes",
+      "Despertar"
+    ]
+  },
+  {
+    "palabra": "Xocolata",
+    "prohibidas": [
+      "Cacau",
+      "Dolç",
+      "Postre",
+      "Rajola",
+      "Bombó"
+    ]
+  },
+  {
+    "palabra": "Cel",
+    "prohibidas": [
+      "Núvols",
+      "Blau",
+      "Aire",
+      "Ocells",
+      "Dalt"
+    ]
+  },
+  {
+    "palabra": "Núvol",
+    "prohibidas": [
+      "Cel",
+      "Pluja",
+      "Blanca",
+      "Cotó",
+      "Forma"
+    ]
+  },
+  {
+    "palabra": "Estrella",
+    "prohibidas": [
+      "Espai",
+      "Cel",
+      "Brillar",
+      "Nit",
+      "Llum"
+    ]
+  },
+  {
+    "palabra": "Lluna",
+    "prohibidas": [
+      "Nit",
+      "Cel",
+      "Rodona",
+      "Satèl·lit",
+      "Terra"
+    ]
+  },
+  {
+    "palabra": "Sol",
+    "prohibidas": [
+      "Cel",
+      "Calor",
+      "Estrella",
+      "Dia",
+      "Llum"
+    ]
+  },
+  {
+    "palabra": "Llampec",
+    "prohibidas": [
+      "Tro",
+      "Electricitat",
+      "Tempesta",
+      "Rai",
+      "Cel"
+    ]
+  },
+  {
+    "palabra": "Volcà",
+    "prohibidas": [
+      "Muntanya",
+      "Erupció",
+      "Lava",
+      "Magma",
+      "Foc"
+    ]
+  },
+  {
+    "palabra": "Glacera",
+    "prohibidas": [
+      "Gel",
+      "Muntanya",
+      "Neu",
+      "Fred",
+      "Pol"
+    ]
+  },
+  {
+    "palabra": "Desert",
+    "prohibidas": [
+      "Sorra",
+      "Calor",
+      "Sequera",
+      "Cactus",
+      "Camell"
+    ]
+  },
+  {
+    "palabra": "Jungla",
+    "prohibidas": [
+      "Selva",
+      "Arbres",
+      "Animals",
+      "Verd",
+      "Tropical"
+    ]
+  },
+  {
+    "palabra": "Salt d'aigua",
+    "prohibidas": [
+      "Aigua",
+      "Salt",
+      "Riu",
+      "Caure",
+      "Natura"
+    ]
+  },
+  {
+    "palabra": "Platja",
+    "prohibidas": [
+      "Mar",
+      "Sorra",
+      "Sol",
+      "Vacances",
+      "Banyador"
+    ]
+  },
+  {
+    "palabra": "Piscina",
+    "prohibidas": [
+      "Aigua",
+      "Nadador",
+      "Banyar-se",
+      "Estiu",
+      "Terra"
+    ]
+  },
+  {
+    "palabra": "Bosc",
+    "prohibidas": [
+      "Arbres",
+      "Natura",
+      "Selva",
+      "Verd",
+      "Fusta"
+    ]
+  },
+  {
+    "palabra": "Parc",
+    "prohibidas": [
+      "Arbres",
+      "Verd",
+      "Jocs",
+      "Passejar",
+      "Ciutat"
+    ]
+  },
+  {
+    "palabra": "Hospital",
+    "prohibidas": [
+      "Malalts",
+      "Metge",
+      "Curar",
+      "Urgències",
+      "Medicina"
+    ]
+  },
+  {
+    "palabra": "Col·legi",
+    "prohibidas": [
+      "Escola",
+      "Estudiar",
+      "Professor",
+      "Alumnes",
+      "Classe"
+    ]
+  },
+  {
+    "palabra": "Supermercat",
+    "prohibidas": [
+      "Comprar",
+      "Menjar",
+      "Carro",
+      "Caixa",
+      "Botiga"
+    ]
+  },
+  {
+    "palabra": "Teatre",
+    "prohibidas": [
+      "Obra",
+      "Actor",
+      "Escenari",
+      "Públic",
+      "Representació"
+    ]
+  },
+  {
+    "palabra": "Cinema",
+    "prohibidas": [
+      "Pel·lícules",
+      "Pantalla",
+      "Crispetes",
+      "Butaques",
+      "Projector"
+    ]
+  },
+  {
+    "palabra": "Museu",
+    "prohibidas": [
+      "Art",
+      "Història",
+      "Visitar",
+      "Quadres",
+      "Escultures"
+    ]
+  },
+  {
+    "palabra": "Catedral",
+    "prohibidas": [
+      "Església",
+      "Religió",
+      "Antiga",
+      "Cristiana",
+      "Arquitectura"
+    ]
+  },
+  {
+    "palabra": "Presó",
+    "prohibidas": [
+      "Presó",
+      "Delinqüents",
+      "Barrots",
+      "Cel·la",
+      "Policia"
+    ]
+  },
+  {
+    "palabra": "Biblioteca",
+    "prohibidas": [
+      "Llibres",
+      "Llegir",
+      "Prestatgeria",
+      "Silenci",
+      "Estudiar"
+    ]
+  },
+  {
+    "palabra": "Guerra",
+    "prohibidas": [
+      "Lluita",
+      "Batalla",
+      "Soldats",
+      "Arma",
+      "Violència"
+    ]
+  },
+  {
+    "palabra": "Pau",
+    "prohibidas": [
+      "Tranquil·litat",
+      "Silenci",
+      "No",
+      "Guerra",
+      "Calma"
+    ]
+  },
+  {
+    "palabra": "Justícia",
+    "prohibidas": [
+      "Llei",
+      "Jutge",
+      "Tribunal",
+      "Igualtat",
+      "Dret"
+    ]
+  },
+  {
+    "palabra": "Felicitat",
+    "prohibidas": [
+      "Alegria",
+      "Content",
+      "Somriure",
+      "Emoció",
+      "Sentiment"
+    ]
+  },
+  {
+    "palabra": "Tristesa",
+    "prohibidas": [
+      "Emoció",
+      "Plorar",
+      "Infeliç",
+      "Sentiment",
+      "Pena"
+    ]
+  },
+  {
+    "palabra": "Por",
+    "prohibidas": [
+      "Sust",
+      "Terror",
+      "Foscor",
+      "Emoció",
+      "Fantasma"
+    ]
+  },
+  {
+    "palabra": "Sorpresa",
+    "prohibidas": [
+      "Emoció",
+      "Inesperat",
+      "Meravella",
+      "Regal",
+      "Cara"
+    ]
+  },
+  {
+    "palabra": "Amor",
+    "prohibidas": [
+      "Sentiment",
+      "Cor",
+      "Parella",
+      "Estimat",
+      "Afecte"
+    ]
+  },
+  {
+    "palabra": "Amistat",
+    "prohibidas": [
+      "Amics",
+      "Relació",
+      "Sentiment",
+      "Companyia",
+      "Confiança"
+    ]
+  },
+  {
+    "palabra": "Família",
+    "prohibidas": [
+      "Pares",
+      "Fills",
+      "Llar",
+      "Germans",
+      "Parentiu"
+    ]
+  },
+  {
+    "palabra": "Treball",
+    "prohibidas": [
+      "Oficina",
+      "Diners",
+      "Labor",
+      "Feina",
+      "Ocupació"
+    ]
+  },
+  {
+    "palabra": "Vacances",
+    "prohibidas": [
+      "Viatge",
+      "Descans",
+      "Platja",
+      "Estiu",
+      "Llibertat"
+    ]
+  },
+  {
+    "palabra": "Somni",
+    "prohibidas": [
+      "Dormir",
+      "Nit",
+      "Somiar",
+      "Realitat",
+      "Desig"
+    ]
+  },
+  {
+    "palabra": "Música",
+    "prohibidas": [
+      "So",
+      "Cantar",
+      "Ritme",
+      "Instrument",
+      "Nota"
+    ]
+  },
+  {
+    "palabra": "Pintura",
+    "prohibidas": [
+      "Art",
+      "Llenç",
+      "Quadre",
+      "Pinzell",
+      "Color"
+    ]
+  },
+  {
+    "palabra": "Poesia",
+    "prohibidas": [
+      "Vers",
+      "Ritme",
+      "Escriure",
+      "Estrofa",
+      "Rima"
+    ]
+  },
+  {
+    "palabra": "Conte",
+    "prohibidas": [
+      "Història",
+      "Llegir",
+      "Nens",
+      "Narració",
+      "Llibre"
+    ]
+  },
+  {
+    "palabra": "Acudit",
+    "prohibidas": [
+      "Rialla",
+      "Humor",
+      "Broma",
+      "Explicar",
+      "Graciós"
+    ]
+  },
+  {
+    "palabra": "Ocell",
+    "prohibidas": [
+      "Volar",
+      "Ocell",
+      "Plomes",
+      "Niu",
+      "Cel"
+    ]
+  },
+  {
+    "palabra": "Perico",
+    "prohibidas": [
+      "Ocell",
+      "Parlar",
+      "Colors",
+      "Gàbia",
+      "Plomes"
+    ]
+  },
+  {
+    "palabra": "Colibrí",
+    "prohibidas": [
+      "Ocell",
+      "Petit",
+      "Volar",
+      "Flor",
+      "Aletes"
+    ]
+  },
+  {
+    "palabra": "Pavó reial",
+    "prohibidas": [
+      "Ocell",
+      "Plomes",
+      "Cua",
+      "Colors",
+      "Desplegar"
+    ]
+  },
+  {
+    "palabra": "Mussol",
+    "prohibidas": [
+      "Ocell",
+      "Nit",
+      "Ulls",
+      "Òliba",
+      "Plomes"
+    ]
+  },
+  {
+    "palabra": "Colom",
+    "prohibidas": [
+      "Ocell",
+      "Plomes",
+      "Ciutat",
+      "Pau",
+      "Volar"
+    ]
+  },
+  {
+    "palabra": "Lleó",
+    "prohibidas": [
+      "Animal",
+      "Melena",
+      "Rei",
+      "Selva",
+      "Rugir"
+    ]
+  },
+  {
+    "palabra": "Balena",
+    "prohibidas": [
+      "Mamífer",
+      "Mar",
+      "Gegant",
+      "Cant",
+      "Aigua"
+    ]
+  },
+  {
+    "palabra": "Ós polar",
+    "prohibidas": [
+      "Blanc",
+      "Fred",
+      "Gel",
+      "Àrtic",
+      "Animal"
+    ]
+  },
+  {
+    "palabra": "Camell",
+    "prohibidas": [
+      "Desert",
+      "Giba",
+      "Animal",
+      "Sorra",
+      "Viatjar"
+    ]
+  },
+  {
+    "palabra": "Porc",
+    "prohibidas": [
+      "Animal",
+      "Granja",
+      "Garrí",
+      "Carn",
+      "Oinc"
+    ]
+  },
+  {
+    "palabra": "Gall",
+    "prohibidas": [
+      "Ocell",
+      "Granja",
+      "Cresta",
+      "Canta",
+      "Ous"
+    ]
+  },
+  {
+    "palabra": "Pollastre",
+    "prohibidas": [
+      "Ocell",
+      "Menjar",
+      "Granja",
+      "Carn",
+      "Ou"
+    ]
+  },
+  {
+    "palabra": "Ruc",
+    "prohibidas": [
+      "Animal",
+      "Granja",
+      "Bramula",
+      "Orelles",
+      "Càrrega"
+    ]
+  },
+  {
+    "palabra": "Conill",
+    "prohibidas": [
+      "Animal",
+      "Pastanaga",
+      "Salta",
+      "Orelles",
+      "Lent"
+    ]
+  },
+  {
+    "palabra": "Esquirol",
+    "prohibidas": [
+      "Animal",
+      "Arbre",
+      "Nous",
+      "Cua",
+      "Bosc"
+    ]
+  },
+  {
+    "palabra": "Estrella de mar",
+    "prohibidas": [
+      "Mar",
+      "Platja",
+      "Animal",
+      "Cinc",
+      "Puntes"
+    ]
+  },
+  {
+    "palabra": "Medusa",
+    "prohibidas": [
+      "Mar",
+      "Transparente",
+      "Tentáculos",
+      "Picada",
+      "Gelatina"
+    ]
+  },
+  {
+    "palabra": "Ostra",
+    "prohibidas": [
+      "Marisco",
+      "Concha",
+      "Perla",
+      "Comer",
+      "Playa"
+    ]
+  },
+  {
+    "palabra": "Porc",
+    "prohibidas": [
+      "Animal",
+      "Granja",
+      "Garrí",
+      "Carn",
+      "Oinc"
+    ]
+  },
+  {
+    "palabra": "Calamar gigante",
+    "prohibidas": [
+      "Oceà",
+      "Molusco",
+      "Tentáculos",
+      "Tinta",
+      "Criatura"
+    ]
+  },
+  {
+    "palabra": "Submarinisme",
+    "prohibidas": [
+      "Aigua",
+      "Submarinisme",
+      "Mar",
+      "Ampolla",
+      "Profunditat"
+    ]
+  },
+  {
+    "palabra": "Escalador",
+    "prohibidas": [
+      "Muntanya",
+      "Corda",
+      "Cim",
+      "Roca",
+      "Alçada"
+    ]
+  },
+  {
+    "palabra": "Joc de taula",
+    "prohibidas": [
+      "Amics",
+      "Daus",
+      "Cartes",
+      "Família",
+      "Partida"
+    ]
+  },
+  {
+    "palabra": "Marató",
+    "prohibidas": [
+      "Córrer",
+      "Cursa",
+      "Distància",
+      "Atleta",
+      "Meta"
+    ]
+  },
+  {
+    "palabra": "Entrepà",
+    "prohibidas": [
+      "Pa",
+      "Menjar",
+      "Pernil",
+      "Formatge",
+      "Dinar"
+    ]
+  },
+  {
+    "palabra": "Línia de producció",
+    "prohibidas": [
+      "Fàbrica",
+      "Cinta",
+      "Treball",
+      "Muntatge",
+      "Producte"
+    ]
+  },
+  {
+    "palabra": "Escultura",
+    "prohibidas": [
+      "Art",
+      "Tallar",
+      "Marbre",
+      "Estàtua",
+      "Forma"
+    ]
+  },
+  {
+    "palabra": "Galeta",
+    "prohibidas": [
+      "Postre",
+      "Dolç",
+      "Forn",
+      "Xocolata",
+      "Farina"
+    ]
+  },
+  {
+    "palabra": "Orquestra",
+    "prohibidas": [
+      "Música",
+      "Director",
+      "Simfonia",
+      "Instruments",
+      "Concert"
+    ]
+  },
+  {
+    "palabra": "Mirall",
+    "prohibidas": [
+      "Reflex",
+      "Cristall",
+      "Imatge",
+      "Mirar",
+      "Habitació"
+    ]
+  },
+  {
+    "palabra": "Pirata",
+    "prohibidas": [
+      "Vaixell",
+      "Tresor",
+      "Capità",
+      "Cofre",
+      "Pegat"
+    ]
+  },
+  {
+    "palabra": "Fotografia",
+    "prohibidas": [
+      "Càmera",
+      "Imatge",
+      "Retrat",
+      "Flash",
+      "Foto"
+    ]
+  },
+  {
+    "palabra": "Ajolote",
+    "prohibidas": [
+      "Anfibi",
+      "Mèxic",
+      "Branquies",
+      "Aigua",
+      "Capgròs"
+    ]
+  },
+  {
+    "palabra": "Aquarel·la",
+    "prohibidas": [
+      "Pintura",
+      "Aigua",
+      "Paper",
+      "Pinzell",
+      "Color"
+    ]
+  },
+  {
+    "palabra": "Cràter",
+    "prohibidas": [
+      "Volcà",
+      "Forat",
+      "Muntanya",
+      "Explosió",
+      "Vall"
+    ]
+  },
+  {
+    "palabra": "Temple",
+    "prohibidas": [
+      "Religió",
+      "Oració",
+      "Antic",
+      "Déu",
+      "Sacrifici"
+    ]
+  },
+  {
+    "palabra": "Jardí",
+    "prohibidas": [
+      "Plantes",
+      "Flors",
+      "Verd",
+      "Casa",
+      "Natura"
+    ]
+  },
+  {
+    "palabra": "Cometa",
+    "prohibidas": [
+      "Espacio",
+      "Cua",
+      "Estrella",
+      "Gel",
+      "Planeta"
+    ]
+  },
+  {
+    "palabra": "Estación espacial",
+    "prohibidas": [
+      "Satélite",
+      "Órbita",
+      "Astronauta",
+      "Terra",
+      "Nave"
+    ]
+  },
+  {
+    "palabra": "Arco iris",
+    "prohibidas": [
+      "Colores",
+      "Lluvia",
+      "Cielo",
+      "Sol",
+      "Óptico"
+    ]
+  },
+  {
+    "palabra": "Bateria",
+    "prohibidas": [
+      "Energia",
+      "Elèctrica",
+      "Recarregable",
+      "Pila",
+      "Carregador"
+    ]
+  },
+  {
+    "palabra": "Laberinto",
+    "prohibidas": [
+      "Camino",
+      "Entrada",
+      "Salida",
+      "Perdido",
+      "Muro"
+    ]
+  },
+  {
+    "palabra": "Caricatura",
+    "prohibidas": [
+      "Dibuixos",
+      "Humor",
+      "Infantil",
+      "Còmics",
+      "Animació"
+    ]
+  },
+  {
+    "palabra": "Oceà",
+    "prohibidas": [
+      "Mar",
+      "Aigua",
+      "Profund",
+      "Peixos",
+      "Vaixell"
+    ]
+  },
+  {
+    "palabra": "Robot",
+    "prohibidas": [
+      "Máquina",
+      "Tecnologia",
+      "Inteligencia",
+      "Autómata",
+      "Brazo"
+    ]
+  },
+  {
+    "palabra": "Cos humà",
+    "prohibidas": [
+      "Anatomia",
+      "Ossos",
+      "Músculs",
+      "Òrgans",
+      "Pell"
+    ]
+  },
+  {
+    "palabra": "Brúixola",
+    "prohibidas": [
+      "Nord",
+      "Sud",
+      "Direcció",
+      "Orientació",
+      "Mapa"
+    ]
+  },
+  {
+    "palabra": "Piràmide",
+    "prohibidas": [
+      "Egipte",
+      "Faraó",
+      "Tomba",
+      "Forma",
+      "Triangle"
+    ]
+  },
+  {
+    "palabra": "Telescopi",
+    "prohibidas": [
+      "Observar",
+      "Estrelles",
+      "Cel",
+      "Planetes",
+      "Espai"
+    ]
+  },
+  {
+    "palabra": "Huracà",
+    "prohibidas": [
+      "Vent",
+      "Tempesta",
+      "Cicló",
+      "Desastre",
+      "Ull"
+    ]
+  },
+  {
+    "palabra": "Piano",
+    "prohibidas": [
+      "Instrument",
+      "Música",
+      "Teclas",
+      "Melodía",
+      "Cuerdas"
+    ]
+  },
+  {
+    "palabra": "Submarí",
+    "prohibidas": [
+      "Aigua",
+      "Mar",
+      "Vaixell",
+      "Sota",
+      "Guerra"
+    ]
+  },
+  {
+    "palabra": "París",
+    "prohibidas": [
+      "França",
+      "Torre Eiffel",
+      "Amor",
+      "Capital",
+      "Ciutat"
+    ]
+  },
+  {
+    "palabra": "Esmorzar",
+    "prohibidas": [
+      "Matí",
+      "Menjar",
+      "Llet",
+      "Pa",
+      "Torrades"
+    ]
+  },
+  {
+    "palabra": "Tisores",
+    "prohibidas": [
+      "Tallar",
+      "Paper",
+      "Fulla",
+      "Fil",
+      "Manualitats"
+    ]
+  },
+  {
+    "palabra": "Coet",
+    "prohibidas": [
+      "Espai",
+      "Llançament",
+      "Nau",
+      "Combustible",
+      "Viatge"
+    ]
+  },
+  {
+    "palabra": "Llàgrima",
+    "prohibidas": [
+      "Plorar",
+      "Ulls",
+      "Tristesa",
+      "Aigua",
+      "Sentiment"
+    ]
+  },
+  {
+    "palabra": "Escala",
+    "prohibidas": [
+      "Pujar",
+      "Baixar",
+      "Esglaons",
+      "Casa",
+      "Pis"
+    ]
+  },
+  {
+    "palabra": "Globus",
+    "prohibidas": [
+      "Aire",
+      "Flotar",
+      "Festa",
+      "Heli",
+      "Inflar"
+    ]
+  },
+  {
+    "palabra": "Crani",
+    "prohibidas": [
+      "Os",
+      "Cap",
+      "Esquelet",
+      "Mort",
+      "Calavera"
+    ]
+  },
+  {
+    "palabra": "Microones",
+    "prohibidas": [
+      "Escalfar",
+      "Forn",
+      "Cuina",
+      "Plat",
+      "Menjar"
+    ]
+  },
+  {
+    "palabra": "Guitarra",
+    "prohibidas": [
+      "Cuerdas",
+      "Música",
+      "Acordes",
+      "Instrument",
+      "Tocar"
+    ]
+  },
+  {
+    "palabra": "Esquelet",
+    "prohibidas": [
+      "Ossos",
+      "Cos",
+      "Anatomia",
+      "Estructura",
+      "Crani"
+    ]
+  },
+  {
+    "palabra": "Vampir",
+    "prohibidas": [
+      "Nit",
+      "Sang",
+      "Dràcula",
+      "Ullals",
+      "Ratpenat"
+    ]
+  },
+  {
+    "palabra": "Castell",
+    "prohibidas": [
+      "Princesa",
+      "Fortalesa",
+      "Rei",
+      "Murs",
+      "Edat Mitjana"
+    ]
+  },
+  {
+    "palabra": "Barret",
+    "prohibidas": [
+      "Cap",
+      "Gorra",
+      "Accessoris",
+      "Sol",
+      "Palla"
+    ]
+  },
+  {
+    "palabra": "Rentadora",
+    "prohibidas": [
+      "Roba",
+      "Rentar",
+      "Electrodomèstic",
+      "Brut",
+      "Netejar"
+    ]
+  },
+  {
+    "palabra": "Diamant",
+    "prohibidas": [
+      "Joia",
+      "Brillant",
+      "Dur",
+      "Preciós",
+      "Anell"
+    ]
+  },
+  {
+    "palabra": "Tractor",
+    "prohibidas": [
+      "Camp",
+      "Agricultura",
+      "Granja",
+      "Vehicle",
+      "Rodes"
+    ]
+  },
+  {
+    "palabra": "Hamburguesa",
+    "prohibidas": [
+      "Carn",
+      "Pa",
+      "Menjar",
+      "Formatge",
+      "Enciam"
+    ]
+  },
+  {
+    "palabra": "Tsunami",
+    "prohibidas": [
+      "Onada",
+      "Gegant",
+      "Mar",
+      "Desastre",
+      "Japó"
+    ]
+  },
+  {
+    "palabra": "Zoològic",
+    "prohibidas": [
+      "Animals",
+      "Gàbies",
+      "Visitar",
+      "Zoo",
+      "Lleó"
+    ]
+  },
+  {
+    "palabra": "Erupció volcànica",
+    "prohibidas": [
+      "Volcà",
+      "Lava",
+      "Foc",
+      "Explosió",
+      "Cendra"
+    ]
+  },
+  {
+    "palabra": "Ballarí",
+    "prohibidas": [
+      "Dansa",
+      "Música",
+      "Escenari",
+      "Moviment",
+      "Cos"
+    ]
+  },
+  {
+    "palabra": "Aspiradora",
+    "prohibidas": [
+      "Pols",
+      "Netejar",
+      "Brut",
+      "Electrodomèstic",
+      "Casa"
+    ]
+  },
+  {
+    "palabra": "Arc",
+    "prohibidas": [
+      "Fletxa",
+      "Arma",
+      "Tirar",
+      "Caça",
+      "Corda"
+    ]
+  },
+  {
+    "palabra": "Fulles",
+    "prohibidas": [
+      "Arbre",
+      "Planta",
+      "Verd",
+      "Tardor",
+      "Caure"
+    ]
+  },
+  {
+    "palabra": "Monstre",
+    "prohibidas": [
+      "Por",
+      "Feo",
+      "Fantasia",
+      "Pel·lícula",
+      "Conte"
+    ]
+  },
+  {
+    "palabra": "Aquari",
+    "prohibidas": [
+      "Peixos",
+      "Aigua",
+      "Cristall",
+      "Pecera",
+      "Mar"
+    ]
+  },
+  {
+    "palabra": "Paraigua",
+    "prohibidas": [
+      "Pluja",
+      "Aigua",
+      "Obrir",
+      "Tancar",
+      "Protecció"
+    ]
+  },
+  {
+    "palabra": "Bomba",
+    "prohibidas": [
+      "Explosió",
+      "Arma",
+      "Detonar",
+      "Guerra",
+      "Pel·lícula"
+    ]
+  },
+  {
+    "palabra": "Mag",
+    "prohibidas": [
+      "Màgia",
+      "Barret",
+      "Truc",
+      "Il·lusió",
+      "Conill"
+    ]
+  },
+  {
+    "palabra": "Astronauta",
+    "prohibidas": [
+      "Espacio",
+      "Cohete",
+      "Gravetat",
+      "Planeta",
+      "Nave"
+    ]
+  },
+  {
+    "palabra": "Ping-pong",
+    "prohibidas": [
+      "Taula",
+      "Pilota",
+      "Raqueta",
+      "Esport",
+      "Joc"
+    ]
+  },
+  {
+    "palabra": "Motxilla",
+    "prohibidas": [
+      "Esquena",
+      "Portar",
+      "Escola",
+      "Viatge",
+      "Equipatge"
+    ]
+  },
+  {
+    "palabra": "Riu",
+    "prohibidas": [
+      "Aigua",
+      "Corrent",
+      "Llera",
+      "Muntanya",
+      "Néixer"
+    ]
+  },
+  {
+    "palabra": "Far",
+    "prohibidas": [
+      "Costa",
+      "Llum",
+      "Vaixell",
+      "Nit",
+      "Guia"
+    ]
+  },
+  {
+    "palabra": "Esponja",
+    "prohibidas": [
+      "Netejar",
+      "Bombolles",
+      "Banyar-se",
+      "Aigua",
+      "Porosa"
+    ]
+  },
+  {
+    "palabra": "Caramel",
+    "prohibidas": [
+      "Dolç",
+      "Sucre",
+      "Xumet",
+      "Sabors",
+      "Llepol"
+    ]
+  },
+  {
+    "palabra": "Gelat",
+    "prohibidas": [
+      "Fred",
+      "Estiu",
+      "Cucurutxo",
+      "Postre",
+      "Sabor"
+    ]
+  },
+  {
+    "palabra": "Bombolla",
+    "prohibidas": [
+      "Pompa",
+      "Sabó",
+      "Aire",
+      "Aigua",
+      "Explotar"
+    ]
+  },
+  {
+    "palabra": "Bruixa",
+    "prohibidas": [
+      "Escombra",
+      "Fetillera",
+      "Malvada",
+      "Màgia",
+      "Calderó"
+    ]
+  },
+  {
+    "palabra": "Escorpí",
+    "prohibidas": [
+      "Veneno",
+      "Aguijón",
+      "Arácnido",
+      "Desierto",
+      "Pinzas"
+    ]
+  },
+  {
+    "palabra": "Para-sol",
+    "prohibidas": [
+      "Platja",
+      "Sol",
+      "Sorra",
+      "Protecció",
+      "Oberta"
+    ]
+  },
+  {
+    "palabra": "Espasa",
+    "prohibidas": [
+      "Arma",
+      "Cavaller",
+      "Tall",
+      "Lluita",
+      "Metall"
+    ]
+  },
+  {
+    "palabra": "Cervell",
+    "prohibidas": [
+      "Cap",
+      "Pensar",
+      "Òrgan",
+      "Intel·ligència",
+      "Neurones"
+    ]
+  },
+  {
+    "palabra": "Foc",
+    "prohibidas": [
+      "Calor",
+      "Cremar",
+      "Fum",
+      "Flama",
+      "Incendi"
+    ]
+  },
+  {
+    "palabra": "Pizza",
+    "prohibidas": [
+      "Menjar",
+      "Formatge",
+      "Massa",
+      "Forn",
+      "Rodona"
+    ]
+  },
+  {
+    "palabra": "Microscopi",
+    "prohibidas": [
+      "Veure",
+      "Petit",
+      "Lent",
+      "Ciència",
+      "Laboratori"
+    ]
+  },
+  {
+    "palabra": "Soldat",
+    "prohibidas": [
+      "Exèrcit",
+      "Guerra",
+      "Uniforme",
+      "Arma",
+      "Lluitar"
+    ]
+  },
+  {
+    "palabra": "Ocells",
+    "prohibidas": [
+      "Volar",
+      "Aletes",
+      "Niu",
+      "Plomes",
+      "Cantar"
+    ]
+  },
+  {
+    "palabra": "Forquilla",
+    "prohibidas": [
+      "Menjar",
+      "Puntxes",
+      "Cobert",
+      "Taula",
+      "Cuina"
+    ]
+  },
+  {
+    "palabra": "Càmera",
+    "prohibidas": [
+      "Fotografia",
+      "Vídeo",
+      "Imatge",
+      "Pel·lícula",
+      "Disparar"
+    ]
+  },
+  {
+    "palabra": "Gel",
+    "prohibidas": [
+      "Aigua",
+      "Fred",
+      "Congelat",
+      "Cubet",
+      "Glacera"
+    ]
+  },
+  {
+    "palabra": "Pilota",
+    "prohibidas": [
+      "Jugar",
+      "Rodona",
+      "Esport",
+      "Pilota",
+      "Xutar"
+    ]
+  },
+  {
+    "palabra": "Avet",
+    "prohibidas": [
+      "Arbre",
+      "Nadal",
+      "Conífera",
+      "Bosc",
+      "Pi"
+    ]
+  },
+  {
+    "palabra": "Dutxa",
+    "prohibidas": [
+      "Banyar-se",
+      "Aigua",
+      "Netejar",
+      "Bany",
+      "Sabó"
+    ]
+  },
+  {
+    "palabra": "Llampec",
+    "prohibidas": [
+      "Tempesta",
+      "Tro",
+      "Electricitat",
+      "Cel",
+      "Raig"
+    ]
+  },
+  {
+    "palabra": "Futbol",
+    "prohibidas": [
+      "Pilota",
+      "Esport",
+      "Porteria",
+      "Jugadors",
+      "Camp"
+    ]
+  },
+  {
+    "palabra": "Joc",
+    "prohibidas": [
+      "Divertir-se",
+      "Joguina",
+      "Nens",
+      "Regles",
+      "Partida"
+    ]
+  },
+  {
+    "palabra": "Cullera",
+    "prohibidas": [
+      "Menjar",
+      "Sopa",
+      "Cobert",
+      "Boca",
+      "Cuina"
+    ]
+  },
+  {
+    "palabra": "Helicòpter",
+    "prohibidas": [
+      "Volar",
+      "Hèlix",
+      "Cel",
+      "Avió",
+      "Màquina"
+    ]
+  },
+  {
+    "palabra": "Dent",
+    "prohibidas": [
+      "Boca",
+      "Mastegar",
+      "Os",
+      "Netejar",
+      "Dentista"
+    ]
+  },
+  {
+    "palabra": "Neu",
+    "prohibidas": [
+      "Fred",
+      "Hivern",
+      "Blanca",
+      "Cel",
+      "Flocs"
+    ]
+  },
+  {
+    "palabra": "Estadi",
+    "prohibidas": [
+      "Esport",
+      "Futbol",
+      "Graderies",
+      "Públic",
+      "Camp"
+    ]
+  },
+  {
+    "palabra": "Bebè",
+    "prohibidas": [
+      "Nounat",
+      "Néixer",
+      "Bolquer",
+      "Plorar",
+      "Nen"
+    ]
+  },
+  {
+    "palabra": "Ventall",
+    "prohibidas": [
+      "Aire",
+      "Calor",
+      "Moure",
+      "Ventilador",
+      "Mà"
+    ]
+  },
+  {
+    "palabra": "Advocat",
+    "prohibidas": [
+      "Llei",
+      "Jutge",
+      "Tribunal",
+      "Defensar",
+      "Judici"
+    ]
+  },
+  {
+    "palabra": "Abric",
+    "prohibidas": [
+      "Roba",
+      "Fred",
+      "Hivern",
+      "Posar",
+      "Jaqueta"
+    ]
+  },
+  {
+    "palabra": "Actor",
+    "prohibidas": [
+      "Pel·lícula",
+      "Teatre",
+      "Interpretar",
+      "Personatge",
+      "Escenari"
+    ]
+  },
+  {
+    "palabra": "Escacs",
+    "prohibidas": [
+      "Joc",
+      "Tauler",
+      "Peçes",
+      "Rei",
+      "Estratègia"
+    ]
+  },
+  {
+    "palabra": "Paleta",
+    "prohibidas": [
+      "Construcció",
+      "Totxo",
+      "Ciment",
+      "Treball",
+      "Edifici"
+    ]
+  },
+  {
+    "palabra": "Alegria",
+    "prohibidas": [
+      "Felicitat",
+      "Emoció",
+      "Content",
+      "Somriure",
+      "Sentiment"
+    ]
+  },
+  {
+    "palabra": "Catifa",
+    "prohibidas": [
+      "Terra",
+      "Netejar",
+      "Decoració",
+      "Tapís",
+      "Casa"
+    ]
+  },
+  {
+    "palabra": "Alienígena",
+    "prohibidas": [
+      "Extraterrestre",
+      "Espai",
+      "Plateret",
+      "Altre",
+      "Galàxia"
+    ]
+  },
+  {
+    "palabra": "Anell",
+    "prohibidas": [
+      "Dit",
+      "Joia",
+      "Casament",
+      "Circular",
+      "Metall"
+    ]
+  },
+  {
+    "palabra": "Antàrtida",
+    "prohibidas": [
+      "Pol",
+      "Fred",
+      "Gel",
+      "Continent",
+      "Oceà"
+    ]
+  },
+  {
+    "palabra": "Armari",
+    "prohibidas": [
+      "Roba",
+      "Guardar",
+      "Portes",
+      "Fusta",
+      "Habitació"
+    ]
+  },
+  {
+    "palabra": "Atletisme",
+    "prohibidas": [
+      "Esport",
+      "Córrer",
+      "Saltar",
+      "Llançar",
+      "Pista"
+    ]
+  },
+  {
+    "palabra": "Auriculars",
+    "prohibidas": [
+      "Oïda",
+      "Música",
+      "So",
+      "Cable",
+      "Escoltar"
+    ]
+  },
+  {
+    "palabra": "Autobús",
+    "prohibidas": [
+      "Transport",
+      "Viatge",
+      "Passatgers",
+      "Parada",
+      "Conductor"
+    ]
+  },
+  {
+    "palabra": "Bàsquet",
+    "prohibidas": [
+      "Pilota",
+      "Cistella",
+      "Esport",
+      "Botar",
+      "Equip"
+    ]
+  },
+  {
+    "palabra": "Bambú",
+    "prohibidas": [
+      "Planta",
+      "Panda",
+      "Xina",
+      "Canya",
+      "Bosc"
+    ]
+  },
+  {
+    "palabra": "Banc",
+    "prohibidas": [
+      "Diners",
+      "Seient",
+      "Seure",
+      "Parc",
+      "Estalvis"
+    ]
+  },
+  {
+    "palabra": "Beguda",
+    "prohibidas": [
+      "Beure",
+      "Líquid",
+      "Got",
+      "Aigua",
+      "Engolir"
+    ]
+  },
+  {
+    "palabra": "Petó",
+    "prohibidas": [
+      "Boca",
+      "Llavis",
+      "Afecte",
+      "Amor",
+      "Contacte"
+    ]
+  },
+  {
+    "palabra": "Biologia",
+    "prohibidas": [
+      "Ciència",
+      "Vida",
+      "Estudiar",
+      "Plantes",
+      "Animals"
+    ]
+  },
+  {
+    "palabra": "Boca",
+    "prohibidas": [
+      "Menjar",
+      "Parlar",
+      "Llavis",
+      "Dents",
+      "Saliva"
+    ]
+  },
+  {
+    "palabra": "Entrepà",
+    "prohibidas": [
+      "Pa",
+      "Menjar",
+      "Pernil",
+      "Formatge",
+      "Dinar"
+    ]
+  },
+  {
+    "palabra": "Casament",
+    "prohibidas": [
+      "Matrimoni",
+      "Nuvis",
+      "Anell",
+      "Cerimònia",
+      "Festa"
+    ]
+  },
+  {
+    "palabra": "Bossa",
+    "prohibidas": [
+      "Guardar",
+      "Portar",
+      "Cinturó",
+      "Cartera",
+      "Mà"
+    ]
+  },
+  {
+    "palabra": "Bolígraf",
+    "prohibidas": [
+      "Escriure",
+      "Tinta",
+      "Paper",
+      "Ploma",
+      "Punta"
+    ]
+  },
+  {
+    "palabra": "Bomber",
+    "prohibidas": [
+      "Foc",
+      "Apagar",
+      "Manguera",
+      "Ajuda",
+      "Emergencia"
+    ]
+  },
+  {
+    "palabra": "Submarinista",
+    "prohibidas": [
+      "Aigua",
+      "Mar",
+      "Sota",
+      "Vestit",
+      "Respirar"
+    ]
+  },
+  {
+    "palabra": "Cap",
+    "prohibidas": [
+      "Cos",
+      "Cara",
+      "Cervell",
+      "Pèl",
+      "Part"
+    ]
+  },
+  {
+    "palabra": "Cable",
+    "prohibidas": [
+      "Electricitat",
+      "Connectar",
+      "Filferro",
+      "Endoll",
+      "Corrent"
+    ]
+  },
+  {
+    "palabra": "Cactus",
+    "prohibidas": [
+      "Planta",
+      "Desierto",
+      "Espines",
+      "Aigua",
+      "Flor"
+    ]
+  },
+  {
+    "palabra": "Caiman",
+    "prohibidas": [
+      "Rèptil",
+      "Cocodril",
+      "Aigua",
+      "Mandíbula",
+      "Pantà"
+    ]
+  },
+  {
+    "palabra": "Camió",
+    "prohibidas": [
+      "Gran",
+      "Vehicle",
+      "Mercaderia",
+      "Càrrega",
+      "Transport"
+    ]
+  },
+  {
+    "palabra": "Cadenat",
+    "prohibidas": [
+      "Tancar",
+      "Seguretat",
+      "Clau",
+      "Metall",
+      "Porta"
+    ]
+  },
+  {
+    "palabra": "Fuster",
+    "prohibidas": [
+      "Fusta",
+      "Clau",
+      "Martell",
+      "Mobles",
+      "Construir"
+    ]
+  },
+  {
+    "palabra": "Carter",
+    "prohibidas": [
+      "Correu",
+      "Carta",
+      "Paquet",
+      "Entrega",
+      "Treball"
+    ]
+  },
+  {
+    "palabra": "Cementiri",
+    "prohibidas": [
+      "Morts",
+      "Tomba",
+      "Làpida",
+      "Enterrar",
+      "Funeral"
+    ]
+  },
+  {
+    "palabra": "Ciència",
+    "prohibidas": [
+      "Estudiar",
+      "Experiment",
+      "Investigació",
+      "Física",
+      "Laboratori"
+    ]
+  },
+  {
+    "palabra": "Cuina",
+    "prohibidas": [
+      "Menjar",
+      "Llar",
+      "Preparar",
+      "Olla",
+      "Recepta"
+    ]
+  },
+  {
+    "palabra": "Cor",
+    "prohibidas": [
+      "Òrgan",
+      "Bombeig",
+      "Sang",
+      "Bateg",
+      "Amor"
+    ]
+  },
+  {
+    "palabra": "Quadre",
+    "prohibidas": [
+      "Pintura",
+      "Marc",
+      "Llenç",
+      "Art",
+      "Paret"
+    ]
+  },
+  {
+    "palabra": "Ganivet",
+    "prohibidas": [
+      "Tallar",
+      "Cuina",
+      "Fulla",
+      "Tall",
+      "Metall"
+    ]
+  },
+  {
+    "palabra": "Cova",
+    "prohibidas": [
+      "Forat",
+      "Foscor",
+      "Ratpenats",
+      "Muntanya",
+      "Pedra"
+    ]
+  },
+  {
+    "palabra": "Aniversari",
+    "prohibidas": [
+      "Festa",
+      "Pastís",
+      "Espelmes",
+      "Regal",
+      "Celebració"
+    ]
+  },
+  {
+    "palabra": "Daus",
+    "prohibidas": [
+      "Joc",
+      "Llançar",
+      "Punts",
+      "Sis",
+      "Cubs"
+    ]
+  },
+  {
+    "palabra": "Dentista",
+    "prohibidas": [
+      "Dents",
+      "Boca",
+      "Revisió",
+      "Neteja",
+      "Queixal"
+    ]
+  },
+  {
+    "palabra": "Diner",
+    "prohibidas": [
+      "Moneda",
+      "Bitllet",
+      "Comprar",
+      "Pagar",
+      "Riquesa"
+    ]
+  },
+  {
+    "palabra": "Doctor",
+    "prohibidas": [
+      "Hospital",
+      "Malaltia",
+      "Curar",
+      "Medicina",
+      "Infermer"
+    ]
+  },
+  {
+    "palabra": "Drac",
+    "prohibidas": [
+      "Criatura",
+      "Fantasia",
+      "Aletes",
+      "Foc",
+      "Mite"
+    ]
+  },
+  {
+    "palabra": "Follet",
+    "prohibidas": [
+      "Criatura",
+      "Mite",
+      "Petit",
+      "Bosc",
+      "Barret"
+    ]
+  },
+  {
+    "palabra": "Electricista",
+    "prohibidas": [
+      "Electricitat",
+      "Cable",
+      "Reparar",
+      "Luz",
+      "Casa"
+    ]
+  },
+  {
+    "palabra": "Escombra",
+    "prohibidas": [
+      "Netejar",
+      "Escombrar",
+      "Pis",
+      "Bruixa",
+      "Pols"
+    ]
+  },
+  {
+    "palabra": "Escola",
+    "prohibidas": [
+      "Estudiar",
+      "Classe",
+      "Professor",
+      "Libros",
+      "Alumnes"
+    ]
+  },
+  {
+    "palabra": "Espia",
+    "prohibidas": [
+      "Secret",
+      "Agent",
+      "Missió",
+      "Informació",
+      "Disfresses"
+    ]
+  },
+  {
+    "palabra": "Fantasma",
+    "prohibidas": [
+      "Esperit",
+      "Por",
+      "Casa",
+      "Llençol",
+      "Apareix"
+    ]
+  },
+  {
+    "palabra": "Flor",
+    "prohibidas": [
+      "Planta",
+      "Pètals",
+      "Jardí",
+      "Perfume",
+      "Color"
+    ]
+  },
+  {
+    "palabra": "Lampista",
+    "prohibidas": [
+      "Aigua",
+      "Canonades",
+      "Aixeta",
+      "Reparar",
+      "Treball"
+    ]
+  },
+  {
+    "palabra": "Fruita",
+    "prohibidas": [
+      "Menjar",
+      "Arbre",
+      "Sabor",
+      "Dolç",
+      "Poma"
+    ]
+  },
+  {
+    "palabra": "Ulleres",
+    "prohibidas": [
+      "Ulls",
+      "Veure",
+      "Sol",
+      "Vidres",
+      "Muntura"
+    ]
+  },
+  {
+    "palabra": "Galaxia",
+    "prohibidas": [
+      "Estrelles",
+      "Univers",
+      "Espai",
+      "Via Làctia",
+      "Planetes"
+    ]
+  },
+  {
+    "palabra": "Església",
+    "prohibidas": [
+      "Religió",
+      "Déu",
+      "Missa",
+      "Creients",
+      "Orar"
+    ]
+  },
+  {
+    "palabra": "Iglú",
+    "prohibidas": [
+      "Gel",
+      "Casa",
+      "Esquimals",
+      "Fred",
+      "Neu"
+    ]
+  },
+  {
+    "palabra": "Impressora",
+    "prohibidas": [
+      "Paper",
+      "Tinta",
+      "Màquina",
+      "Text",
+      "Dibuix"
+    ]
+  },
+  {
+    "palabra": "Vàter",
+    "prohibidas": [
+      "Bany",
+      "Inodor",
+      "Sanitari",
+      "Aigua",
+      "Excrement"
+    ]
+  },
+  {
+    "palabra": "Hivern",
+    "prohibidas": [
+      "Fred",
+      "Estació",
+      "Neu",
+      "Desembre",
+      "Gener"
+    ]
+  },
+  {
+    "palabra": "Jutge",
+    "prohibidas": [
+      "Llei",
+      "Tribunal",
+      "Justícia",
+      "Sentència",
+      "Advocat"
+    ]
+  },
+  {
+    "palabra": "Lladre",
+    "prohibidas": [
+      "Robar",
+      "Diners",
+      "Presó",
+      "Policia",
+      "Delicte"
+    ]
+  },
+  {
+    "palabra": "Sargantana",
+    "prohibidas": [
+      "Rèptil",
+      "Paret",
+      "Petita",
+      "Sol",
+      "Cua"
+    ]
+  },
+  {
+    "palabra": "Llapis",
+    "prohibidas": [
+      "Escriure",
+      "Paper",
+      "Fusta",
+      "Mina",
+      "Dibuixar"
+    ]
+  },
+  {
+    "palabra": "Mà",
+    "prohibidas": [
+      "Brazo",
+      "Dedos",
+      "Coger",
+      "Palma",
+      "Parte"
+    ]
+  },
+  {
+    "palabra": "Martell",
+    "prohibidas": [
+      "Clau",
+      "Colpejar",
+      "Fusta",
+      "Eina",
+      "Metall"
+    ]
+  },
+  {
+    "palabra": "Micròfon",
+    "prohibidas": [
+      "So",
+      "Parlar",
+      "Cantar",
+      "Veu",
+      "Amplificador"
+    ]
+  },
+  {
+    "palabra": "Muntanya",
+    "prohibidas": [
+      "Cim",
+      "Pujar",
+      "Senderisme",
+      "Natura",
+      "Terra"
+    ]
+  },
+  {
+    "palabra": "Motocicleta",
+    "prohibidas": [
+      "Moto",
+      "Vehicle",
+      "Dues",
+      "Rodes",
+      "Velocitat"
+    ]
+  },
+  {
+    "palabra": "Metge",
+    "prohibidas": [
+      "Hospital",
+      "Malalt",
+      "Curar",
+      "Salut",
+      "Doctor"
+    ]
+  },
+  {
+    "palabra": "Nadal",
+    "prohibidas": [
+      "Desembre",
+      "Regals",
+      "Arbre",
+      "Pare",
+      "Noel"
+    ]
+  },
+  {
+    "palabra": "Ninja",
+    "prohibidas": [
+      "Guerrer",
+      "Japó",
+      "Sigil",
+      "Foscor",
+      "Ganivets"
+    ]
+  },
+  {
+    "palabra": "Núvia",
+    "prohibidas": [
+      "Parella",
+      "Dona",
+      "Casament",
+      "Compromís",
+      "Nuvi"
+    ]
+  },
+  {
+    "palabra": "Ulls",
+    "prohibidas": [
+      "Veure",
+      "Cara",
+      "Parpelles",
+      "Visió",
+      "Pupil·la"
+    ]
+  },
+  {
+    "palabra": "Olla",
+    "prohibidas": [
+      "Cuina",
+      "Menjar",
+      "Calent",
+      "Coure",
+      "Metall"
+    ]
+  },
+  {
+    "palabra": "Orella",
+    "prohibidas": [
+      "Oïda",
+      "Escoltar",
+      "Cara",
+      "Part",
+      "So"
+    ]
+  },
+  {
+    "palabra": "Pantera",
+    "prohibidas": [
+      "Felí",
+      "Negre",
+      "Animal",
+      "Selva",
+      "Jaguar"
+    ]
+  },
+  {
+    "palabra": "Perruquer",
+    "prohibidas": [
+      "Pèl",
+      "Tallar",
+      "Tisores",
+      "Saló",
+      "Pentinat"
+    ]
+  },
+  {
+    "palabra": "Pescador",
+    "prohibidas": [
+      "Peix",
+      "Mar",
+      "Canya",
+      "Xarxa",
+      "Aigua"
+    ]
+  },
+  {
+    "palabra": "Pell",
+    "prohibidas": [
+      "Cos",
+      "Tacte",
+      "Òrgan",
+      "Suau",
+      "Protecció"
+    ]
+  },
+  {
+    "palabra": "Pintor",
+    "prohibidas": [
+      "Pintar",
+      "Llenç",
+      "Quadre",
+      "Artista",
+      "Pinzell"
+    ]
+  },
+  {
+    "palabra": "Ploma",
+    "prohibidas": [
+      "Ocell",
+      "Escriure",
+      "Lleugera",
+      "Bolígraf",
+      "Volar"
+    ]
+  },
+  {
+    "palabra": "Poeta",
+    "prohibidas": [
+      "Poesia",
+      "Vers",
+      "Escriure",
+      "Autor",
+      "Sentimiento"
+    ]
+  },
+  {
+    "palabra": "Policia",
+    "prohibidas": [
+      "Llei",
+      "Ordre",
+      "Arrestar",
+      "Uniforme",
+      "Detectiu"
+    ]
+  },
+  {
+    "palabra": "Princesa",
+    "prohibidas": [
+      "Príncep",
+      "Reina",
+      "Castell",
+      "Conte",
+      "Corona"
+    ]
+  },
+  {
+    "palabra": "Professor",
+    "prohibidas": [
+      "Classe",
+      "Ensenyar",
+      "Alumnes",
+      "Escola",
+      "Mestre"
+    ]
+  },
+  {
+    "palabra": "Pont",
+    "prohibidas": [
+      "Riu",
+      "Passar",
+      "Vehicles",
+      "Estructura",
+      "Connexió"
+    ]
+  },
+  {
+    "palabra": "Ràdio",
+    "prohibidas": [
+      "Música",
+      "Emissora",
+      "So",
+      "Antena",
+      "Escoltar"
+    ]
+  },
+  {
+    "palabra": "Rei",
+    "prohibidas": [
+      "Monarca",
+      "Reina",
+      "Corona",
+      "Castell",
+      "Govern"
+    ]
+  },
+  {
+    "palabra": "Roda",
+    "prohibidas": [
+      "Cotxe",
+      "Circular",
+      "Girar",
+      "Metall",
+      "Cautxú"
+    ]
+  },
+  {
+    "palabra": "Sang",
+    "prohibidas": [
+      "Cos",
+      "Vermell",
+      "Ferida",
+      "Veneno",
+      "Cor"
+    ]
+  },
+  {
+    "palabra": "Tennis",
+    "prohibidas": [
+      "Esport",
+      "Raqueta",
+      "Pilota",
+      "Pista",
+      "Jugar"
+    ]
+  },
+  {
+    "palabra": "Terra",
+    "prohibidas": [
+      "Planeta",
+      "Mundo",
+      "Globo",
+      "País",
+      "Suelo"
+    ]
+  },
+  {
+    "palabra": "Trompeta",
+    "prohibidas": [
+      "Instrument",
+      "Música",
+      "Vent",
+      "Llató",
+      "Boca"
+    ]
+  },
+  {
+    "palabra": "Tro",
+    "prohibidas": [
+      "So",
+      "Llampec",
+      "Tempesta",
+      "Soroll",
+      "Fort"
+    ]
+  },
+  {
+    "palabra": "Unicorn",
+    "prohibidas": [
+      "Banya",
+      "Cavall",
+      "Màgic",
+      "Fantasia",
+      "Mite"
+    ]
+  },
+  {
+    "palabra": "Got",
+    "prohibidas": [
+      "Beure",
+      "Aigua",
+      "Cristall",
+      "Líquid",
+      "Recipient"
+    ]
+  },
+  {
+    "palabra": "Finestra",
+    "prohibidas": [
+      "Casa",
+      "Cristall",
+      "Obrir",
+      "Tancar",
+      "Veure"
+    ]
+  },
+  {
+    "palabra": "Veterinari",
+    "prohibidas": [
+      "Animals",
+      "Metge",
+      "Curar",
+      "Clínica",
+      "Mascotes"
+    ]
+  },
+  {
+    "palabra": "Sabates",
+    "prohibidas": [
+      "Peu",
+      "Calçat",
+      "Vestir",
+      "Andar",
+      "Lligar"
+    ]
+  },
+  {
+    "palabra": "Zombi",
+    "prohibidas": [
+      "Mort",
+      "Viu",
+      "Caminar",
+      "Cervell",
+      "Infectat"
+    ]
+  },
+  {
+    "palabra": "Zoo",
+    "prohibidas": [
+      "Animals",
+      "Gàbies",
+      "Visitar",
+      "Zoològic",
+      "Parc"
+    ]
+  },
+  {
+    "palabra": "Àngel",
+    "prohibidas": [
+      "Ala",
+      "Cel",
+      "Déu",
+      "Esperit",
+      "Blanc"
+    ]
+  },
+  {
+    "palabra": "Arbre",
+    "prohibidas": [
+      "Tronc",
+      "Fulles",
+      "Fusta",
+      "Bosc",
+      "Planta"
+    ]
+  },
+  {
+    "palabra": "Òpera",
+    "prohibidas": [
+      "Teatre",
+      "Música",
+      "Cantar",
+      "Escenari",
+      "Obra"
+    ]
+  },
+  {
+    "palabra": "Pel·lícula",
+    "prohibidas": [
+      "Cinema",
+      "Actors",
+      "Director",
+      "Crispetes",
+      "Història"
+    ]
+  },
+  {
+    "palabra": "Porta",
+    "prohibidas": [
+      "Casa",
+      "Obrir",
+      "Cerrar",
+      "Entrada",
+      "Madera"
+    ]
+  },
+  {
+    "palabra": "Ampolla",
+    "prohibidas": [
+      "Líquid",
+      "Plàstic",
+      "Tap",
+      "Beure",
+      "Aigua"
+    ]
+  },
+  {
+    "palabra": "Escriptor",
+    "prohibidas": [
+      "Llibre",
+      "Escriure",
+      "Autor",
+      "Història",
+      "Novel·la"
+    ]
+  },
+  {
+    "palabra": "Cataractes",
+    "prohibidas": [
+      "Aigua",
+      "Salt",
+      "Riu",
+      "Cascada",
+      "Natura"
+    ]
+  },
+  {
+    "palabra": "Tel d'aranya",
+    "prohibidas": [
+      "Aranya",
+      "Teixir",
+      "Insecte",
+      "Xarxa",
+      "Enganxós"
+    ]
+  },
+  {
+    "palabra": "Ratolí",
+    "prohibidas": [
+      "Animal",
+      "Ordinador",
+      "Petit",
+      "Formatge",
+      "Roedor"
+    ]
+  },
+  {
+    "palabra": "Periòdic",
+    "prohibidas": [
+      "Notícies",
+      "Llegir",
+      "Diari",
+      "Premsa",
+      "Paper"
+    ]
+  },
+  {
+    "palabra": "Pilota",
+    "prohibidas": [
+      "Pilota",
+      "Futbol",
+      "Jugar",
+      "Rodona",
+      "Esport"
+    ]
+  },
+  {
+    "palabra": "Llimona",
+    "prohibidas": [
+      "Fruita",
+      "Àcid",
+      "Groc",
+      "Cítric",
+      "Suc"
+    ]
+  },
+  {
+    "palabra": "Mel",
+    "prohibidas": [
+      "Dolç",
+      "Abella",
+      "Bresca",
+      "Groc",
+      "Líquid"
+    ]
+  },
+  {
+    "palabra": "Globus aerostàtic",
+    "prohibidas": [
+      "Aire",
+      "Volar",
+      "Cistella",
+      "Calent",
+      "Viatge"
+    ]
+  },
+  {
+    "palabra": "Sirena",
+    "prohibidas": [
+      "Mar",
+      "Mito",
+      "Peix",
+      "Cua",
+      "Cant"
+    ]
+  },
+  {
+    "palabra": "Espagueti",
+    "prohibidas": [
+      "Pasta",
+      "Italiana",
+      "Forquilla",
+      "Tomàquet",
+      "Fideus"
+    ]
+  },
+  {
+    "palabra": "Granja",
+    "prohibidas": [
+      "Animals",
+      "Camp",
+      "Agricultura",
+      "Tractor",
+      "Corral"
+    ]
+  },
+  {
+    "palabra": "Japonés",
+    "prohibidas": [
+      "País",
+      "Sushi",
+      "Idioma",
+      "Àsia",
+      "Gent"
+    ]
+  },
+  {
+    "palabra": "Cangur",
+    "prohibidas": [
+      "Animal",
+      "Austràlia",
+      "Saltar",
+      "Bossa",
+      "Marsupial"
+    ]
+  },
+  {
+    "palabra": "Nave espacial",
+    "prohibidas": [
+      "Espacio",
+      "Cohete",
+      "Astronauta",
+      "Viaje",
+      "Llançar"
+    ]
+  },
+  {
+    "palabra": "Obelisc",
+    "prohibidas": [
+      "Monument",
+      "Egipte",
+      "Alt",
+      "Pedra",
+      "Agulles"
+    ]
+  },
+  {
+    "palabra": "Xilòfon",
+    "prohibidas": [
+      "Instrument",
+      "Música",
+      "Colpejar",
+      "Làmines",
+      "Percussió"
+    ]
+  },
+  {
+    "palabra": "Iogurt",
+    "prohibidas": [
+      "Lacti",
+      "Esmorzar",
+      "Cullera",
+      "Fruita",
+      "Gotet"
+    ]
+  },
+  {
+    "palabra": "Cirera",
+    "prohibidas": [
+      "Fruita",
+      "Vermella",
+      "Arbre",
+      "Petita",
+      "Postre"
+    ]
+  },
+  {
+    "palabra": "Destral",
+    "prohibidas": [
+      "Eina",
+      "Fusta",
+      "Tallar",
+      "Tall",
+      "Tronc"
+    ]
+  },
+  {
+    "palabra": "Genet",
+    "prohibidas": [
+      "Cavall",
+      "Muntar",
+      "Cavalcar",
+      "Sella",
+      "Córrer"
+    ]
+  },
+  {
+    "palabra": "Neptuno",
+    "prohibidas": [
+      "Planeta",
+      "Déu",
+      "Espai",
+      "Blau",
+      "Univers"
+    ]
+  },
+  {
+    "palabra": "Quiròfan",
+    "prohibidas": [
+      "Hospital",
+      "Cirurgia",
+      "Metge",
+      "Operació",
+      "Taula"
+    ]
+  },
+  {
+    "palabra": "Raïm",
+    "prohibidas": [
+      "Fruita",
+      "Raïm",
+      "Vi",
+      "Morat",
+      "Verd"
+    ]
+  },
+  {
+    "palabra": "Violí",
+    "prohibidas": [
+      "Instrument",
+      "Cordes",
+      "Arc",
+      "Música",
+      "Clàssic"
+    ]
+  },
+  {
+    "palabra": "Yoga",
+    "prohibidas": [
+      "Exercici",
+      "Postura",
+      "Respiració",
+      "Ment",
+      "Relaxació"
+    ]
+  },
+  {
+    "palabra": "Dardo",
+    "prohibidas": [
+      "Joc",
+      "Punta",
+      "Diana",
+      "Llançar",
+      "Puntería"
+    ]
+  },
+  {
+    "palabra": "Flamenc",
+    "prohibidas": [
+      "Ball",
+      "Guitarra",
+      "Espanya",
+      "Música",
+      "Vestit"
+    ]
+  },
+  {
+    "palabra": "Guitarra elèctrica",
+    "prohibidas": [
+      "Música",
+      "Rock",
+      "Cordes",
+      "Amplificador",
+      "Concert"
+    ]
+  },
+  {
+    "palabra": "Bolet",
+    "prohibidas": [
+      "Seta",
+      "Bosc",
+      "Menjar",
+      "Planta",
+      "Terra"
+    ]
+  },
+  {
+    "palabra": "Kayak",
+    "prohibidas": [
+      "Vaixell",
+      "Remar",
+      "Aigua",
+      "Riu",
+      "Esport"
+    ]
+  },
+  {
+    "palabra": "Láser",
+    "prohibidas": [
+      "Luz",
+      "Ràdio",
+      "Ciència",
+      "Projectar",
+      "Vermell"
+    ]
+  },
+  {
+    "palabra": "Químico",
+    "prohibidas": [
+      "Ciència",
+      "Laboratori",
+      "Experiment",
+      "Àtoms",
+      "Fórmula"
+    ]
+  },
+  {
+    "palabra": "Roure",
+    "prohibidas": [
+      "Arbre",
+      "Fusta",
+      "Bosc",
+      "Fulla",
+      "Fort"
+    ]
+  },
+  {
+    "palabra": "Cadira de rodes",
+    "prohibidas": [
+      "Caminar",
+      "Moure's",
+      "Persona",
+      "Discapacitat",
+      "Hospital"
+    ]
+  },
+  {
+    "palabra": "Univers",
+    "prohibidas": [
+      "Espai",
+      "Galàxia",
+      "Planetes",
+      "Estrelles",
+      "Tot"
+    ]
+  },
+  {
+    "palabra": "Vela",
+    "prohibidas": [
+      "Vaixell",
+      "Mar",
+      "Vent",
+      "Navegar",
+      "Embarcació"
+    ]
+  },
+  {
+    "palabra": "Whisky",
+    "prohibidas": [
+      "Beguda",
+      "Alcohol",
+      "Escocès",
+      "Cristall",
+      "Madur"
+    ]
+  },
+  {
+    "palabra": "Yate",
+    "prohibidas": [
+      "Vaixell",
+      "Luxe",
+      "Mar",
+      "Navegar",
+      "Embarcació"
+    ]
+  },
+  {
+    "palabra": "Amazonas",
+    "prohibidas": [
+      "Riu",
+      "Selva",
+      "Brasil",
+      "Aigua",
+      "Verd"
+    ]
+  },
+  {
+    "palabra": "Foca",
+    "prohibidas": [
+      "Animal",
+      "Mar",
+      "Fred",
+      "Àrtic",
+      "Neu"
+    ]
+  },
+  {
+    "palabra": "Globus",
+    "prohibidas": [
+      "Aire",
+      "Flotar",
+      "Festa",
+      "Colors",
+      "Inflat"
+    ]
+  },
+  {
+    "palabra": "Falcó",
+    "prohibidas": [
+      "Ocell",
+      "Caçar",
+      "Volar",
+      "Rapaç",
+      "Cel"
+    ]
+  },
+  {
+    "palabra": "Xeringa",
+    "prohibidas": [
+      "Agulles",
+      "Metge",
+      "Injectar",
+      "Medicina",
+      "Hospital"
+    ]
+  },
+  {
+    "palabra": "Nevera",
+    "prohibidas": [
+      "Fred",
+      "Menjar",
+      "Guardar",
+      "Congelar",
+      "Cocina"
+    ]
+  },
+  {
+    "palabra": "Telefèric",
+    "prohibidas": [
+      "Corda",
+      "Muntanya",
+      "Transport",
+      "Cabina",
+      "Altura"
+    ]
+  },
+  {
+    "palabra": "Wifi",
+    "prohibidas": [
+      "Internet",
+      "Conexión",
+      "Red",
+      "Router",
+      "Cable"
+    ]
+  },
+  {
+    "palabra": "Bombeta",
+    "prohibidas": [
+      "Llum",
+      "Elèctrica",
+      "Cristall",
+      "Encendre",
+      "Il·luminar"
+    ]
+  },
+  {
+    "palabra": "Imant",
+    "prohibidas": [
+      "Metall",
+      "Atreure",
+      "Frigorífic",
+      "Pol",
+      "Força"
+    ]
+  },
+  {
+    "palabra": "Kiwi",
+    "prohibidas": [
+      "Fruta",
+      "Verd",
+      "Ácido",
+      "Peluda",
+      "Nova Zelanda"
+    ]
+  },
+  {
+    "palabra": "Ren",
+    "prohibidas": [
+      "Nadal",
+      "Trineu",
+      "Pare Noel",
+      "Neu",
+      "Animal"
+    ]
+  },
+  {
+    "palabra": "Ventilador",
+    "prohibidas": [
+      "Aire",
+      "Moure",
+      "Calor",
+      "Seient",
+      "Endoll"
+    ]
+  },
+  {
+    "palabra": "Washington",
+    "prohibidas": [
+      "Capital",
+      "EEUU",
+      "President",
+      "Blanca",
+      "Ciutat"
+    ]
+  },
+  {
+    "palabra": "Calamar",
+    "prohibidas": [
+      "Mar",
+      "Tinta",
+      "Tentacles",
+      "Pescar",
+      "Cefalòpode"
+    ]
+  },
+  {
+    "palabra": "Daga",
+    "prohibidas": [
+      "Ganivet",
+      "Arma",
+      "Tall",
+      "Tallar",
+      "Punta"
+    ]
+  },
+  {
+    "palabra": "Fideo",
+    "prohibidas": [
+      "Pasta",
+      "Sopa",
+      "Prima",
+      "Italiana",
+      "Menjar"
+    ]
+  },
+  {
+    "palabra": "Química",
+    "prohibidas": [
+      "Ciència",
+      "Laboratori",
+      "Experiment",
+      "Àtoms",
+      "Elements"
+    ]
+  },
+  {
+    "palabra": "Sardina",
+    "prohibidas": [
+      "Peix",
+      "Mar",
+      "Plata",
+      "Menjar",
+      "Llauna"
+    ]
+  },
+  {
+    "palabra": "Vent",
+    "prohibidas": [
+      "Bufar",
+      "Aire",
+      "Moviment",
+      "Fort",
+      "Xiular"
+    ]
+  },
+  {
+    "palabra": "Waterpolo",
+    "prohibidas": [
+      "Esport",
+      "Piscina",
+      "Pilota",
+      "Nedar",
+      "Porteria"
+    ]
+  },
+  {
+    "palabra": "Vamba",
+    "prohibidas": [
+      "Calçat",
+      "Esport",
+      "Peu",
+      "Córrer",
+      "Entrenar"
+    ]
+  },
+  {
+    "palabra": "Hèlix",
+    "prohibidas": [
+      "Avió",
+      "Girar",
+      "Motor",
+      "Aire",
+      "Pales"
+    ]
+  },
+  {
+    "palabra": "Joies",
+    "prohibidas": [
+      "Collar",
+      "Anell",
+      "Or",
+      "Plata",
+      "Valuós"
+    ]
+  },
+  {
+    "palabra": "Nedar",
+    "prohibidas": [
+      "Aigua",
+      "Piscina",
+      "Mar",
+      "Moverse",
+      "Estilo"
+    ]
+  },
+  {
+    "palabra": "Oïda",
+    "prohibidas": [
+      "Escoltar",
+      "Sonar",
+      "Orella",
+      "Soroll",
+      "Sentit"
+    ]
+  },
+  {
+    "palabra": "Pallasso",
+    "prohibidas": [
+      "Circ",
+      "Rialla",
+      "Nas",
+      "Maquillatge",
+      "Graciós"
+    ]
+  },
+  {
+    "palabra": "Ungla",
+    "prohibidas": [
+      "Dit",
+      "Mà",
+      "Manicura",
+      "Créixer",
+      "Tallar"
+    ]
+  },
+  {
+    "palabra": "Wendy",
+    "prohibidas": [
+      "Peter Pan",
+      "Nena",
+      "Neverland",
+      "Conte",
+      "Disney"
+    ]
+  },
+  {
+    "palabra": "Donut",
+    "prohibidas": [
+      "Dolç",
+      "Menjar",
+      "Rosquilla",
+      "Forat",
+      "Glacejat"
+    ]
+  },
+  {
+    "palabra": "Pernil",
+    "prohibidas": [
+      "Porc",
+      "Menjar",
+      "Tallar",
+      "Tapa",
+      "Salat"
+    ]
+  },
+  {
+    "palabra": "Webcam",
+    "prohibidas": [
+      "Cámara",
+      "Ordenador",
+      "Videollamada",
+      "Internet",
+      "Pantalla"
+    ]
+  },
+  {
+    "palabra": "Joguina",
+    "prohibidas": [
+      "Nen",
+      "Jugar",
+      "Nino",
+      "Diversió",
+      "Entreteniment"
+    ]
+  },
+  {
+    "palabra": "Internet",
+    "prohibidas": [
+      "Red",
+      "Web",
+      "Conexión",
+      "Navegar",
+      "Mundo"
+    ]
+  },
+  {
+    "palabra": "Jazz",
+    "prohibidas": [
+      "Música",
+      "Saxofón",
+      "Ritme",
+      "Improvisació",
+      "Nueva Orleans"
+    ]
+  },
+  {
+    "palabra": "Wall-E",
+    "prohibidas": [
+      "Pel·lícula",
+      "Robot",
+      "Basura",
+      "Futuro",
+      "Espacio"
+    ]
+  },
+  {
+    "palabra": "Pluja",
+    "prohibidas": [
+      "Aigua",
+      "Núvols",
+      "Mullat",
+      "Gotes",
+      "Paraigua"
+    ]
+  },
+  {
+    "palabra": "Illa",
+    "prohibidas": [
+      "Mar",
+      "Terra",
+      "Solitària",
+      "Aigües",
+      "Paradís"
+    ]
+  },
+  {
+    "palabra": "Techo",
+    "prohibidas": [
+      "Casa",
+      "Arriba",
+      "Cubierta",
+      "Construcció",
+      "Protecció"
+    ]
+  },
+  {
+    "palabra": "Cafeteria",
+    "prohibidas": [
+      "Cafè",
+      "Beguda",
+      "Taules",
+      "Servir",
+      "Tasses"
+    ]
+  },
+  {
+    "palabra": "Facebook",
+    "prohibidas": [
+      "Xarxa social",
+      "Mark Zuckerberg",
+      "Publicar",
+      "Amics",
+      "Meta"
+    ]
+  },
+  {
+    "palabra": "Harry Potter",
+    "prohibidas": [
+      "Pel·lícula",
+      "Màgia",
+      "Bagueta",
+      "Hogwarts",
+      "Mag"
+    ]
+  },
+  {
+    "palabra": "Ratolinet",
+    "prohibidas": [
+      "Ratolí",
+      "Animal",
+      "Petit",
+      "Formatge",
+      "Roedor"
+    ]
+  },
+  {
+    "palabra": "Walt Disney",
+    "prohibidas": [
+      "Dibuixos",
+      "Pel·lícules",
+      "Mickey Mouse",
+      "Animació",
+      "Parc"
+    ]
+  },
+  {
+    "palabra": "Kárate",
+    "prohibidas": [
+      "Esport",
+      "Lluita",
+      "Arts marcials",
+      "Cinturó",
+      "Judo"
+    ]
+  },
+  {
+    "palabra": "Quixot",
+    "prohibidas": [
+      "Llibre",
+      "Cervantes",
+      "Hidalgo",
+      "Molins",
+      "Cavaller"
+    ]
+  },
+  {
+    "palabra": "Robatori",
+    "prohibidas": [
+      "Lladre",
+      "Policia",
+      "Delicte",
+      "Agafar",
+      "Diners"
+    ]
+  },
+  {
+    "palabra": "Silenci",
+    "prohibidas": [
+      "Soroll",
+      "Mut",
+      "Callar",
+      "So",
+      "Sentir"
+    ]
+  },
+  {
+    "palabra": "Xenofòbia",
+    "prohibidas": [
+      "Odi",
+      "Estranger",
+      "Por",
+      "Racisme",
+      "País"
+    ]
+  },
+  {
+    "palabra": "Gàbia",
+    "prohibidas": [
+      "Ocells",
+      "Animals",
+      "Tancar",
+      "Ferro",
+      "Empresonar"
+    ]
+  },
+  {
+    "palabra": "Lupa",
+    "prohibidas": [
+      "Aumentar",
+      "Petit",
+      "Cristal",
+      "Detective",
+      "Ver"
+    ]
+  },
+  {
+    "palabra": "Quemadura",
+    "prohibidas": [
+      "Foc",
+      "Calor",
+      "Piel",
+      "Dolor",
+      "Accidente"
+    ]
+  },
+  {
+    "palabra": "Faraó",
+    "prohibidas": [
+      "Egipte",
+      "Rei",
+      "Piràmide",
+      "Tomba",
+      "Mort"
+    ]
+  },
+  {
+    "palabra": "Juego de tronos",
+    "prohibidas": [
+      "Sèrie",
+      "Dracs",
+      "HBO",
+      "Hivern",
+      "Fantasia"
+    ]
+  },
+  {
+    "palabra": "Muntanya russa",
+    "prohibidas": [
+      "Parc",
+      "Atraccions",
+      "Vagonet",
+      "Velocitat",
+      "Pujar"
+    ]
+  },
+  {
+    "palabra": "Desodorant",
+    "prohibidas": [
+      "Perfume",
+      "Axil·la",
+      "Olor",
+      "Higiene",
+      "Esprai"
+    ]
+  },
+  {
+    "palabra": "Farmacia",
+    "prohibidas": [
+      "Medicines",
+      "Malalt",
+      "Comprar",
+      "Recepta",
+      "Pastilles"
+    ]
+  },
+  {
+    "palabra": "Barcelona",
+    "prohibidas": [
+      "Ciutat",
+      "Espanya",
+      "Gaudí",
+      "Catalunya",
+      "Mar"
+    ]
+  },
+  {
+    "palabra": "Raspall",
+    "prohibidas": [
+      "Pèl",
+      "Dents",
+      "Netejar",
+      "Pentinat",
+      "Mànec"
+    ]
+  },
+  {
+    "palabra": "Os",
+    "prohibidas": [
+      "Esquelet",
+      "Cos",
+      "Animal",
+      "Gos",
+      "Blanc"
+    ]
+  },
+  {
+    "palabra": "Navegador",
+    "prohibidas": [
+      "Internet",
+      "Web",
+      "Google",
+      "Programes",
+      "Cercar"
+    ]
+  },
+  {
+    "palabra": "Vestit",
+    "prohibidas": [
+      "Roba",
+      "Posar",
+      "Dona",
+      "Faldilla",
+      "Teixit"
+    ]
+  },
+  {
+    "palabra": "Ous",
+    "prohibidas": [
+      "Gallina",
+      "Menjar",
+      "Truita",
+      "Cuinar",
+      "Closca"
+    ]
+  },
+  {
+    "palabra": "Patates",
+    "prohibidas": [
+      "Verdura",
+      "Fregir",
+      "Terra",
+      "Menjar",
+      "Arrel"
+    ]
+  },
+  {
+    "palabra": "Sopa",
+    "prohibidas": [
+      "Líquid",
+      "Cullera",
+      "Calent",
+      "Verdures",
+      "Menjar"
+    ]
+  },
+  {
+    "palabra": "Clau",
+    "prohibidas": [
+      "Porta",
+      "Obrir",
+      "Tancar",
+      "Cadenat",
+      "Metall"
+    ]
+  },
+  {
+    "palabra": "Fàbrica",
+    "prohibidas": [
+      "Treball",
+      "Màquines",
+      "Produir",
+      "Obrers",
+      "Indústria"
+    ]
+  },
+  {
+    "palabra": "Mapa",
+    "prohibidas": [
+      "Països",
+      "Ciutats",
+      "Indicar",
+      "Viatjar",
+      "Paper"
+    ]
+  },
+  {
+    "palabra": "Corda",
+    "prohibidas": [
+      "Lligar",
+      "Lligar",
+      "Nus",
+      "Soga",
+      "Tirar"
+    ]
+  },
+  {
+    "palabra": "Trepant",
+    "prohibidas": [
+      "Forat",
+      "Paret",
+      "Eina",
+      "Elèctrica",
+      "Rotar"
+    ]
+  },
+  {
+    "palabra": "Pala",
+    "prohibidas": [
+      "Terra",
+      "Cavar",
+      "Mà",
+      "Jardí",
+      "Sorra"
+    ]
+  },
+  {
+    "palabra": "Planxa",
+    "prohibidas": [
+      "Roba",
+      "Calent",
+      "Arrugues",
+      "Vapor",
+      "Planxar"
+    ]
+  },
+  {
+    "palabra": "Secador",
+    "prohibidas": [
+      "Pèl",
+      "Assecar",
+      "Calor",
+      "Aire",
+      "Bufar"
+    ]
+  },
+  {
+    "palabra": "Forn",
+    "prohibidas": [
+      "Escalfar",
+      "Cuinar",
+      "Menjar",
+      "Microones",
+      "Foc"
+    ]
+  },
+  {
+    "palabra": "Pila",
+    "prohibidas": [
+      "Energia",
+      "Comandament",
+      "Bateria",
+      "Electrodomèstic",
+      "Volt"
+    ]
+  },
+  {
+    "palabra": "Endoll",
+    "prohibidas": [
+      "Connectar",
+      "Corrent",
+      "Paret",
+      "Cable",
+      "Elèctric"
+    ]
+  },
+  {
+    "palabra": "Pared",
+    "prohibidas": [
+      "Casa",
+      "Totxo",
+      "Pintar",
+      "Habitació",
+      "Mur"
+    ]
+  },
+  {
+    "palabra": "Terra",
+    "prohibidas": [
+      "Avall",
+      "Pis",
+      "Casa",
+      "Caminar",
+      "Netejar"
+    ]
+  },
+  {
+    "palabra": "Sabó",
+    "prohibidas": [
+      "Netejar",
+      "Mà",
+      "Dutxa",
+      "Escuma",
+      "Aigua"
+    ]
+  },
+  {
+    "palabra": "Xampú",
+    "prohibidas": [
+      "Pèl",
+      "Rentar",
+      "Dutxa",
+      "Escuma",
+      "Ampolla"
+    ]
+  },
+  {
+    "palabra": "Raspall de dents",
+    "prohibidas": [
+      "Boca",
+      "Netejar",
+      "Pasta",
+      "Matí",
+      "Dents"
+    ]
+  },
+  {
+    "palabra": "Pasta de dents",
+    "prohibidas": [
+      "Dents",
+      "Raspall",
+      "Boca",
+      "Tub",
+      "Netejar"
+    ]
+  },
+  {
+    "palabra": "Tovallola",
+    "prohibidas": [
+      "Assecar",
+      "Dutxa",
+      "Cos",
+      "Bany",
+      "Cotó"
+    ]
+  },
+  {
+    "palabra": "Paper higiènic",
+    "prohibidas": [
+      "Bany",
+      "Netejar",
+      "Rotlle",
+      "Vàter",
+      "Llençar"
+    ]
+  },
+  {
+    "palabra": "Lavabo",
+    "prohibidas": [
+      "Bany",
+      "Aigua",
+      "Aixeta",
+      "Mà",
+      "Pila"
+    ]
+  },
+  {
+    "palabra": "Bañera",
+    "prohibidas": [
+      "Aigua",
+      "Banyar-se",
+      "Dutxa",
+      "Sabó",
+      "Bany"
+    ]
+  },
+  {
+    "palabra": "Teclado",
+    "prohibidas": [
+      "Escriure",
+      "Ordinador",
+      "Lletres",
+      "Tecles",
+      "Mecanografiar"
+    ]
+  },
+  {
+    "palabra": "Escàner",
+    "prohibidas": [
+      "Document",
+      "Imatge",
+      "Digitalitzar",
+      "Paper",
+      "Màquina"
+    ]
+  },
+  {
+    "palabra": "Pendrive",
+    "prohibidas": [
+      "USB",
+      "Memòria",
+      "Guardar",
+      "Ordinador",
+      "Dades"
+    ]
+  },
+  {
+    "palabra": "Altaveus",
+    "prohibidas": [
+      "So",
+      "Música",
+      "Escoltar",
+      "Volum",
+      "Ordinador"
+    ]
+  },
+  {
+    "palabra": "Taxi",
+    "prohibidas": [
+      "Cotxe",
+      "Pagar",
+      "Conductor",
+      "Viatge",
+      "Carrer"
+    ]
+  },
+  {
+    "palabra": "Moto",
+    "prohibidas": [
+      "Vehicle",
+      "Rodes",
+      "Casc",
+      "Motor",
+      "Manillar"
+    ]
+  },
+  {
+    "palabra": "Satèl·lit",
+    "prohibidas": [
+      "Espai",
+      "Òrbita",
+      "Planeta",
+      "Senyal",
+      "Terra"
+    ]
+  },
+  {
+    "palabra": "Planeta",
+    "prohibidas": [
+      "Espai",
+      "Sistema solar",
+      "Terra",
+      "Univers",
+      "Òrbita"
+    ]
+  },
+  {
+    "palabra": "Forat negre",
+    "prohibidas": [
+      "Espai",
+      "Estrella",
+      "Fosc",
+      "Gravetat",
+      "Atrapar"
+    ]
+  },
+  {
+    "palabra": "Meteorito",
+    "prohibidas": [
+      "Espai",
+      "Pedra",
+      "Caure",
+      "Terra",
+      "Estrella"
+    ]
+  },
+  {
+    "palabra": "Terratrèmol",
+    "prohibidas": [
+      "Terra",
+      "Tremolor",
+      "Destrucció",
+      "Moure",
+      "Terra"
+    ]
+  },
+  {
+    "palabra": "Inundació",
+    "prohibidas": [
+      "Aigua",
+      "Pluja",
+      "Créixer",
+      "Carrer",
+      "Casa"
+    ]
+  },
+  {
+    "palabra": "Llac",
+    "prohibidas": [
+      "Aigua",
+      "Estany",
+      "Gran",
+      "Navegar",
+      "Riu"
+    ]
+  },
+  {
+    "palabra": "Vall",
+    "prohibidas": [
+      "Muntanyes",
+      "Sota",
+      "Verd",
+      "Riu",
+      "Terreny"
+    ]
+  },
+  {
+    "palabra": "Camp",
+    "prohibidas": [
+      "Terra",
+      "Verd",
+      "Granja",
+      "Natura",
+      "Plantes"
+    ]
+  },
+  {
+    "palabra": "Arrels",
+    "prohibidas": [
+      "Arbre",
+      "Terra",
+      "Planta",
+      "Sota",
+      "Sostenir"
+    ]
+  },
+  {
+    "palabra": "Tronco",
+    "prohibidas": [
+      "Arbre",
+      "Fusta",
+      "Gran",
+      "Fort",
+      "Tallar"
+    ]
+  },
+  {
+    "palabra": "Rama",
+    "prohibidas": [
+      "Arbre",
+      "Tronc",
+      "Fulles",
+      "Pal",
+      "Pujar"
+    ]
+  },
+  {
+    "palabra": "Semilla",
+    "prohibidas": [
+      "Planta",
+      "Créixer",
+      "Fruita",
+      "Terra",
+      "Germinar"
+    ]
+  },
+  {
+    "palabra": "Verdura",
+    "prohibidas": [
+      "Planta",
+      "Menjar",
+      "Jardí",
+      "Saludable",
+      "Cuinar"
+    ]
+  },
+  {
+    "palabra": "Animal",
+    "prohibidas": [
+      "Ésser viu",
+      "Caminar",
+      "Mascota",
+      "Salvatge",
+      "Bosc"
+    ]
+  },
+  {
+    "palabra": "Mosca",
+    "prohibidas": [
+      "Insecte",
+      "Volar",
+      "Ala",
+      "Molest",
+      "Brutícia"
+    ]
+  },
+  {
+    "palabra": "Nas",
+    "prohibidas": [
+      "Oler",
+      "Cara",
+      "Respirar",
+      "Olfacte",
+      "Olors"
+    ]
+  },
+  {
+    "palabra": "Pèl",
+    "prohibidas": [
+      "Cap",
+      "Tallar",
+      "Cabell",
+      "Pentinat",
+      "Llarg"
+    ]
+  },
+  {
+    "palabra": "Braç",
+    "prohibidas": [
+      "Cos",
+      "Moure",
+      "Mà",
+      "Colze",
+      "Múscul"
+    ]
+  },
+  {
+    "palabra": "Dit",
+    "prohibidas": [
+      "Mà",
+      "Ungla",
+      "Tocar",
+      "Petit",
+      "Punta"
+    ]
+  },
+  {
+    "palabra": "Cama",
+    "prohibidas": [
+      "Cos",
+      "Caminar",
+      "Córrer",
+      "Genoll",
+      "Peu"
+    ]
+  },
+  {
+    "palabra": "Peu",
+    "prohibidas": [
+      "Cama",
+      "Caminar",
+      "Sabates",
+      "Mitjó",
+      "Dit"
+    ]
+  },
+  {
+    "palabra": "Genoll",
+    "prohibidas": [
+      "Cama",
+      "Articulació",
+      "Doblar",
+      "Os",
+      "Mig"
+    ]
+  },
+  {
+    "palabra": "Colze",
+    "prohibidas": [
+      "Braç",
+      "Articulació",
+      "Doblar",
+      "Os",
+      "Mig"
+    ]
+  },
+  {
+    "palabra": "Estómac",
+    "prohibidas": [
+      "Cos",
+      "Menjar",
+      "Digestió",
+      "Panxa",
+      "Dolor"
+    ]
+  },
+  {
+    "palabra": "Pulmó",
+    "prohibidas": [
+      "Òrgan",
+      "Respirar",
+      "Aire",
+      "Oxigen",
+      "Pit"
+    ]
+  },
+  {
+    "palabra": "Múscul",
+    "prohibidas": [
+      "Força",
+      "Cos",
+      "Braç",
+      "Gimnàs",
+      "Os"
+    ]
+  },
+  {
+    "palabra": "Nervi",
+    "prohibidas": [
+      "Sensació",
+      "Cos",
+      "Dolor",
+      "Electricitat",
+      "Cervell"
+    ]
+  },
+  {
+    "palabra": "Suor",
+    "prohibidas": [
+      "Calor",
+      "Aigua",
+      "Cos",
+      "Exercici",
+      "Gotes"
+    ]
+  },
+  {
+    "palabra": "Bost",
+    "prohibidas": [
+      "Cansat",
+      "Somni",
+      "Boca",
+      "Obrir",
+      "Gran"
+    ]
+  },
+  {
+    "palabra": "Esternut",
+    "prohibidas": [
+      "Nas",
+      "Atxem",
+      "So",
+      "Boca",
+      "Grip"
+    ]
+  },
+  {
+    "palabra": "Somriure",
+    "prohibidas": [
+      "Boca",
+      "Feliç",
+      "Cara",
+      "Alegria",
+      "Dents"
+    ]
+  },
+  {
+    "palabra": "Abraçada",
+    "prohibidas": [
+      "Amor",
+      "Braços",
+      "Cos",
+      "Amics",
+      "Afecte"
+    ]
+  },
+  {
+    "palabra": "Odi",
+    "prohibidas": [
+      "Sentiment",
+      "Negatiu",
+      "Contrari",
+      "Enemic",
+      "Enfadat"
+    ]
+  },
+  {
+    "palabra": "Enfadat",
+    "prohibidas": [
+      "Sentiment",
+      "Ira",
+      "Malhumor",
+      "Cridar",
+      "Enutjat"
+    ]
+  },
+  {
+    "palabra": "Vergonya",
+    "prohibidas": [
+      "Vermell",
+      "Sentiment",
+      "Amagar",
+      "Penós",
+      "Cara"
+    ]
+  },
+  {
+    "palabra": "Amics",
+    "prohibidas": [
+      "Amistat",
+      "Persones",
+      "Jugar",
+      "Companyia",
+      "Amor"
+    ]
+  },
+  {
+    "palabra": "Mestre",
+    "prohibidas": [
+      "Escola",
+      "Classe",
+      "Ensenyar",
+      "Alumnes",
+      "Professor"
+    ]
+  },
+  {
+    "palabra": "Científic",
+    "prohibidas": [
+      "Laboratori",
+      "Ciència",
+      "Investigar",
+      "Experiment",
+      "Descobriment"
+    ]
+  },
+  {
+    "palabra": "Artista",
+    "prohibidas": [
+      "Art",
+      "Pintor",
+      "Dibuix",
+      "Crear",
+      "Talent"
+    ]
+  },
+  {
+    "palabra": "Músic",
+    "prohibidas": [
+      "Música",
+      "Cantar",
+      "Instrument",
+      "Tocar",
+      "Banda"
+    ]
+  },
+  {
+    "palabra": "Esportista",
+    "prohibidas": [
+      "Esport",
+      "Jugar",
+      "Competició",
+      "Atleta",
+      "Guanyar"
+    ]
+  },
+  {
+    "palabra": "Futbolista",
+    "prohibidas": [
+      "Futbol",
+      "Esport",
+      "Pilota",
+      "Porteria",
+      "Gol"
+    ]
+  },
+  {
+    "palabra": "Polític",
+    "prohibidas": [
+      "Govern",
+      "President",
+      "País",
+      "Vots",
+      "Partit"
+    ]
+  },
+  {
+    "palabra": "Pilot",
+    "prohibidas": [
+      "Avió",
+      "Volar",
+      "Conduir",
+      "Aire",
+      "Cel"
+    ]
+  },
+  {
+    "palabra": "Capità",
+    "prohibidas": [
+      "Vaixell",
+      "Líder",
+      "Equip",
+      "Navegar",
+      "Comandar"
+    ]
+  },
+  {
+    "palabra": "Cuiner",
+    "prohibidas": [
+      "Cuinar",
+      "Menjar",
+      "Restaurant",
+      "Chef",
+      "Plat"
+    ]
+  },
+  {
+    "palabra": "Forner",
+    "prohibidas": [
+      "Pa",
+      "Fer",
+      "Forn",
+      "Farina",
+      "Menjar"
+    ]
+  },
+  {
+    "palabra": "Jardiner",
+    "prohibidas": [
+      "Jardí",
+      "Plantes",
+      "Flors",
+      "Cura",
+      "Sembrar"
+    ]
+  },
+  {
+    "palabra": "Vaquer",
+    "prohibidas": [
+      "Cavall",
+      "Barret",
+      "Pistola",
+      "Oest",
+      "Pel·lícula"
+    ]
+  },
+  {
+    "palabra": "Caçador",
+    "prohibidas": [
+      "Bosc",
+      "Animals",
+      "Pistola",
+      "Menjar",
+      "Trampa"
+    ]
+  },
+  {
+    "palabra": "Mecànic",
+    "prohibidas": [
+      "Cotxe",
+      "Motor",
+      "Arreglar",
+      "Taller",
+      "Roda"
+    ]
+  },
+  {
+    "palabra": "Detectiu",
+    "prohibidas": [
+      "Policia",
+      "Misteri",
+      "Investigar",
+      "Pista",
+      "Crim"
+    ]
+  },
+  {
+    "palabra": "Heroi",
+    "prohibidas": [
+      "Salvar",
+      "Bo",
+      "Poders",
+      "Superheroi",
+      "Vilà"
+    ]
+  },
+  {
+    "palabra": "Vilà",
+    "prohibidas": [
+      "Dolent",
+      "Heroi",
+      "Enemic",
+      "Robar",
+      "Poder"
+    ]
+  },
+  {
+    "palabra": "Fada",
+    "prohibidas": [
+      "Màgica",
+      "Petita",
+      "Aletes",
+      "Pols",
+      "Bosc"
+    ]
+  },
+  {
+    "palabra": "Gnom",
+    "prohibidas": [
+      "Jardí",
+      "Petit",
+      "Barba",
+      "Barret",
+      "Bosc"
+    ]
+  },
+  {
+    "palabra": "Dimoni",
+    "prohibidas": [
+      "Dolent",
+      "Foc",
+      "Infern",
+      "Banyes",
+      "Religió"
+    ]
+  },
+  {
+    "palabra": "Déu",
+    "prohibidas": [
+      "Religió",
+      "Crear",
+      "Cel",
+      "Poderós",
+      "Resar"
+    ]
+  },
+  {
+    "palabra": "Funeral",
+    "prohibidas": [
+      "Mort",
+      "Enterrament",
+      "Cerimònia",
+      "Tristesa",
+      "Difunt"
+    ]
+  },
+  {
+    "palabra": "Bateig",
+    "prohibidas": [
+      "Bebè",
+      "Aigua",
+      "Religió",
+      "Església",
+      "Cerimònia"
+    ]
+  },
+  {
+    "palabra": "Halloween",
+    "prohibidas": [
+      "Octubre",
+      "Disfresses",
+      "Por",
+      "Dolços",
+      "Festa"
+    ]
+  },
+  {
+    "palabra": "Carnestoltes",
+    "prohibidas": [
+      "Disfresses",
+      "Festa",
+      "Ball",
+      "Màscares",
+      "Rua"
+    ]
+  },
+  {
+    "palabra": "Esport",
+    "prohibidas": [
+      "Joc",
+      "Exercici",
+      "Atleta",
+      "Pilota",
+      "Equip"
+    ]
+  },
+  {
+    "palabra": "Natació",
+    "prohibidas": [
+      "Aigua",
+      "Nedar",
+      "Piscina",
+      "Esport",
+      "Banyador"
+    ]
+  },
+  {
+    "palabra": "Gimnàstica",
+    "prohibidas": [
+      "Cos",
+      "Exercici",
+      "Esport",
+      "Múscul",
+      "Flexibilitat"
+    ]
+  },
+  {
+    "palabra": "Esquí",
+    "prohibidas": [
+      "Neu",
+      "Hivern",
+      "Esport",
+      "Muntanya",
+      "Baixar"
+    ]
+  },
+  {
+    "palabra": "Boxa",
+    "prohibidas": [
+      "Lluita",
+      "Cops de puny",
+      "Guants",
+      "Esport",
+      "Ring"
+    ]
+  },
+  {
+    "palabra": "Escacs",
+    "prohibidas": [
+      "Joc",
+      "Tauler",
+      "Blanc",
+      "Negre",
+      "Rei"
+    ]
+  },
+  {
+    "palabra": "Dards",
+    "prohibidas": [
+      "Joc",
+      "Diana",
+      "Punta",
+      "Llançar",
+      "Puntuació"
+    ]
+  },
+  {
+    "palabra": "Cartes",
+    "prohibidas": [
+      "Baralla",
+      "Joc",
+      "Mà",
+      "Pòquer",
+      "Repartir"
+    ]
+  },
+  {
+    "palabra": "Dominó",
+    "prohibidas": [
+      "Fitxes",
+      "Joc",
+      "Punts",
+      "Taula",
+      "Caure"
+    ]
+  },
+  {
+    "palabra": "Puzle",
+    "prohibidas": [
+      "Peces",
+      "Joc",
+      "Muntar",
+      "Imatge",
+      " encaixar"
+    ]
+  },
+  {
+    "palabra": "Videojoc",
+    "prohibidas": [
+      "Pantalla",
+      "Consola",
+      "Jugar",
+      "Mando",
+      "Virtual"
+    ]
+  },
+  {
+    "palabra": "Rock",
+    "prohibidas": [
+      "Música",
+      "Guitarra",
+      "Banda",
+      "Fort",
+      "Elèctrica"
+    ]
+  },
+  {
+    "palabra": "Pop",
+    "prohibidas": [
+      "Música",
+      "Modern",
+      "Popular",
+      "Ballar",
+      "Cançó"
+    ]
+  },
+  {
+    "palabra": "Clàssica",
+    "prohibidas": [
+      "Música",
+      "Orquestra",
+      "Mozart",
+      "Seriosa",
+      "Piano"
+    ]
+  },
+  {
+    "palabra": "Instrument musical",
+    "prohibidas": [
+      "Música",
+      "So",
+      "Tocar",
+      "Piano",
+      "Guitarra"
+    ]
+  },
+  {
+    "palabra": "Tambor",
+    "prohibidas": [
+      "Música",
+      "Colpejar",
+      "Instrument",
+      "Baqueta",
+      "Ritme"
+    ]
+  },
+  {
+    "palabra": "Flauta",
+    "prohibidas": [
+      "Bufar",
+      "Instrument",
+      "Música",
+      "Forats",
+      "Vent"
+    ]
+  },
+  {
+    "palabra": "Art",
+    "prohibidas": [
+      "Creativitat",
+      "Pintura",
+      "Escultura",
+      "Bellesa",
+      "Expressió"
+    ]
+  },
+  {
+    "palabra": "Dibuix",
+    "prohibidas": [
+      "Paper",
+      "Llapis",
+      "Dibuixar",
+      "Colors",
+      "Esbós"
+    ]
+  },
+  {
+    "palabra": "Novel·la",
+    "prohibidas": [
+      "Llibre",
+      "Història",
+      "Llarga",
+      "Personatges",
+      "Llegir"
+    ]
+  },
+  {
+    "palabra": "Literatura",
+    "prohibidas": [
+      "Llibres",
+      "Escriure",
+      "Llegir",
+      "Poesia",
+      "Novel·la"
+    ]
+  },
+  {
+    "palabra": "Matemàtiques",
+    "prohibidas": [
+      "Nombres",
+      "Suma",
+      "Resta",
+      "Càlcul",
+      "Problemes"
+    ]
+  },
+  {
+    "palabra": "Física",
+    "prohibidas": [
+      "Ciència",
+      "Gravetat",
+      "Energia",
+      "Newton",
+      "Moviment"
+    ]
+  },
+  {
+    "palabra": "Història",
+    "prohibidas": [
+      "Passat",
+      "Dates",
+      "Esdeveniments",
+      "Antic",
+      "Llibre"
+    ]
+  },
+  {
+    "palabra": "Geografia",
+    "prohibidas": [
+      "Mapa",
+      "Països",
+      "Muntanyes",
+      "Rius",
+      "Capital"
+    ]
+  },
+  {
+    "palabra": "Idioma",
+    "prohibidas": [
+      "Hablar",
+      "Llengua",
+      "Comunicació",
+      "Paraules",
+      "Escriure"
+    ]
+  },
+  {
+    "palabra": "Español",
+    "prohibidas": [
+      "Idioma",
+      "Espanya",
+      "Amèrica",
+      "Hablar",
+      "Letras"
+    ]
+  },
+  {
+    "palabra": "Inglés",
+    "prohibidas": [
+      "Idioma",
+      "Anglaterra",
+      "USA",
+      "Hablar",
+      "Letras"
+    ]
+  },
+  {
+    "palabra": "Francès",
+    "prohibidas": [
+      "Idioma",
+      "França",
+      "París",
+      "Hablar",
+      "Letras"
+    ]
+  },
+  {
+    "palabra": "Alemany",
+    "prohibidas": [
+      "Idioma",
+      "Alemanya",
+      "Berlín",
+      "Hablar",
+      "Letras"
+    ]
+  },
+  {
+    "palabra": "Xinès",
+    "prohibidas": [
+      "Idioma",
+      "Xina",
+      "Àsia",
+      "Hablar",
+      "Caràcters"
+    ]
+  },
+  {
+    "palabra": "Rus",
+    "prohibidas": [
+      "Idioma",
+      "Rússia",
+      "Moscou",
+      "Ciríl·lic",
+      "Hablar"
+    ]
+  },
+  {
+    "palabra": "Dansa",
+    "prohibidas": [
+      "Ball",
+      "Música",
+      "Moure",
+      "Cos",
+      "Ritme"
+    ]
+  },
+  {
+    "palabra": "Jardineria",
+    "prohibidas": [
+      "Jardí",
+      "Plantes",
+      "Flors",
+      "Cura",
+      "Sembrar"
+    ]
+  },
+  {
+    "palabra": "Costura",
+    "prohibidas": [
+      "Roba",
+      "Agulla",
+      "Fil",
+      "Tela",
+      "Cosir"
+    ]
+  },
+  {
+    "palabra": "Bricolatge",
+    "prohibidas": [
+      "Eines",
+      "Arreglar",
+      "Casa",
+      "Manualitats",
+      "Construir"
+    ]
+  },
+  {
+    "palabra": "Xarxa social",
+    "prohibidas": [
+      "Amics",
+      "Internet",
+      "Fotos",
+      "Facebook",
+      "Instagram"
+    ]
+  },
+  {
+    "palabra": "Telèfon mòbil",
+    "prohibidas": [
+      "Trucar",
+      "Comunicació",
+      "Smartphone",
+      "Missatge",
+      "Pantalla"
+    ]
+  },
+  {
+    "palabra": "Arquitecte",
+    "prohibidas": [
+      "Casa",
+      "Plànol",
+      "Edifici",
+      "Dissenyar",
+      "Construcció"
+    ]
+  },
+  {
+    "palabra": "Astrònom",
+    "prohibidas": [
+      "Estrelles",
+      "Univers",
+      "Planetes",
+      "Telescopi",
+      "Cel"
+    ]
+  },
+  {
+    "palabra": "Serraller",
+    "prohibidas": [
+      "Clau",
+      "Panys",
+      "Porta",
+      "Metall",
+      "Obrir"
+    ]
+  },
+  {
+    "palabra": "Escultor",
+    "prohibidas": [
+      "Art",
+      "Estàtua",
+      "Forma",
+      "Tallar",
+      "Pedra"
+    ]
+  },
+  {
+    "palabra": "Filòsof",
+    "prohibidas": [
+      "Pensar",
+      "Idees",
+      "Saviesa",
+      "Preguntes",
+      "Vida"
+    ]
+  },
+  {
+    "palabra": "Joier",
+    "prohibidas": [
+      "Or",
+      "Plata",
+      "Anell",
+      "Collar",
+      "Joia"
+    ]
+  },
+  {
+    "palabra": "Modista",
+    "prohibidas": [
+      "Roba",
+      "Tela",
+      "Cosir",
+      "Disseny",
+      "Costura"
+    ]
+  },
+  {
+    "palabra": "Novel·lista",
+    "prohibidas": [
+      "Llibre",
+      "Escriure",
+      "Història",
+      "Ficció",
+      "Llarg"
+    ]
+  },
+  {
+    "palabra": "Programador",
+    "prohibidas": [
+      "Ordinador",
+      "Codi",
+      "Software",
+      "Tecnologia",
+      "Aplicació"
+    ]
+  },
+  {
+    "palabra": "Psicòleg",
+    "prohibidas": [
+      "Ment",
+      "Emocions",
+      "Parlat",
+      "Problemes",
+      "Ajuda"
+    ]
+  },
+  {
+    "palabra": "Taxista",
+    "prohibidas": [
+      "Cotxe",
+      "Carrer",
+      "Pagar",
+      "Conduir",
+      "Client"
+    ]
+  },
+  {
+    "palabra": "Voluntari",
+    "prohibidas": [
+      "Ajudar",
+      "Diners",
+      "Treball",
+      "Gratis",
+      "Temps"
+    ]
+  },
+  {
+    "palabra": "Agricultor",
+    "prohibidas": [
+      "Camp",
+      "Terra",
+      "Sembra",
+      "Collita",
+      "Tractor"
+    ]
+  },
+  {
+    "palabra": "Arqueòleg",
+    "prohibidas": [
+      "Antic",
+      "Terra",
+      "Excavar",
+      "Fòssil",
+      "Història"
+    ]
+  },
+  {
+    "palabra": "Biòleg",
+    "prohibidas": [
+      "Vida",
+      "Animals",
+      "Plantes",
+      "Natura",
+      "Cèl·lules"
+    ]
+  },
+  {
+    "palabra": "Caixer",
+    "prohibidas": [
+      "Diners",
+      "Botiga",
+      "Supermercat",
+      "Pagar",
+      "Client"
+    ]
+  },
+  {
+    "palabra": "Conserge",
+    "prohibidas": [
+      "Edifici",
+      "Netejar",
+      "Cura",
+      "Porta",
+      "Porter"
+    ]
+  },
+  {
+    "palabra": "Fotògraf",
+    "prohibidas": [
+      "Càmera",
+      "Foto",
+      "Imatge",
+      "Lent",
+      "Retrat"
+    ]
+  },
+  {
+    "palabra": "Sastre",
+    "prohibidas": [
+      "Roba",
+      "Cosir",
+      "Vestit",
+      "Tela",
+      "Fil"
+    ]
+  },
+  {
+    "palabra": "Chef",
+    "prohibidas": [
+      "Cuinar",
+      "Restaurant",
+      "Menjar",
+      "Cuina",
+      "Plat"
+    ]
+  },
+  {
+    "palabra": "Còmic",
+    "prohibidas": [
+      "Riure",
+      "Acudit",
+      "Graciós",
+      "Escenari",
+      "Monòleg"
+    ]
+  },
+  {
+    "palabra": "Dissenyador",
+    "prohibidas": [
+      "Crear",
+      "Roba",
+      "Disseny",
+      "Esbós",
+      "Elegant"
+    ]
+  },
+  {
+    "palabra": "Entrenador",
+    "prohibidas": [
+      "Esport",
+      "Equip",
+      "Ensenyar",
+      "Joc",
+      "Guanyar"
+    ]
+  },
+  {
+    "palabra": "afició",
+    "prohibidas": [
+      "gust",
+      "passatemps",
+      "hobby",
+      "interès",
+      "entusiasme"
+    ]
+  },
+  {
+    "palabra": "magatzem",
+    "prohibidas": [
+      "dipòsit",
+      "celler",
+      "graner",
+      "silo",
+      "garatge"
+    ]
+  },
+  {
+    "palabra": "amfitrió",
+    "prohibidas": [
+      "convidat",
+      "hoste",
+      "organitzador",
+      "rebedor",
+      "amo"
+    ]
+  },
+  {
+    "palabra": "aplaus",
+    "prohibidas": [
+      "ovació",
+      "bravo",
+      "palmes",
+      "elogi",
+      "felicitació"
+    ]
+  },
+  {
+    "palabra": "argila",
+    "prohibidas": [
+      "fang",
+      "terra",
+      "fang",
+      "llot",
+      "ceràmica"
+    ]
+  },
+  {
+    "palabra": "armadura",
+    "prohibidas": [
+      "cuirassa",
+      "escut",
+      "protecció",
+      "casc",
+      "malla"
+    ]
+  },
+  {
+    "palabra": "artesà",
+    "prohibidas": [
+      "manualitats",
+      "creador",
+      "obra",
+      "ofici",
+      "fabricant"
+    ]
+  },
+  {
+    "palabra": "atlètic",
+    "prohibidas": [
+      "esport",
+      "exercici",
+      "fort",
+      "àgil",
+      "atleta"
+    ]
+  },
+  {
+    "palabra": "terrat",
+    "prohibidas": [
+      "terrassa",
+      "teulada",
+      "coberta",
+      "balcó",
+      "terrat"
+    ]
+  },
+  {
+    "palabra": "brisa",
+    "prohibidas": [
+      "viento",
+      "suave",
+      "aire",
+      "fresco",
+      "corriente"
+    ]
+  },
+  {
+    "palabra": "fermall",
+    "prohibidas": [
+      "agulla",
+      "joia",
+      "pinça",
+      "adorn",
+      "subjectar"
+    ]
+  },
+  {
+    "palabra": "burla",
+    "prohibidas": [
+      "mofa",
+      "ridiculizar",
+      "chiste",
+      "broma",
+      "ofensa"
+    ]
+  },
+  {
+    "palabra": "caballer",
+    "prohibidas": [
+      "gentilhome",
+      "noble",
+      "príncep",
+      "senyor",
+      "cortès"
+    ]
+  },
+  {
+    "palabra": "cabells",
+    "prohibidas": [
+      "pèl",
+      "cabellera",
+      "rizos",
+      "trena",
+      "llis"
+    ]
+  },
+  {
+    "palabra": "campana",
+    "prohibidas": [
+      "església",
+      "sonar",
+      "metall",
+      "rellotge",
+      "doblar"
+    ]
+  },
+  {
+    "palabra": "closca",
+    "prohibidas": [
+      "petxina",
+      "tortuga",
+      "cranc",
+      "protecció",
+      "armadura"
+    ]
+  },
+  {
+    "palabra": "cartellera",
+    "prohibidas": [
+      "cinema",
+      "teatre",
+      "anuncis",
+      "pòster",
+      "publicitat"
+    ]
+  },
+  {
+    "palabra": "catarata",
+    "prohibidas": [
+      "cascada",
+      "aigua",
+      "riu",
+      "salt",
+      "corrent"
+    ]
+  },
+  {
+    "palabra": "armilla",
+    "prohibidas": [
+      "jaqueta",
+      "peça",
+      "vestir",
+      "abric",
+      "sense mànigues"
+    ]
+  },
+  {
+    "palabra": "cicatriu",
+    "prohibidas": [
+      "ferida",
+      "marca",
+      "esgarrapada",
+      "cos",
+      "pell"
+    ]
+  },
+  {
+    "palabra": "engronsadora",
+    "prohibidas": [
+      "parc",
+      "nen",
+      "joc",
+      "balancejar",
+      "corda"
+    ]
+  },
+  {
+    "palabra": "cóndor",
+    "prohibidas": [
+      "ave",
+      "águila",
+      "vuelo",
+      "muntanya",
+      "andino"
+    ]
+  },
+  {
+    "palabra": "cremallera",
+    "prohibidas": [
+      "tancament",
+      "caixó",
+      "zipper",
+      "pantaló",
+      "pujar"
+    ]
+  },
+  {
+    "palabra": "coberta",
+    "prohibidas": [
+      "sostre",
+      "cotxe",
+      "llibre",
+      "vaixell",
+      "tapa"
+    ]
+  },
+  {
+    "palabra": "miratge",
+    "prohibidas": [
+      "il·lusió",
+      "visió",
+      "imatge",
+      "engany",
+      "desert"
+    ]
+  },
+  {
+    "palabra": "esposes",
+    "prohibidas": [
+      "mans",
+      "presó",
+      "policia",
+      "detenir",
+      "presó"
+    ]
+  },
+  {
+    "palabra": "estàtua",
+    "prohibidas": [
+      "escultura",
+      "figura",
+      "marmol",
+      "monument",
+      "bronze"
+    ]
+  },
+  {
+    "palabra": "etiqueta",
+    "prohibidas": [
+      "protocol",
+      "bones maneres",
+      "comportament",
+      "roba",
+      "preu"
+    ]
+  },
+  {
+    "palabra": "misto",
+    "prohibidas": [
+      "lluquet",
+      "foc",
+      "caixa",
+      "encendre",
+      "flama"
+    ]
+  },
+  {
+    "palabra": "frontera",
+    "prohibidas": [
+      "límite",
+      "país",
+      "aduana",
+      "división",
+      "viajar"
+    ]
+  },
+  {
+    "palabra": "garabato",
+    "prohibidas": [
+      "dibujo",
+      "rayar",
+      "garrapatear",
+      "feo",
+      "línea"
+    ]
+  },
+  {
+    "palabra": "gasolina",
+    "prohibidas": [
+      "cotxe",
+      "motor",
+      "combustible",
+      "dipòsit",
+      "benzinera"
+    ]
+  },
+  {
+    "palabra": "gravadora",
+    "prohibidas": [
+      "micròfon",
+      "so",
+      "àudio",
+      "cinta",
+      "veu"
+    ]
+  },
+  {
+    "palabra": "calamarsa",
+    "prohibidas": [
+      "gel",
+      "pluja",
+      "fred",
+      "tempesta",
+      "boletes"
+    ]
+  },
+  {
+    "palabra": "guant",
+    "prohibidas": [
+      "mà",
+      "protegir",
+      "fred",
+      "dits",
+      "hivern"
+    ]
+  },
+  {
+    "palabra": "hamaca",
+    "prohibidas": [
+      "colgar",
+      "cama",
+      "red",
+      "descansar",
+      "sombra"
+    ]
+  },
+  {
+    "palabra": "ferro",
+    "prohibidas": [
+      "metall",
+      "pesat",
+      "acer",
+      "òxid",
+      "mineral"
+    ]
+  },
+  {
+    "palabra": "foguera",
+    "prohibidas": [
+      "foc",
+      "llenya",
+      "bosc",
+      "campament",
+      "cremar"
+    ]
+  },
+  {
+    "palabra": "petjada",
+    "prohibidas": [
+      "petjada",
+      "marca",
+      "peu",
+      "dit",
+      "rastre"
+    ]
+  },
+  {
+    "palabra": "imbècil",
+    "prohibidas": [
+      "tonto",
+      "estúpid",
+      "idiota",
+      "bobo",
+      "brut"
+    ]
+  },
+  {
+    "palabra": "incendi",
+    "prohibidas": [
+      "foc",
+      "cremar",
+      "bosc",
+      "bombers",
+      "alarma"
+    ]
+  },
+  {
+    "palabra": "quilogram",
+    "prohibidas": [
+      "pes",
+      "mesura",
+      "gram",
+      "lliures",
+      "pesa"
+    ]
+  },
+  {
+    "palabra": "kimono",
+    "prohibidas": [
+      "Japó",
+      "traje",
+      "vestido",
+      "geisha",
+      "seda"
+    ]
+  },
+  {
+    "palabra": "laboratori",
+    "prohibidas": [
+      "ciència",
+      "científic",
+      "experiment",
+      "probeta",
+      "investigació"
+    ]
+  },
+  {
+    "palabra": "bateg",
+    "prohibidas": [
+      "cor",
+      "pols",
+      "palpitació",
+      "ritme",
+      "vida"
+    ]
+  },
+  {
+    "palabra": "llanterna",
+    "prohibidas": [
+      "llum",
+      "foscor",
+      "piles",
+      "il·luminar",
+      "nit"
+    ]
+  },
+  {
+    "palabra": "logotipo",
+    "prohibidas": [
+      "marca",
+      "símbolo",
+      "imagen",
+      "empresa",
+      "diseño"
+    ]
+  },
+  {
+    "palabra": "lotería",
+    "prohibidas": [
+      "billete",
+      "premio",
+      "suerte",
+      "ganar",
+      "números"
+    ]
+  },
+  {
+    "palabra": "luxós",
+    "prohibidas": [
+      "elegant",
+      "car",
+      "opulent",
+      "ric",
+      "glamurós"
+    ]
+  },
+  {
+    "palabra": "magnat",
+    "prohibidas": [
+      "milionari",
+      "ric",
+      "empresari",
+      "poderós",
+      "diners"
+    ]
+  },
+  {
+    "palabra": "malabarista",
+    "prohibidas": [
+      "circo",
+      "bolas",
+      "equilibrio",
+      "habilitat",
+      "artista"
+    ]
+  },
+  {
+    "palabra": "mascarada",
+    "prohibidas": [
+      "disfraz",
+      "máscara",
+      "fiesta",
+      "carnaval",
+      "baile"
+    ]
+  },
+  {
+    "palabra": "monjo",
+    "prohibidas": [
+      "convent",
+      "religiós",
+      "monestir",
+      "sacerdot",
+      "frare"
+    ]
+  },
+  {
+    "palabra": "nàufrag",
+    "prohibidas": [
+      "vaixell",
+      "illa",
+      "sol",
+      "supervivent",
+      "mar"
+    ]
+  },
+  {
+    "palabra": "mainadera",
+    "prohibidas": [
+      "cuidar",
+      "bebé",
+      "nen",
+      "cangur",
+      "empleada"
+    ]
+  },
+  {
+    "palabra": "nostàlgia",
+    "prohibidas": [
+      "record",
+      "passat",
+      "tristesa",
+      "melancolia",
+      "enyorar"
+    ]
+  },
+  {
+    "palabra": "llombrígol",
+    "prohibidas": [
+      "panxa",
+      "ventre",
+      "cos",
+      "cordó umbilical",
+      "abdomen"
+    ]
+  },
+  {
+    "palabra": "foscor",
+    "prohibidas": [
+      "nit",
+      "ombra",
+      "negre",
+      "sense llum",
+      "tiniebles"
+    ]
+  },
+  {
+    "palabra": "fleca",
+    "prohibidas": [
+      "pa",
+      "forn",
+      "flequer",
+      "massa",
+      "pastisseria"
+    ]
+  },
+  {
+    "palabra": "llentilles",
+    "prohibidas": [
+      "taques",
+      "sol",
+      "cara",
+      "pell",
+      "llunars"
+    ]
+  },
+  {
+    "palabra": "peluche",
+    "prohibidas": [
+      "oso",
+      "nino",
+      "suau",
+      "joguina",
+      "farcit"
+    ]
+  },
+  {
+    "palabra": "pestanyes",
+    "prohibidas": [
+      "ulls",
+      "celles",
+      "parpellejar",
+      "pèl",
+      "parpella"
+    ]
+  },
+  {
+    "palabra": "petroli",
+    "prohibidas": [
+      "cru",
+      "negre",
+      "combustible",
+      "energia",
+      "pou"
+    ]
+  },
+  {
+    "palabra": "picnic",
+    "prohibidas": [
+      "menjar",
+      "parc",
+      "camp",
+      "estovalles",
+      "cistella"
+    ]
+  },
+  {
+    "palabra": "pijama",
+    "prohibidas": [
+      "dormir",
+      "nit",
+      "llit",
+      "roba",
+      "descansar"
+    ]
+  },
+  {
+    "palabra": "pistola",
+    "prohibidas": [
+      "arma",
+      "bala",
+      "disparar",
+      "revólver",
+      "foc"
+    ]
+  },
+  {
+    "palabra": "púa",
+    "prohibidas": [
+      "guitarra",
+      "plectro",
+      "tocar",
+      "cuerdas",
+      "música"
+    ]
+  },
+  {
+    "palabra": "capgròs",
+    "prohibidas": [
+      "granota",
+      "amfibi",
+      "cua",
+      "petit",
+      "estany"
+    ]
+  },
+  {
+    "palabra": "rèptil",
+    "prohibidas": [
+      "llangardaix",
+      "serp",
+      "escates",
+      "animal",
+      "fred"
+    ]
+  },
+  {
+    "palabra": "rínxols",
+    "prohibidas": [
+      "pèl",
+      "cabells",
+      "ondulat",
+      "corbes",
+      "trena"
+    ]
+  },
+  {
+    "palabra": "Maquinet",
+    "prohibidas": [
+      "Llapis",
+      "Afilar",
+      "Punta",
+      "Escola",
+      "Maquinet"
+    ]
+  },
+  {
+    "palabra": "sender",
+    "prohibidas": [
+      "Camí",
+      "Bosc",
+      "Muntanya",
+      "Sender",
+      "Pista"
+    ]
+  },
+  {
+    "palabra": "Sequera",
+    "prohibidas": [
+      "Pluja",
+      "Falta",
+      "Aigua",
+      "Sec",
+      "Desert"
+    ]
+  },
+  {
+    "palabra": "Superheroi",
+    "prohibidas": [
+      "Poder",
+      "Heroi",
+      "Còmic",
+      "Vilà",
+      "Salvar"
+    ]
+  },
+  {
+    "palabra": "tatuaje",
+    "prohibidas": [
+      "dibujo",
+      "piel",
+      "tinta",
+      "aguja",
+      "cuerpo"
+    ]
+  },
+  {
+    "palabra": "trébol",
+    "prohibidas": [
+      "planta",
+      "hojas",
+      "suerte",
+      "verd",
+      "prado"
+    ]
+  },
+  {
+    "palabra": "vestíbulo",
+    "prohibidas": [
+      "entrada",
+      "recibidor",
+      "pasillo",
+      "puerta",
+      "hotel"
+    ]
+  },
+  {
+    "palabra": "veto",
+    "prohibidas": [
+      "prohibir",
+      "negar",
+      "rechazar",
+      "impedir",
+      "derecho"
+    ]
+  },
+  {
+    "palabra": "zurdo",
+    "prohibidas": [
+      "izquierda",
+      "mano",
+      "escribir",
+      "diferente",
+      "diestro"
+    ]
+  },
+  {
+    "palabra": "Londres",
+    "prohibidas": [
+      "Anglaterra",
+      "Big Ben",
+      "Regne Unit",
+      "capital",
+      "ciutat"
+    ]
+  },
+  {
+    "palabra": "Roma",
+    "prohibidas": [
+      "Itàlia",
+      "Coliseu",
+      "Capital",
+      "Ciutat",
+      "Antiga"
+    ]
+  },
+  {
+    "palabra": "Tòquio",
+    "prohibidas": [
+      "Japó",
+      "capital",
+      "ciutat",
+      "metrópolis",
+      "Àsia"
+    ]
+  },
+  {
+    "palabra": "Nova York",
+    "prohibidas": [
+      "Estats Units",
+      "La Gran Poma",
+      "ciutat",
+      "capital",
+      "Estàtua de la Llibertat"
+    ]
+  },
+  {
+    "palabra": "Sydney",
+    "prohibidas": [
+      "Austràlia",
+      "Òpera",
+      "Ciutat",
+      "Platja",
+      "Oceà"
+    ]
+  },
+  {
+    "palabra": "Hollywood",
+    "prohibidas": [
+      "cine",
+      "pel·lícules",
+      "actores",
+      "fama",
+      "Los Ángeles"
+    ]
+  },
+  {
+    "palabra": "Titanic",
+    "prohibidas": [
+      "Pel·lícula",
+      "Vaixell",
+      "Enfonsament",
+      "Jack",
+      "Rose"
+    ]
+  },
+  {
+    "palabra": "Star Wars",
+    "prohibidas": [
+      "Pel·lícula",
+      "Guerra",
+      "Galàxia",
+      "Ciència-ficció",
+      "Jedi"
+    ]
+  },
+  {
+    "palabra": "The Beatles",
+    "prohibidas": [
+      "banda",
+      "música",
+      "Liverpool",
+      "John Lennon",
+      "Paul McCartney"
+    ]
+  },
+  {
+    "palabra": "Queen",
+    "prohibidas": [
+      "banda",
+      "música",
+      "Freddie Mercury",
+      "rock",
+      "Bohemian Rhapsody"
+    ]
+  },
+  {
+    "palabra": "Madonna",
+    "prohibidas": [
+      "cantante",
+      "pop",
+      "música",
+      "reina",
+      "material"
+    ]
+  },
+  {
+    "palabra": "Michael Jackson",
+    "prohibidas": [
+      "rei",
+      "pop",
+      "cantante",
+      "Thriller",
+      "música"
+    ]
+  },
+  {
+    "palabra": "Brad Pitt",
+    "prohibidas": [
+      "actor",
+      "Hollywood",
+      "pel·lícula",
+      "famoso",
+      "cine"
+    ]
+  },
+  {
+    "palabra": "Leonardo DiCaprio",
+    "prohibidas": [
+      "actor",
+      "Hollywood",
+      "pel·lícula",
+      "cine",
+      "Oscar"
+    ]
+  },
+  {
+    "palabra": "Marilyn Monroe",
+    "prohibidas": [
+      "Actriu",
+      "Rossia",
+      "Icona",
+      "Hollywood",
+      "Famosa"
+    ]
+  },
+  {
+    "palabra": "Machu Picchu",
+    "prohibidas": [
+      "Perú",
+      "ruinas",
+      "Inca",
+      "muntanya",
+      "paisaje"
+    ]
+  },
+  {
+    "palabra": "Piràmides de Guiza",
+    "prohibidas": [
+      "Egipte",
+      "Faraons",
+      "Desert",
+      "Monument",
+      "Història"
+    ]
+  },
+  {
+    "palabra": "Gran Muralla Xinesa",
+    "prohibidas": [
+      "Xina",
+      "Mur",
+      "Llarga",
+      "Arquitectura",
+      "Història"
+    ]
+  },
+  {
+    "palabra": "Coliseu Romà",
+    "prohibidas": [
+      "Roma",
+      "Itàlia",
+      "Antic",
+      "Gladiadors",
+      "Amfiteatre"
+    ]
+  },
+  {
+    "palabra": "Salar d'Uyuni",
+    "prohibidas": [
+      "Bolívia",
+      "Desert",
+      "Sal",
+      "Mirall",
+      "Paisatge"
+    ]
+  },
+  {
+    "palabra": "Desert d'Atacama",
+    "prohibidas": [
+      "Xile",
+      "Desert",
+      "Sec",
+      "Paisatge",
+      "Estrelles"
+    ]
+  },
+  {
+    "palabra": "Las Vegas",
+    "prohibidas": [
+      "Ciutat",
+      "Casino",
+      "Joc",
+      "Nevada",
+      "Llums"
+    ]
+  },
+  {
+    "palabra": "Everest",
+    "prohibidas": [
+      "muntanya",
+      "Nepal",
+      "cima",
+      "altura",
+      "escalar"
+    ]
+  },
+  {
+    "palabra": "Carib",
+    "prohibidas": [
+      "Mar",
+      "Illes",
+      "Platja",
+      "Vacances",
+      "Blau"
+    ]
+  },
+  {
+    "palabra": "Galápagos",
+    "prohibidas": [
+      "Illes",
+      "Equador",
+      "Tortugues",
+      "Animals",
+      "Natura"
+    ]
+  },
+  {
+    "palabra": "Nirvana",
+    "prohibidas": [
+      "banda",
+      "grunge",
+      "Kurt Cobain",
+      "música",
+      "Smells Like Teen Spirit"
+    ]
+  },
+  {
+    "palabra": "Led Zeppelin",
+    "prohibidas": [
+      "banda",
+      "rock",
+      "Stairway to Heaven",
+      "música",
+      "clásico"
+    ]
+  },
+  {
+    "palabra": "Pink Floyd",
+    "prohibidas": [
+      "Banda",
+      "Rock",
+      "The Wall",
+      "Música",
+      "Psicodèlic"
+    ]
+  },
+  {
+    "palabra": "El Padrí",
+    "prohibidas": [
+      "pel·lícula",
+      "mafia",
+      "familia",
+      "Corleone",
+      "cine"
+    ]
+  },
+  {
+    "palabra": "Pulp Fiction",
+    "prohibidas": [
+      "Pel·lícula",
+      "Tarantino",
+      "Crim",
+      "Diàleg",
+      "Cinema"
+    ]
+  },
+  {
+    "palabra": "Avatar",
+    "prohibidas": [
+      "Pel·lícula",
+      "Blau",
+      "Pandora",
+      "Ciència-ficció",
+      "James Cameron"
+    ]
+  },
+  {
+    "palabra": "Parc Juràssic",
+    "prohibidas": [
+      "Pel·lícula",
+      "Dinosaures",
+      "Parc",
+      "Ciència-ficció",
+      "Spielberg"
+    ]
+  },
+  {
+    "palabra": "Joc de Trons",
+    "prohibidas": [
+      "Sèrie",
+      "Tron",
+      "Dracs",
+      "HBO",
+      "Hivern"
+    ]
+  },
+  {
+    "palabra": "Stranger Things",
+    "prohibidas": [
+      "Sèrie",
+      "Onze",
+      "Nens",
+      "Demogorgon",
+      "Netflix"
+    ]
+  },
+  {
+    "palabra": "The Office",
+    "prohibidas": [
+      "Sèrie",
+      "Oficina",
+      "Comèdia",
+      "Dunder Mifflin",
+      "Cap"
+    ]
+  },
+  {
+    "palabra": "El Rei Lleó",
+    "prohibidas": [
+      "Pel·lícula",
+      "Disney",
+      "Simba",
+      "Safari",
+      "Animals"
+    ]
+  },
+  {
+    "palabra": "Toy Story",
+    "prohibidas": [
+      "Pel·lícula",
+      "Joguines",
+      "Woody",
+      "Buzz",
+      "Animada"
+    ]
+  },
+  {
+    "palabra": "Shrek",
+    "prohibidas": [
+      "Pel·lícula",
+      "Ogre",
+      "Ruc",
+      "Princesa",
+      "Animada"
+    ]
+  },
+  {
+    "palabra": "Cristiano Ronaldo",
+    "prohibidas": [
+      "futbolista",
+      "Portugal",
+      "gol",
+      "Juventus",
+      "Real Madrid"
+    ]
+  },
+  {
+    "palabra": "Lionel Messi",
+    "prohibidas": [
+      "futbolista",
+      "Argentina",
+      "gol",
+      "Barcelona",
+      "PSG"
+    ]
+  },
+  {
+    "palabra": "LeBron James",
+    "prohibidas": [
+      "baloncesto",
+      "NBA",
+      "Lakers",
+      "jugador",
+      "estrella"
+    ]
+  },
+  {
+    "palabra": "Stephen Curry",
+    "prohibidas": [
+      "baloncesto",
+      "NBA",
+      "Warriors",
+      "triples",
+      "jugador"
+    ]
+  },
+  {
+    "palabra": "Tiger Woods",
+    "prohibidas": [
+      "golf",
+      "esport",
+      "jugador",
+      "famoso",
+      "torneo"
+    ]
+  },
+  {
+    "palabra": "Serena Williams",
+    "prohibidas": [
+      "Tenis",
+      "Jugadora",
+      "Raqueta",
+      "Esport",
+      "Campiona"
+    ]
+  },
+  {
+    "palabra": "Eminem",
+    "prohibidas": [
+      "raper",
+      "música",
+      "Lose Yourself",
+      "Detroit",
+      "Marshall"
+    ]
+  },
+  {
+    "palabra": "Jay-Z",
+    "prohibidas": [
+      "Raper",
+      "Música",
+      "Brooklyn",
+      "Empresari",
+      "Beyoncé"
+    ]
+  },
+  {
+    "palabra": "Beyoncé",
+    "prohibidas": [
+      "cantante",
+      "pop",
+      "música",
+      "Formation",
+      "Jay-Z"
+    ]
+  },
+  {
+    "palabra": "Rihanna",
+    "prohibidas": [
+      "cantante",
+      "música",
+      "pop",
+      "Barbados",
+      "Fenty"
+    ]
+  },
+  {
+    "palabra": "The Rolling Stones",
+    "prohibidas": [
+      "banda",
+      "rock",
+      "música",
+      "Mick Jagger",
+      "Satisfaction"
+    ]
+  },
+  {
+    "palabra": "U2",
+    "prohibidas": [
+      "banda",
+      "rock",
+      "música",
+      "Bono",
+      "Irlanda"
+    ]
+  },
+  {
+    "palabra": "Coldplay",
+    "prohibidas": [
+      "banda",
+      "música",
+      "pop",
+      "Chris Martin",
+      "Viva la Vida"
+    ]
+  },
+  {
+    "palabra": "Museu del Louvre",
+    "prohibidas": [
+      "París",
+      "França",
+      "Art",
+      "Museu",
+      "Mona Lisa"
+    ]
+  },
+  {
+    "palabra": "Catedral de Notre-Dame",
+    "prohibidas": [
+      "París",
+      "Catedral",
+      "Gòtic",
+      "Arquitectura",
+      "Església"
+    ]
+  },
+  {
+    "palabra": "Sagrada Família",
+    "prohibidas": [
+      "Barcelona",
+      "Catalunya",
+      "Església",
+      "Gaudí",
+      "Arquitectura"
+    ]
+  },
+  {
+    "palabra": "L'Alhambra",
+    "prohibidas": [
+      "Granada",
+      "Espanya",
+      "Palau",
+      "Fortalesa",
+      "Àrab"
+    ]
+  },
+  {
+    "palabra": "Capella Sixtina",
+    "prohibidas": [
+      "Vaticà",
+      "Miquel Àngel",
+      "Fresc",
+      "Art",
+      "Pintura"
+    ]
+  },
+  {
+    "palabra": "Kremlin",
+    "prohibidas": [
+      "Moscou",
+      "Rússia",
+      "Fortalesa",
+      "Govern",
+      "Història"
+    ]
+  },
+  {
+    "palabra": "Estadi Azteca",
+    "prohibidas": [
+      "Mèxic",
+      "Futbol",
+      "Estadi",
+      "Partit",
+      "Ciutat de Mèxic"
+    ]
+  },
+  {
+    "palabra": "El Caminito",
+    "prohibidas": [
+      "Buenos Aires",
+      "Argentina",
+      "tango",
+      "barrio",
+      "colores"
+    ]
+  },
+  {
+    "palabra": "Museu del Prado",
+    "prohibidas": [
+      "Madrid",
+      "Museu",
+      "Art",
+      "Velázquez",
+      "Goya"
+    ]
+  },
+  {
+    "palabra": "La Boqueria",
+    "prohibidas": [
+      "Barcelona",
+      "Mercat",
+      "Menjar",
+      "Aliments",
+      "Turisme"
+    ]
+  },
+  {
+    "palabra": "Illa de Pasqua",
+    "prohibidas": [
+      "Xile",
+      "Moáis",
+      "Estàtues",
+      "Volcà",
+      "Oceà"
+    ]
+  },
+  {
+    "palabra": "Acapulco",
+    "prohibidas": [
+      "Mèxic",
+      "Platja",
+      "Vacances",
+      "Turisme",
+      "Clavadistes"
+    ]
+  },
+  {
+    "palabra": "Cancún",
+    "prohibidas": [
+      "Mèxic",
+      "Platja",
+      "Turisme",
+      "Vacances",
+      "Carib"
+    ]
+  },
+  {
+    "palabra": "Chichén Itzá",
+    "prohibidas": [
+      "Mèxic",
+      "Ruïnes",
+      "Maia",
+      "Piràmide",
+      "Història"
+    ]
+  },
+  {
+    "palabra": "Dubai",
+    "prohibidas": [
+      "Emirats Àrabs",
+      "Ciutat",
+      "Luxe",
+      "Desert",
+      "Gratacels"
+    ]
+  },
+  {
+    "palabra": "Venècia",
+    "prohibidas": [
+      "Itàlia",
+      "Canals",
+      "Gòndoles",
+      "Ciutat",
+      "Aigua"
+    ]
+  },
+  {
+    "palabra": "Vaticà",
+    "prohibidas": [
+      "Roma",
+      "Papa",
+      "Església",
+      "País",
+      "Religió"
+    ]
+  },
+  {
+    "palabra": "Amsterdam",
+    "prohibidas": [
+      "Països Baixos",
+      "Canals",
+      "Bicicleta",
+      "Ciutat",
+      "Capital"
+    ]
+  },
+  {
+    "palabra": "Taj Mahal",
+    "prohibidas": [
+      "Índia",
+      "Mausoleu",
+      "Marmol",
+      "Monument",
+      "Amor"
+    ]
+  },
+  {
+    "palabra": "El Gran Canyó",
+    "prohibidas": [
+      "Arizona",
+      "Estats Units",
+      "Canyó",
+      "Paisatge",
+      "Riu Colorado"
+    ]
+  },
+  {
+    "palabra": "Tequila",
+    "prohibidas": [
+      "Mèxic",
+      "beguda",
+      "agave",
+      "alcohol",
+      "destil·lat"
+    ]
+  },
+  {
+    "palabra": "Paella",
+    "prohibidas": [
+      "Espanya",
+      "menjar",
+      "arròs",
+      "marisc",
+      "tradicional"
+    ]
+  },
+  {
+    "palabra": "Sushi",
+    "prohibidas": [
+      "Japó",
+      "menjar",
+      "peix",
+      "arròs",
+      "cru"
+    ]
+  },
+  {
+    "palabra": "Gnocchi",
+    "prohibidas": [
+      "Itàlia",
+      "pasta",
+      "patata",
+      "menjar",
+      "tradicional"
+    ]
+  },
+  {
+    "palabra": "Kim Kardashian",
+    "prohibidas": [
+      "celebritat",
+      "influencer",
+      "reality",
+      "familia",
+      "famosa"
+    ]
+  },
+  {
+    "palabra": "Taylor Swift",
+    "prohibidas": [
+      "cantant",
+      "pop",
+      "música",
+      "àlbum",
+      "famosa"
+    ]
+  },
+  {
+    "palabra": "Tom Hanks",
+    "prohibidas": [
+      "actor",
+      "Forrest Gump",
+      "Hollywood",
+      "cine",
+      "pel·lícula"
+    ]
+  },
+  {
+    "palabra": "Julia Roberts",
+    "prohibidas": [
+      "actriu",
+      "Pretty Woman",
+      "Hollywood",
+      "cinema",
+      "pel·lícula"
+    ]
+  },
+  {
+    "palabra": "Meryl Streep",
+    "prohibidas": [
+      "actriu",
+      "Oscar",
+      "Hollywood",
+      "cinema",
+      "pel·lícula"
+    ]
+  },
+  {
+    "palabra": "Johnny Depp",
+    "prohibidas": [
+      "actor",
+      "Pirates del Carib",
+      "Hollywood",
+      "cinema",
+      "pel·lícula"
+    ]
+  },
+  {
+    "palabra": "Lady Gaga",
+    "prohibidas": [
+      "cantant",
+      "pop",
+      "música",
+      "famosa",
+      "vestits"
+    ]
+  },
+  {
+    "palabra": "Kilimanjaro",
+    "prohibidas": [
+      "muntanya",
+      "Àfrica",
+      "cim",
+      "Tanzània",
+      "volcà"
+    ]
+  },
+  {
+    "palabra": "Sàhara",
+    "prohibidas": [
+      "desert",
+      "sorra",
+      "dunes",
+      "calor",
+      "camell"
+    ]
+  },
+  {
+    "palabra": "Dublín",
+    "prohibidas": [
+      "capital",
+      "Irlanda",
+      "ciutat",
+      "Europa",
+      "pubs"
+    ]
+  },
+  {
+    "palabra": "Edimburg",
+    "prohibidas": [
+      "capital",
+      "Escòcia",
+      "castell",
+      "ciutat",
+      "Europa"
+    ]
+  },
+  {
+    "palabra": "Praga",
+    "prohibidas": [
+      "capital",
+      "República Txeca",
+      "pont",
+      "ciutat",
+      "Europa"
+    ]
+  },
+  {
+    "palabra": "Copenhaguen",
+    "prohibidas": [
+      "capital",
+      "Dinamarca",
+      "sirena",
+      "ciutat",
+      "nord"
+    ]
+  },
+  {
+    "palabra": "Lisboa",
+    "prohibidas": [
+      "capital",
+      "Portugal",
+      "tramvia",
+      "ciutat",
+      "Tajo"
+    ]
+  },
+  {
+    "palabra": "Buenos Aires",
+    "prohibidas": [
+      "capital",
+      "Argentina",
+      "tango",
+      "ciutat",
+      "porteños"
+    ]
+  },
+  {
+    "palabra": "Rio de Janeiro",
+    "prohibidas": [
+      "Brasil",
+      "ciutat",
+      "carnaval",
+      "Crist Redemptor",
+      "platja"
+    ]
+  },
+  {
+    "palabra": "Himàlaia",
+    "prohibidas": [
+      "muntanyes",
+      "Everest",
+      "Àsia",
+      "cim",
+      "serralada"
+    ]
+  },
+  {
+    "palabra": "Fiords",
+    "prohibidas": [
+      "Noruega",
+      "paisatge",
+      "glaceres",
+      "mar",
+      "vall"
+    ]
+  },
+  {
+    "palabra": "Kenya",
+    "prohibidas": [
+      "país",
+      "Àfrica",
+      "safari",
+      "animals",
+      "girafes"
+    ]
+  },
+  {
+    "palabra": "Gladiator",
+    "prohibidas": [
+      "pel·lícula",
+      "romà",
+      "Russell Crowe",
+      "venjança",
+      "Coliseu"
+    ]
+  },
+  {
+    "palabra": "Inception",
+    "prohibidas": [
+      "pel·lícula",
+      "somni",
+      "ment",
+      "Nolan",
+      "Leonardo DiCaprio"
+    ]
+  },
+  {
+    "palabra": "Forrest Gump",
+    "prohibidas": [
+      "pel·lícula",
+      "Tom Hanks",
+      "ploma",
+      "córrer",
+      "història"
+    ]
+  },
+  {
+    "palabra": "Matrix",
+    "prohibidas": [
+      "pel·lícula",
+      "Keanu Reeves",
+      "pastilla",
+      "realitat",
+      "Neo"
+    ]
+  },
+  {
+    "palabra": "Joker",
+    "prohibidas": [
+      "pel·lícula",
+      "pallasso",
+      "Batman",
+      "Joaquin Phoenix",
+      "vilà"
+    ]
+  },
+  {
+    "palabra": "Paràsits",
+    "prohibidas": [
+      "pel·lícula",
+      "Corea",
+      "família",
+      "rica",
+      "pobre"
+    ]
+  },
+  {
+    "palabra": "Blade Runner",
+    "prohibidas": [
+      "pel·lícula",
+      "ciència-ficció",
+      "replicant",
+      "futur",
+      "Harrison Ford"
+    ]
+  },
+  {
+    "palabra": "Interstellar",
+    "prohibidas": [
+      "pel·lícula",
+      "espai",
+      "forat negre",
+      "ciència-ficció",
+      "Matthew McConaughey"
+    ]
+  },
+  {
+    "palabra": "El silenci dels anyells",
+    "prohibidas": [
+      "pel·lícula",
+      "Hannibal",
+      "psicòpata",
+      "Clarice",
+      "thriller"
+    ]
+  },
+  {
+    "palabra": "El club de la lluita",
+    "prohibidas": [
+      "pel·lícula",
+      "Brad Pitt",
+      "Edward Norton",
+      "Tyler Durden",
+      "doble personalitat"
+    ]
+  },
+  {
+    "palabra": "Els Venjadors",
+    "prohibidas": [
+      "pel·lícula",
+      "superherois",
+      "Marvel",
+      "Thanos",
+      "equip"
+    ]
+  },
+  {
+    "palabra": "La La Land",
+    "prohibidas": [
+      "pel·lícula",
+      "musical",
+      "Emma Stone",
+      "Ryan Gosling",
+      "jazz"
+    ]
+  },
+  {
+    "palabra": "Coco",
+    "prohibidas": [
+      "pel·lícula",
+      "Disney",
+      "Pixar",
+      "Mèxic",
+      "morts"
+    ]
+  },
+  {
+    "palabra": "El Senyor dels Anells",
+    "prohibidas": [
+      "pel·lícula",
+      "hobbit",
+      "anell",
+      "Gandalf",
+      "Terra Mitjana"
+    ]
+  },
+  {
+    "palabra": "El resplendor",
+    "prohibidas": [
+      "pel·lícula",
+      "terror",
+      "hotel",
+      "Stanley Kubrick",
+      "Jack Nicholson"
+    ]
+  },
+  {
+    "palabra": "Retorn al futur",
+    "prohibidas": [
+      "pel·lícula",
+      "viatge",
+      "temps",
+      "DeLorean",
+      "científic"
+    ]
+  },
+  {
+    "palabra": "Terminator",
+    "prohibidas": [
+      "pel·lícula",
+      "robot",
+      "futuro",
+      "Arnold Schwarzenegger",
+      "Skynet"
+    ]
+  },
+  {
+    "palabra": "E.T.",
+    "prohibidas": [
+      "pel·lícula",
+      "extraterrestre",
+      "Steven Spielberg",
+      "nen",
+      "bicicleta"
+    ]
+  },
+  {
+    "palabra": "Allò que el vent s'endugué",
+    "prohibidas": [
+      "pel·lícula",
+      "romanç",
+      "clàssica",
+      "Guerra Civil",
+      "Scarlett O'Hara"
+    ]
+  },
+  {
+    "palabra": "Casablanca",
+    "prohibidas": [
+      "pel·lícula",
+      "blanc i negre",
+      "humphrey bogart",
+      "romanç",
+      "clàssica"
+    ]
+  },
+  {
+    "palabra": "Psicosi",
+    "prohibidas": [
+      "pel·lícula",
+      "Alfred Hitchcock",
+      "suspens",
+      "dutxa",
+      "hotel"
+    ]
+  },
+  {
+    "palabra": "Ciutat de Déu",
+    "prohibidas": [
+      "pel·lícula",
+      "Brasil",
+      "favela",
+      "crim",
+      "gangster"
+    ]
+  },
+  {
+    "palabra": "Buscant en Nemo",
+    "prohibidas": [
+      "pel·lícula",
+      "peix",
+      "oceà",
+      "marlin",
+      "Dory"
+    ]
+  },
+  {
+    "palabra": "Up",
+    "prohibidas": [
+      "pel·lícula",
+      "globus",
+      "ancià",
+      "nen",
+      "casa"
+    ]
+  }
+]

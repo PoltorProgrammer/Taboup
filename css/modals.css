@@ -1,0 +1,375 @@
+/* =====================================================
+   MODALS — Mapa, reglas, error overlay y loading
+   ===================================================== */
+
+/* Botón de cierre compartido */
+.btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    background: #e74c3c;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), background 0.2s ease;
+    -webkit-appearance: none;
+    appearance: none;
+    touch-action: manipulation;
+}
+
+.btn-close:active {
+    transform: translate(50%, -50%) scale(0.9);
+    background: #c0392b;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .btn-close:hover {
+        background: #c0392b;
+        transform: translate(50%, -50%) scale(1.1);
+    }
+}
+
+/* ---- PANTALLA DE MAPA ---- */
+.map-screen {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 32, 39, 0.7); /* Color oscuro pero transparente */
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    z-index: 1500;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.map-screen.active { display: flex; }
+
+.map-container {
+    background: white;
+    border-radius: 30px;
+    padding: 25px;
+    max-width: 500px; /* Ancho máximo para que parezca una tarjeta */
+    max-height: 85vh;
+    max-height: 85dvh;
+    width: 100%;
+    box-shadow: 0 30px 100px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+}
+
+.map-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 15px;
+}
+
+.map-title { font-size: 2em; font-weight: bold; color: #2c3e50; }
+
+.map-content { 
+    text-align: center; 
+    overflow-y: auto;
+    flex: 1; /* Ocupa el espacio restante */
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.map-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.map-download { 
+    margin-top: 10px; 
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.download-btn {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    border: 2px solid transparent;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 8px 25px rgba(52, 152, 219, 0.3);
+    position: relative;
+    overflow: hidden;
+    font-family: inherit;
+    -webkit-appearance: none;
+    appearance: none;
+    touch-action: manipulation;
+}
+
+.download-btn::before {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 100%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+}
+
+.download-btn:hover::before { left: 100%; }
+
+.download-btn:hover {
+    background: #2980b9;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(52, 152, 219, 0.4);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.download-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
+}
+
+.download-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.2);
+}
+
+.download-btn:disabled:hover { background: #3498db; transform: none; }
+
+/* ---- PANTALLA DE REGLAS ---- */
+.rules-screen {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 32, 39, 0.7);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    z-index: 1500;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.rules-screen.active { display: flex; }
+
+.rules-container {
+    background: white;
+    border-radius: 30px;
+    padding: 25px;
+    max-width: 650px;
+    width: 100%;
+    max-height: 85vh;
+    max-height: 85dvh;
+    box-shadow: 0 30px 100px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    overflow: visible; /* IMPORTANTE: para que el botón no se corte */
+    display: flex;
+    flex-direction: column;
+}
+
+.rules-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 15px;
+}
+
+.rules-title { font-size: 2em; font-weight: bold; color: #2c3e50; }
+
+.rules-content { 
+    line-height: 1.6; 
+    overflow-y: auto;
+    max-height: calc(85vh - 100px);
+    padding: 10px;
+}
+
+/* Ya no usamos .rule-section directamente en el HTML, pero lo mantenemos por si el parser lo genera */
+.rule-section {
+    margin-bottom: 25px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 15px;
+    border-left: 4px solid #3498db;
+}
+
+.rules-content h3 { color: #2c3e50; margin: 25px 0 15px 0; font-size: 1.3em; display: flex; align-items: center; gap: 10px; }
+.rules-content h3:first-child { margin-top: 0; }
+.rules-content p  { color: #34495e; margin-bottom: 12px; }
+.rules-content ul { padding-left: 20px; margin-bottom: 20px; color: #34495e; }
+.rules-content li { margin-bottom: 8px; }
+.rules-content hr { border: none; border-top: 2px solid #ecf0f1; margin: 30px 0; }
+.rules-content strong { color: #2c3e50; }
+
+/* Cajas especiales de reglas */
+.example-box {
+    background: #e8f4fd;
+    border: 1px solid #3498db;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.warning-box {
+    background: #fef9e7;
+    border: 1px solid #f39c12;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.prohibited-box {
+    background: #fdedec;
+    border: 1px solid #e74c3c;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.allowed-box {
+    background: #d5f4e6;
+    border: 1px solid #27ae60;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.strategy-box {
+    background: #f4e6ff;
+    border: 1px solid #9b59b6;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.shortcuts-box {
+    background: #f8f9fa;
+    border: 1px solid #6c757d;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+    font-family: 'Consolas', 'Monaco', monospace;
+}
+
+/* ---- ERROR OVERLAY (modal de errores técnicos) ---- */
+.error-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2500;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.error-overlay.active { display: flex; }
+
+.error-modal {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.4);
+    animation: modalAppear 0.4s ease-out;
+}
+
+.error-icon { font-size: 3em; margin-bottom: 20px; }
+
+.error-text {
+    font-size: 1.1em;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.error-close {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+    -webkit-appearance: none;
+    appearance: none;
+    touch-action: manipulation;
+    min-width: 120px;
+}
+
+.error-close:active {
+    background: #c0392b;
+    transform: scale(0.97);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .error-close:hover {
+        background: #c0392b;
+        transform: translateY(-2px);
+    }
+}
+
+/* ---- LOADING OVERLAY ---- */
+.loading-overlay {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    z-index: 3000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loading-overlay.active { display: flex; }
+
+.loading-spinner {
+    width: 60px;
+    height: 60px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+.loading-text { color: white; font-size: 1.2em; font-weight: 500; }

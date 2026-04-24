@@ -1,0 +1,57 @@
+/* =====================================================
+   BASE — Reset, body y contenedor principal
+   ===================================================== */
+
+/* Reset */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Eliminar flash de tap en iOS Safari */
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    /* Fijar el viewport en iOS para que no haga rebote */
+    height: -webkit-fill-available;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    /* Solución para iOS: min-height con fallback */
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    /* overflow:hidden solo en desktop; en mobile se sobreescribe */
+    overflow: hidden;
+    color: #333;
+    /* Eliminar retardo de 300ms en tap (iOS 9.3+) */
+    touch-action: manipulation;
+    /* Mejorar renderizado de texto */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.game-container {
+    /* dvh = dynamic viewport height, soportado desde iOS 15.4 */
+    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
+    /* Padding para el notch y la home bar de iPhone */
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Clases para mostrar/ocultar según dispositivo */
+.desktop-only {
+    display: block;
+}
+
+.mobile-only {
+    display: none;
+}
