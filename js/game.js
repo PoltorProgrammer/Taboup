@@ -186,7 +186,7 @@ export class TabuGame {
         this.els.loadingOverlay.classList.add('active');
         try {
             await new Promise(resolve => setTimeout(resolve, 400)); // feedback visual mínimo
-            this.cards = await loadCardsFromJSON(`./data/.json/cartas_taboup_${this.lang}.json`);
+            this.cards = await loadCardsFromJSON(`./data/json/cartas_taboup_${this.lang}.json`);
             this._reshuffleCards();
         } catch (err) {
             const errorMsg = translations[this.lang]?.error_loading_cards || 'Error loading cards';
@@ -554,7 +554,7 @@ export class TabuGame {
         if (this.rulesLoaded === this.lang) return;
         
         try {
-            const response = await fetch(`./data/.md/rules_${this.lang}.md`);
+            const response = await fetch(`./data/md/rules_${this.lang}.md`);
             let text = await response.text();
             
             // Procesar bloques especiales antes de pasar a marked
