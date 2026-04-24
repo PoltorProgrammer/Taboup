@@ -456,7 +456,7 @@ export class TabuGame {
         btn.disabled       = true;
 
         try {
-            const imageUrl = 'https://raw.githubusercontent.com/PoltorProgrammer/Taboup/refs/heads/main/images/tablero_Taboup.png';
+            const imageUrl = 'data/images/tablero_taboup.png';
             const response = await fetch(imageUrl);
             const blob     = await response.blob();
             const blobUrl  = URL.createObjectURL(blob);
