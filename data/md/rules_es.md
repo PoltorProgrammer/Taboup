@@ -65,4 +65,4 @@
 ### ⏰ TIEMPO Y FINALIZACIÓN
 *   **Duración estándar:** 60 segundos por ronda
 *   **Ronda larga:** 120 segundos (casillas especiales del tablero)
-*   **Máximo pases:** 3 por ronda
+*   **Máximo pases:** 1 por ronda
