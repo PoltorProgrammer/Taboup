@@ -65,4 +65,4 @@
 ### ⏰ TIME AND COMPLETION
 *   **Standard duration:** 60 seconds per round
 *   **Long round:** 120 seconds (special board spaces)
-*   **Maximum skips:** 3 per round
+*   **Maximum skips:** 1 per round
