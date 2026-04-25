@@ -65,4 +65,4 @@
 ### ⏰ TEMPS I FINALITZACIÓ
 *   **Duració estàndard:** 60 segons per ronda
 *   **Ronda llarga:** 120 segons (caselles especials del tauler)
-*   **Màxim pases:** 3 per ronda
+*   **Màxim pases:** 1 per ronda
