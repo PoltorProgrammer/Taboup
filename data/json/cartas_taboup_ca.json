@@ -860,9 +860,9 @@
     ]
   },
   {
-    "palabra": "Mapatxe",
+    "palabra": "Ós Rentador",
     "prohibidas": [
-      "Animal",
+      "Lladre",
       "Màscara",
       "Mans",
       "Brossa",
@@ -1110,16 +1110,6 @@
     ]
   },
   {
-    "palabra": "Baldufa",
-    "prohibidas": [
-      "Joguina",
-      "Corda",
-      "Fusta",
-      "Girar",
-      "Punta"
-    ]
-  },
-  {
     "palabra": "Formiga",
     "prohibidas": [
       "Insecte",
@@ -1207,16 +1197,6 @@
       "Animal",
       "Bistec",
       "Cuinar"
-    ]
-  },
-  {
-    "palabra": "Peix",
-    "prohibidas": [
-      "Mar",
-      "Menjar",
-      "Aigua",
-      "Escates",
-      "Sopar"
     ]
   },
   {
@@ -1316,7 +1296,7 @@
       "Pom",
       "Vi",
       "Verd",
-      "Morat"
+      "Lila"
     ]
   },
   {
@@ -1385,7 +1365,7 @@
       "Verdura",
       "Vermell",
       "Verd",
-      "Xile",
+      "Hort",
       "Picant"
     ]
   },
