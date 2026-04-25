@@ -30,8 +30,8 @@
 }
 
 .game-logo {
-    width: 140px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
     margin-bottom: 20px;
     transition: transform 0.3s ease;
     background: none;
@@ -105,6 +105,7 @@
     /* Eliminar selección de texto accidental */
     -webkit-user-select: none;
     user-select: none;
+    touch-action: manipulation;
 }
 
 .btn::before {
@@ -153,6 +154,25 @@
     opacity: 0.65;
     line-height: 1.2;
 }
+
+.btn-primary {
+    background: linear-gradient(135deg, #ffffff 0%, #ebf5ff 100%);
+    border: 2px solid rgba(41, 128, 185, 0.3);
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #ffffff 0%, #fff4eb 100%);
+    border: 2px solid rgba(211, 84, 0, 0.3);
+}
+
+.btn-info {
+    background: linear-gradient(135deg, #ffffff 0%, #f5ebff 100%);
+    border: 2px solid rgba(142, 68, 173, 0.3);
+}
+
+.btn-primary:hover { background: linear-gradient(135deg, #ffffff 0%, #d6eaff 100%); border-color: rgba(41, 128, 185, 0.5); }
+.btn-secondary:hover { background: linear-gradient(135deg, #ffffff 0%, #ffe4cf 100%); border-color: rgba(211, 84, 0, 0.5); }
+.btn-info:hover { background: linear-gradient(135deg, #ffffff 0%, #ecd6ff 100%); border-color: rgba(142, 68, 173, 0.5); }
 
 .btn-primary .btn-title {
     color: #2980b9;

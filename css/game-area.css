@@ -114,6 +114,7 @@
     margin-bottom: 6px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    margin-right: -0.5px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -279,7 +280,9 @@
     line-height: 1.15;
     letter-spacing: 1px;
     text-transform: uppercase;
-    flex-shrink: 0;
+    width: 100%;
+    text-align: center;
+    margin-right: -1px;
 }
 
 .next-card-separator {
@@ -309,7 +312,9 @@
     text-transform: uppercase;
     letter-spacing: 0.8px;
     line-height: 1.2;
-    flex-shrink: 0;
+    width: 100%;
+    text-align: center;
+    margin-right: -0.8px;
 }
 
 /* Carta actual */
@@ -336,7 +341,9 @@
     line-height: 1.15;
     letter-spacing: 1px;
     text-transform: uppercase;
-    flex-shrink: 0;
+    width: 100%;
+    text-align: center;
+    margin-right: -1px;
 }
 
 .card-separator {
@@ -366,7 +373,9 @@
     text-transform: uppercase;
     letter-spacing: 0.8px;
     line-height: 1.2;
-    flex-shrink: 0;
+    width: 100%;
+    text-align: center;
+    margin-right: -0.8px;
 }
 
 .forbidden-word:last-child {

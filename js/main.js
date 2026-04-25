@@ -15,11 +15,13 @@ document.addEventListener('gesturestart', e => e.preventDefault());
 document.addEventListener('gesturechange', e => e.preventDefault());
 document.addEventListener('gestureend', e => e.preventDefault());
 
-/* ---- Bloquear doble-tap zoom en iOS Safari ---- */
+/* ---- Bloquear doble-tap zoom en iOS Safari (excepto en botones) ---- */
 let lastTap = 0;
 document.addEventListener('touchend', e => {
     const now = Date.now();
-    if (now - lastTap < 300) {
+    const isButton = e.target.closest('button') || e.target.closest('.btn') || e.target.closest('.time-btn');
+    
+    if (now - lastTap < 300 && !isButton) {
         e.preventDefault();
     }
     lastTap = now;

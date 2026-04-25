@@ -98,6 +98,7 @@ export class TabuGame {
             baseTimeInput:          document.getElementById('base-time-input'),
             timeMinus:              document.getElementById('time-minus'),
             timePlus:               document.getElementById('time-plus'),
+            goHome:                 document.getElementById('go-home'),
             langOptionCards:        document.querySelectorAll('.lang-option-card'),
         };
     }
@@ -123,6 +124,7 @@ export class TabuGame {
         // Pantalla de revisión
         this.els.newRound60 .addEventListener('click', () => this.startRound(this.baseTime));
         this.els.newRound120.addEventListener('click', () => this.startRound(this.baseTime * 2));
+        this.els.goHome      .addEventListener('click', () => this._showInitialScreen());
 
         // Mapa y reglas
         this.els.showMap   .addEventListener('click', () => this._toggleModal(this.els.mapScreen,   true));

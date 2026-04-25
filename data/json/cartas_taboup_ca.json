@@ -1390,11 +1390,11 @@
     ]
   },
   {
-    "palabra": "Brócoli",
+    "palabra": "Bròquil",
     "prohibidas": [
       "Verdura",
       "Verd",
-      "Árbol",
+      "Arbre",
       "Saludable",
       "Flor"
     ]
@@ -2440,23 +2440,23 @@
     ]
   },
   {
-    "palabra": "Estación espacial",
+    "palabra": "Estació espacial",
     "prohibidas": [
-      "Satélite",
-      "Órbita",
+      "Satèl·lit",
+      "Òrbita",
       "Astronauta",
       "Terra",
-      "Nave"
+      "Nau"
     ]
   },
   {
-    "palabra": "Arco iris",
+    "palabra": "Arc de Sant Martí",
     "prohibidas": [
-      "Colores",
-      "Lluvia",
-      "Cielo",
+      "Colors",
+      "Pluja",
+      "Cel",
       "Sol",
-      "Óptico"
+      "Òptic"
     ]
   },
   {
@@ -2502,11 +2502,11 @@
   {
     "palabra": "Robot",
     "prohibidas": [
-      "Máquina",
+      "Màquina",
       "Tecnologia",
-      "Inteligencia",
-      "Autómata",
-      "Brazo"
+      "Intel·ligència",
+      "Autòmat",
+      "Braç"
     ]
   },
   {
@@ -2982,11 +2982,11 @@
   {
     "palabra": "Escorpí",
     "prohibidas": [
-      "Veneno",
-      "Aguijón",
-      "Arácnido",
-      "Desierto",
-      "Pinzas"
+      "Verí",
+      "Agulló",
+      "Aràcnid",
+      "Desert",
+      "Pinces"
     ]
   },
   {
@@ -4560,7 +4560,7 @@
     ]
   },
   {
-    "palabra": "Neptuno",
+    "palabra": "Neptú",
     "prohibidas": [
       "Planeta",
       "Déu",
@@ -4660,9 +4660,9 @@
     ]
   },
   {
-    "palabra": "Láser",
+    "palabra": "Làser",
     "prohibidas": [
-      "Luz",
+      "Llum",
       "Ràdio",
       "Ciència",
       "Projectar",
@@ -4730,7 +4730,7 @@
     ]
   },
   {
-    "palabra": "Yate",
+    "palabra": "Yat",
     "prohibidas": [
       "Vaixell",
       "Luxe",
@@ -4813,8 +4813,8 @@
     "palabra": "Wifi",
     "prohibidas": [
       "Internet",
-      "Conexión",
-      "Red",
+      "Connexió",
+      "Xarxa",
       "Router",
       "Cable"
     ]
@@ -4842,9 +4842,9 @@
   {
     "palabra": "Kiwi",
     "prohibidas": [
-      "Fruta",
+      "Fruit",
       "Verd",
-      "Ácido",
+      "Àcid",
       "Peluda",
       "Nova Zelanda"
     ]
@@ -5052,9 +5052,9 @@
   {
     "palabra": "Webcam",
     "prohibidas": [
-      "Cámara",
-      "Ordenador",
-      "Videollamada",
+      "Càmera",
+      "Ordinador",
+      "Videotrucada",
       "Internet",
       "Pantalla"
     ]
@@ -5072,21 +5072,21 @@
   {
     "palabra": "Internet",
     "prohibidas": [
-      "Red",
+      "Xarxa",
       "Web",
-      "Conexión",
+      "Connexió",
       "Navegar",
-      "Mundo"
+      "Món"
     ]
   },
   {
     "palabra": "Jazz",
     "prohibidas": [
       "Música",
-      "Saxofón",
+      "Saxòfon",
       "Ritme",
       "Improvisació",
-      "Nueva Orleans"
+      "Nova Orleans"
     ]
   },
   {
@@ -5180,7 +5180,7 @@
     ]
   },
   {
-    "palabra": "Kárate",
+    "palabra": "Karate",
     "prohibidas": [
       "Esport",
       "Lluita",
@@ -6992,11 +6992,11 @@
   {
     "palabra": "brisa",
     "prohibidas": [
-      "viento",
-      "suave",
+      "vent",
+      "suau",
       "aire",
-      "fresco",
-      "corriente"
+      "fresc",
+      "corrent"
     ]
   },
   {
@@ -7013,8 +7013,8 @@
     "palabra": "burla",
     "prohibidas": [
       "mofa",
-      "ridiculizar",
-      "chiste",
+      "ridiculitzar",
+      "bullying",
       "broma",
       "ofensa"
     ]
@@ -7034,7 +7034,7 @@
     "prohibidas": [
       "pèl",
       "cabellera",
-      "rizos",
+      "rinxols",
       "trena",
       "llis"
     ]
@@ -7046,7 +7046,7 @@
       "sonar",
       "metall",
       "rellotge",
-      "doblar"
+      "geperut"
     ]
   },
   {
@@ -7110,13 +7110,13 @@
     ]
   },
   {
-    "palabra": "cóndor",
+    "palabra": "Cóndor",
     "prohibidas": [
-      "ave",
-      "águila",
-      "vuelo",
+      "au",
+      "àguila",
+      "vol",
       "muntanya",
-      "andino"
+      "andí"
     ]
   },
   {
@@ -7124,7 +7124,7 @@
     "prohibidas": [
       "tancament",
       "caixó",
-      "zipper",
+      "Montserrat",
       "pantaló",
       "pujar"
     ]
@@ -7156,24 +7156,24 @@
       "presó",
       "policia",
       "detenir",
-      "presó"
+      "delinqüent"
     ]
   },
   {
-    "palabra": "estàtua",
+    "palabra": "Estàtua",
     "prohibidas": [
       "escultura",
       "figura",
-      "marmol",
+      "marbre",
       "monument",
       "bronze"
     ]
   },
   {
-    "palabra": "etiqueta",
+    "palabra": "Etiqueta",
     "prohibidas": [
-      "protocol",
-      "bones maneres",
+      "provador",
+      "botiga",
       "comportament",
       "roba",
       "preu"
@@ -7190,17 +7190,17 @@
     ]
   },
   {
-    "palabra": "frontera",
+    "palabra": "Frontera",
     "prohibidas": [
-      "límite",
+      "límit",
       "país",
       "aduana",
-      "división",
-      "viajar"
+      "divisió",
+      "viatjar"
     ]
   },
   {
-    "palabra": "garabato",
+    "palabra": "Garabato",
     "prohibidas": [
       "dibujo",
       "rayar",
@@ -7360,22 +7360,22 @@
     ]
   },
   {
-    "palabra": "logotipo",
+    "palabra": "logotip",
     "prohibidas": [
       "marca",
-      "símbolo",
-      "imagen",
+      "símbol",
+      "imatge",
       "empresa",
-      "diseño"
+      "disseny"
     ]
   },
   {
     "palabra": "lotería",
     "prohibidas": [
-      "billete",
-      "premio",
-      "suerte",
-      "ganar",
+      "bitllet",
+      "premi",
+      "sort",
+      "guanyar",
       "números"
     ]
   },
@@ -7410,13 +7410,13 @@
     ]
   },
   {
-    "palabra": "mascarada",
+    "palabra": "Màscara",
     "prohibidas": [
-      "disfraz",
-      "máscara",
-      "fiesta",
-      "carnaval",
-      "baile"
+      "disfressa",
+      "Brasil",
+      "festa",
+      "Carnestoltes",
+      "ball"
     ]
   },
   {
@@ -7956,7 +7956,7 @@
       "rock",
       "Stairway to Heaven",
       "música",
-      "clásico"
+      "clàssic"
     ]
   },
   {
