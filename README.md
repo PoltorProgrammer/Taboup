@@ -14,7 +14,7 @@ Esta es la **versión completa y detallada de las reglas**, con todas las prohib
     - **Palabras prohibidas** (que no puedes decir ni usar raíces derivadas)
   - Botones disponibles:
     - **Correcto** → suma un acierto.
-    - **Pasar** → permite saltar una carta (máx. 3 por ronda).
+    - **Pasar** → permite saltar una carta (máx. 1 por ronda).
     - **Error** → termina la ronda inmediatamente por infracción.
 - **Cartas**: generadas por la plataforma.
 - **Tablero**: imprimible (disponible en la carpeta `/tablero`) o dibujable a mano.
