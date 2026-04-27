@@ -42,7 +42,7 @@
   {
     "palabra": "Hàmster",
     "prohibidas": [
-      "Roedor",
+      "Rossegador",
       "Petit",
       "Mascota",
       "Gàbia",
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "palabra": "Porc espí",
+    "palabra": "Eriçó",
     "prohibidas": [
       "Animal",
       "Espines",
@@ -170,7 +170,7 @@
     ]
   },
   {
-    "palabra": "Dindi",
+    "palabra": "Gall d'Indi",
     "prohibidas": [
       "Ocell",
       "Nadal",
